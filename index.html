@@ -1,0 +1,2276 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>IT Essentials</title>
+    <link rel="stylesheet" type="text/css" href="course/common-ext/styles/course.css"/>
+    <link rel="stylesheet" type="text/css" href="course/common/styles/course.css"/>
+    <script type="text/javascript" src="course/common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/netacad.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/course.js"></script>
+    <script>
+
+      netacad.settings.init("ITE6");
+
+      netacad.lang.set("Module", "Capítulo #");
+      netacad.lang.set("Section", "Sección #");
+      netacad.lang.set("Topic", "Tema #");
+      netacad.lang.set("Page", "Página #");
+      netacad.lang.set("Figure", "Figura #");
+      netacad.lang.set("Figures", "Figuras");
+      netacad.lang.set("NoItems", "No hay elementos.");
+      netacad.lang.set("NoBookmarks", "No hay marcadores.");
+      netacad.lang.set("NoRecentPages", "No hay páginas recientes.");
+      netacad.lang.set("NoSearchResults", "No hay resultados de búsqueda.");
+      netacad.lang.set("EnterSearchTerms", "Introducir términos de búsqueda…");
+      netacad.lang.set("PageThumbnail", "Vista en miniatura de la página");
+      netacad.lang.set("BackgroundImage", "Imagen de fondo");
+
+      var course = function() {
+        var c, m, s, t, p;
+        c = new netacad.models.Course("ITE6", "es", "IT Essentials");
+        m = new netacad.models.Module("0", "Introducción al curso");
+        s = new netacad.models.Section("0.0", "Bienvenido a IT Essentials");
+        t = new netacad.models.Topic("0.0.1", "Mensaje para el estudiante");
+        p = new netacad.models.Page("0.0.1.1", "Bienvenido", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.2", "Más que solo información", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.3", "Cómo enseñamos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.4", "Mente abierta", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("0.0.2", "La industria de TI");
+        p = new netacad.models.Page("0.0.2.1", "Educación y certificaciones", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.2", "Certificación CompTIA A+", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.3", "Técnicos de campo, remotos y en reparación y mantenimiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.4", "Ventaja de Cisco Networking Academy y de NetAcad", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("1", "Introducción al sistema de computación personal");
+        s = new netacad.models.Section("1.0", "Introducción");
+        t = new netacad.models.Topic("1.0.1", "Bienvenido");
+        p = new netacad.models.Page("1.0.1.1", "Capítulo 1: Introducción a la computadora personal", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.1", "Sistemas de computación personal");
+        t = new netacad.models.Topic("1.1.1", "Gabinetes y fuentes de alimentación");
+        p = new netacad.models.Page("1.1.1.1", "Gabinetes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.2", "Fuentes de alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.3", "Vataje de fuentes de alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.4", "Práctica de laboratorio: Ley de Ohm", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.2", "Componentes internos de una PC");
+        p = new netacad.models.Page("1.1.2.1", "Placas madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.2", "Arquitecturas de CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.3", "Mejora del funcionamiento de la CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.4", "Sistemas de refrigeración", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.5", "ROM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.6", "RAM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.7", "Módulos de memoria", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.8", "Tarjetas de adaptador y ranuras de expansión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.9", "Dispositivos de almacenamiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.10", "RAID e interfaces de dispositivos de almacenamiento", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.3", "Puertos y cables externos");
+        p = new netacad.models.Page("1.1.3.1", "Puertos y cables de video", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.3.2", "Otros puertos y cables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.3.3", "Adaptadores y convertidores", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.4", "Dispositivos de entrada y de salida");
+        p = new netacad.models.Page("1.1.4.1", "Dispositivos de entrada", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.4.2", "Dispositivos de salida", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.4.3", "Características de los monitores", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.2", "Seleccionar los componentes de la computadora");
+        t = new netacad.models.Topic("1.2.1", "Seleccionar los componentes de la PC");
+        p = new netacad.models.Page("1.2.1.1", "Armado de una computadora", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.2", "Seleccionar la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.3", "Seleccione el gabinete y los ventiladores", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.4", "Seleccionar la fuente de alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.5", "Seleccione el sistema de refrigeración de la CPU y la CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.6", "Seleccionar la RAM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.7", "Seleccionar las tarjetas de adaptador", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.8", "Seleccionar los discos duros", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.9", "Seleccionar un lector de medios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.10", "Seleccionar las unidades ópticas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.11", "Seleccionar el almacenamiento externo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.12", "Seleccionar los dispositivos de entrada y de salida", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.13", "Práctica de laboratorio: Investigación de componentes de computadoras", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.3", "Configuraciones para sistemas de computación especializados");
+        t = new netacad.models.Topic("1.3.1", "Sistemas de computación especializados");
+        p = new netacad.models.Page("1.3.1.1", "Clientes pesados y ligeros", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.2", "Estaciones de trabajo CAx", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.3", "Estaciones de trabajo de edición de audio y video", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.4", "Estaciones de trabajo de virtualización", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.5", "PC para videojuegos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.6", "PC para centro de entretenimiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.7", "Práctica de laboratorio: Armado de un sistema de computación especializado", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.4", "Resumen del capítulo");
+        t = new netacad.models.Topic("1.4.1", "Resumen");
+        p = new netacad.models.Page("1.4.1.1", "Capítulo 1: Introducción al sistema de computación personal", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("2", "Introducción a procedimientos de laboratorio y uso de herramientas");
+        s = new netacad.models.Section("2.0", "Introducción");
+        t = new netacad.models.Topic("2.0.1", "Bienvenido");
+        p = new netacad.models.Page("2.0.1.1", "Capítulo 2: Introducción a los procedimientos de laboratorio y uso de herramientas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.1", "Procedimientos de laboratorio seguros");
+        t = new netacad.models.Topic("2.1.1", "Procedimientos para proteger a las personas");
+        p = new netacad.models.Page("2.1.1.1", "Seguridad general", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.2", "Seguridad eléctrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.3", "Seguridad contra incendios", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.2", "Procedimientos para proteger equipos y datos");
+        p = new netacad.models.Page("2.1.2.1", "ESD y EMI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.2", "Tipos de fluctuaciones de alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.3", "Dispositivos de protección de alimentación", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.3", "Procedimientos para proteger el medioambiente");
+        p = new netacad.models.Page("2.1.3.1", "Hoja de datos de seguridad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.2", "Desecho de equipos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.2", "Uso correcto de las herramientas");
+        t = new netacad.models.Topic("2.2.1", "Herramientas para hardware");
+        p = new netacad.models.Page("2.2.1.1", "Uso general de herramientas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.2", "Herramientas de ESD", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.3", "Herramientas manuales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.4", "Herramientas para cables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.5", "Herramientas de limpieza", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.6", "Herramientas de diagnóstico", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.2", "Herramientas de software");
+        p = new netacad.models.Page("2.2.2.1", "Herramientas de administración de discos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.2", "Herramientas de software de protección", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.3", "Práctica de laboratorio: Software de diagnóstico", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.3", "Herramientas de organización");
+        p = new netacad.models.Page("2.2.3.1", "Herramientas de referencia", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.3.2", "Herramientas varias", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.4", "Demostración del uso correcto de las herramientas");
+        p = new netacad.models.Page("2.2.4.1", "Pulsera antiestática", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.2", "Alfombrilla antiestática", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.3", "Herramientas manuales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.4", "Práctica de laboratorio: Uso de multímetros y verificadores de suministro de energía", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.5", "Limpieza de materiales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.6", "Video: Desarmado de la computadora", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.7", "Práctica de laboratorio: Desarmado de la computadora", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.3", "Resumen");
+        t = new netacad.models.Topic("2.3.1", "Conclusión");
+        p = new netacad.models.Page("2.3.1.1", "Capítulo 2: Procedimientos de laboratorio y uso de herramientas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("3", "Armado de PC");
+        s = new netacad.models.Section("3.0", "Introducción");
+        t = new netacad.models.Topic("3.0.1", "Bienvenido");
+        p = new netacad.models.Page("3.0.1.1", "Capítulo 3: Armado de la computadora", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.1", "Armar la computadora");
+        t = new netacad.models.Topic("3.1.1", "Apertura del gabinete y conexión de la fuente de alimentación");
+        p = new netacad.models.Page("3.1.1.1", "Apertura del gabinete", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.2", "Instalación de la fuente de alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.3", "Práctica de laboratorio: Instalación de la fuente de alimentación", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.2", "Instalación de la placa madre");
+        p = new netacad.models.Page("3.1.2.1", "Instalación de la CPU y del conjunto de disipador térmico y ventilador", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.2", "Actividad: Instalar la CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.3", "Instalación de RAM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.4", "Instalación de la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.5", "Actividad: Instalar la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.6", "Práctica de laboratorio: Instalación de la placa madre", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.3", "Instalar unidades");
+        p = new netacad.models.Page("3.1.3.1", "Instalar unidad de disco", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.2", "Instalación de unidad óptica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.3", "Práctica de laboratorio: Instalar las unidades", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.4", "Instalación de las tarjetas de adaptador");
+        p = new netacad.models.Page("3.1.4.1", "Tipos de tarjetas de adaptador", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.2", "Instalación de una NIC inalámbrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.3", "Instalación de una tarjeta de adaptador de video", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.4", "Práctica de laboratorio: Instalación de tarjetas de adaptador", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.5", "Instalar cables");
+        p = new netacad.models.Page("3.1.5.1", "Conecte energía a la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.2", "Conectar la energía a los ventiladores de las unidades internas y del gabinete", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.3", "Actividad: Identificar los conectores de energía", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.4", "Conexión de los cables de datos internos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.5", "Práctica de laboratorio: Instalación de los cables internos", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.6", "Instalación de los cables del panel frontal", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.7", "Actividad: Identificar Conectores del panel frontal", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.8", "Práctica de laboratorio: Instalación de los cables del panel frontal", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.9", "Rearmar el conjunto de gabinete", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.10", "Instalación de los cables externos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.11", "Actividad: Identificar los conectores externos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.12", "Práctica de laboratorio: Finalización del armado de la computadora", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.2", "Arranque de la computadora");
+        t = new netacad.models.Topic("3.2.1", "POST, BIOS, UEFI");
+        p = new netacad.models.Page("3.2.1.1", "Códigos de sonido y configuración del BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.2", "BIOS y CMOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.3", "Programa de configuración del BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.4", "Programa de configuración de UEFI", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.2.2", "Configuración del BIOS y de UEFI");
+        p = new netacad.models.Page("3.2.2.1", "Información de componentes en el BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.2", "Opciones de configuración del BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.3", "Opciones de configuración de seguridad en el BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.4", "Control y diagnóstico de hardware del BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.5", "Modo de UEFI EZ", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.6", "Modo avanzado de UEFI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.7", "Actividad: Identificar los términos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.8", "Práctica de laboratorio: Arranque de la computadora", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.3", "Actualizar y configurar una computadora");
+        t = new netacad.models.Topic("3.3.1", "Componentes de la placa madre y componentes relacionados");
+        p = new netacad.models.Page("3.3.1.1", "Actualización de componentes de la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.2", "Actualización de la placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.3", "Actualizar el BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.4", "Actualización de la CPU y del conjunto de disipador térmico y ventilador", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.5", "Actualización de la RAM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.6", "Práctica de laboratorio: Búsqueda de archivos de BIOS", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.3.2", "Dispositivos de almacenamiento");
+        p = new netacad.models.Page("3.3.2.1", "Actualizar discos duros", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.3.3", "Dispositivos periféricos");
+        p = new netacad.models.Page("3.3.3.1", "Actualización de dispositivos de entrada y de salida", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.3.2", "Práctica de laboratorio: Actualización de hardware", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.4", "Resumen del capítulo");
+        t = new netacad.models.Topic("3.4.1", "Conclusión");
+        p = new netacad.models.Page("3.4.1.1", "Capítulo 3: Armado de la computadora", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("4", "Descripción general del mantenimiento preventivo");
+        s = new netacad.models.Section("4.0", "Introducción");
+        t = new netacad.models.Topic("4.0.1", "Bienvenido");
+        p = new netacad.models.Page("4.0.1.1", "Capítulo 4: Descripción general del mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.1", "Mantenimiento preventivo");
+        t = new netacad.models.Topic("4.1.1", "Descripción general del mantenimiento preventivo de PC");
+        p = new netacad.models.Page("4.1.1.1", "Beneficios del mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.2", "Tareas de mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.3", "Limpieza del gabinete y de los componentes internos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.4", "Inspección de componentes internos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.5", "Cuestiones ambientales", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.2", "Proceso de resolución de problemas");
+        t = new netacad.models.Topic("4.2.1", "Pasos del proceso de resolución de problemas");
+        p = new netacad.models.Page("4.2.1.1", "Introducción a la resolución de problemas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.2", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.3", "Actividad: Identificar el problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.4", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.5", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.6", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.7", "Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.8", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("4.2.2", "Problemas y soluciones comunes");
+        p = new netacad.models.Page("4.2.2.1", "Problemas y soluciones de PC comunes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.3", "Resumen del capítulo");
+        t = new netacad.models.Topic("4.3.1", "Resumen");
+        p = new netacad.models.Page("4.3.1.1", "Capítulo 4: Descripción general del mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("5", "Instalación de Windows");
+        s = new netacad.models.Section("5.0", "Introducción");
+        t = new netacad.models.Topic("5.0.1", "Bienvenido");
+        p = new netacad.models.Page("5.0.1.1", "Capítulo 5: Instalación de Windows®", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.1", "Sistemas operativos modernos");
+        t = new netacad.models.Topic("5.1.1", "Términos y características del sistema operativo");
+        p = new netacad.models.Page("5.1.1.1", "Términos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.2", "Funciones básicas de los sistemas operativos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.3", "Arquitectura del procesador", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.2", "Tipos de sistemas operativos");
+        p = new netacad.models.Page("5.1.2.1", "Sistemas operativos de escritorio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.2", "Sistemas operativos de red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.3", "Práctica de laboratorio: Búsqueda de certificaciones y puestos relacionados con NOC", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.3", "Requisitos del cliente para un sistema operativo");
+        p = new netacad.models.Page("5.1.3.1", "Compatibilidad de aplicaciones y entornos con los sistemas operativos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.2", "Requisitos mínimos de hardware y compatibilidad con la plataforma de sistema operativo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.4", "Actualización del sistema operativo");
+        p = new netacad.models.Page("5.1.4.1", "Comprobación de compatibilidad de sistema operativo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.2", "Actualizaciones de sistemas operativos Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.3", "Migración de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.4", "Práctica de laboratorio: Migración de datos en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.2", "Instalación del sistema operativo");
+        t = new netacad.models.Topic("5.2.1", "Procedimientos de configuración del dispositivo de almacenamiento");
+        p = new netacad.models.Page("5.2.1.1", "Tipos de dispositivos de almacenamiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.2", "Creación de particiones del disco duro", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.3", "Actividad: Identificar la terminología de disco", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.4", "Sistemas de archivos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.5", "Video: Administración de discos", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.6", "Instalación de sistema operativo con configuración predeterminada", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.7", "Práctica de laboratorio: Instalación de Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.8", "Creación de cuentas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.9", "Finalizar la instalación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.10", "Práctica de laboratorio: Búsqueda de actualizaciones en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.2", "Opciones de instalación personalizadas");
+        p = new netacad.models.Page("5.2.2.1", "Clonación de discos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.2", "Otros métodos de instalación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.3", "Instalación de redes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.4", "Restaurar, actualizar y recuperar", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.5", "Opciones de recuperación del sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.6", "Identificar terminología de instalación del sistema operativo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.3", "Secuencia de arranque y archivos de registro");
+        p = new netacad.models.Page("5.2.3.1", "Proceso de arranque de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.2", "Identificar la orden del proceso de arranque de BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.3", "Modos de inicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.4", "Registro de Windows", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.4", "Arranque múltiple");
+        p = new netacad.models.Page("5.2.4.1", "Procedimientos de arranque múltiple", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.2", "Utilidad Administración de discos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.3", "Particiones", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.4", "Asignación de unidades o asignación de la letra de unidad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.5", "Video: Partición de disco", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.6", "Video: Replicación de unidades", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.7", "Práctica de laboratorio: Creación de una partición en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.5", "Directorios de disco");
+        p = new netacad.models.Page("5.2.5.1", "Estructuras de directorios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.2", "Ubicaciones de archivos de usuario y de sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.3", "Extensiones y atributos de archivos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.4", "Propiedades de aplicaciones, de archivo y de carpeta", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.3", "Resumen");
+        t = new netacad.models.Topic("5.3.1", "Resumen del capítulo");
+        p = new netacad.models.Page("5.3.1.1", "Capítulo 5: Instalación de Windows®", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("6", "Configuración y administración de Windows");
+        s = new netacad.models.Section("6.0", "Introducción");
+        t = new netacad.models.Topic("6.0.1", "Bienvenido");
+        p = new netacad.models.Page("6.0.1.1", "Capítulo 6: Configuración y administración de Windows", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.1", "GUI y Panel de control de Windows");
+        t = new netacad.models.Topic("6.1.1", "Escritorio, herramientas y aplicaciones de Windows");
+        p = new netacad.models.Page("6.1.1.1", "Escritorio de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.2", "Propiedades de escritorio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.3", "Menú Inicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.4", "Administrador de tareas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.5", "Práctica de laboratorio: Administrador de tareas", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.6", "Equipo y Explorador de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.7", "Bibliotecas de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.8", "Instalación y desinstalación de aplicaciones", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.9", "Práctica de laboratorio: Instalación de software de terceros", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.2", "Utilidades del Panel de control");
+        p = new netacad.models.Page("6.1.2.1", "Introducción a las utilidades del Panel de control", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.2", "Cuentas de usuario", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.3", "Práctica de laboratorio: Creación de cuentas de usuario", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.4", "Opciones de Internet", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.5", "Práctica de laboratorio: Configuración de parámetros del navegador", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.6", "Configuración de pantalla", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.7", "Opciones de carpeta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.8", "Centro de actividades", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.9", "Firewall de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.10", "Opciones de energía", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.11", "Utilidad Sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.12", "Práctica de laboratorio: Administración de memoria virtual", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.13", "Administrador de dispositivos, dispositivos e impresoras, y sonido", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.14", "Práctica de laboratorio: Administrador de dispositivos", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.15", "Región, Programas y características y Solución de problemas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.16", "Práctica de laboratorio: Configuración regional y de idioma", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.17", "Grupo Hogar y Centro de redes y recursos compartidos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.3", "Herramientas administrativas");
+        p = new netacad.models.Page("6.1.3.1", "Administración de equipos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.2", "Visor de eventos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.3", "Servicios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.4", "Configuración del sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.5", "Monitor de rendimiento y diagnóstico de memoria de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.6", "Herramientas de programación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.7", "Práctica de laboratorio: Control y administración de los recursos del sistema", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.4", "Desfragmentador de disco y herramienta de comprobación de errores de disco");
+        p = new netacad.models.Page("6.1.4.1", "Desfragmentador de disco y herramienta de comprobación de errores de disco", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.2", "Práctica de laboratorio: Mantenimiento del disco duro", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.3", "Información del sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.4", "Práctica de laboratorio: Administrar archivos del sistema en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.5", "Herramienta de línea de comando");
+        p = new netacad.models.Page("6.1.5.1", "Comandos de CLI de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.2", "Video: Comandos comunes de la CLI de Windows", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.3", "Video: Registro de acceso de usuario", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.4", "Práctica de laboratorio: Comandos comunes de la CLI de Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.5", "Utilidades del sistema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.6", "Práctica de laboratorio: Utilidades del sistema", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.2", "Virtualización del lado cliente");
+        t = new netacad.models.Topic("6.2.1", "Propósito y requisitos de la virtualización");
+        p = new netacad.models.Page("6.2.1.1", "Propósito de las máquinas virtuales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.2.1.2", "Hipervisor: Administrador de máquinas virtuales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.2.1.3", "Requisitos de las máquinas virtuales", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.3", "Técnicas de mantenimiento preventivo comunes para sistemas operativos");
+        t = new netacad.models.Topic("6.3.1", "Plan de mantenimiento preventivo para sistema operativo");
+        p = new netacad.models.Page("6.3.1.1", "Contenido del plan de mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.2", "Práctica de laboratorio: Administración de la carpeta de inicio", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.3", "Actualizaciones", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.4", "Programación de tareas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.5", "Práctica de laboratorio: Programador de tareas", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.6", "Puntos de restauración", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.7", "Práctica de laboratorio: Restauración del sistema", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.8", "Copia de respaldo del disco duro", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.9", "Video: Herramienta de copia de seguridad", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.10", "Video: Puntos de restauración", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.4", "Proceso básico de resolución de problemas para sistemas operativos");
+        t = new netacad.models.Topic("6.4.1", "Aplicación del proceso de resolución de problemas a los sistemas operativos");
+        p = new netacad.models.Page("6.4.1.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.4", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.5", "Verificación de la funcionalidad total del sistema e implementación de medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.6", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.4.2", "Problemas y soluciones comunes de los sistemas operativos");
+        p = new netacad.models.Page("6.4.2.1", "Problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.5", "Resumen del capítulo");
+        t = new netacad.models.Topic("6.5.1", "Resumen del capítulo");
+        p = new netacad.models.Page("6.5.1.1", "Capítulo 6: Sistema operativo Microsoft Windows", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("7", "Conceptos de redes");
+        s = new netacad.models.Section("7.0", "Introducción");
+        t = new netacad.models.Topic("7.0.1", "Bienvenido");
+        p = new netacad.models.Page("7.0.1.1", "Capítulo 7: Conceptos de redes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.1", "Principios de redes");
+        t = new netacad.models.Topic("7.1.1", "Redes de computadoras");
+        p = new netacad.models.Page("7.1.1.1", "Definición de redes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.2", "Dispositivos host", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.3", "Dispositivos intermediarios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.4", "Medios de red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.5", "Actividad: Identificar dispositivos de red y representaciones de medios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.6", "Ancho de banda y latencia", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.7", "Transmisión de datos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.1.2", "Tipos de redes");
+        p = new netacad.models.Page("7.1.2.1", "LAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.2", "WLAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.3", "PAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.4", "MAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.5", "WAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.6", "Redes entre pares", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.7", "Redes de cliente y servidor", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.8", "Actividad: Correspondencia de los tipos de red", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.2", "Estándares de red");
+        t = new netacad.models.Topic("7.2.1", "Modelos de referencia");
+        p = new netacad.models.Page("7.2.1.1", "Normas abiertas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.2", "Protocolos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.3", "Modelo de referencia OSI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.4", "Modelo TCP/IP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.5", "Unidades de datos de protocolo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.6", "Ejemplo de encapsulamiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.7", "Ejemplo de desencapsulamiento", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.8", "Comparación entre los modelos OSI y TCP/IP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.9", "Actividad: Colocar las capas modelo OSI y TCP/IP", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.2.2", "Estándares cableados e inalámbricos de Ethernet");
+        p = new netacad.models.Page("7.2.2.1", "CSMA/CD", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.2", "Estándares de cables de Ethernet", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.3", "CSMA/CA", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.4", "Normas inalámbricas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.5", "Wireless Security (Seguridad de la transmisión inalámbrica)", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.3", "Componentes físicos de una red");
+        t = new netacad.models.Topic("7.3.1", "Dispositivos de red");
+        p = new netacad.models.Page("7.3.1.1", "Módems", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.2", "Concentradores, puentes y switches", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.3", "Puntos de acceso inalámbrico y routers", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.4", "Firewalls de hardware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.5", "Otros dispositivos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.6", "Actividad: Identificar dispositivos de red", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.3.2", "Cables y conectores");
+        p = new netacad.models.Page("7.3.2.1", "Cables coaxiales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.2", "Cables de par trenzado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.3", "Calificaciones de categorías de par trenzado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.4", "Esquemas de cables de par trenzado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.5", "Actividad: Diagramas de pines de los cables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.6", "Práctica de laboratorio: Armado y prueba de los cables de red", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.7", "Packet Tracer: Cablear una red simple", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.8", "Cables de fibra óptica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.9", "Tipos de medios de fibra óptica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.10", "Conectores de fibra óptica", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.4", "Tecnologías y conceptos básicos de redes");
+        t = new netacad.models.Topic("7.4.1", "Direccionamiento de equipos en red");
+        p = new netacad.models.Page("7.4.1.1", "Direccionamiento de red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.2", "Direcciones IP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.3", "Formato de direcciones IPv4", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.4", "Direcciones IPv4 con clase y sin clase", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.5", "Número de direcciones IPv6", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.6", "Formatos de direcciones IPv6", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.7", "Video: IPv4 frente a IPv6", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.8", "Direccionamiento estático", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.9", "Direccionamiento dinámico", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.10", "ICMP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.11", "Práctica de laboratorio: Configuración de una NIC para usar DHCP en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.12", "Packet Tracer: Incorporación de computadoras a una red existente", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.4.2", "Protocolos de la capa de transporte");
+        p = new netacad.models.Page("7.4.2.1", "Función de la capa de transporte", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.2", "Funciones de capa de transporte", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.3", "Protocolo de capa de transporte", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.4", "TCP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.5", "UDP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.6", "Números de puerto", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.7", "Actividad: TCP frente a UDP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.8", "Actividad: Definiciones de protocolos y puertos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.5", "Resumen del capítulo");
+        t = new netacad.models.Topic("7.5.1", "Conclusión");
+        p = new netacad.models.Page("7.5.1.1", "Capítulo 7: Conceptos de redes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("8", "Redes aplicadas");
+        s = new netacad.models.Section("8.0", "Introducción");
+        t = new netacad.models.Topic("8.0.1", "Bienvenido");
+        p = new netacad.models.Page("8.0.1.1", "Capítulo 8: Redes aplicadas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.1", "Conexión de PC a una red");
+        t = new netacad.models.Topic("8.1.1", "Tarjetas de red");
+        p = new netacad.models.Page("8.1.1.1", "Lista de finalización de instalación de una red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.2", "Elección de una NIC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.3", "Instalación y actualización de una NIC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.4", "Configuración de una NIC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.5", "Configuración avanzada de la NIC", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.2", "Configuración de routers inalámbricos y conectados por cable");
+        p = new netacad.models.Page("8.1.2.1", "Conexión de la NIC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.2", "Conexión del router a Internet", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.3", "Configuración de la ubicación de la red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.4", "Iniciar sesión en el router", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.5", "Configuración básica de red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.6", "Configuraciones básicas inalámbricas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.7", "Prueba de conectividad con la GUI de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.8", "Prueba de conectividad con la CLI de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.9", "Video: Comandos de CLI de red.", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.10", "Práctica de laboratorio: Conexión a un router por primera vez", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.11", "Packet Tracer: Establecer la conexión a un router inalámbrico y configurar los parámetros básicos", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.12", "Práctica de laboratorio: Configuración de routers inalámbricos en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.13", "Packet Tracer: Conectar las computadoras inalámbricas a un router inalámbrico", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.14", "Práctica de laboratorio: Evaluación de la NIC inalámbrica en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.15", "Packet Tracer: Probar una conexión inalámbrica", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.3", "Uso compartido de red");
+        p = new netacad.models.Page("8.1.3.1", "Dominio y grupo de trabajo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.2", "Conexión un grupo de trabajo o dominio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.3", "Grupo Hogar en Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.4", "Uso compartido de recursos en Windows Vista", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.5", "Recursos compartidos de red y asignación de unidades", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.6", "Recursos compartidos de administración", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.7", "Asignación de unidades de red", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.8", "Video: Compartir una carpeta", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.9", "Práctica de laboratorio: Compartir recursos en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.4", "Conexiones remotas");
+        p = new netacad.models.Page("8.1.4.1", "VPN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.2", "Escritorio remoto y asistencia remota", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.3", "Práctica de laboratorio: Asistencia remota en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.4", "Práctica de laboratorio: Escritorio remoto en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.2", "Tecnologías de conexión ISP");
+        t = new netacad.models.Topic("8.2.1", "Tecnologías de banda ancha");
+        p = new netacad.models.Page("8.2.1.1", "Breve historia de las tecnologías de conexión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.2", "DSL y ADSL", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.3", "Servicio de Internet inalámbrica con línea de vista", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.4", "WiMAX", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.5", "Otras tecnologías de banda ancha", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.6", "Elección de un ISP para un cliente", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.7", "Actividad: Tipos de conexiones ISP", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.3", "Tecnologías de Internet");
+        t = new netacad.models.Topic("8.3.1", "Centros de datos y computación en la nube");
+        p = new netacad.models.Page("8.3.1.1", "Centro de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.2", "Computación en la nube frente al centro de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.3", "Características de la computación en la nube", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.4", "SaaS, IaaS y PaaS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.5", "Tipos de nubes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.6", "Actividad: Identificar la terminología de nube", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.3.2", "Servicios de hosts de redes");
+        p = new netacad.models.Page("8.3.2.1", "Servicios de DHCP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.2", "Servicios de DNS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.3", "Servicios web", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.4", "Servicios de archivos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.5", "Servicios de impresión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.6", "Servicios de correo electrónico", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.7", "Configuración del proxy", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.8", "Servicios de autenticación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.9", "Prevención y detección de intrusiones.", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.10", "Administración de amenazas universal", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.11", "Actividad: Identificar el servicio de host conectado", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.4", "Técnicas de mantenimiento preventivo comunes utilizadas para redes");
+        t = new netacad.models.Topic("8.4.1", "Mantenimiento de redes");
+        p = new netacad.models.Page("8.4.1.1", "Procedimientos de mantenimiento preventivo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.5", "Proceso básico de resolución de problemas para redes");
+        t = new netacad.models.Topic("8.5.1", "Aplicación del proceso de resolución de problemas a las redes");
+        p = new netacad.models.Page("8.5.1.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.4", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.5", "Verificación de la funcionalidad total del sistema e implementación de medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.6", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.5.2", "Problemas y soluciones comunes de las redes");
+        p = new netacad.models.Page("8.5.2.1", "Identificación de problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.6", "Resumen del capítulo");
+        t = new netacad.models.Topic("8.6.1", "Conclusión");
+        p = new netacad.models.Page("8.6.1.1", "Capítulo 8: Redes aplicadas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("9", "Computadoras portátiles y dispositivos móviles");
+        s = new netacad.models.Section("9.0", "Introducción");
+        t = new netacad.models.Topic("9.0.1", "Bienvenido");
+        p = new netacad.models.Page("9.0.1.1", "Capítulo 9: Computadoras portátiles y dispositivos móviles", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.1", "Componentes de las computadoras portátiles");
+        t = new netacad.models.Topic("9.1.1", "Funciones de los componentes de la computadora portátil");
+        p = new netacad.models.Page("9.1.1.1", "Características externas exclusivas de las computadoras portátiles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.2", "Indicadores LED y dispositivos de entrada comunes de las computadoras portátiles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.3", "Componentes internos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.4", "Teclas de función especiales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.5", "Estación de acoplamiento frente a replicadores de puertos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.6", "Práctica de laboratorio: Investigación sobre estaciones de acoplamiento", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.1.2", "Pantallas de la computadora portátil");
+        p = new netacad.models.Page("9.1.2.1", "Pantallas LCD, LED y OLED", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.2", "Luces de fondo y convertidores", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.3", "Conectores de antena inalámbrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.4", "Cámara web y micrófono", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.2", "Configuración de la computadora portátil");
+        t = new netacad.models.Topic("9.2.1", "Configuración de los parámetros de energía");
+        p = new netacad.models.Page("9.2.1.1", "Administración de energía", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.2", "Administración de configuraciones ACPI en el BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.3", "Actividad: Unir los estándares ACPI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.4", "Administración de opciones de energía de las computadoras portátiles", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.2.2", "Configuración inalámbrica");
+        p = new netacad.models.Page("9.2.2.1", "Bluetooth", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.2.2", "Red WAN de datos móviles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.2.3", "Wifi", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.3", "Instalación y configuración de hardware y componentes en computadoras portátiles");
+        t = new netacad.models.Topic("9.3.1", "Ranuras de expansión");
+        p = new netacad.models.Page("9.3.1.1", "Tarjetas de expansión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.2", "Memoria flash", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.3", "Lector de tarjetas inteligentes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.4", "Memoria SODIMM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.5", "Práctica de laboratorio: Investigación de una RAM de una computadora portátil", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.3.2", "Reemplazo de dispositivos de hardware");
+        p = new netacad.models.Page("9.3.2.1", "Descripción general del reemplazo de hardware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.2", "Alimentación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.3", "Práctica de laboratorio: Investigación sobre las baterías de las computadoras portátiles", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.4", "Teclado, panel táctil y pantalla", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.5", "Práctica de laboratorio: Investigación sobre pantallas de la computadora portátil", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.6", "Unidad de almacenamiento interno y unidad óptica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.7", "Práctica de laboratorio: Investigación sobre las unidades de disco duro de la computadora portátil", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.8", "Tarjeta inalámbrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.9", "Altavoces", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.10", "CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.11", "Placa madre", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.12", "Tramas de plástico", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.13", "Video: Reemplazo de componentes de la computadora portátil", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.14", "Práctica de laboratorio: Investigación acerca del armado de una computadora portátil especializada", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.4", "Descripción general del hardware de los dispositivos móviles");
+        t = new netacad.models.Topic("9.4.1", "Hardware de los dispositivos móviles");
+        p = new netacad.models.Page("9.4.1.1", "Partes de dispositivos móviles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.2", "Hardware no actualizable", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.3", "Pantallas táctiles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.4", "Unidades de estado sólido", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.5", "Tipos de conexión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.6", "Actividad: Identificar los tipos de conexión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.7", "Accesorios", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.4.2", "Otros dispositivos móviles");
+        p = new netacad.models.Page("9.4.2.1", "Wearables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.2.2", "Dispositivos de especialidades", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.5", "Técnicas de mantenimiento preventivo para computadoras portátiles y dispositivos móviles");
+        t = new netacad.models.Topic("9.5.1", "Mantenimiento programado para computadoras portátiles y dispositivos móviles");
+        p = new netacad.models.Page("9.5.1.1", "Programación del mantenimiento", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.6", "Proceso básico de solución de problemas para dispositivos móviles");
+        t = new netacad.models.Topic("9.6.1", "Aplicar un");
+        p = new netacad.models.Page("9.6.1.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.4", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.5", "Verificación de la funcionalidad total del sistema e implementación de medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.6", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.6.2", "Problemas y soluciones comunes de las computadoras portátiles y dispositivos móviles");
+        p = new netacad.models.Page("9.6.2.1", "Identificación de problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.2", "Práctica de laboratorio: Investigación sobre problemas de las computadoras portátiles", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.3", "Práctica de laboratorio: Obtención de información del cliente", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.4", "Práctica de laboratorio: Investigación sobre sitios web de soporte técnico", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.7", "Resumen del capítulo");
+        t = new netacad.models.Topic("9.7.1", "Resumen");
+        p = new netacad.models.Page("9.7.1.1", "Capítulo 9: Computadoras portátiles y dispositivos móviles", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("10", "SO móviles, Linux y OS X");
+        s = new netacad.models.Section("10.0", "Introducción");
+        t = new netacad.models.Topic("10.0.1", "Bienvenido");
+        p = new netacad.models.Page("10.0.1.1", "Capítulo 10: Sistemas operativos móviles, Linux y OS X", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.1", "Sistemas operativos móviles");
+        t = new netacad.models.Topic("10.1.1", "Android frente a iOS");
+        p = new netacad.models.Page("10.1.1.1", "Comparación de código abierto y código cerrado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.1.2", "Desarrollo de aplicaciones móviles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.1.3", "Repositorio de aplicaciones y de contenido", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.2", "Interfaz táctil de Android");
+        p = new netacad.models.Page("10.1.2.1", "Elementos de la pantalla de inicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.2.2", "Administración de aplicaciones, widgets y carpetas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.2.3", "Práctica de laboratorio: Trabajo", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.3", "Interfaz táctil de iOS");
+        p = new netacad.models.Page("10.1.3.1", "Elementos de la pantalla de inicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.3.2", "Administración de aplicaciones y carpetas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.3.3", "Práctica de laboratorio: Trabajo con iOS", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.4", "Interfaz táctil de Windows Phone");
+        p = new netacad.models.Page("10.1.4.1", "Elementos de la pantalla de inicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.4.2", "Administración de aplicaciones y carpetas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.5", "Características comunes de los dispositivos móviles");
+        p = new netacad.models.Page("10.1.5.1", "Orientación y calibración de la pantalla", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.2", "GPS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.3", "Práctica de laboratorio: Funciones de dispositivos móviles", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.4", "Práctica de laboratorio: Información de dispositivos móviles", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.5", "Funciones de comodidad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.6", "Funciones de información", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.2", "Métodos para proteger los dispositivos móviles");
+        t = new netacad.models.Topic("10.2.1", "Bloqueos de contraseña");
+        p = new netacad.models.Page("10.2.1.1", "Descripción general de los bloqueos de contraseña", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.1.2", "Práctica de laboratorio: Bloqueos de contraseña", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.1.3", "Restricciones tras intentos fallidos de inicio de sesión", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.2.2", "Servicios habilitados para la para nube para dispositivos móviles");
+        p = new netacad.models.Page("10.2.2.1", "Copia de seguridad remota", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.2.2", "Aplicaciones de localización", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.2.3", "Bloqueo y borrado remotos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.2.3", "Seguridad de software");
+        p = new netacad.models.Page("10.2.3.1", "Antivirus", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.3.2", "Revisiones y actualización de los sistemas operativos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.3", "Correo electrónico y conectividad de red");
+        t = new netacad.models.Topic("10.3.1", "Red de datos móviles y redes inalámbricas");
+        p = new netacad.models.Page("10.3.1.1", "Red de datos inalámbrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.1.2", "Práctica de laboratorio: Wifi móvil", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.1.3", "Comunicaciones de datos móviles", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.2", "Bluetooth");
+        p = new netacad.models.Page("10.3.2.1", "Bluetooth para dispositivos móviles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.2.2", "Emparejamiento Bluetooth", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.3", "Configuración de correo electrónico");
+        p = new netacad.models.Page("10.3.3.1", "Introducción al correo electrónico", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.2", "Actividad: Unir protocolos de correo electrónico", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.3", "Configuración de correo electrónico en Android", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.4", "Configuración de correo electrónico en iOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.5", "Correo electrónico de Internet", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.4", "Sincronización de dispositivos móviles");
+        p = new netacad.models.Page("10.3.4.1", "Tipos de datos que se pueden sincronizar", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.4.2", "Tipos de conexión para sincronización", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.4", "Sistemas operativos Linux y OS X");
+        t = new netacad.models.Topic("10.4.1", "Linux y herramientas y funciones de OS X");
+        p = new netacad.models.Page("10.4.1.1", "Introducción a sistemas operativos Linux y OS X", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.2", "Descripción general de la GUI de Linux y OS X", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.3", "Descripción general de la CLI de Linux y OS X", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.4", "Práctica de laboratorio: Instalación de Linux en una máquina virtual y exploración de la GUI", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.5", "Descripción general del proceso de copia de seguridad y recuperación", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.6", "Descripción general de las utilidades de disco", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.7", "Video: Arranque múltiple", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.4.2", "Prácticas recomendadas para Linux y OS X");
+        p = new netacad.models.Page("10.4.2.1", "Tareas programadas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.2.2", "Seguridad", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.4.3", "CLI básica");
+        p = new netacad.models.Page("10.4.3.1", "Comandos de archivo y de carpeta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.3.2", "Comandos administrativos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.3.3", "Práctica de laboratorio: Trabajo con la línea de comandos de Linux", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.5", "Proceso de solución de problemas para SO móviles, Linux y OS X");
+        t = new netacad.models.Topic("10.5.1", "Aplicación del proceso de solución de problemas a SO móviles, Linux y OS X");
+        p = new netacad.models.Page("10.5.1.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.4", "Plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.5", "Verificación de la funcionalidad total del sistema e implementación de medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.6", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.5.2", "Problemas y soluciones comunes de sistemas operativos móviles, Linux y OS X");
+        p = new netacad.models.Page("10.5.2.1", "Identificación de problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.2.2", "Práctica de laboratorio: Solución de problemas de dispositivos móviles", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.6", "Resumen del capítulo");
+        t = new netacad.models.Topic("10.6.1", "Conclusión");
+        p = new netacad.models.Page("10.6.1.1", "Capítulo 10: Sistemas operativos móviles, Linux y OS X", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("11", "Impresoras");
+        s = new netacad.models.Section("11.0", "Introducción");
+        t = new netacad.models.Topic("11.0.1", "Bienvenido");
+        p = new netacad.models.Page("11.0.1.1", "Capítulo 11: Impresoras", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.1", "Características comunes de las impresoras");
+        t = new netacad.models.Topic("11.1.1", "Características y capacidades");
+        p = new netacad.models.Page("11.1.1.1", "Características y capacidades de las impresoras", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.1.2", "Tipos de conexión de impresoras", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.1.2", "Tipos de impresoras");
+        p = new netacad.models.Page("11.1.2.1", "Impresoras de inyección de tinta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.2", "Impresoras láser", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.3", "Proceso de impresión láser", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.4", "Actividad: Proceso de impresión láser", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.5", "Impresoras térmicas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.6", "Impresoras de impacto", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.7", "Impresoras virtuales", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.2", "Instalación y configuración de impresoras");
+        t = new netacad.models.Topic("11.2.1", "Instalación y actualización de una impresora");
+        p = new netacad.models.Page("11.2.1.1", "Instalación de una impresora", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.2", "Tipos de controladores de impresión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.3", "Actualización e instalación de los controladores de la impresora", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.4", "Página de prueba de la impresora", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.5", "Comprobar las funciones de la impresora", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.6", "Práctica de laboratorio: Instalación de una impresora", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.2.2", "Opciones de configuración y configuración predeterminada");
+        p = new netacad.models.Page("11.2.2.1", "Opciones de configuración comunes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.2.2", "Opciones globales e individuales de documentos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.2.3", "Optimización del rendimiento de la impresora");
+        p = new netacad.models.Page("11.2.3.1", "Optimización del software", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.3.2", "Optimización del hardware", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.3", "Uso compartido de impresoras");
+        t = new netacad.models.Topic("11.3.1", "Configuración del sistema operativo para impresoras compartidas");
+        p = new netacad.models.Page("11.3.1.1", "Configuración del uso compartido de impresoras", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.1.2", "Conexión a una impresora compartida", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.1.3", "Conexiones de impresoras inalámbricas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.3.2", "Servidores de impresión");
+        p = new netacad.models.Page("11.3.2.1", "Propósitos de los servidores de impresión", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.2", "Servidores de impresión de software", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.3", "Servidores de impresión por hardware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.4", "Servidores de impresoras exclusivos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.5", "Práctica de laboratorio: Uso compartido de una impresora", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.4", "Soluciones de mantenimiento y solución de problemas de impresoras");
+        t = new netacad.models.Topic("11.4.1", "Mantenimiento preventivo de impresoras");
+        p = new netacad.models.Page("11.4.1.1", "Pautas del proveedor", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.2", "Reemplazo de productos consumibles", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.3", "Métodos de limpieza", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.4", "Entorno operativo", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.4.2", "Solución de problemas de la impresora");
+        p = new netacad.models.Page("11.4.2.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.4", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.5", "Verificación de la funcionalidad total del sistema e implementación de medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.6", "Registrar hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.4.3", "Problemas y soluciones comunes de las impresoras");
+        p = new netacad.models.Page("11.4.3.1", "Identificación de problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.5", "Resumen del capítulo");
+        t = new netacad.models.Topic("11.5.1", "Conclusión");
+        p = new netacad.models.Page("11.5.1.1", "Capítulo 11: Impresoras", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("12", "Seguridad");
+        s = new netacad.models.Section("12.0", "Introducción");
+        t = new netacad.models.Topic("12.0.1", "Bienvenido");
+        p = new netacad.models.Page("12.0.1.1", "Capítulo 12: Seguridad", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.1", "Amenazas de seguridad");
+        t = new netacad.models.Topic("12.1.1", "Tipos de amenazas de seguridad");
+        p = new netacad.models.Page("12.1.1.1", "Malware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.2", "Actividad: Identificar los tipos de malware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.3", "Suplantación de identidad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.4", "Correo electrónico no deseado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.5", "Ataques TCP/IP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.6", "Actividad: Identificar ataques TCP/IP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.7", "Ataques de día cero", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.8", "Ingeniería social", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.2", "Procedimientos de seguridad");
+        t = new netacad.models.Topic("12.2.1", "Directiva de seguridad local de Windows");
+        p = new netacad.models.Page("12.2.1.1", "¿Qué es una directiva de seguridad?", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.2", "Acceso a la directiva de seguridad local de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.3", "Nombres de usuario y contraseñas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.4", "Configuración de seguridad para las directivas de cuenta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.5", "Administración de la contraseña local", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.6", "Configuración de seguridad para las directivas locales", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.7", "Exportación de la política de seguridad local", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.8", "Práctica de laboratorio: Configuración de la directiva de seguridad local de Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.2", "Protección del acceso web");
+        p = new netacad.models.Page("12.2.2.1", "Seguridad web", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.2", "Filtrado ActiveX", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.3", "Bloqueador de elementos emergentes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.4", "Filtro SmartScreen", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.5", "Navegación InPrivate", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.3", "Protección de datos");
+        p = new netacad.models.Page("12.2.3.1", "Firewalls de software", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.2", "Biometría y tarjetas inteligentes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.3", "Copias de seguridad de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.4", "Permisos de archivo y de carpeta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.5", "Cifrados de archivo y de carpeta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.6", "Windows BitLocker", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.7", "Eliminación permanente de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.8", "Reciclado y destrucción del disco duro", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.9", "Actividad: Identificar la terminología de protección de datos", "Activity", "Other", "Flash DnD");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.4", "Protección contra software malintencionado");
+        p = new netacad.models.Page("12.2.4.1", "Programas de protección contra software malintencionado", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.4.2", "Reparación de sistemas infectados", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.4.3", "Actualizaciones de archivos de firma", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.5", "Técnicas de seguridad");
+        p = new netacad.models.Page("12.2.5.1", "Tipos comunes de cifrado de comunicaciones", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.2", "Identificadores de conjunto de servicios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.3", "Modos de seguridad inalámbrica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.4", "Plug and Play universal", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.5", "Actualizaciones de firmware", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.6", "Firewalls", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.7", "Redirección y activación de puertos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.8", "Packet Tracer: Configurar la seguridad inalámbrica", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.6", "Protección de equipos físicos");
+        p = new netacad.models.Page("12.2.6.1", "Métodos de protección de equipos físicos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.6.2", "Hardware de seguridad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.6.3", "Actividad: Identificar el dispositivo de seguridad física", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.3", "Técnicas de mantenimiento preventivo comunes para propósitos de seguridad");
+        t = new netacad.models.Topic("12.3.1", "Mantenimiento de seguridad");
+        p = new netacad.models.Page("12.3.1.1", "Paquetes de servicios y parches de seguridad del sistema operativo", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.2", "Copias de seguridad de datos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.3", "Práctica de laboratorio: Configuración de copia de seguridad de datos y recuperación en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.4", "Firewall de Windows", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.5", "Práctica de laboratorio: Configuración del Firewall en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.6", "Mantenimiento de cuentas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.7", "Administración de usuarios", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.8", "Administrar grupos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.9", "Práctica de laboratorio: Configuración de usuarios y grupos en Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.4", "Proceso básico de solución de problemas de seguridad");
+        t = new netacad.models.Topic("12.4.1", "Aplicación del proceso de solución de problemas a la seguridad");
+        p = new netacad.models.Page("12.4.1.1", "Identificación del problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.2", "Establecer una teoría de causas probables", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.3", "Poner a prueba la teoría para determinar la causa", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.4", "Establecimiento de un plan de acción para resolver el problema e implementar la solución", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.5", "Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.6", "Registro de hallazgos, acciones y resultados", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.4.2", "Problemas y soluciones de seguridad comunes");
+        p = new netacad.models.Page("12.4.2.1", "Identificación de problemas y soluciones comunes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.2.2", "Práctica de laboratorio: Documentación de información del cliente en una solicitud de trabajo", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.5", "Resumen");
+        t = new netacad.models.Topic("12.5.1", "Conclusión");
+        p = new netacad.models.Page("12.5.1.1", "Capítulo 12: Seguridad", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("13", "El profesional de TI");
+        s = new netacad.models.Section("13.0", "Introducción");
+        t = new netacad.models.Topic("13.0.1", "Bienvenido");
+        p = new netacad.models.Page("13.0.1.1", "Capítulo 13: El profesional de TI", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.1", "Aptitudes para la comunicación y el profesional de TI");
+        t = new netacad.models.Topic("13.1.1", "Aptitudes para la comunicación, solución de problemas y el profesional de TI");
+        p = new netacad.models.Page("13.1.1.1", "Relación entre aptitudes para la comunicación y solución de problemas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.1.2", "Relación entre aptitudes para la comunicación y comportamiento profesional", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.1.3", "Práctica de laboratorio: Recursos del técnico", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.1.2", "Trabajo con el cliente");
+        p = new netacad.models.Page("13.1.2.1", "Uso de aptitudes para la comunicación para determinar el problema del cliente", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.2", "Demostración de comportamiento profesional ante los clientes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.3", "Actividad: Comportamientos profesionales con los clientes", "Activity", "Other", "Flash DnD");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.4", "Mantener al cliente centrado en el problema", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.5", "Utilización de netiqueta apropiada", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.1.3", "Prácticas recomendadas para el empleado");
+        p = new netacad.models.Page("13.1.3.1", "Técnicas de administración del tiempo y manejo del estrés", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.3.2", "Observación de acuerdos del nivel de servicio", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.3.3", "Cumplimiento de políticas empresariales", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.2", "Cuestiones legales y éticas en la industria de TI");
+        t = new netacad.models.Topic("13.2.1", "Consideraciones legales y éticas");
+        p = new netacad.models.Page("13.2.1.1", "Consideraciones éticas en TI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.1.2", "Consideraciones legales en TI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.1.3", "Licencias", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.2.2", "Descripción general de procedimientos legales");
+        p = new netacad.models.Page("13.2.2.1", "Informática forense", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.2.2", "Derecho informático y primera respuesta", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.2.3", "Documentación y cadena de custodia", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.3", "Técnicos de centros de atención telefónica");
+        t = new netacad.models.Topic("13.3.1", "Centros de atención telefónica, técnicos de nivel uno y nivel dos");
+        p = new netacad.models.Page("13.3.1.1", "Centros de atención telefónica", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.3.1.2", "Responsabilidades del técnico de nivel uno", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.3.1.3", "Responsabilidades del técnico de nivel dos", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.4", "Resumen del capítulo");
+        t = new netacad.models.Topic("13.4.1", "Conclusión");
+        p = new netacad.models.Page("13.4.1.1", "Capítulo 13: El profesional de TI", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("14", "Solución avanzada de problemas");
+        s = new netacad.models.Section("14.0", "Introducción");
+        t = new netacad.models.Topic("14.0.1", "Bienvenido");
+        p = new netacad.models.Page("14.0.1.1", "Capítulo 14: Solución avanzada de problemas", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.0.1.2", "Seis pasos para revisar la solución de problemas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.1", "Periféricos y componentes de PC");
+        t = new netacad.models.Topic("14.1.1", "Aplicación del proceso de solución de problemas a periféricos y componentes de PC");
+        p = new netacad.models.Page("14.1.1.1", "Problemas y soluciones avanzadas para componentes y periféricos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.1.1.2", "Práctica de laboratorio: Solución de problemas de hardware", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.1.1.3", "Práctica de laboratorio: Técnico remoto. Reparación de un problema de hardware", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.2", "Sistemas operativos");
+        t = new netacad.models.Topic("14.2.1", "Aplicación del proceso de solución de problemas a los sistemas operativos");
+        p = new netacad.models.Page("14.2.1.1", "Problemas y soluciones avanzados de los sistemas operativos", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.2.1.2", "Práctica de laboratorio: Solución de problemas del sistema operativo", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.2.1.3", "Práctica de laboratorio: Técnico remoto. Reparación de un problema de sistema operativo", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.3", "Redes");
+        t = new netacad.models.Topic("14.3.1", "Aplicación del proceso de solución de problemas a las redes");
+        p = new netacad.models.Page("14.3.1.1", "Problemas y soluciones avanzadas de las redes", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.3.1.2", "Práctica de laboratorio: Solución de problemas de red", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.3.1.3", "Práctica de laboratorio: Técnico remoto. Reparación de un problema de red", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.4", "Seguridad");
+        t = new netacad.models.Topic("14.4.1", "Aplicación del proceso de solución de problemas a la seguridad");
+        p = new netacad.models.Page("14.4.1.1", "Problemas y soluciones avanzadas de seguridad", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.4.1.2", "Práctica de laboratorio: Solución de problemas de seguridad", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.4.1.3", "Práctica de laboratorio: Técnico remoto. Reparación de un problema de seguridad", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.5", "Resumen del capítulo");
+        t = new netacad.models.Topic("14.5.1", "Conclusión");
+        p = new netacad.models.Page("14.5.1.1", "Capítulo 14: Solución avanzada de problemas", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        return c;
+      }();
+
+    </script>
+  </head>
+  <body aria-live="polite">
+    <div id="login" role="document" aria-hidden="true">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+    <div id="splash" role="document" aria-hidden="true">
+      <div class="logo" title="Cisco Systems, Inc."></div>
+      <h1>IT Essentials</h1>
+      <table role="grid" aria-readonly="true">
+        <thead>
+          <tr role="row">
+            <th role="gridcell" colspan="4">Haga clic en cualquier imagen para comenzar.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-0">
+                <input id="bg-0" type="image" src="course/common/backgrounds/bg-0-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-0-text" for="bg-0"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-1">
+                <input id="bg-1" type="image" src="course/common/backgrounds/bg-1-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-1-text" for="bg-1"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-2">
+                <input id="bg-2" type="image" src="course/common/backgrounds/bg-2-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-2-text" for="bg-2"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-3">
+                <input id="bg-3" type="image" src="course/common/backgrounds/bg-3-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-3-text" for="bg-3"></label>
+              </div>
+            </td>
+          </tr>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-4">
+                <input id="bg-4" type="image" src="course/common/backgrounds/bg-4-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-4-text" for="bg-4"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-5">
+                <input id="bg-5" type="image" src="course/common/backgrounds/bg-5-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-5-text" for="bg-5"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-6">
+                <input id="bg-6" type="image" src="course/common/backgrounds/bg-6-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-6-text" for="bg-6"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-7">
+                <input id="bg-7" type="image" src="course/common/backgrounds/bg-7-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-7-text" for="bg-7"></label>
+              </div>
+            </td>
+          </tr>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-8">
+                <input id="bg-8" type="image" src="course/common/backgrounds/bg-8-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-8-text" for="bg-8"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-9">
+                <input id="bg-9" type="image" src="course/common/backgrounds/bg-9-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-9-text" for="bg-9"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-10">
+                <input id="bg-10" type="image" src="course/common/backgrounds/bg-10-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-10-text" for="bg-10"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-11">
+                <input id="bg-11" type="image" src="course/common/backgrounds/bg-11-S.jpg" alt="Imagen de fondo"/>
+                <label id="bg-11-text" for="bg-11"></label>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="main" role="document" aria-hidden="false">
+      <div id="header">
+        <div class="logo" title="Cisco Systems, Inc."></div>
+        <h1><a id="course-title" href="">IT Essentials</a></h1>
+      </div>
+      <div id="map" role="navigation">
+        <div class="map-container" id="map-modules" aria-live="polite">
+          <div class="scroll-pane active">
+            <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+            <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-sections" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+            <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-topics" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+            <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-pages" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+            <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div id="container" tabindex="-1">
+          <div id="page-header">
+            <nav class="breadcrumbs" aria-label="breadcumbs">
+              <ul>
+                <li aria-level="1">
+                  <a id="breadcrumbs-module" href="#">
+                    <span id="breadcrumbs-module-li" class="breadcrumbs-header">Capítulo #</span>
+                    <span id="breadcrumbs-module-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="2">
+                  <a id="breadcrumbs-section" href="#">
+                    <span id="breadcrumbs-section-li" class="breadcrumbs-header">Sección #</span>
+                    <span id="breadcrumbs-section-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="3">
+                  <a id="breadcrumbs-topic" href="#">
+                    <span id="breadcrumbs-topic-li" class="breadcrumbs-header">Tema #</span>
+                    <span id="breadcrumbs-topic-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="4">
+                  <a id="breadcrumbs-page" href="#">
+                    <span id="breadcrumbs-page-li" class="breadcrumbs-header">Página #</span>
+                    <span id="breadcrumbs-page-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="page-menu">
+              <button type="button" id="page-menu-close-button" title="Cerrar">
+                <span aria-hidden="true">Cerrar</span>
+              </button>
+            </div>
+          </div>
+          <div id="page-content" role="main" aria-live="polite"></div>
+          <div id="page-footer">
+            <fieldset id="page-slide-buttons"><legend>Figuras</legend></fieldset>
+            <div class="page-menu" role="menu">
+              <button type="button" id="page-menu-transcript-button" role="menuitem" title="Transcripción">Transcripción</button>
+              <button type="button" id="page-menu-bookmark-button" role="menuitem" title="Marcador">Marcador</button>
+              <button type="button" id="page-menu-previous-button" role="menuitem" title="Anterior">Anterior</button>
+              <button type="button" id="page-menu-next-button" role="menuitem" title="Siguiente">Siguiente</button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-course-index" aria-hidden="true" aria-labelledby="menu-course-index" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Índice del curso</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="course-index-buttons" role="menu">
+                <button type="button" class="index-button" id="index-course" role="menuitem" title="Índice del curso">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">Índice del curso</span>
+                </button>
+                <button type="button" class="index-button" id="index-packet-tracer" role="menuitem" title="Índice de Packet Tracer">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">Índice de Packet Tracer</span>
+                </button>
+                <button type="button" class="index-button" id="index-lab" role="menuitem" title="Índice de prácticas de laboratorio">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">Índice de prácticas de laboratorio</span>
+                </button>
+                <button type="button" class="index-button" id="index-video" role="menuitem" title="Índice de video">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">Índice de video</span>
+                </button>
+              </div>
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-recent-pages" aria-hidden="true" aria-labelledby="menu-recent-pages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Páginas recientes</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-bookmarks" aria-hidden="true" aria-labelledby="menu-bookmarks" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Marcadores</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-backgrounds" aria-hidden="true" aria-labelledby="menu-backgrounds" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Seleccionar fondo</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-search" aria-hidden="true" aria-labelledby="menu-search" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Buscar</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+            <input id="search-input" type="search"/>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-languages" aria-hidden="true" aria-labelledby="menu-languages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Idiomas</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="Desplazar hacia arriba" aria-hidden="true">Desplazar hacia arriba</button>
+                <button type="button" class="scroll-pane-down-button" title="Desplazar hacia abajo" aria-hidden="true">Desplazar hacia abajo</button>
+                <div class="scroll-pane-content" tabindex="-1">
+                  <p>Seleccione el idioma del curso:</p>
+                  <ul>
+                    <li><a href="#" data-lang="ar" lang="ar" title="العربية (Arabic)" >العربية</a></li>
+                    <li><a href="#" data-lang="de" lang="de" title="Deutsch (German)">Deutsch</a></li>
+                    <li><a href="#" data-lang="en" lang="en" title="English (English)">English</a></li>
+                    <li><a href="#" data-lang="es" lang="es" title="Español (Spanish)">Español</a></li>
+                    <li><a href="#" data-lang="fr" lang="fr" title="Français (French)">Français</a></li>
+                    <li><a href="#" data-lang="he" lang="he" title="עברית (Hebrew)">עברית</a></li>
+                    <li><a href="#" data-lang="hr" lang="hr" title="Hrvatski (Croatian)">Hrvatski</a></li>
+                    <li><a href="#" data-lang="hu" lang="hu" title="Magyar (Hungarian)">Magyar</a></li>
+                    <li><a href="#" data-lang="hy" lang="hy" title="Հայերեն (Armenian)">Հայերեն</a></li>
+                    <li><a href="#" data-lang="it" lang="it" title="Italiano (Italian)">Italiano</a></li>
+                    <li><a href="#" data-lang="jp" lang="ja" title="日本語 (Japanese)">日本語</a></li>
+                    <li><a href="#" data-lang="ka" lang="ka" title="ქართული (Georgian)">ქართული</a></li>
+                    <li><a href="#" data-lang="ko" lang="ko" title="한국어 (Korean)">한국어</a></li>
+                    <li><a href="#" data-lang="nl" lang="nl" title="Nederlands (Dutch)">Nederlands</a></li>
+                    <li><a href="#" data-lang="pl" lang="pl" title="Polski (Polish)">Polski</a></li>
+                    <li><a href="#" data-lang="pt" lang="pt" title="Português (Portuguese)">Português</a></li>
+                    <li><a href="#" data-lang="ro" lang="ro" title="Română (Romanian)">Română</a></li>
+                    <li><a href="#" data-lang="ru" lang="ru" title="Русский (Russian)">Русский</a></li>
+                    <li><a href="#" data-lang="tr" lang="tr" title="Türkçe (Turkish)">Türkçe</a></li>
+                    <li><a href="#" data-lang="uk" lang="uk" title="Українська (Ukrainian)">Українська</a></li>
+                    <li><a href="#" data-lang="zh" lang="zh-Hans" title="简体中文 (Simplified Chinese)">简体中文</a></li>
+                    <li><a href="#" data-lang="ch" lang="zh-Hant" title="繁體中文 (Traditional Chinese)">繁體中文</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-help" aria-hidden="true" aria-labelledby="menu-help" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Ayuda</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="help-buttons" role="menu">
+                <button type="button" class="help-button" id="help-1" role="menuitem" title="Introducción">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Introducción</span>
+                </button>
+                <button type="button" class="help-button" id="help-2" role="menuitem" title="Navegación por el curso">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Navegación por el curso</span>
+                </button>
+                <button type="button" class="help-button" id="help-3" role="menuitem" title="Evaluación y certificados">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Evaluación y certificados</span>
+                </button>
+                <button type="button" class="help-button" id="help-4" role="menuitem" title="Packet Tracer: Tutorial de instalación">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Packet Tracer: Tutorial de instalación</span>
+                </button>
+                <button type="button" class="help-button" id="help-5" role="menuitem" title="Packet Tracer: Tutorial de navegación">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Packet Tracer: Tutorial de navegación</span>
+                </button>
+                <div class="help-button" role="menuitem" title="Encuéntrenos en Facebook">
+                  <a href="http://www.facebook.com/cisconetworkingacademy" target="facebook-netacad">
+                    <div class="help-facebook-icon"></div>
+                    <div class="help-button-label">Encuéntrenos en Facebook</div>
+                  </a>
+                </div>
+              </div>
+              <div id="help-content" tabindex="-1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-developer" aria-hidden="true" aria-labelledby="menu-developer" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Developer Tools</div>
+            <button type="button" class="overlay-close-button" title="Cerrar">
+              <span aria-hidden="true">Cerrar</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <ul class="items">
+                <li><button id="clear-local-storage-button">Clear Local Storage</button></li>
+                <li><button id="clear-background-button">Clear Background</button></li>
+                <li>
+                  <button id="enable-pseudolocalization-button">Enable Pseudolocalization</button>
+                  <button id="disable-pseudolocalization-button">Disable Pseudolocalization</button>
+                </li>
+                <li><button id="disable-developer-tools-button">Disable Developer Tools</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu" role="menu">
+        <div class="menu-buttons">
+          <button type="button" class="menu-button" role="menuitem" id="menu-developer" title="Developer Tools" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Developer Tools</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-recent-pages" title="Páginas recientes" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Páginas recientes</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-bookmarks" title="Marcadores" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Marcadores</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-course-index" title="Índice del curso" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Índice del curso</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-search" title="Buscar" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Buscar</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-languages" title="Idiomas" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Idiomas</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-backgrounds" title="Seleccionar fondo" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Seleccionar fondo</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-help" title="Ayuda" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Ayuda</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-return" title="Volver a la clase">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Volver a la clase</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
