@@ -1,0 +1,64 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Cuatro unidades básicas de electricidad</b>]]></text>
+	</component>
+	
+	
+	 <component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="100"><font color='#FFFFFF' ><b>Unidad eléctrica</b></font></td>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Se mide en…</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Voltaje (V)</td>
+			<td bgcolor='#E9E7E8'>Voltios (V)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Esta es una medida de trabajo necesaria para mover una carga desde una ubicación a otra.</li><li>La fuente de alimentación de una computadora suele producir muchos voltajes distintos.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Corriente (I)</td>
+			<td bgcolor='#F2F2F2'>Amperes o amperios (A)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-14'><ul><li>Esta es una medida de la cantidad de electrones que se mueven en un circuito por segundo.</li><li>Las fuentes de alimentación de las computadoras envían distintos amperajes para cada voltaje de salida.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Resistencia (R)</td>
+			<td bgcolor='#E9E7E8'>Ohmios (O)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Esto se refiere a la oposición al flujo de corriente en un circuito.</li><li>A menor resistencia, mayor es la corriente que fluye por un circuito.</li><li>Un fusible adecuado tiene una baja resistencia o, prácticamente, 0 ohmios.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Potencia (P)</td>
+			<td bgcolor='#F2F2F2'>Vatios (W)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-14'><ul><li>Es la medida del trabajo requerido para mover los electrones a través de un circuito (voltaje), multiplicada por la cantidad de electrones que pasan por dicho circuito por segundo (corriente).</li><li>Las fuentes de alimentación de las computadoras se calculan en vatios.</li></ul></textformat></td>
+		</tr>
+	</table>]]></text> 
+</component>
+	
+
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Fuente de alimentación de voltaje dual</b>]]></text>
+	</component>
+	
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Condensadores de la fuente de alimentación</b>]]></text> 
+  </component>
+  
+<component id="ID_s3_txt01">
+<text><![CDATA[<b>Condensadores</b>]]></text>
+</component>
+
+	
+	
+</textcomponents>

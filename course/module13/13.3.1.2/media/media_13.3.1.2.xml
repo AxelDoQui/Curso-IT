@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>Lista de comprobación de información</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<textformat blockindent='-18'><li>Información de contacto</li><li>¿Cuál es el fabricante y el modelo de la computadora?</li><li>¿Qué sistema operativo utiliza la computadora?</li><li>¿La computadora está enchufada a la pared o funciona a batería?</li><li>¿La computadora está en una red? Si es así, ¿es una conexión inalámbrica o cableada?</li><li>¿Había alguna aplicación específica en uso cuando se produjo el problema?</li><li>¿Se instalaron actualizaciones o controladores nuevos recientemente? De ser así, ¿cuáles?</li><li>Descripción del problema</li><li>Prioridad del problema</li></textformat>]]></text> 
+    </component>
+
+</textcomponents>

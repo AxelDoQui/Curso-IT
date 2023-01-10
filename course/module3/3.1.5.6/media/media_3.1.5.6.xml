@@ -1,0 +1,67 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Conectores del panel frontal</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Conectores del panel de sistema</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Indicador de flecha del pin 1</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Indicador del pin 1 del conector del panel de sistema</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[Pin 1]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Conectores USB de la placa madre</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Conector USB interno</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Especificaciones de conexión de los cables del panel frontal</b>]]></text>
+</component>
+
+<component id="ID_s7_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Panel frontal</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Especificaciones de conexión</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Botón Encendido</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable de dos pines del botón Encendido en el panel frontal con los pines del botón Encendido en la placa madre.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Botón Restablecer</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable de dos pines del botón Restablecer en el panel frontal con los pines del botón Restablecer en la placa madre.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>LED de encendido</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable del LED de encendido en el panel frontal con los pines del LED de encendido en la placa madre.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>LED de actividad de la unidad</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable de actividad de la unidad en el panel frontal con los pines de actividad de la unidad en la placa madre.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Altavoz del sistema</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable de altavoz del sistema en el panel frontal con los pines de altavoz del sistema en la placa madre.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Cables de audio</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Debido a las funciones especializadas y variedad del hardware, consulte la documentación de la placa madre, del gabinete y del panel de audio para obtener instrucciones específicas.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alinear el pin 1 del cable USB con los pines USB de la placa madre.</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+</textcomponents>

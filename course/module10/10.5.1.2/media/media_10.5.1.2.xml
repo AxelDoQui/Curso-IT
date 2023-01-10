@@ -1,0 +1,38 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Establecer una teoría de causas probables</b>]]></text>
+	</component>
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 2: Establecer una teoría de causas probables</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>Causas comunes de los problemas de los sistemas operativos de dispositivos móviles</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>El dispositivo móvil no puede enviar ni recibir correo electrónico.</li>
+				<li>Una aplicación dejó de funcionar.</li>
+				<li>Se transmitió una aplicación maliciosa.</li>
+				<li>El dispositivo móvil ya no responde.</li>
+				<li>El software o las aplicaciones del dispositivo móvil no están actualizados.</li>
+				<li>Un usuario olvidó la contraseña.</li>
+			</textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Causas comunes de los problemas de OS X y Linux</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+				<li>La computadora no envía ni recibe correo electrónico.</li>
+				<li>Una aplicación dejó de funcionar.</li>
+				<li>Se instaló una aplicación maliciosa.</li>
+				<li>La computadora ya no responde.</li>
+				<li>El sistema operativo no está actualizado.</li>
+				<li>Un usuario olvidó las credenciales de inicio de sesión.</li>
+			</textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

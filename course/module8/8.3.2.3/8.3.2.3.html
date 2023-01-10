@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.3 Servicios web</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Servicios web</h1>
+        <div>
+          <p>Los recursos web son proporcionados por un servidor web. El host accede a los recursos web mediante el protocolo de transferencia de hipertexto (HTTP) o HTTP seguro (HTTPS). HTTP es un conjunto de reglas para intercambiar texto, imágenes gráficas, sonido y video en la World Wide Web. El HTTPS agrega el cifrado y los servicios de autenticación mediante el protocolo de capa de sockets seguros (SSL) o el más reciente protocolo de seguridad de capas de transporte (TLS). HTTP funciona en el puerto 80. El HTTPS funciona en el puerto 443. </p>
+          <p></p>
+          <p>Para comprender mejor cómo interactúa el navegador web con el servidor web, podemos analizar cómo se abre una página web en un navegador. Para este ejemplo, utilice el URL http://www.cisco.com/index.html.</p>
+          <p></p>
+          <p>Primero, el navegador interpreta las tres partes del URL, como se muestra en la Figura 1:</p>
+          <p></p>
+          <p>1. <b>http</b> (el protocolo o esquema)</p>
+          <p>2. <b>www.cisco.com</b> (el nombre del servidor)</p>
+          <p>3. <b>index.html</b> (el nombre de archivo específico solicitado)</p>
+          <p></p>
+          <p>El navegador luego verifica con un servidor de nombres de dominio (DNS) para convertir a www.cisco.com en una dirección numérica que utilizará para conectarse con el servidor. Mediante los requisitos de HTTP, el navegador envía una solicitud GET al servidor y solicita el archivo index.html, como se muestra en la Figura 2. El servidor envía el código HTML para la página web al navegador del cliente, como se muestra en la Figura 3. Finalmente, el navegador descifra el código HTML y da formato a la página para que se pueda visualizar en la ventana del navegador, como se muestra en la figura 4.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

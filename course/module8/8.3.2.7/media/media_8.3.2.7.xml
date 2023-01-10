@@ -1,0 +1,24 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>El servidor proxy oculta sitios web</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Servidor HTTP]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Red]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[Cliente]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Página web]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Servidor proxy]]></text> 
+</component>
+</textcomponents>

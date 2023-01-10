@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Establecer la conexión a un router inalámbrico y configurar los parámetros básicos]]></text>
+	</component>
+	
+</textcomponents>

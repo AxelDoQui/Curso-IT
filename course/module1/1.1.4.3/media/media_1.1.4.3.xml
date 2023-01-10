@@ -1,0 +1,128 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[Nota: Esta lista no es exhaustiva.]]></text> 
+  </component>
+
+<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Resoluciones de pantalla</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr class="mtable_title">
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Estándar de pantalla</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Pixeles lineales</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Relación de aspecto</b></font></td>
+				
+			</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>VGA</td>
+			<td bgcolor='#E9E7E8'>640 x 480</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>SVGA</td>
+			<td bgcolor='#F2F2F2'>800 x 600</td>
+			<td bgcolor='#F2F2F2'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>HD</td>
+			<td bgcolor='#E9E7E8'>1280 x 720</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WXGA</td>
+			<td bgcolor='#F2F2F2'>1280 x 800</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>SXGA</td>
+			<td bgcolor='#E9E7E8'>1280 x 1024</td>
+			<td bgcolor='#E9E7E8'>5:4</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QHD</td>
+			<td bgcolor='#F2F2F2'>1440 x 2560</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UXGA</td>
+			<td bgcolor='#E9E7E8'>1600 x 1200</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>FHD</td>
+			<td bgcolor='#F2F2F2'>1920 x 1080</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UHD</td>
+			<td bgcolor='#E9E7E8'>3840 x 2160</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WQUXGA</td>
+			<td bgcolor='#F2F2F2'>3840 x 2400</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FUHD</td>
+			<td bgcolor='#E9E7E8'>7680 x 4320</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QUHD</td>
+			<td bgcolor='#F2F2F2'>15 360 x 8640</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+  <text><![CDATA[<b>Conexión de varios monitores a una única computadora</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_btn01">
+  <text><![CDATA[Hardware necesario]]></text>
+  </component>
+<component id="ID_s2_btn02">
+  <text><![CDATA[Configuración del software]]></text> 
+  </component>
+<component id="ID_s2_btn03">
+  <text><![CDATA[Ventajas]]></text> 
+  </component>
+  
+  <component id="ID_s2_title01">
+  <text><![CDATA[<b>Hardware necesario</b>]]></text>
+  </component>
+<component id="ID_s2_title02">
+  <text><![CDATA[<b>Configuración del software</b>]]></text> 
+  </component>
+<component id="ID_s2_title03">
+  <text><![CDATA[<b>Ventajas</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_txt01">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>Dos o más puertos de video</li><li>Monitor(es) adicional(es)</li></ul></textformat>]]></text>
+  </component>
+<!--<component id="ID_s2_txt02">
+  <text><![CDATA[<textformat blockindent='14'>1. Haga clic en <b>Inicio > Panel de control > Pantalla</b>.</textformat><br/>2. <textformat blockindent='14'>Haga clic en <b>Cambiar configuración de pantalla</b>. (En la <span class="alignment">ventana Resolución de pantalla se deben mostrar</span><span class="alignment">dos iconos de monitor. Si no se muestran varios monitores</span> en <span class="alignment">la pantalla, es posible que el monitor</span><span class="alignment">no sea compatible).</span></textformat><br/>3. <textformat blockindent='14'>Haga clic en el icono de monitor que representa <span class="alignment">la pantalla principal. Si el monitor no</span><span class="alignment"> está en la pantalla principal, marque la casilla</span> <span class="alignment">junto a <b>Convertir esta pantalla en la principal</b>.</span></textformat><BR/>4. <textformat blockindent='14'>Elija <b>Extender estas pantallas</b> en el cuadro desplegable <span class="alignment"><b>Varias pantallas</b>.</span></textformat><BR/><li>5. <textformat blockindent='14'>Haga clic en<b> Identificar</b>. Windows 7 mostrará números<span class="alignment">grandes para identificar los dos monitores.</span> <span class="alignment">Arrastre y coloque los iconos de monitor que coinciden</span> <span class="alignment">con la disposición física de los monitores.</span></textformat><BR/><BR/>6. <textformat blockindent='14'>Elija la <b>Resolución</b> y la<span class="alignment"><b>Orientación</b> deseadas en los cuadros desplegables.</span></textformat><br/>7. <textformat blockindent='14'>Haga clic en <b>Aceptar</b>.</textformat>]]></text> 
+  </component>-->
+
+ <component id="ID_s2_txt02">
+  <text><![CDATA[1. <textformat blockindent='14'>Haga clic en <b>Inicio > Panel de control > Pantalla</b>.</textformat><BR/><BR/>2. <textformat blockindent='14'>Haga clic en <b>Cambiar configuración de pantalla</b>. (En la <span class="alignment">ventana Resolución de pantalla se deben mostrar</span> <br/><span class="alignment">dos iconos de monitor. Si no se muestran varios monitores</span> en <br/><span class="alignment">la pantalla, es posible que el monitor</span> <br/><span class="alignment">no sea compatible).</span></textformat><BR/><BR/>3. <textformat blockindent='14'>Haga clic en el icono de monitor que representa <br/><span class="alignment">la pantalla principal. Si el monitor no</span> <br/><span class="alignment">está en la pantalla principal, marque la casilla</span> <br/><span class="alignment">junto a <b>Convertir esta pantalla en la principal</b>.</span></textformat><BR/><BR/>4. <textformat blockindent='14'>Elija <b>Extender estas pantallas</b> en el cuadro desplegable <br/><span class="alignment"><b>Varias pantallas</b>.</span></textformat><BR/><BR/>5. <textformat blockindent='14'>Haga clic en<b> Identificar</b>.  Windows 7 mostrará números <br/><span class="alignment">grandes para identificar los dos monitores.</span> <br/><span class="alignment">Arrastre y coloque los iconos de monitor que coinciden</span> <br/><span class="alignment">con la disposición física de los monitores.</span></textformat><BR/><BR/>6. <textformat blockindent='14'>Elija la <b>Resolución</b> y la <br/><span class="alignment"><b>Orientación</b>deseadas en los cuadros desplegables.</span></textformat><br/><br/>7. <textformat blockindent='14'>Haga clic en <b>Aceptar</b>.</textformat>]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>Una forma menos costosa de mejorar una computadora es ampliar el escritorio de Windows en dos monitores.</li><li>También se puede utilizar Dualview para agregar un segundo monitor las PC portátiles.</li><li>El uso de varios monitores aumenta la productividad. Por ejemplo, un usuario puede utilizar una pantalla para realizar una videoconferencia mientras toma notas en una aplicación que se muestra en el otro monitor.</li></ul></textformat>]]></text> 
+  </component>
+    
+<component id="transcript">
+  <text><![CDATA[<b>transcript goes here</b>]]></text> 
+  </component>
+</textcomponents>

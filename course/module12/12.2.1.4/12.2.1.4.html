@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.1.4 Configuración de seguridad para las directivas de cuenta</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración de seguridad para las directivas de cuenta</h1>
+        <div>
+          <p>Al asignar contraseñas, el nivel de control de la contraseña debe coincidir con el nivel de protección requerido. Asigne contraseñas seguras siempre que sea posible. La Figura 1 muestra las pautas para crear contraseñas seguras.</p>
+          <p></p>
+          <p>Utilice las <b>directivas de contraseña</b> en <b>directivas de cuenta</b> para aplicar las solicitudes de contraseña. Las configuraciones de la Figura 2 cumplen con los siguientes requisitos:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Aplique el historial de contraseñas</b>: El usuario puede reutilizar una contraseña después de que se hayan guardado 24 contraseñas únicas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Duración máxima de contraseña</b>: El usuario debe cambiar la contraseña después de 90 días.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Antigüedad mínima de contraseña</b>: El usuario debe esperar un día antes de cambiar una contraseña nuevamente. Esto evita que los usuarios introduzcan una contraseña diferente 24 veces para utilizar una contraseña anterior nuevamente.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longitud mínima de la contraseña</b>: La contraseña debe tener al menos 8 caracteres.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La contraseña debe cumplir con los requisitos de complejidad</b>: La contraseña no debe contener el nombre de la cuenta o partes del nombre completo del usuario que excedan dos caracteres consecutivos. La contraseña debe tener tres de las cuatro siguientes categorías: letras mayúsculas, letras en minúsculas, números, y símbolos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Guarde las contraseñas mediante cifrado reversible</b>: Guardar las contraseñas mediante cifrado reversible es esencialmente lo mismo que almacenar versiones de texto no cifrado de contraseñas. Por este motivo, esta directiva nunca debe activarse a menos que los requisitos de aplicaciones sobrepasen la necesidad de proteger la contraseña.</li>
+            </ul>
+          </p>
+          <p>Utilice la <b>Directiva de bloqueo de cuentas</b> en<b> Directivas de cuentas</b> para evitar los intentos de inicio de sesión por fuerza bruta. Por ejemplo, la configuración que se muestra en la Figura 3 permite que el usuario introduzca el nombre de usuario incorrecto o la contraseña cinco veces. Después de cinco intentos, la cuenta queda bloqueada por 30 minutos. Después de 30 minutos, la cantidad de intentos se restablece a cero y el usuario puede intentar iniciar sesión nuevamente. Esta directiva también protegería contra un ataque de diccionario, donde cada palabra en el diccionario se ingresa para intentar obtener acceso.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

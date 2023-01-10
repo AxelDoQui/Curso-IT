@@ -1,0 +1,245 @@
+﻿<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Tipo de ataques TCP/IP</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Denegación de servicio (DoS)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[DoS distribuida]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Syn Flood]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Suplantación de identidad (spoofing)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Ataque man-in-the-middle]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Reproducción]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Envenenamiento de DNS]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>Ataques TCP/IP</b>]]></text>
+	</component><!-- Slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Ataque de DoS</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Internet]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>WWW.XYZCORP.COM</b><br/>servidor web]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Atacante de DoS]]></text>
+	</component>
+
+	<component id="ID_s2_txt04">
+	<text><![CDATA[<font color="#FFFFFF">Este sitio web está muy lento hoy.</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt05">
+	<text><![CDATA[<font color="#FFFFFF">Enviaré tantos pings que el servidor no podrá responder a nadie más.</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt06">
+	<text><![CDATA[<font color="#FFFFFF">¡Ayuda, no puedo terminar ninguna tarea!</font>]]></text>
+	</component><!-- controller --><component id="end02">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward02">
+		<text><![CDATA[Adelantar]]></text>
+		</component>
+		
+		<component id="pause02">
+		<text><![CDATA[Pausar]]></text>
+		</component>
+		
+		<component id="play02">
+		<text><![CDATA[Reproducir]]></text>
+		</component>
+		
+		<component id="rewind02">
+		<text><![CDATA[Regresar]]></text>
+		</component>
+		
+		<component id="start02">
+		<text><![CDATA[Inicio]]></text>
+		</component><!-- Slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>Ataque DDoS</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Código de DDoS activado.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt03">
+	<text><![CDATA[<b>WWW.ABCBANK.COM</b></br>Código de DDoS activado.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt04">
+	<text><![CDATA[Atacante de DDoS]]></text> 
+	</component>
+
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Internet]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt06">
+	<text><![CDATA[<font color="#FFFFFF">Usé Internet para infectar computadoras con el código de DDoS. Activaré todas ahora.</font>]]></text> 
+
+	</component>
+	<component id="ID_s3_txt07">
+	<text><![CDATA[<font color="#FFFFFF">Tengo una sobrecarga de tráfico.</font>]]></text> 
+	</component>
+
+	<component id="ID_s3_txt08">
+	<text><![CDATA[<font color="#393536">Código de DDoS activado.</font>]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt09">
+	<text><![CDATA[<font color="#393536">Código de DDoS activado.</font>]]></text> 
+	</component><!-- controller --><component id="end03">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward03">
+		<text><![CDATA[Adelantar]]></text>
+		</component>
+		
+		<component id="pause03">
+		<text><![CDATA[Pausar]]></text>
+		</component>
+		
+		<component id="play03">
+		<text><![CDATA[Reproducir]]></text>
+		</component>
+		
+		<component id="rewind03">
+		<text><![CDATA[Regresar]]></text>
+		</component>
+		
+		<component id="start03">
+		<text><![CDATA[Inicio]]></text>
+		</component><!-- Slide 4 --><component id="ID_s4_title">
+		<text><![CDATA[<b>Ejemplo de ataque TCP SYN Flood</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>El atacante envía varias solicitudes SYN a un servidor web.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Un usuario válido envía una solicitud SYN.</b>]]></text>
+	</component>
+	
+		<component id="ID_s4_txt03">
+		<text><![CDATA[Servidor web]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+		<text><![CDATA[<b>Un servidor web envía respuestas SYN-ACK.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt05">
+		<text><![CDATA[<b>El servidor web espera a completar un protocolo de enlace de tres vías.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt06">
+		<text><![CDATA[<b>El servidor web no está disponible.</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt07">
+		<text><![CDATA[Servidor web]]></text>
+	</component>
+	<component id="ID_s4_txt08">
+		<text><![CDATA[Servidor web]]></text>
+	</component><!-- Slide 5 --><component id="ID_s5_title">
+		<text><![CDATA[<b>Ejemplo de ataque man-in-the-middle</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt01">
+		<text><![CDATA[Víctima]]></text>
+	</component>
+	
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Servidor web]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>Paso 1</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt02">
+		<text><![CDATA[<b>Paso 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt03">
+		<text><![CDATA[<b>Paso 3</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt04">
+		<text><![CDATA[<b>Paso 4</b>]]></text>
+	</component>
+
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[Cuando la víctima solicita una página web, la solicitud se dirige a la computadora del atacante.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt02">
+		<text><![CDATA[La computadora del atacante recibe la solicitud y recupera la página verdadera del sitio web legítimo.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt03">
+		<text><![CDATA[El atacante puede alterar la página web legítima y aplicar modificaciones a los datos.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt04">
+		<text><![CDATA[El atacante le reenvía la página solicitada a la víctima.]]></text>
+	</component>
+	
+	<component id="ID_inst">
+		<text><![CDATA[Haga clic en los números para obtener más información.]]></text>
+	</component>
+	
+
+	<component id="end">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward">
+		<text><![CDATA[Adelantar]]></text>
+		</component>
+		
+		<component id="pause">
+		<text><![CDATA[Pausar]]></text>
+		</component>
+		
+		<component id="play">
+		<text><![CDATA[Reproducir]]></text>
+		</component>
+		
+		<component id="rewind">
+		<text><![CDATA[Regresar]]></text>
+		</component>
+		
+		<component id="start">
+		<text><![CDATA[Inicio]]></text>
+		</component>
+	
+
+</textcomponents>

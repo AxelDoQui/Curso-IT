@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Opciones de configuración de la impresora</b>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,24 @@
+﻿<textcomponents>
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 5: Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td width="200" bgcolor='#F2F2F2'>Verificar la funcionalidad total.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Utilice el comando ipconfig /all para visualizar la información de las direcciones IP de todos los adaptadores de red.</li>
+				<li>Utilice el comando Ping para revisar la conectividad de red. Esto envía un paquete a la dirección especificada y muestra la información de respuesta.</li>
+				<li>Utilice NSLookup para consultar un servidor de nombres de dominio de Internet. Esto devuelve una lista de hosts de un dominio o la información de un host.</li>
+				<li>Utilice Tracert para determinar la ruta que toman los paquetes cuando se desplazan a través de la red. Esto muestra dónde se dificulta la comunicación entre su PC y otra PC.</li>
+				<li>Utilice Net View para ver una lista de PC de un grupo de trabajo. Esto muestra los recursos compartidos disponibles en una red.</li></ul></textformat>
+			</td> 
+		</tr>	
+	</table>]]></text>
+	</component>
+	
+</textcomponents>

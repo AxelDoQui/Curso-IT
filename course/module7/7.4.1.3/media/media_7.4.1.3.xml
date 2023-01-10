@@ -1,0 +1,35 @@
+﻿<textcomponents>
+		<component id="ID_s2_title">
+	<text><![CDATA[<b>El rol de la máscara de subred</b>]]></text>
+	</component>  	
+
+	<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Porción de red</b>]]></text>
+	</component> 
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>Porción de host</b>]]></text>
+	</component>  
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Conversión de sistema binario a decimal</b>]]></text>
+	</component>  	
+
+	<component id="ID_s3_txt01">
+	<text><![CDATA[Dirección IPv4 en notación binaria]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Cada octeto tiene 8 bits]]></text>
+	</component> 
+	<component id="ID_s3_txt03">
+	<text><![CDATA[Cada bit representa un número]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt04">
+	<text><![CDATA[Todos los "1" se agregan juntos]]></text>
+	</component>
+	
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Dirección IPv4 en notación decimal punteada]]></text>
+	</component>  
+</textcomponents>

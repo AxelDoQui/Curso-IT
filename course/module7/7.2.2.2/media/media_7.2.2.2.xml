@@ -1,0 +1,38 @@
+<textcomponents> 
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3"><font size="16"><b>Estándares Ethernet</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Estándares Ethernet</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Medios</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Velocidades de transferencia</b></font></td>	
+	</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' width="150px" valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td bgcolor='#E9E7E8' width="150px"><font size='12' color='#393536' >Categoría 3</font></td> 
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Transfiere datos a una velocidad de 10 Mb/s.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Categoría 5</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Las velocidades de transferencia de 100BASE-TX, de 100 Mb/s, son diez veces más rápidas que las de 10BASE-T.</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Categorías 5e, 6</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>La arquitectura 1000BASE-T admite velocidades de transferencia de datos de 1 Gb/s.</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Categorías 6a, 7</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>La arquitectura 10GBASE-T admite velocidades de transferencia de datos de 10 Gb/s.</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component> 
+</textcomponents>

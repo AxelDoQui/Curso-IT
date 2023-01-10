@@ -1,0 +1,53 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Clientes ligeros frente a pesados</b>]]></text> 
+</component>
+
+
+<component id="ID_table">
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+            <td bgcolor='#666263' width='200'><br/><font size="16" color='#393536'></font></td>
+			<td bgcolor='#666263' width="200"><font color='#FFFFFF' ><b>Clientes pesados</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Clientes ligeros</b></font></td>
+		</tr>
+		<tr>
+  <td bgcolor='#F2F2F2'><b>Recursos requeridos</b></td>
+		<td bgcolor='#F2F2F2'>Monitor, mouse, teclado, torre (con CPU y RAM), almacenamiento interno</td>
+		<td bgcolor='#F2F2F2'>Monitor, mouse, teclado, computadora pequeña</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Espacio</b></td>
+		<td bgcolor='#E9E7E8'>Grande</td>
+		<td bgcolor='#E9E7E8'>Pequeño</td>
+	</tr>
+	<tr>
+  <td bgcolor='#F2F2F2'><b>Acceso a la red</b></td>
+		<td bgcolor='#F2F2F2'>Opcional</td>
+		<td bgcolor='#F2F2F2'>Obligatorio</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Realización del procesamiento de datos</b></td>
+		<td bgcolor='#E9E7E8'>En forma local en la computadora</td>
+		<td bgcolor='#E9E7E8'>En forma remota en servidores</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>Esfuerzo para implementar a nivel corporativo</b></td>
+		<td bgcolor='#E9E7E8'>Más</td>
+		<td bgcolor='#E9E7E8'>Menos</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Costo de implementar a nivel corporativo</b></td>
+		<td bgcolor='#E9E7E8'>Más</td>
+		<td bgcolor='#E9E7E8'>Menos</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

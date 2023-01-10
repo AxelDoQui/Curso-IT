@@ -1,0 +1,33 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Poner a prueba la teoría para determinar la causa</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 3: Poner a prueba la teoría para determinar la causa</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+     
+            <tr>
+                <td bgcolor='#E9E7E8' width='150'>Pasos comunes para determinar la causa</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Desconectarse de la red.</li>
+                       <li>Actualizar las firmas de antivirus y spyware.</li>
+                       <li>Examinar la computadora con un software de protección.</li>
+                       <li>Revisar que la computadora tenga los últimos parches y actualizaciones del sistema operativo.</li>
+                       <li>Reiniciar la computadora o el dispositivo de red.</li>
+                       <li>Iniciar sesión como usuario administrador para cambiar la contraseña de un usuario.</li>
+                       <li>Implementar medidas de seguridad en salas de equipos.</li>
+                       <li>Implementar medidas de seguridad en el entorno laboral.</li>
+                       <li>Hacer cumplir la política de seguridad.</li></ul></textformat></td> 
+            </tr>
+        </table>]]></text>
+    </component>
+    
+
+</textcomponents>

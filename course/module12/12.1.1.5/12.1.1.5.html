@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.1.1.5 Ataques TCP/IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ataques TCP/IP</h1>
+        <div>
+          <p>Para controlar la comunicación por Internet, su computadora utiliza la suite de protocolos TCP/IP. Lamentablemente, algunas características de TCP/IP se pueden manipular, lo que provoca vulnerabilidades de la red.</p>
+          <p></p>
+          <p>Como se muestra en la Figura 1, el TCP/IP es vulnerable a los siguientes tipos de ataques:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Denegación de servicio (DoS)</b>: (Figura 2) DoS es un tipo de ataque que genera una anormal gran cantidad de solicitudes a servidores de red, como correo electrónico o servidores web. El objetivo del ataque es saturar completamente el servidor con solicitudes falsas que crean una denegación de servicio para los usuarios legítimos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>DoS distribuido (DDoS)</b>: (Figura 3) un ataque de DDoS es como un ataque DoS pero se crea utilizando muchas más computadoras, a veces miles, para iniciar el ataque. Las computadoras primero se infectan con software malicioso de DDoS y después se convierten en zombis, un ejército de zombis, o botnets. Después de que las computadoras se hayan infectado, se mantienen dormidos hasta que se requieren para crear un ataque de DDoS. Las computadoras zombi ubicadas en diferentes ubicaciones geográficas dificultan ubicar el origen del ataque.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Inundación SYN</b>: (Figura 4) Una solicitud SYN es la comunicación inicial que se envía para establecer una conexión TCP. Un ataque de saturación SYN abre de forma aleatoria los puertos TCP en el origen del ataque y satura el equipo o la PC de la red con una gran cantidad de solicitudes SYN falsas. Esto hace que se nieguen sesiones para otros. Un ataque de congestión SYN es un tipo de ataque DoS.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Suplantación de identidad</b>: En un ataque de suplantación de identidad (spoofing), una computadora finge ser una computadora de confianza para obtener acceso a los recursos. La PC utiliza una dirección IP o MAC falsificada para hacerse pasar por una PC de confianza en la red. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Man-in-the-middle</b>: (Figura 5) Un atacante realiza un ataque man-in-the-middle (MitM) al interceptar las comunicaciones entre las computadoras para robar la información que transita por la red. También se puede utilizar un ataque man-in-the-middle para manipular mensajes y retransmitir información falsa entre hosts, puesto que los hosts no saben que se modificaron los mensajes. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Reproducción</b>: Para realizar un ataque de reproducción, el atacante intercepta y registra las transmisiones de datos. Luego, esas transmisiones se reproducen en la PC de destino. La PC de destino trata a esas transmisiones reproducidas como si fueran auténticas y las enviara la fuente original. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Envenenamiento de DNS</b>: Los registros DNS del sistema se cambian para que señalen a servidores impostores. El usuario intenta acceder a un sitio legítimo, pero el tráfico se desvía a un sitio impostor. El sitio impostor se utiliza para obtener información confidencial, como nombres de usuario y contraseñas. Luego, un atacante puede recuperar los datos desde esa ubicación.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

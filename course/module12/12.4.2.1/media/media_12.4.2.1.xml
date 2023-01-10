@@ -1,0 +1,91 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Síntoma del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Una red inalámbrica se ve comprometida incluso con el cifrado WEP de 128 bits activo.</td>
+		<td bgcolor='#E9E7E8'>Un hacker ejecuta herramientas inalámbricas de hacking comúnmente disponibles para decodificar el cifrado.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Actualizar el cifrado de WPA.</li>
+			<li>Agregar filtrado de direcciones MAC para clientes más antiguos que no admitan WPA.</li></ul></textformat>
+	</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Un usuario recibe cientos o miles de correos electrónicos basura todos los días.</td>
+		<td bgcolor='#F2F2F2'>La red no proporciona detección de emisores de correo no deseado o protección contra estos al servidor de correo electrónico.</td>		
+		<td bgcolor='#F2F2F2'>Instalar un antivirus o un programa de software de correo electrónico que elimine el correo no deseado de la bandeja de entrada.</td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Se ve a un técnico desconocido de reparación de impresoras buscando algo debajo de los teclados y en los escritorios.</td>
+		<td bgcolor='#E9E7E8'>No se controla de forma adecuada a los visitantes o se robaron credenciales de usuario para ingresar al edificio.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Llamar a Seguridad o a la policía.</li>
+			<li>Aconsejarles a los usuarios que nunca escondan contraseñas cerca del área de trabajo.</li></ul></textformat>
+	    </td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Se descubre un punto de acceso inalámbrico no autorizado en la red.</td>
+		<td bgcolor='#F2F2F2'>Un usuario agregó un punto de acceso inalámbrico para aumentar el alcance inalámbrico de la red de la empresa.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Desconectar y confisque el dispositivo no autorizado.</li>
+			<li>Aplicar la política de seguridad con la toma de medidas contra el responsable de la infracción de seguridad.</li></ul></textformat>
+	    </td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Algunos usuarios infectan con virus las computadoras de la red mediante unidades de memoria flash.</td>
+		<td bgcolor='#E9E7E8'>La unidad de memoria flash está infectada con un virus y el software antivirus no la examina cuando una computadora conectada a la red accede a la unidad.</td>
+		<td bgcolor='#E9E7E8'>Establecer el software de protección de virus para que examine los medios extraíbles cuando se acceda a los datos en ellos.</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Se muestra una alerta de seguridad.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>El firewall de Windows está desactivado.</li>
+			<li>Las definiciones de virus están desactualizadas.</li>
+			<li>Se detectó malware.</li></ul></textformat>
+	</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Activar el firewall de Windows.</li>
+			<li>Actualizar las definiciones de virus.</li>
+			<li>Examinar la computadora para desechar el malware que pueda haber presente.</li></ul></textformat>
+	   </td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Windows Update falla.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>La actualización descargada está dañada.</li>
+			<li>La actualización requiere una actualización anterior que no está instalada.</li></ul></textformat>
+	   </td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Descargar la actualización manualmente e instalarla.</li>
+			<li>Utilizar la herramienta Restaurar sistema para restaurar la computadora a un momento anterior a la instalación que se quiso realizar.</li>
+			<li>Restaurar la computadora desde una copia de seguridad.</li></ul></textformat>
+		</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Se cambió el nombre de los archivos de sistema, se produjo un desperfecto en las aplicaciones, los archivos desaparecen o los permisos de archivos han cambiado.</td>
+		<td bgcolor='#F2F2F2'>La computadora tiene un virus.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>desechar el virus con un software antivirus.</li>
+			<li>Restaurar la computadora desde una copia de seguridad.</li></ul></textformat>
+	</td>
+	</tr>
+ 
+    <tr class="mtable">
+		<td bgcolor='#E9E7E8'>Sus contactos de correo electrónico le informan que reciben correo no deseado enviado desde su dirección.</td>
+		<td bgcolor='#E9E7E8'>Su correo electrónico fue asaltado.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Cambiar la contraseña del correo electrónico.</li>
+			<li>Ponerse en contacto con el soporte del servicio de correo electrónico para restablecer la contraseña.</li></ul></textformat>
+	</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

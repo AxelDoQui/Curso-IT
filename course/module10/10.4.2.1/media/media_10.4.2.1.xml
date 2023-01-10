@@ -1,0 +1,82 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>El formato de la tabla de cron</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="6" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="6" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Minutos</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Horas</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Días</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Meses</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Días laborales</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>Comandos</b></font></td>
+             </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Los campos de la tabla de cron</b>]]></text> 
+    </component>
+    
+    <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8' width='110'>minuto</td>
+                <td bgcolor='#E9E7E8' width='80'>0-59</td>
+                <td bgcolor='#E9E7E8'>El minuto en el que se ejecuta el comando.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>hora</td>
+                <td bgcolor='#F2F2F2'>0-23</td>        
+                <td bgcolor='#F2F2F2'>La hora en la que se ejecuta el comando.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>día</td>
+                <td bgcolor='#E9E7E8'>1-31</td>
+                <td bgcolor='#E9E7E8'>El día del mes en el que se ejecuta el comando.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>mes</td>
+                <td bgcolor='#F2F2F2'>1-12</td>        
+                <td bgcolor='#F2F2F2'>El mes en el que se ejecuta el comando.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>día laboral</td>
+                <td bgcolor='#E9E7E8'>0-6</td>
+                <td bgcolor='#E9E7E8'>El día de la semana en el que se ejecuta el comando.<br/>0 = domingo,<br/>1 = lunes<br/>y así sucesivamente.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>comando</td>
+                <td bgcolor='#F2F2F2'>varía</td>        
+                <td bgcolor='#F2F2F2'>El comando o el conjunto de comandos. Esto debe ser compatible con el shell y el uso.</td>
+            </tr>
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>Ejemplo de tabla de cron</b>]]></text> 
+    </component>
+</textcomponents>

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Cámara web y micrófono</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Cámara web]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Micrófono]]></text>
+	</component>
+</textcomponents>

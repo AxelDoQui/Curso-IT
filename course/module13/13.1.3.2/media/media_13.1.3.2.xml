@@ -1,0 +1,27 @@
+
+
+
+<textcomponents>
+
+	<component id="ID_title">
+	    <text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+	<text><![CDATA[Acuerdo de nivel de servicio]]></text>
+	</component>
+
+	<component id="ID_txt02">
+	<text><![CDATA[<b>4.2.4 SUPERVISIÓN DEL SERVICIO</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+	<text><![CDATA[<b>4.2.5 CONTINGENCIA</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+	<text><![CDATA[<b>4.2.6 PERÍODOS DE MANTENIMIENTO</b>]]></text>
+	</component>
+	<component id="ID_txt05">
+	<text><![CDATA[<b>Garantía del tiempo de respuesta</b>]]></text>
+	</component>
+
+</textcomponents>

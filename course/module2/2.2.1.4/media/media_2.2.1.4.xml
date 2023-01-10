@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[Los alicates se utilizan para cortar y pelar cables.]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[Los pelacables se utilizan para quitar el aislamiento de los cables para que se puedan trenzar con los hilos de otros cables o engarzar a conectores para hacer un cable.]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[Las engarzadoras se utilizan para fijar conectores a los cables.]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[Las herramientas de perforación se utilizan para terminar cables en bloques de terminación.]]></text>
+</component>
+
+</textcomponents>

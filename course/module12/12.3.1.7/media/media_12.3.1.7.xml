@@ -1,0 +1,13 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Visualización de usuarios actuales</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Incorporación de un usuario nuevo</b>]]></text>
+	</component>
+    
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>Modificación de las propiedades de usuario</b>]]></text>
+	</component>
+</textcomponents>

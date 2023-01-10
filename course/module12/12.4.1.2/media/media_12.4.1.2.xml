@@ -1,0 +1,23 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 2: Establecer una teoría de causas probables</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>Causas comunes de los problemas de seguridad</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>Virus</li><li>Caballo de Troya</li><li>Gusano</li><li>Spyware</li><li>Adware</li><li>Grayware o malware</li><li>Ardid de suplantación de identidad (phishing)</li><li>Contraseña comprometida</li><li>Salas de equipos sin protección</li><li>Entorno laboral sin seguridad</li></ul></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

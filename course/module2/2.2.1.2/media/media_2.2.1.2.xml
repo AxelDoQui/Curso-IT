@@ -1,0 +1,8 @@
+﻿<textcomponents>
+	<component id="ID_s1_caption">
+		<text><![CDATA[Las pulseras antiestáticas se utilizan para evitar daños por una descarga electrostática (ESD, electrostatic discharge) a los equipos de computación.]]></text>
+	</component>
+	<component id="ID_s2_caption">
+		<text><![CDATA[Las alfombrillas antiestáticas se utilizan para pararse o colocar hardware sobre ellas a fin de evitar la acumulación de electricidad estática.]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 Concentradores, puentes y switches</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Concentradores, puentes y switches</h1>
+        <div>
+          <p>El equipo utilizado para conectar dispositivos dentro de una LAN evolucionó de concentradores a puentes y a switches.</p>
+          <p></p>
+          <p>
+            <b>Concentradores</b>
+          </p>
+          <p></p>
+          <p>Los concentradores, como se muestran en la Figura 1, reciben los datos en un puerto y luego los envían a todos los demás puertos. Un concentrador extiende el alcance de una red porque regenera la señal eléctrica. El concentrador también se puede conectar a otro dispositivo de red, como un switch o un router conectado a otras secciones de la red.</p>
+          <p></p>
+          <p>En la actualidad, los concentradores no se utilizan con tanta frecuencia debido a la eficacia y el bajo costo de los switches. Los concentradores no segmentan el tráfico de red. Cuando un dispositivo envía el tráfico, el concentrador desborda ese tráfico a todos los otros dispositivos conectados al concentrador. Los dispositivos comparten el ancho de banda.</p>
+          <p></p>
+          <p>
+            <b>Puentes</b>
+          </p>
+          <p></p>
+          <p>Los puentes se introdujeron para dividir la LAN en segmentos. Los puentes llevan un registro de todos los dispositivos en cada segmento.  Un puente puede filtrar el tráfico de red entre los segmentos de la LAN. Esto ayuda a reducir la cantidad de tráfico entre dispositivos. Por ejemplo, en la Figura 2, si la computadora A debe enviar un trabajo a la impresora, el tráfico no se reenviará al segmento 2.  Sin embargo, el servidor también recibirá este tráfico de trabajos de impresión.</p>
+          <p></p>
+          <p>
+            <b>Switches</b>
+          </p>
+          <p></p>
+          <p>Los puentes y concentradores se consideran dispositivos antiguos debido a los beneficios y los costos reducidos de los switches. Como se muestra en la Figura 3, un switch microsegmenta una LAN. La microsegmentación significa que los switches filtran y segmentan el tráfico de red al enviar datos solo al dispositivo al que se envían los datos.  Esto proporciona un mayor ancho de banda dedicado a cada dispositivo de la red. Si hay solamente un dispositivo conectado a cada puerto en un switch, opera en modo de dúplex completo. Este no es el caso con un concentrador. Cuando la computadora A envía un trabajo a la impresora, solo la impresora recibe tráfico.</p>
+          <p></p>
+          <p>Los switches mantienen una tabla de conmutación. La tabla de conmutación contiene una lista de todas las direcciones MAC de la red y una lista de puertos de switch que se pueden utilizar para alcanzar un dispositivo con una dirección MAC determinada. La tabla de conmutación registra las direcciones MAC al inspeccionar la dirección MAC de origen de cada trama entrante, así como el puerto al que llega la trama. A continuación, el switch crea una tabla de conmutación que asigna direcciones MAC a puertos de salida. Cuando llega tráfico destinado a una dirección MAC específica, el switch utiliza la tabla de conmutación para determinar el puerto que se debe utilizar para alcanzar esa dirección MAC. Se reenvía el tráfico desde el puerto hacia el destino. Al enviar tráfico hacia el destino desde un solo puerto, los otros puertos no se ven afectados.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

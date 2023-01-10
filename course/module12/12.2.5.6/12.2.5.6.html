@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.6 Firewalls</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Firewalls</h1>
+        <div>
+          <p>Un firewall de hardware es un componente de filtrado físico que inspecciona los paquetes de datos de la red antes de que lleguen a las PC y a otros dispositivos de una red. Un firewall de hardware es una unidad independiente que no utiliza los recursos de las PC que protege, por lo que el rendimiento de procesamiento no se ve afectado. Es posible configurar el firewall para que bloquee varios puertos individuales, un rango de puertos o, incluso, el tráfico específico de una aplicación. La mayoría de los routers inalámbricos también incluyen un firewall de hardware integrado.</p>
+          <p></p>
+          <p>Los firewalls de hardware permiten el paso de dos tipos de tráfico diferentes a la red:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Las respuestas al tráfico que se origina desde el interior de la red.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El tráfico destinado a un puerto que se dejó intencionalmente abierto.</li>
+            </ul>
+          </p>
+          <p>Existen varios tipos de configuraciones de firewall de hardware:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Filtro de paquetes</b>: Los paquetes no pueden atravesar el firewall, a menos que coincidan con la regla establecida configurada en el firewall. El tráfico puede filtrarse en función de diferentes atributos, como la dirección IP de origen, el puerto de origen, o la dirección IP o el puerto de destino. El tráfico también puede filtrarse en función de los servicios o protocolos de destino, como WWW o FTP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Inspección de paquetes con estado (SPI)</b>: Es un firewall que realiza un seguimiento del estado de las conexiones de red que atraviesan el firewall. Los paquetes que no forman parte de una conexión conocida se descartan. El firewall SPI está habilitado en la Figura 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Capa de aplicación</b>: Se interceptan todos los paquetes que se desplazan desde una aplicación o hacia ella. Se impide que todo el tráfico externo no deseado llegue a los dispositivos protegidos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Proxy</b>: Es un firewall instalado en un servidor proxy que inspecciona todo el tráfico y admite o rechaza paquetes según las reglas configuradas. Un servidor proxy es aquel que actúa como relé entre un cliente y un servidor de destino en Internet.</li>
+            </ul>
+          </p>
+          <p>Los firewalls de hardware y software protegen los datos y los equipos de una red del acceso no autorizado. Se debe utilizar un firewall junto con un software de seguridad. En la Figura 2, se comparan los firewalls de hardware y software.</p>
+          <p></p>
+          <p>
+            <b>Zona desmilitarizada</b>
+          </p>
+          <p></p>
+          <p>Una zona desmilitarizada (DMZ, demilitarized zone) es una subred que proporciona servicios a una red no confiable. Los servidores de correo electrónico, web o FTP suelen colocarse dentro de la DMZ para que el tráfico que utiliza el servidor no ingrese a la red local. Si bien esto protege la red interna contra los ataques de este tráfico, no brinda ningún tipo de protección a los servidores de la DMZ. Es común que un firewall o proxy administren el tráfico que entra a la DMZ y sale de ella.</p>
+          <p></p>
+          <p>En un router inalámbrico, es posible crear una DMZ para un dispositivo reenviando todos los puertos de tráfico de Internet a una dirección IP o MAC específica. Se puede colocar un servidor, una consola de juegos o una cámara web en la DMZ para que todos tengan acceso al dispositivo. No obstante, el dispositivo de la DMZ está expuesto a los ataques de los piratas informáticos de Internet.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

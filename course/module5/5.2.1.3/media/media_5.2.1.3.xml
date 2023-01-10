@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Actividad: Identificar los términos de disco</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada término con su descripción.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correcto]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente cada término con su definición.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente cada término con su descripción. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Verificar]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Restablecer]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_headerX'>
+	<text><![CDATA[<b>Pasos</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Unidad lógica]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Partición extendida]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Partición primaria]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Formateo]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[SSD]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Partición activa]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[Disco básico]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[Disco dinámico]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[Memoria Flash]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[SSHD]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<b>Términos</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Descripción</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Contiene los archivos del sistema operativo. Puede haber hasta cuatro por disco duro y no se pueden subdividir en secciones más pequeñas.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Una sección de una partición extendida.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Utiliza la tecnología de una unidad de disco duro y de una unidad de estado sólido.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Tiene la capacidad de crear volúmenes que se extienden por más de un disco. El tamaño de los volúmenes se puede modificar después de haberlos creado.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Este proceso prepara el sistema de archivos de una partición para que almacene archivos.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Se utiliza para arrancar la computadora y contiene los archivos de arranque y del sistema. Solo puede haber uno de estos por disco.]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[Utiliza memoria flash de alto rendimiento para alcanzar un almacenamiento rápido de datos sin las partes móviles de la HDD.]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[Solo puede haber una por disco duro, pero se puede subdividir en secciones más pequeñas.]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[Un medio de almacenamiento de datos que se puede borrar y volver a escribir eléctricamente.]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[Contiene particiones primarias y extendidas, así como también unidades lógicas. Está limitada a cuatro particiones.]]></text> 
+</component>
+</textcomponents>

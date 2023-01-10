@@ -1,0 +1,34 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 3. Poner a prueba la teoría para determinar la causa</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Pasos comunes para determinar la causa</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Iniciar sesión con un usuario diferente.</li>
+			<li>Utilizar software de diagnóstico de terceros.</li>
+			<li>Determinar si se instalaron software nuevo o actualizaciones de software.</li>
+			<li>Desinstalar aplicaciones instaladas recientemente.</li>
+			<li>Iniciar en Modo seguro para determinar si el problema está relacionado con los controladores.</li>
+			<li>Revertir los controladores actualizados recientemente.</li>
+			<li>Revisar el Administrador de dispositivos para detectar conflictos de dispositivos.</li>
+			<li>Revisar los registros de eventos para ver si hay advertencias o errores.</li>
+			<li>Revisar si el disco duro tiene errores y reparar problemas en el sistema de archivos.</li>
+			<li>Utilizar el Comprobador de archivos de sistema para recuperar los archivos de sistema dañados.</li>
+			<li>Utilizar Restaurar sistema si se instaló una actualización de sistema o un paquete de servicios.</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

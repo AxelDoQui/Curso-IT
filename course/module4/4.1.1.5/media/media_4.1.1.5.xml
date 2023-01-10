@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Temperatura y humedad</b>]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+<text><![CDATA[Condiciones de funcionamiento óptimas]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+<text><![CDATA[<textformat blockindent="-18"><li>Entre 10% y 80% de humedad</li><li>Entre 45 y 90° F (entre 7,2 y 32,2° C)</li></textformat>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[TEMPERATURA]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[HUMEDAD]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,43 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 3: Poner a prueba la teoría para determinar la causa</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Pasos comunes para determinar la causa de los problemas de las computadoras portátiles</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Utilizar un adaptador de CA con la computadora portátil.</li>
+					<li>Reemplazar la batería.</li>
+					<li>Reiniciar la computadora portátil.</li>
+					<li>Revisar la configuración del BIOS.</li>
+					<li>Desconectar y volver a conectar los cables.</li>
+					<li>Desconectar los periféricos.</li><li>Activar y desactivar la tecla Bloq Num.</li>
+					<li>Quitar la memoria RAM y volver a instalarla.</li><li>La tecla Bloq Mayús está activada.</li>
+					<li>Revisar que no haya medios que no sean de arranque en un dispositivo de arranque.</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Pasos comunes para determinar la causa de los problemas de los dispositivos móviles</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Reiniciar el dispositivo móvil.</li>
+					<li>Enchufar el dispositivo a un tomacorriente de CA.</li>
+					<li>Reemplazar la batería del dispositivo móvil.</li>
+					<li>Quitar cualquier batería extraíble y volver a instalarla.</li>
+					<li>Limpiar el altavoz, el micrófono, el puerto de carga u otros puertos de conexión.</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

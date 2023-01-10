@@ -1,0 +1,16 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_caption">
+  <text><![CDATA[Se utiliza un paño suave que no deje pelusa para limpiar los distintos componentes de una computadora sin rayarlos ni dejar residuos.]]></text>
+  </component>
+<component id="ID_s2_caption">
+  <text><![CDATA[El aire comprimido se utiliza para desechar el polvo y los residuos de las distintas partes de la computadora sin tocar los componentes.]]></text> 
+  </component>
+<component id="ID_s3_caption">
+  <text><![CDATA[Los cinchos plásticos para cables se utilizan para hacer manojos ordenados de cables dentro y fuera de las computadoras.]]></text> 
+  </component>
+<component id="ID_s4_caption">
+  <text><![CDATA[El organizador de partes se utiliza para guardar tornillos, puentes, sujetadores y otras partes pequeñas, y evitar que se mezclen.]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,49 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+	<component id="ID_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Procesadores multinúcleo</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="160"><font color='#FFFFFF' ><b>Cantidad de núcleos</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >CPU de núcleo único</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Un núcleo dentro de una única CPU que se encarga de todos los procesos. Una placa madre puede tener sockets para más de un único procesador, lo que proporciona la capacidad de armar un equipo multiprocesador potente.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >CPU de doble núcleo</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Dos núcleos dentro de una única CPU en la que ambos núcleos pueden procesar información al mismo tiempo.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >CPU de triple núcleo</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Tres núcleos dentro de una única CPU. Es un procesador de cuatro núcleos con uno de los núcleos deshabilitado.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >CPU de cuatro núcleos</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Cuatro núcleos dentro de una única CPU.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >CPU de seis núcleos</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Seis núcleos dentro de una única CPU.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >CPU de ocho núcleos</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Ocho núcleos dentro de una única CPU.</font></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+</textcomponents>

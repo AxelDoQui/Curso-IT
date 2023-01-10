@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Verificación de la funcionalidad total del sistema</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 5: Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>Verificar la solución y la funcionalidad total del sistema para los sistemas operativos de dispositivos móviles.</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Reiniciar el dispositivo móvil.</li>
+				<li>Explorar en Internet utilizando wifi.</li>
+				<li>Explorar en Internet a través de 4G, 3G u otro tipo de red de proveedor de servicios de telefonía móvil.</li>
+				<li>Realizar una llamada telefónica.</li><li>Enviar un mensaje de texto.</li>
+				<li>Abrir distintos tipos de aplicaciones.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Verificar la solución y la funcionalidad total del sistema para Linux y OS X.</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Reiniciar la computadora.</li>
+				<li>Explorar en Internet utilizando wifi.</li>
+				<li>Explorar en Internet mediante una conexión cableada.</li>
+				<li>Enviar un correo electrónico de prueba.</li>
+				<li>Abrir distintos programas.</li></ul></textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

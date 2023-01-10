@@ -1,0 +1,96 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar los tipos de malware </b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Unir cada tipo de malware con su descripción.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Rootkit]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Spyware]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Gusano]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Ransomware]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Adware]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada tipo de malware con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada tipo de malware con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Tipo de malware</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción del malware</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Se suelen distribuir cuando se descarga software en línea que se muestra generalmente en una ventana emergente difícil de controlar.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Se usa para recolectar información sobre un usuario y enviar información a otra entidad, sin el consentimiento del usuario.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Programa utilizado por los hackers para obtener acceso a una computadora a nivel de la cuenta de administrador. Es muy difícil de detectar.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Niega el acceso al sistema informático infectado y exige la realización de un pago para desechar la restricción.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Este malware es un programa que se autorreplica y propaga automáticamente. Reduce o interrumpe las operaciones de red.]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

@@ -1,0 +1,14 @@
+<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+<text><![CDATA[<b>Puntos de acceso inalámbrico</b>]]></text>
+</component><!--SLIDE 2--><component id="ID_txt01">
+	<text><![CDATA[<b>Oficina pequeña</b>]]></text>
+</component>
+<component id="ID_txt02">
+	<text><![CDATA[<b>Centro de datos</b>]]></text>
+</component>
+<component id="ID_txt03">
+	<text><![CDATA[Internet]]></text>
+</component>
+
+
+</textcomponents>

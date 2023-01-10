@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Antenas wifi</b>]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Conectores de antena wifi</b>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Guías de cables de antena wifi</b>]]></text>
+	</component>
+
+</textcomponents>

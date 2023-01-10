@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Red de satélites de GPS]]></text> 
+	 </component>
+
+	 <component id="ID_s1_txt02">
+		<text><![CDATA[Receptor GPS]]></text> 
+	 </component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Cámara inteligente]]></text> 
+	 </component>
+
+	 <component id="ID_s2_txt02">
+		<text><![CDATA[Lector electrónico]]></text> 
+	 </component>
+	
+</textcomponents>

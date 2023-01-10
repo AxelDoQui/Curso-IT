@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.6 Descripción general de las utilidades de disco</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Descripción general de las utilidades de disco</h1>
+        <div>
+          <p>La mayoría de los sistemas operativos son muy confiables, pero los problemas aún podrían ocurrir y dañar el sistema. Un disco que se dañó o que tiene sectores dañados podría perder datos, o el SO podría funcionar de manera incorrecta. La mayoría de los problemas del disco son los mismos independientemente del sistema operativo que se usa. Para ayudar a diagnosticar y solucionar problemas relacionados, la mayoría de los sistemas operativos modernos incluyen herramientas de utilidad de disco. A continuación figuran algunas tareas de mantenimiento comunes que pueden efectuarse mediante el software de utilidad de disco:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Administración de la partición</b>: Al trabajar con discos de la computadora, las particiones se pueden crear, eliminar o modificar de tamaño. Si el SO está agotando una partición que requieren atención, la computadora se debe arrancar desde un disco externo antes de que cualquier trabajo se haga en la partición de sistema. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Montar o desmontar particiones de disco</b>: En sistemas como Unix, el montaje de una partición se relaciona con el proceso de vincular una partición de un disco o un archivo de imagen de disco (generalmente un archivo .iso) con una ubicación de la carpeta. Esto es una tarea común en sistemas Unix. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Formato de disco</b>: Antes de que una partición se pueda utilizar por el usuario o el sistema, se debe formatear.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Control de sectores defectuosos</b>: Los discos modernos pueden detectar y marcar los sectores defectuosos. Cuando un sector de disco ha sido marcado como defectuoso, se torna inofensivo al SO porque dejará de ser compatible para almacenar datos. Si bien es común tener algunos sectores defectuosos en cualquier disco, una gran cantidad de sectores defectuosos podría ser un indicador de un disco dañado. Las utilidades de disco se pueden utilizar no solo para buscar, detectar y marcar los sectores defectuosos, sino también para intentar salvar los datos almacenados en los sectores defectuosos moviéndolos a los sectores saludables del disco. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Preguntar los atributos de S.M.A.R.T.</b>: La abreviatura de la tecnología de autosupervisión, análisis e informes, S.M.A.R.T. es una gran función agregada a discos modernos. Incluido en el controlador del disco en sí, S.M.A.R.T. puede detectar e informar varios atributos sobre el estado del disco. El objetivo de S.M.A.R.T. es anticipar las fallas de disco, lo que permite al usuario transferir datos a un disco normal antes de que el disco defectuoso se vuelva inaccesible. Las utilidades de disco modernas pueden consultar los atributos de S.M.A.R.T., alertar al usuario y recomendarlo el reparar las acciones.</li>
+            </ul>
+          </p>
+          <p>Ubuntu Linux incluye los discos, como se muestra en la Figura 1. Con los discos, los usuarios pueden realizar las tareas más comunes relacionadas con los discos, incluida la administración de la partición, montaje o el desarmado, formateo de los discos y consulta S.M.A.R.T.</p>
+          <p></p>
+          <p>Para acceder a discos, utilice la siguiente ruta de acceso:</p>
+          <p></p>
+          <p>Haga clic en el botón de Ubuntu en la parte superior del iniciador <b>></b> escriba <b>Discos ></b> haga clic en el icono de discos</p>
+          <p></p>
+          <p>El OS X incluye la utilidad de discos, como se muestra en la Figura 2. Además de utilizar las tareas de mantenimiento principales de disco, la utilidad de disco también admite verificar los permisos del disco y los permisos de reparación de disco. Reparar los permisos de disco es un paso común de solucionador de problemas en OS X. La utilidad del disco también se puede utilizar para realizar copias de seguridad de discos a archivos de imágenes y realizar una recuperación de imagen del disco desde los archivos de imagen. Estos archivos contienen los contenidos completos del disco.</p>
+          <p></p>
+          <p>Para iniciar la utilidad del disco en OS X, utilice la siguiente ruta de acceso:</p>
+          <p></p>
+          <p>
+            <b>Aplicaciones > Utilidades > Utilidad de disco</b>
+          </p>
+          <p></p>
+          <p>
+            <b>Arranque múltiple</b>
+          </p>
+          <p></p>
+          <p>A veces es necesario tener más de un sistema operativo instalado en la computadora. En esas situaciones, el usuario debe realizar la instalación de un SO, instalar un administrador de inicio y luego instalar el segundo SO. Un Administrador de arranque es un programa que se encuentra en el sector de arranque y permite que el usuario elija que SO utilizar en el momento del arranque. Al realizar un seguimiento de la partición donde se instaló un sistema operativo específico, el administrador de arranque puede direccionar el BIOS hacia la partición correcta, permitiéndole cargar el sistema operativo deseado. </p>
+          <p></p>
+          <p>Un administrador popular de inicio para Linux es <b>grub</b>.<b> </b>Para el OS X, un administrador común de arranque es <b>boot camp</b>.</p>
+          <p></p>
+          <p>La cantidad máxima de sistemas operativos admitidos depende del tamaño del disco y mientras que la tecnología de Administrador de arranque permite que una computadora tenga un SO múltiple instalado, solo un SO puede ser utilizado a la vez. Para cambiar de un SO a otro, se necesita reiniciar.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Antes de trabajar en discos que contengan datos importantes, como práctica recomendada, se sugiere crear una copia de seguridad completa del disco.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

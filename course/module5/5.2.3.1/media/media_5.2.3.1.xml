@@ -1,0 +1,39 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+<tr class="title">
+	<td bgcolor='#DAE17A' class="title" width='300px'><font color='#393536' size='14'><b>Secuencia de arranque de Windows 7</b></font></td>
+</tr> 
+
+<tr>
+	<td bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+</tr>
+			<tr>
+		<td bgcolor='#FFFFFF' valign="top" width='400'><font color='#393536'>Autodiagnóstico al encender (POST, Power on Self Test).</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>POST para cada tarjeta de adaptador que tenga un BIOS.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>El BIOS lee el MBR.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>El MBR toma el control del proceso de arranque e inicia BOOTMGR.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>BOOTMGR lee el archivo de Datos de configuración de arranque para determinar qué SO se debe cargar y dónde se debe buscar el SO en la partición de arranque.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top" width='250'><font color='#393536'>BOOTMGR invoca WINLOAD.EXE para cargar los archivos NTOSKRNL.EXE y HAL.DLL.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>BOOTMGR lee los archivos del registro y carga los controladores de dispositivos.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>NTOSKRNL.EXE inicia el programa WINLOGON.EXE y muestra la pantalla de bienvenida de Windows.</font></td>
+	</tr>
+		</table>]]></text>
+</component><!--Slide 21--><component id='ID_s2_title'>
+	<text><![CDATA[<b>Prioridad del dispositivo de arranque</b>]]></text>
+</component>
+
+</textcomponents>

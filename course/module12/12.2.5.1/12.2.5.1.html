@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.1 Tipos comunes de cifrado de comunicaciones</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Tipos comunes de cifrado de comunicaciones</h1>
+        <div>
+          <p>La comunicación entre dos computadoras puede requerir una comunicación segura. Para hacerlo, se requieren los siguientes protocolos:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Codificación hash</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Cifrado simétrico</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Cifrado asimétrico</b>
+              </li>
+            </ul>
+          </p>
+          <p>La codificación hash, o hashing, asegura la integridad del mensaje. Esto significa que garantiza que el mensaje no sea dañado o sufra alteraciones de manipulación durante la transmisión. La codificación hash utiliza una función matemática para crear un valor numérico, denominado síntesis del mensaje que es exclusivo para los datos. Si se cambia un solo carácter, el resultado de la función no será el mismo. La función solo se puede usar de una manera. Por lo tanto, conocer la síntesis del mensaje impide que el atacante recree el mensaje, lo que dificulta que una persona intercepte y modifique los mensajes. La codificación hash se ilustra en la Figura 1. El algoritmo de hash más popular ahora es el algoritmo de hash seguro (SHA) que reemplaza el algoritmo de síntesis del mensaje 5 (MD5) más antiguo. </p>
+          <p></p>
+          <p>El cifrado simétrico garantiza la confidencialidad del mensaje. Si se intercepta un mensaje cifrado, no puede ser comprendido. Puede descifrarse únicamente (es decir, leer) con la contraseña (es decir, clave) que se cifró. El cifrado simétrico exige que ambas partes de una conversación cifrada utilicen una clave de cifrado para codificar y decodificar los datos. El emisor y el receptor deben utilizar claves idénticas. El cifrado simétrico se puede ver en la Figura 2. El estándar de cifrado avanzado (AES) y el antiguo algoritmo de cifrado triple de datos (3DES) son ejemplos del cifrado simétrico.</p>
+          <p></p>
+          <p>El cifrado asimétrico también garantiza la confidencialidad del mensaje. El cifrado asimétrico exige dos claves: una clave privada y una clave pública. La clave pública puede distribuirse ampliamente, incluso enviarse por correo electrónico en forma de texto simple o publicarse en la Web. En cambio, una persona conserva la clave privada, y esta no debe revelarse a nadie. Estas claves pueden utilizarse de dos formas:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>El cifrado de clave pública se utiliza cuando una única organización necesita recibir texto cifrado de varias fuentes. La clave pública puede distribuirse ampliamente y utilizarse para cifrar los mensajes. El destinatario es la única persona que debe tener la clave privada, la cual se utiliza para descifrar los mensajes. El cifrado asimétrico mediante una clave pública se muestra en la Figura 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>En el caso de las firmas digitales, se requiere una clave privada para cifrar un mensaje y una clave pública para decodificar el mensaje. Este enfoque permite que el receptor se sienta seguro respecto del origen del mensaje, ya que la clave pública solo permitiría descifrar un mensaje cifrado con la clave privada del creador. RSA es el ejemplo más común de cifrado asimétrico.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: El cifrado simétrico requiere que los dos sistemas estén preconfigurados con una clave secreta. El cifrado asimétrico requiere que sólo un sistema tenga la clave privada.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

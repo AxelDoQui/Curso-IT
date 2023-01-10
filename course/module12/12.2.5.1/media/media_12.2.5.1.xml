@@ -1,0 +1,101 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+		<text><![CDATA[<b>Codificación hash</b>]]></text>
+	</component>
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Si la síntesis no es idéntica, el mensaje sufrió modificaciones o alteraciones.]]></text>
+	</component>
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[El emisor introduce el mensaje que debe codificarse mediante hash.]]></text>
+	</component>
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[El algoritmo de hash produce la síntesis del mensaje.]]></text>
+	</component>	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[El mensaje se transmite a través de la red (segura o no segura).]]></text>
+	</component>
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[El emisor envía la síntesis del mensaje junto con el mensaje.]]></text>
+	</component>
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[El algoritmo de hash (SHA o MD5) produce una síntesis del mensaje.]]></text>
+	</component>
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[El receptor recupera el mensaje enviado.]]></text>
+	</component>
+	<component id='ID_s1_txt10'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>	
+	<component id='ID_s1_txt11'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>
+	
+	<component id='ID_s2_title'>
+		<text><![CDATA[<b>Cifrado simétrico</b>]]></text>
+	</component>	
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[El emisor introduce el mensaje que debe cifrarse.]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[El receptor introduce la misma clave secreta para decodificar el mensaje cifrado.]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Red no segura]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[El emisor introduce la clave de cifrado secreta para codificar el mensaje.]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[El receptor recupera el mensaje descifrado.]]></text>
+	</component>
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>
+	
+	<component id='ID_s3_title'>
+		<text><![CDATA[<b>Cifrado asimétrico</b>]]></text>
+	</component>	
+	<component id='ID_s3_txt01'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>	
+	<component id='ID_s3_txt02'>
+		<text><![CDATA[1BAF55D000EF795...]]></text>
+	</component>	
+	<component id='ID_s3_txt03'>
+		<text><![CDATA[El emisor introduce el mensaje que debe cifrarse.]]></text>
+	</component>	
+	<component id='ID_s3_txt04'>
+		<text><![CDATA[El receptor introduce la clave privada de seguridad para decodificar el mensaje.]]></text>
+	</component>	
+	<component id='ID_s3_txt05'>
+		<text><![CDATA[Red no segura]]></text>
+	</component>	
+	<component id='ID_s3_txt06'>
+		<text><![CDATA[El remitente ingresa la clave pública del receptor para codificar el mensaje.]]></text>
+	</component>	
+	<component id='ID_s3_txt07'>
+		<text><![CDATA[El receptor recupera el mensaje.]]></text>
+	</component>	
+	<component id='ID_s3_txt08'>
+		<text><![CDATA[1AG65B00BDE735...]]></text>
+	</component>	
+	<component id='ID_s3_txt09'>
+		<text><![CDATA[&quot;Esta es la cotización que solicitó...&quot;]]></text>
+	</component>
+		
+</textcomponents>

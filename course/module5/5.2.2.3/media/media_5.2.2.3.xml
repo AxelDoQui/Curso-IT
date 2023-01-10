@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Instalación de Windows PXE</b>]]></text>
+    </component>	
+	
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Instalación desatendida de Windows</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[La imagen muestra la primera pantalla que aparece durante el arranque de una instalación de Windows PXE. Las instalaciones que se muestran se crearon en un servidor basado en Windows como imágenes de PXE y se realizaron en una carpeta de TFTP. Los clientes de PXE pueden ubicar y acceder a archivos por TFTP.]]></text>
+	</component>
+</textcomponents>

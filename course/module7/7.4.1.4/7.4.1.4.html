@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.4 Direcciones IPv4 con clase y sin clase</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direcciones IPv4 con clase y sin clase</h1>
+        <div>
+          <p>Cuando IPv4 se especificó por primera vez en el año 1981, las direcciones se dividieron en tres clases, como se muestra en la Figura 1. El valor del primer octeto de una dirección IPv4 indica a qué clase pertenece. A cada clase se le asignó una máscara de subred predeterminada. </p>
+          <p></p>
+          <p>Se muestran las máscaras de subred mediante la notación de prefijo, como se muestra en la Figura 2. El número después de la barra diagonal indica cuántos bits en la máscara de subred son bits de uno. Por ejemplo, la red clase B 172.16.0.0 con la máscara de subred 255.255.0.0 se escribiría como 172.16.0.0/16. El "/16" Indica que los primeros 16 bits de la máscara de subred son todos unos.</p>
+          <p></p>
+          <p>A principios de la década de 1990, era claro para los ingenieros que el sistema de direcciones IPv4 con clase quedaría finalmente sin espacio. Muchas empresas eran demasiado grandes para la dirección de red Clase C, que solo tenía 254 direcciones host. Pero eran demasiado pequeños para una dirección de red Clase B con 65 534 direcciones host. Por lo tanto, el grupo de trabajo de ingeniería de Internet (IETF) propuso una estrategia de asignación de dirección llamada router de enrutamiento entre dominios sin clase (CIDR). El CIDR era una medida temporal que permitió a las organizaciones utilizar los esquemas de direcciones personalizado para su situación determinada. Una organización puede recibir cuatro direcciones de red clase C con una máscara de subred personalizada, como se muestra en la Figura 3. La dirección de red resultante se denomina superred porque consiste en más de una dirección de red con clase.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<textcomponents>
+
+	<component id='ID_title'>
+		<text><![CDATA[<b>Ejemplo entre pares</b>]]></text>
+	</component>
+
+    <component id="ID_bubble_txt01">
+		<text><![CDATA[<p id="ID_bubble_txt01"><font color="#FFFFFF">Algunos archivos en mi disco duro se están compartiendo con Peer2. También tengo que imprimir una página a través de Peer2.</font></p>]]></text>
+	</component>
+	
+	<component id="ID_bubble_txt02">
+	  <text><![CDATA[<p id="ID_bubble_txt02" ><font color="#FFFFFF">Debo acceder a un archivo desde el disco duro de Peer1. También debo imprimir un archivo que recibí de Peer1, con una solicitud de impresión.</font></p>]]></text> 
+	</component>
+	
+	<component id="ID_txt01">
+	  <text><![CDATA[Peer1<br/><br/><b>Cliente de impresión<br/>Servidor de archivos</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Peer2<br/><br/><b>Servidor de impresión<br/>Cliente de archivos</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Impresora]]></text>
+	</component>
+		
+	<component id="ID_txt04">
+		<text><![CDATA[Impresora <br/>conectada en forma directa]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 2. Establecer una teoría de causas probables</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Causas comunes de los problemas de los sistemas operativos</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Configuración incorrecta del BIOS</li>
+			<li>Tecla Bloq Mayús activada</li>
+			<li>Medios que no sean de arranque durante el arranque de la computadora</li>
+			<li>Cambio de contraseña</li>
+			<li>Configuración del monitor incorrecta en el panel de control</li>
+			<li>Error de actualización del sistema operativo</li>
+			<li>Error de actualización de controladores</li>
+			<li>Infección por malware</li>
+			<li>Falla del disco duro</li>
+			<li>Archivos del sistema operativo dañados</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

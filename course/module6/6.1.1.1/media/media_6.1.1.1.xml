@@ -1,0 +1,16 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Entorno de escritorio de Windows 8</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Entorno de aplicaciones de Windows de Windows 8</b>]]></text>
+</component>
+<component id="ID_s3_title">
+<text><![CDATA[<b>Escritorio de Windows 7 con gadgets</b>]]></text>
+</component>
+<component id="ID_s4_title">
+<text><![CDATA[<b>Escritorio de Windows Vista con la barra lateral</b>]]></text>
+</component>
+
+
+</textcomponents>

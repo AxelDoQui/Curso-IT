@@ -1,0 +1,155 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Fuente de alimentación de la computadora</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Conectores de la fuente de alimentación de la computadora</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Conector con ranuras para 20 o 24 pines]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	<text><![CDATA[Conector con clave SATA]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Conector con clave Molex]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+	<text><![CDATA[Conector con clave Berg]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+	<text><![CDATA[Conector de fuente auxiliar de 4 a 8 pines]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+	<text><![CDATA[Conector de fuente PCIe de 6 a 8 pines]]></text>
+	</component>	
+	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Conectores comunes de la fuente de alimentación</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Conector</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un conector con ranuras para 20 o 24 pines.</td>
+			<td bgcolor='#E9E7E8'><ul><li>Se conecta a la placa madre.</li><li>El conector de 24 pines tiene dos filas de 12 pines cada una.</li><li>El conector de 20 pines tiene dos filas de 10 pines cada una.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Conector con clave SATA</td>
+			<td bgcolor='#F2F2F2'><ul><li>Conecta unidades de disco duro.</li><li>El conector es más ancho y más delgado que un conector Molex.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Conector con clave Molex</td>
+			<td bgcolor='#E9E7E8'><ul><li>Conecta unidades de disco duro, unidades ópticas u otros dispositivos.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Conector con clave Berg</td>
+			<td bgcolor='#F2F2F2'><ul><li>Se conecta a unidades de disquete antiguas</li><li>Es más pequeño que un conector Molex.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Conector de fuente auxiliar de 4 a 8 pines</td>
+			<td bgcolor='#E9E7E8'><ul><li>El conector tiene dos filas de dos a cuatro pines y alimenta a diferentes áreas de la placa madre.</li><li>El conector de fuente auxiliar tiene la misma forma que el conector de fuente principal, pero es más pequeño.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Conector de fuente PCIe de 6 a 8 pines</td>
+			<td bgcolor='#F2F2F2'><ul><li>El conector tiene dos filas de tres a cuatro pines y alimenta a los componentes internos.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Voltajes de la fuente de alimentación</b>]]></text>
+	</component>	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="6" bgcolor='#FFFFFF'><br/><br/></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="55" rowspan='2' id="voltage"><font color='#FFFFFF' ><b>Voltaje</b></font></td>
+			<td bgcolor='#666263' width="55" rowspan='2' id="Wire"><font color='#FFFFFF' ><b>Color de cable</b></font></td>
+			<td bgcolor='#666263' rowspan='2' id="use"><font color='#FFFFFF' ><b>Uso</b></font></td>
+			<td bgcolor='#666263' class="border_left" colspan='3' ><font color='#FFFFFF'  ><b>Forma de la fuente de alimentación</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  width="30" class="border_left"><font color='#FFFFFF' ><b>AT</b></font></td>
+			<td bgcolor='#666263'  width="35" class="border_left"><font color='#FFFFFF' ><b>ATX</b></font></td>
+			<td bgcolor='#666263'  width="55" class="border_left" id="ATXv12"><font color='#FFFFFF' ><b>ATX de 12 V</b></font></td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+12 V</td>
+			<td bgcolor='#E9E7E8'>Amarillo</td>
+			<td bgcolor='#E9E7E8'>Motores de unidades de disco, ventiladores, dispositivos de refrigeración y ranuras de bus del sistema</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>-12 V</td>
+			<td bgcolor='#F2F2F2'>Azul</td>
+			<td bgcolor='#F2F2F2'>Algunos tipos de circuitos de puerto serie y las primeras memorias programables de solo lectura (PROM, programmable read-only memory)</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+3,3 V</td>
+			<td bgcolor='#E9E7E8'>Naranja</td>
+			<td bgcolor='#E9E7E8'>La mayoría de las CPU más modernas, algunos tipos de memoria del sistema y las tarjetas de video AGP</td>
+			<td bgcolor='#E9E7E8'></td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>+5 V</td>
+			<td bgcolor='#F2F2F2'>Rojo</td>
+			<td bgcolor='#F2F2F2'>Placa madre, AT miniatura, primeras CPU y muchos componentes de la placa madre</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>-5 V</td>
+			<td bgcolor='#E9E7E8'>Blanco</td>
+			<td bgcolor='#E9E7E8'>Tarjetas de bus ISA y primeras PROM</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>0 V</td>
+			<td bgcolor='#F2F2F2'>Negro</td>
+			<td bgcolor='#F2F2F2'>Conexión a tierra (se usa para completar los circuitos con los otros voltajes)</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

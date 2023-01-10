@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.1 CSMA/CD</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>CSMA/CD</h1>
+        <div>
+          <p>Los protocolos Ethernet describen las normas que controlan el modo en que se establece la comunicación en una red Ethernet. Para asegurar que todos los dispositivos Ethernet sean compatibles entre sí, el IEEE desarrolló estándares que los fabricantes y programadores deben respetar durante el desarrollo de dispositivos Ethernet.</p>
+          <p>La arquitectura de Ethernet se basa en el estándar IEEE 802.3. El estándar IEEE 802.3 especifica que todas las redes implementen el método de control de acceso de Acceso múltiple por detección de portadora y detección de colisiones (CSMA/CD).</p>
+          <p>
+            <ul>
+              <li>
+                <b>Portadora</b>: Este es el cable que se usa para transmitir datos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Detección</b>: Cada dispositivo escucha al cable para determinar si está claro para enviar datos, como se muestra en la ilustración.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Acceso múltiple</b>: Puede haber varios dispositivos que accedan a la red al mismo tiempo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Detección de colisiones</b>: Una colisión causa una duplicación de voltaje en el cable, que es detectada por la NIC de los dispositivos.</li>
+            </ul>
+          </p>
+          <p>En CSMA/CD, todos los dispositivos escuchan al cable de red para detectar espacio libre y así enviar datos. Este proceso es similar a esperar a escuchar el tono de marcado del teléfono antes de marcar un número. Cuando el dispositivo detecta que no hay otro dispositivo transmitiendo, este dispositivo puede intentar enviar datos. Si ningún otro dispositivo envía datos al mismo tiempo, esta transmisión llega a la computadora de destino sin inconvenientes. Si otro dispositivo transmite al mismo tiempo, se produce una colisión en el cable. </p>
+          <p></p>
+          <p>La primera estación que detecta la colisión envía una señal de congestión que le indica a todas las estaciones a que interrumpan la transmisión y ejecuten un algoritmo de postergación. El algoritmo de postergación calcula los tiempos aleatorios en los que la estación terminal intentará volver a transmitir. Este tiempo aleatorio suele ser de 1 o 2 ms (milisegundos). Esta secuencia tiene lugar cada vez que se produce una colisión en la red y puede reducir la transmisión de Ethernet en hasta un 40%.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: La mayoría de las redes Ethernet actuales son dúplex completas. En Ethernet de dúplex completo, rara vez hay una colisión, ya que los dispositivos pueden transmitir y recibir al mismo tiempo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

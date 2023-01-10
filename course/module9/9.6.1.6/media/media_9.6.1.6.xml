@@ -1,0 +1,28 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 6: Registrar hallazgos, acciones y resultados</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+		  
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Registrar hallazgos, acciones y resultados.</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Analizar la solución implementada con el cliente.</li>
+					<li>Solicitarle al cliente que verifique que se haya solucionado el problema.</li>
+					<li>Proporcionarle todos los documentos pertinentes al cliente.</li>
+					<li>Registrar los pasos que siguió para resolver el problema en la solicitud de trabajo y en el registro diario del técnico.</li>
+					<li>Registrar todos los componentes utilizados en la reparación.</li><li>Registrar el tiempo que le llevó resolver el problema.</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+	
+</textcomponents>

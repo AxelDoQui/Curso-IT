@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.4 Sistemas de archivos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Sistemas de archivos</h1>
+        <div>
+          <p>La instalación de un sistema operativo se realiza como si el disco fuese nuevo. No se conserva nada de la información que exista en ese momento en el disco duro. La primera fase del proceso de instalación consta de la creación de particiones y el formateo del disco duro. Mediante este proceso, se prepara al disco para que acepte el nuevo sistema de archivos. El sistema de archivos proporciona la estructura de directorios que organiza los archivos de sistema operativo, aplicaciones, configuración y datos del usuario. Existen varios tipos de sistemas de archivos y cada uno tiene distinta estructura y lógica. Los diferentes sistemas de archivos también difieren en las propiedades de velocidad, flexibilidad, seguridad, tamaño y más. Aquí presentamos cinco sistemas de archivos comunes:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Tabla de asignación de archivos de 32 bits (FAT32)</b>: Admite particiones de hasta 2 TB o 2048 GB. El sistema de archivos FAT32 se utiliza en Windows XP y versiones de sistemas operativos anteriores.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Sistema de archivos de nueva tecnología (NTFS, New Technology File System)</b>: En teoría, admite particiones de hasta 16 exabytes. El NTFS incorpora las funciones de seguridad del sistema de archivos y atributos extendidos. Windows 8.1, Windows 7 y Windows Vista crean una partición de forma automática utilizando todo el disco duro. Si el usuario no crea particiones personalizadas por medio de la opción <b>Nuevo</b>, como se muestra en la figura, el sistema formatea la partición y comienza a instalar Windows. Si el usuario crea una partición, puede determinar el tamaño de esta.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>exFAT (FAT64)</b>: Creado para subsanar algunas de las limitaciones de FAT, FAT32 y NTFS presentes al formatear unidades flash USB, como tamaño de archivo y de directorio. Una de las principales ventajas de exFAT es que puede admitir archivos mayores de 4 GB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Sistema de archivos de disco compacto (CDFS, Compact Disc File System)</b>: Se creó específicamente para medios de disco óptico.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NFS (sistema de archivos de red)</b>: NFS es un sistema de archivos con base en la red, que permite el acceso al archivo en la red. En la vista del usuario, no hay diferencia entre el acceso de un archivo almacenado localmente o en otra computadora en la red. NFS es un estándar abierto que permite que nadie lo implemente.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Comparación de formateo rápido y formateo completo</b>
+          </p>
+          <p></p>
+          <p>El formateo rápido elimina archivos de la partición, pero no examina el disco en busca de sectores defectuosos. El proceso de examinar un disco en busca de sectores defectuosos puede prevenir una futura pérdida de datos. Por ello, no utilice el formateo rápido para discos que ya hayan sido formateados. Si bien es posible formatear de forma rápida una partición o un disco después de que el sistema operativo esté instalado, la opción de formateo rápido no está disponible al instalar Windows 8.1, Windows 7 o Windows Vista.</p>
+          <p></p>
+          <p>El formateo completo elimina archivos de la partición, al tiempo que examina el disco en busca de sectores defectuosos. Este proceso debe hacerse en todos los discos duros nuevos. La opción de formateo completo tarda más tiempo en completarse.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

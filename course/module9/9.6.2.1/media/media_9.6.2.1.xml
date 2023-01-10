@@ -1,0 +1,256 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes de las computadoras portátiles</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La computadora portátil no enciende.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La computadora portátil no está enchufada.</li><li>La batería no está cargada</li><li>La batería no conserva la carga.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Enchufar la computadora portátil a la alimentación de CA.</li><li>Quitar la batería y volver a instalarla.</li><li>Si la batería no carga, reemplazarla.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batería de la computadora portátil mantiene el sistema encendido durante un tiempo reducido.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>No se siguieron los procedimientos adecuados de carga y descarga de la batería.</li><li>Hay periféricos adicionales que consumen batería.</li><li>El plan de energía no está configurado correctamente.</li><li>La batería no conserva la carga durante mucho tiempo.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Seguir los procedimientos de carga de batería que se describen en el manual.</li><li>Quitar los periféricos innecesarios y, si es posible, deshabilitar la NIC inalámbrica.</li><li>Modificar el plan de energía para reducir el consumo de la batería.</li><li>Reemplazar la batería.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La pantalla externa recibe alimentación pero no se muestra ninguna imagen en la pantalla.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>El cable de video está flojo o dañado.</li><li>La computadora portátil no envía señal de video a la pantalla externa. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Volver a conectar el cable de video o reemplazarlo.</li><li>Utilizar la tecla Fn junto con la tecla multipropósito correspondiente para cambiar a la pantalla externa. </li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>La computadora portátil está encendida, pero en la pantalla no se muestra ninguna imagen cuando se vuelve a abrir la tapa.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El interruptor de apagado de la pantalla está sucio o dañado.</li><li>La computadora portátil entró en el modo de suspensión. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Consultar el manual de reparaciones de la computadora portátil para obtener instrucciones sobre la limpieza o el reemplazo del interruptor de apagado de LCD.</li><li>Presionar una tecla del teclado para que la computadora salga del modo de suspensión. </li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La imagen en la pantalla de la computadora portátil se ve pálida y sin brillo.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La retroiluminación de la pantalla de LCD no está correctamente ajustada.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Consultar el manual de reparaciones de la computadora portátil para obtener instrucciones sobre la calibración de la retroiluminación de la pantalla de LCD.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La imagen en la pantalla de la computadora portátil está pixelada.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Las propiedades de la pantalla no son correctas.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Establecer la resolución nativa en la pantalla.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La pantalla de la computadora portátil parpadea.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Las imágenes en la pantalla no se actualizan lo suficientemente rápido.</li>
+<li>El convertidor está dañado o presenta fallas. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Ajustar la frecuencia de actualización de la pantalla.</li><li>Desarmar la pantalla y reemplazar el convertidor. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>El usuario nota un cursor fantasma que se mueve solo.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El panel táctil está sucio.</li>
+<li>Se utilizan el panel táctil y el mouse al mismo tiempo.</li><li>Se tocó el panel táctil con parte de la mano mientras se escribía. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Limpiar el panel táctil.</li><li>Desconectar el mouse.</li><li>Intentar no tocar el panel táctil mientras se escribe. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Hay píxeles muertos en la pantalla o los píxeles no generan color.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Los píxeles no reciben alimentación.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Comunicarse con el fabricante.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La imagen en la pantalla presenta líneas o patrones que parpadean de diferentes colores y tamaños (artefactos).</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La pantalla no está correctamente conectada.</li><li>La GPU recalienta.</li><li>La GPU presenta una falla o no funciona correctamente. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Desarmar la computadora portátil para revisar las conexiones de la pantalla.</li><li>Desarmar y limpiar la computadora para desechar suciedad y residuos.</li><li>Reemplazar la GPU. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Los patrones de color de la pantalla son incorrectos.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La pantalla no está correctamente conectada.</li><li>La GPU recalienta.</li><li>La GPU presenta una falla o no funciona correctamente. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Desarmar la computadora portátil para revisar las conexiones de la pantalla.</li><li>Desarmar y limpiar la computadora para desechar suciedad y residuos.</li><li>Reemplazar la GPU. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Las imágenes en la pantalla están distorsionadas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Se modificó la configuración de la pantalla.</li><li>La pantalla no está correctamente conectada.</li><li>La GPU recalienta.</li><li>La GPU presenta una falla o no funciona correctamente. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Restaurar la configuración de fábrica original de la pantalla.</li><li>Desarmar la computadora hasta que se puedan revisar las conexiones de la pantalla.</li><li>Desarmar y limpiar la computadora para desechar suciedad y residuos.</li><li>Reemplazar la GPU. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El funcionamiento de la red es óptimo y la conexión inalámbrica está habilitada, pero la computadora portátil no se puede conectar a la red.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La conexión wifi está desactivada.</li><li>Fuera del alcance inalámbrico. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activar la conexión wifi mediante las propiedades de la NIC inalámbrica o presionando la tecla Fn junto con la tecla multipropósito correspondiente.</li><li>Acercarse al punto de acceso inalámbrico. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Los dispositivos de entrada conectados mediante Bluetooth no funcionan correctamente.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El Bluetooth está desactivado.</li><li>Las baterías del dispositivo de entrada están agotadas.</li><li>El dispositivo de entrada está fuera de alcance. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activar el Bluetooth mediante el applet de configuración Bluetooth o presionando la tecla Fn junto con la tecla multipropósito correspondiente.</li><li>Reemplazar las baterías.</li><li>Acercar el dispositivo de entrada al receptor Bluetooth de la computadora portátil.</li><li>Comprobar que Bluetooth esté activado. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El teclado introduce números en lugar de letras.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>El bloqueo numérico está habilitado.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Desactivar el bloqueo numérico mediante la tecla Bloq Num o presionando la tecla Fn junto con la tecla multipropósito correspondiente.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batería está hinchada.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Se ha cargado excesivamente la batería.</li><li>Se ha utilizado un cargador incompatible.</li><li>La batería presenta una falla.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>Reemplazar la batería por una nueva del fabricante.</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes de dispositivos móviles</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo móvil no se conecta a Internet.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La conexión wifi no está disponible.</li><li>No hay ninguna red de datos del proveedor de servicios de telefonía móvil al alcance.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Ubicarse dentro de los límites de una red wifi.</li>
+<li>Ubicarse dentro de los límites de la red de datos de un proveedor de servicios de telefonía móvil.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>El dispositivo móvil no se enciende.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Se agotó la batería.</li><li>El botón de encendido está roto.</li><li>El dispositivo presenta una falla.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Cargar el dispositivo móvil o reemplazar la batería por una que esté cargada.</li><li>Comunicarse con soporte al cliente para determinar el curso de acción que se debe seguir a continuación.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Una tablet no se carga o lo hace muy despacio cuando se conecta a la alimentación de CA.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La tablet está en uso mientras se carga.</li><li>El adaptador de CA no tiene suficiente amperaje.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Apagar la tablet mientras se carga.</li><li>Utilizar el adaptador de CA incluido con la tablet.</li><li>Utilizar un adaptador de CA con la cantidad de amperaje correcta.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Un smartphone no se puede conectar a la red del proveedor de servicios de telefonía móvil.</td>
+		<td bgcolor='#F2F2F2'>No se instaló la tarjeta SIM.</td>
+		<td bgcolor='#F2F2F2'>Instalar la tarjeta SIM.</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo móvil no enciende.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batería no está cargada.</li>
+<li>La batería no conserva la carga.</li><li>El botón de encendido está roto.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Conectar el dispositivo a la alimentación de CA para cargar la batería.</li>
+<li>Reemplazar la batería por una en buen estado de marca reconocida.</li><li>Comunicarse con soporte al cliente para determinar el curso de acción que se debe seguir a continuación.</li>
+<li>Utilizar un adaptador de CA con la calificación correcta de amperaje.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batería del dispositivo móvil mantiene el sistema encendido durante un tiempo reducido.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La configuración del dispositivo no es correcta.</li><li>La batería no conserva la carga.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Modificar el plan de energía para reducir el consumo de la batería.</li><li>Reemplazar la batería.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo móvil no se conecta a Internet</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La conexión wifi no está disponible.</li><li>La conexión wifi está desactivada.</li><li>La configuración de wifi es incorrecta.</li><li>No hay ninguna red de datos del proveedor de servicios de telefonía móvil al alcance.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activar la conexión wifi.</li><li>Apagar el modo aeroplano.</li>
+<li>Establecer la configuración de wifi correcta.</li><li>Ubicarse dentro de los límites de una red wifi.</li><li>Ubicarse dentro de los límites de la red de datos de un proveedor de servicios de telefonía móvil.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>El dispositivo móvil no se conecta con Bluetooth.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El Bluetooth está desactivado.</li><li>Los dispositivos no están emparejados.</li><li>El dispositivo no está al alcance.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activar Bluetooth.</li><li>Emparejar el dispositivo.</li><li>Colocar el dispositivo dentro del alcance.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La batería está hinchada.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Se ha cargado excesivamente la batería.</li><li>Se ha utilizado un cargador incompatible.</li><li>La batería presenta una falla.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>Reemplazar la batería por una nueva del fabricante.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>La pantalla táctil no responde.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La pantalla táctil está sucia.</li><li>La pantalla táctil sufrió un cortocircuito debido a daños o al agua.</li><li>La pantalla táctil falló.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Limpiar la pantalla táctil.</li><li>Reemplazar la pantalla táctil.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo tiene una vida útil de la batería muy breve.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batería realizó ciclos tantas veces que ya no conserva una carga alta.</li><li>La batería presenta una falla.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>Reemplazar la batería.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>El dispositivo sobrecalienta.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Una aplicación con uso intensivo de energía se ejecuta mientras el dispositivo se carga.</li><li>Hay muchas radios encendidas mientras el dispositivo se carga.</li><li>La batería presenta una falla.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Cerrar cualquier aplicación innecesaria o quitar el dispositivo del cargador.</li><li>Desactivar todas las radios innecesarias o quitar el dispositivo del cargador.</li><li>Reemplazar la batería.</li></ul></textformat></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component><!--end slide 2--><!--slide 3--><component id="ID_s3_title">
+<text><![CDATA[<b>Problemas y soluciones comunes de los dispositivos móviles</b>]]></text>
+</component>
+    
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'><!--<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Mobile Devices</b></font></td>
+		</tr>--><tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo móvil no enciende.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batería no está cargada.</li>
+<li>La batería no conserva la carga.</li><li>El botón de encendido está roto.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Conectar el dispositivo a la alimentación de CA para cargar la batería.</li>
+<li>Reemplazar la batería por una en buen estado de marca reconocida.</li><li>Comunicarse con soporte al cliente para determinar el curso de acción que se debe seguir a continuación.</li>
+<li>Utilizar un adaptador de CA con la calificación correcta de amperaje.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batería del dispositivo móvil mantiene el sistema encendido durante un tiempo reducido.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La configuración del dispositivo no es correcta.</li><li>La batería no conserva la carga.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Modificar el plan de energía para reducir el consumo de la batería.</li><li>Reemplazar la batería.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El dispositivo móvil no se conecta a Internet</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La conexión wifi no está disponible.</li><li>La conexión wifi está desactivada.</li><li>La configuración de wifi es incorrecta.</li><li>No hay ninguna red de datos del proveedor de servicios de telefonía móvil al alcance.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activar la conexión wifi.</li><li>Apagar el modo aeroplano.</li>
+<li>Establecer la configuración de wifi correcta.</li><li>Ubicarse dentro de los límites de una red wifi.</li><li>Ubicarse dentro de los límites de la red de datos de un proveedor de servicios de telefonía móvil.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>El dispositivo móvil no se conecta con Bluetooth.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El Bluetooth está desactivado.</li><li>Los dispositivos no están emparejados.</li><li>El dispositivo no está al alcance.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activar Bluetooth.</li><li>Emparejar el dispositivo.</li><li>Colocar el dispositivo dentro del alcance.</li></ul></textformat></td>
+	</tr>	
+	
+</table>]]></text>
+</component><!--end slide 3--></textcomponents>

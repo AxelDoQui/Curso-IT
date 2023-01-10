@@ -1,0 +1,64 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Verificar la compatibilidad de sockets</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Arquitecturas de socket de la CPU</b>]]></text>
+</component>
+
+
+ <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Arquitecturas de CPU</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Notas de instalación</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Conector de borde único (SEC, Single-Edge Connector)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Alinee las muescas de la CPU con las chavetas del socket SEC.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Fuerza de inserción baja (LIF, Low-Insertion Force)</b></td>
+			<td bgcolor='#E9E7E8' rowspan="3"><textformat blockindent='-14'>Alinee la CPU de modo que el indicador de la conexión 1 coincida con el pin 1 en el socket de la CPU.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Fuerza de inserción nula (ZIF, Zero-Insertion Force)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Matriz de pines en cuadrícula (PGA, pin grid array)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Matriz de contactos en cuadrícula (LGA, land grid array)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Alinee la CPU de modo que las dos muescas de la CPU encajen en las dos extensiones del socket.</textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Instalación de la CPU</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Cerrar la placa de cierre</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Cerrar la palanca de carga</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Asegurar la palanca de carga debajo de la pestaña de retención</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Aplicar la pasta térmica</b>]]></text>
+</component><!-- Slide 8 --><component id='ID_s8_title'>
+	<text><![CDATA[<b>Instalación del conjunto de disipador térmico y ventilador</b>]]></text>
+</component>
+
+</textcomponents>

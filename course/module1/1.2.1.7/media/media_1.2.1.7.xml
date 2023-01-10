@@ -1,0 +1,75 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta de adaptador nueva</b>]]></text>
+</component>
+
+<component id="ID_s1_titleTxt01">
+		<text><![CDATA[<b>Preguntas sobre la tarjeta de adaptador nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>¿Existe una ranura de expansión libre?</li><li>¿La tarjeta de adaptador es compatible con la ranura libre?</li><li>¿Cuáles son las necesidades actuales y futuras del cliente?</li><li>¿Cuáles son las opciones de configuración posibles?</li></ul></textformat>]]></text>
+	</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta gráfica nueva</b>]]></text>
+</component>
+
+<component id="ID_s2_titleTxt01">
+		<text><![CDATA[<b>Factores de la tarjeta gráfica nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Tipo de puerto</li><li>Cantidad y velocidad de RAM de video (VRAM, video RAM)</li><li>Unidad de procesamiento de gráficos (GPU, Graphics processor unit)</li><li>Resolución máxima</li></textformat>]]></text>
+	</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta de sonido nueva</b>]]></text>
+</component>
+
+<component id="ID_s3_titleTxt01">
+		<text><![CDATA[<b>Factores de la tarjeta de sonido nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Procesador digital de señales (DSP, Digital signal processor)</li><li>Frecuencia de muestreo</li><li>Tipos de puertos y conexiones</li><li>Decodificador de hardware</li><li>Relación señal-ruido</li></textformat>]]></text>
+	</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta de almacenamiento nueva</b>]]></text>
+</component>
+
+<component id="ID_s4_titleTxt01">
+		<text><![CDATA[<b>Factores de la tarjeta de almacenamiento nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Cantidad de conectores</li><li>Conectores internos o externos</li><li>Tamaño de la tarjeta</li><li>RAM de la tarjeta controladora</li><li>Procesador de la tarjeta controladora</li><li>Tipo de RAID</li></textformat>]]></text>
+	</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta de Entrada/Salida nueva</b>]]></text>
+</component>
+
+<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>Factores de la tarjeta de E/S nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Tipo de puerto de E/S</li><li>Cantidad de puertos de E/S</li><li>Requisitos de potencia adicionales</li></textformat>]]></text>
+	</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Adquisición de una NIC nueva</b>]]></text>
+</component>
+
+<component id="ID_s6_titleTxt01">
+		<text><![CDATA[<b>Factores de la NIC nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Velocidad</li><li>Tipo de conector</li><li>Conexión inalámbrica o por cable</li><li>Compatibilidad de estándares</li></textformat>]]></text>
+	</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Adquisición de una tarjeta de captura nueva</b>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt01">
+		<text><![CDATA[<b>Factores de la tarjeta de captura nueva</b>]]></text>
+	</component>
+	
+	<component id="ID_s7_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Tipo de ranura</li><li>Resolución y velocidad de fotogramas</li><li>Puerto de E/S</li><li>Estándares de formato</li></textformat>]]></text>
+	</component>
+
+
+
+</textcomponents>

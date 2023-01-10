@@ -1,0 +1,49 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Tipo de conectores de fuente de la placa madre</b>]]></text>
+</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Estándar ATX</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Descripciones de los conectores de la placa madre</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>ATX</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Conector principal de placa madre de 20 pines</li><li>Conector auxiliar de 6 pines</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>ATX de 12 V v2.x</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Conector principal de placa madre de 24 pines</li><li>Conector auxiliar de 4 pines</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>AMD GES</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Conector principal de placa madre de 24 pines</li><li>Conector auxiliar de 8 pines</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>EPS12 V</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Conector principal de placa madre de 24 pines</li><li>Conector auxiliar de 8 pines que a menudo se proporciona como dos conectores de 4 pines combinado</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Conexión del conector principal de placa madre ATX de 12 V v2.x de 24 pines</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Conexión del conector de fuente auxiliar ATX de 12 V v2.x de 4 pines</b>]]></text>
+</component>
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>Conexión del ventilador de la CPU de 4 pines</b>]]></text>
+</component>
+
+
+
+</textcomponents>

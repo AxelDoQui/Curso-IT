@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.7 Administración de usuarios</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Administración de usuarios</h1>
+        <div>
+          <p>Una tarea de mantenimiento regular para los administradores es crear y eliminar usuarios de la red, cambiar contraseñas de usuarios, o cambiar permisos de usuario. </p>
+          <p>Lo siguiente es lo que debe hacer al administrar cuentas de usuario local:</p>
+          <p>
+            <ul>
+              <li>Crear una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Restablecer la contraseña para una cuenta de usuario local </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Deshabilitar o habilitar una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Eliminar una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Cambiar el nombre de una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Asignar una secuencia de comandos de inicio a una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Asignar una carpeta doméstica a una cuenta de usuario local</li>
+            </ul>
+          </p>
+          <p>Existen dos herramientas que se pueden usar para cumplir estas tareas:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Control de cuentas de usuario (UAC)</b>: Use esto para agregar, eliminar, o para modificar los atributos de los usuarios individuales. Cuando se inicia sesión como administrador, utilice el UAC para realizar las configuraciones para evitar que el código malicioso obtenga los privilegios administrativos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Usuarios locales y administrador de grupos</b>: Se pueden utilizar para crear y administrar usuarios y grupos que se almacenan localmente en una computadora. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: Usted debe poseer privilegios de administrador para administrar a los usuarios.</p>
+          <p></p>
+          <p>Para abrir UAC, utilice la siguiente ruta de acceso: </p>
+          <p>
+            <b>Panel de control > Cuentas de usuario > Administrar otra cuenta</b>
+          </p>
+          <p>Para abrir los usuarios locales y el administrador de grupos, utilice la siguiente ruta de acceso:</p>
+          <p>
+            <b>Panel de control > Herramientas Administrativas > Administración de computadora > Usuarios y grupos locales</b>
+          </p>
+          <p>Al utilizar usuarios y grupos locales, puede limitar la capacidad de los usuarios y grupos de realizar ciertas acciones asignándoles los permisos y derechos. Un derecho autoriza a un usuario a realizar ciertas acciones en una computadora, como realizar copias de seguridad de archivos y carpetas o apagar una computadora. Un permiso es una regla que se asocia a un objeto (generalmente un archivo, una carpeta, o una impresora), y regula qué usuarios pueden acceder al objeto y de qué manera.</p>
+          <p>Desde la ventana de usuarios locales y grupos, haga doble clic en <b>Usuarios</b>. Existen dos cuentas integradas:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Administrador</b>: Esta cuenta está deshabilitada de manera predeterminada. Cuando está habilitada, esta cuenta tiene total control de la computadora, y puede asignar derechos de usuario y permisos de control de acceso a los usuarios según sea necesario. La cuenta de administrador es miembro del grupo Administradores en la computadora. La cuenta de Administrador nunca se puede eliminar o quitar del grupo Administradores, pero puede ser retitulada o desactivada.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Invitado</b>: Esta cuenta está deshabilitada de manera predeterminada. Esta cuenta se utiliza por los usuarios que no cuentan con una cuenta en la computadora. De manera predeterminada, la cuenta no requiere una contraseña. Es miembro del grupo predeterminado de los usuarios temporales, que permite que un usuario inicie sesión en una computadora. </li>
+            </ul>
+          </p>
+          <p>Para agregar un usuario, haga clic en el menú <b>Acción</b> y seleccione <b>Usuario nuevo</b>. Se abre la ventana Usuario nuevo, como se muestra en la Figura 2. En esta página puede asignar un nombre de usuario, un nombre completo, una descripción, y opciones de cuenta.</p>
+          <p>Al hacer doble clic a un usuario o hacer clic con el botón secundario y seleccionar <b>Propiedades</b> abre la ventana Propiedades del usuario, como se muestra en la Figura 3. Esta ventana permite cambiar las opciones del usuario definidas cuando se creó al usuario. Además, permite bloquear una cuenta. La ventana también permite asignar un usuario a un grupo utilizando la ficha <b>Miembro de</b>, o de controlar a qué carpetas el usuario tiene acceso al usar la ficha <b>Perfil</b>. </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: También hay otro tipo importante de cuenta denominada Usuario Avanzado. Esta cuenta posee el máximo de la potencia de un administrador, como instalar los programas o cambiar la configuración de firewall, pero no tiene algunos de los privilegios de un administrador, por motivos de seguridad.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

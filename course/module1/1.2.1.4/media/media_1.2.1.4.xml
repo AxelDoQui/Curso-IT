@@ -1,0 +1,49 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Elección de una fuente de alimentación</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Factores</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Tener en cuenta…</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Tipo de placa madre</td>
+                <td bgcolor='#E9E7E8'>La fuente de alimentación debe ser compatible con la placa madre.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Vataje requerido</td>
+                <td bgcolor='#F2F2F2'>Agregue el vataje de cada componente. Si en algún componente no se especifica el vataje, calcúlelo multiplicando el voltaje por el amperaje. Si el componente requiere distintos niveles de vataje, utilice el máximo requerido. </td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Cantidad de componentes</td>
+                <td bgcolor='#E9E7E8'>Asegúrese de que la fuente de alimentación proporciona el vataje suficiente para admitir la cantidad y los tipos de componentes más otro 25%, como mínimo.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Tipo de componentes</td>
+                <td bgcolor='#F2F2F2'>Asegúrese de que la fuente de alimentación proporciona los tipos correctos de conectores de fuente.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Tipo de gabinete</td>
+                <td bgcolor='#E9E7E8'>Asegúrese de que la fuente de alimentación puede montarse en el gabinete deseado.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

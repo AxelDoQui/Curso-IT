@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 5: Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Verificar la funcionalidad total.</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Apagar la PC y reiniciarla.</li>
+			<li>Revisar los registros de eventos para asegurarse de que no haya nuevas advertencias o errores.</li>
+			<li>Revisar el Administrador de dispositivos para verificar que no haya advertencias o errores.</li>
+			<li>Ejecutar DxDiag para asegurarse de que DirectX se ejecute correctamente.</li>
+			<li>Asegurarse de que las aplicaciones se ejecuten correctamente.</li>
+			<li>Asegurarse de que los recursos compartidos de red sean accesibles.</li>
+			<li>Asegurarse de que se pueda acceder a Internet.</li>
+			<li>Volver a ejecutar el Comprobador de archivos de sistema para asegurarse de que todos los archivos tengan un estado correcto.</li>
+			<li>Revisar el Administrador de tareas para asegurarse de que el estado de los programas sea “En ejecución”.</li>
+			<li>Volver a ejecutar las herramientas de diagnóstico de terceros.</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

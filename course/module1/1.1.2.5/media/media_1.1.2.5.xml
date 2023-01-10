@@ -1,0 +1,54 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Tipos de ROM</b>]]></text>
+    </component>
+  
+    <component id="ID_s1_btn01">
+        <text><![CDATA[ROM]]></text>
+    </component>
+    
+    <component id="ID_s1_btn02">
+        <text><![CDATA[PROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn03">
+        <text><![CDATA[EPROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn04">
+        <text><![CDATA[EEPROM]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>ROM</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt02">
+        <text><![CDATA[<b>PROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt03">
+        <text><![CDATA[<b>EPROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt04">
+        <text><![CDATA[<b>EEPROM</b>]]></text>
+    </component>
+
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Chips de memoria de solo lectura. La información se escribe en el chip de ROM cuando se lo fabrica. Un chip de ROM no se puede borrar ni volver a escribir y se considera obsoleto.]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Memoria programable de solo lectura. La información se escribe en el chip de PROM después de que se lo fabrica. Un chip de PROM no se puede borrar ni volver a escribir.]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Memoria borrable programable de solo lectura. La información se escribe en el chip de EPROM después de que se lo fabrica. Un chip de EPROM se puede borrar al exponerlo a la luz UV. Se requieren equipos especiales.]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Memoria programable de solo lectura borrable eléctricamente. La información se escribe en el chip de EEPROM después de que se lo fabrica. Los chips de EEPROM también se denominan “ROM flash”. Un chip de EEPROM se puede borrar y volver a escribir sin necesidad de quitarlo de la computadora.]]></text>
+    </component>
+
+</textcomponents>

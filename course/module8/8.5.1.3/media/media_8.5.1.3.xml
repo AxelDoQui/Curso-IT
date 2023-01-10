@@ -1,0 +1,30 @@
+﻿<textcomponents>
+
+<component id='ID_table'>
+<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 3. Poner a prueba la teoría para determinar la causa</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Pasos comunes para determinar la causa</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Verificar que todos los cables estén conectados en las ubicaciones correctas.</li>
+					<li>Desconectar y volver a conectar los cables y los conectores.</li>
+					<li>Reiniciar la PC o el dispositivo de red.</li>
+					<li>Iniciar sesión con un usuario diferente.</li>
+					<li>Reparar o volver a habilitar la conexión de red.</li>
+					<li>Comunicarse con el administrador de red.</li>
+					<li>Hacer ping al gateway predeterminado.</li>
+					<li>Acceder a una página web remota, como http://www.cisco.com.</li>
+					</textformat></ul></td> 
+			</tr>	
+	</table>]]>
+</text></component>
+</textcomponents>

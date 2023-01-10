@@ -1,0 +1,46 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>Configuración del sistema</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b> </b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='125'><font color='#F2F2F2'><b>Tabulación</b></font></td>
+		<td bgcolor='#666263' ><font color='#F2F2F2'><b>Descripción</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>General</td>
+		<td bgcolor='#E9E7E8'>Muestra una lista de selecciones de lanzamiento:<br/><b>Inicio normal</b>: Inicia normalmente.<br/><b>Inicio con diagnóstico</b>: Inicia solamente con los servicios básicos y controladores.<br/><b>Inicio selectivo</b>: Inicia con los servicios básicos y controladores y programas de inicio seleccionados por el usuario.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Arranque</td>
+		<td bgcolor='#F2F2F2'>Muestra una lista de los sistemas operativos de Windows disponibles y muestra las opciones de arranque.</td>		
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Servicios</td>
+		<td bgcolor='#E9E7E8'>Muestra una lista de los servicios que se inician con el sistema operativo. Permite deshabilitar servicios para solucionar problemas.</td>
+		
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Inicio</td>
+		<td bgcolor='#F2F2F2'>Muestra una lista de todas las aplicaciones que se ejecutan cuando arranca la computadora. Esta lista incluye aplicaciones con el nombre del fabricante, la ubicación del archivo ejecutable, y la ubicación de registro.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Herramientas</td>
+		<td bgcolor='#E9E7E8'>Muestra una lista de herramientas de diagnóstico que puede iniciar.</td>
+		
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

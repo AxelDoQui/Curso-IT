@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Motivos para instalar una unidad nueva</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>Motivos para una unidad nueva</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>Aumentar el espacio de almacenamiento</li><li>Aumentar la velocidad del disco duro</li><li>Instalar un segundo sistema operativo</li><li>Almacenar el archivo de intercambio del sistema</li><li>Proporcionar tolerancia a fallas</li><li>Realizar copias de seguridad del disco duro original</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

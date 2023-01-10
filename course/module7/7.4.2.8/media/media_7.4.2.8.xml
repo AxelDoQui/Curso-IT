@@ -1,0 +1,123 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Definiciones de protocolo y puertos predeterminados</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el puerto predeterminado al protocolo.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[443]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[53]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[445]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[22]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[21]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[110]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[25]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[80]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[143]]></text>
+	</component>
+
+	<component id='ID_s1_drag10'>
+		<text><![CDATA[548 o 427]]></text>
+	</component>
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Ha unido correctamente el puerto con el protocolo.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No ha unido correctamente el puerto con el protocolo. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Puertos predeterminados</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Protocolo</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Protocolo de transferencia de hipertexto (HTTP)]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Servicio de nombres de dominios (DNS, Domain Name Service)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Protocolo de transferencia de archivos (FTP)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Protocolo de archivos de Apple (AFP)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Protocolo de oficina de correos V3 (POP3)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Secure Shell (SSH)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Protocolo simple de transferencia de correo (SMTP, Simple Mail Transfer Protocol)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Protocolo de acceso a mensajes de Internet (IMAP, Internet Message Access Protocol)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Protocolo de transferencia de hipertexto seguro (HTTPS)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt10'>
+		<text><![CDATA[Bloque de mensajes del servidor (SMB)]]></text>
+	</component> 
+
+</textcomponents>

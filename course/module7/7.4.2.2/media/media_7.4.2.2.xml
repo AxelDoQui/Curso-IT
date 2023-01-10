@@ -1,0 +1,35 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Seguimiento de las conversaciones</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Para: tu@ejemplo.com<br>De: yo@ejemplo.com<br>Asunto: Vacaciones]]></text>
+</component>
+
+<component id="ID_txt02">
+	<text><![CDATA[Correo electrónico]]></text>
+</component>
+
+<component id="ID_txt03">
+	<text><![CDATA[Mensajería instantánea<br/>]]></text>
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Varias páginas web]]></text>
+</component>
+
+<component id="ID_txt05">
+	<text><![CDATA[Telefonía IP (VoIP)]]></text>
+</component>
+
+<component id="ID_txt06">
+	<text><![CDATA[Transmisión de video]]></text>
+</component>
+
+<component id="ID_txt07">
+	<text><![CDATA[La capa de transporte garantiza que aunque sean varias las aplicaciones se ejecutan en un dispositivo, todas reciban los datos correctos.]]></text>
+</component>
+
+</textcomponents>

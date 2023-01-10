@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar la terminología de instalación del SO</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instrucciones</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada término con su definición.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[RIS]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Actualizar su computadora.]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Opciones de inicio avanzadas]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Imagen]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[PXE]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Partición de recuperación]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Sysprep]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Verificar</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Restablecer</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correcto</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada término con su definición.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrecto</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada término con su definición. Haga clic en <b>Restablecer</b> y vuelva a intentarlo.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Definición</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Términos</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Un conjunto de herramientas que permite a los usuarios solucionar problemas, recuperar o restaurar un sistema operativo cuando no puede arrancar.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Un entorno especial que se utiliza para arrancar la computadora, conectarse a la red y comunicarse con el servidor para iniciar la instalación del sistema operativo.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Contiene una imagen que se puede utilizar para restaurar la configuración original de la computadora.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Un programa utilizado para preparar el SO con diferentes configuraciones de hardware para instalar y configurar el mismo SO en varias computadoras.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Restaura el software de sistema de la computadora al estado de fábrica sin la desecho de archivos de usuario ni la desecho de aplicaciones modernas.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Un archivo que contiene todos los datos de una partición.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Un paquete de software utilizado para comunicarse con un cliente y suministrar las instrucciones necesarias para que el cliente que descargue los archivos de configuración del SO y comience la instalación.]]></text>
+	</component>
+</textcomponents>

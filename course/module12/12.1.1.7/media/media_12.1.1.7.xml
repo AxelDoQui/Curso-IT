@@ -1,0 +1,34 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Vulnerabilidad de día cero de Microsoft Internet Explorer</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Día 0<br/>Malware de día cero del exterior]]></text>
+	</component>
+
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Día 16<br/>Se implementa primera firma de antivirus]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Día 17<br/>Se implementa segunda firma de antivirus]]></text>
+	</component>	
+
+	<component id="ID_txt04">
+		<text><![CDATA[Día 18<br/>Se implementa tercera firma de antivirus]]></text>
+	</component>	
+
+	<component id="ID_txt05">
+		<text><![CDATA[Respuesta tradicional]]></text>
+	</component>	
+
+	<component id="ID_txt06">
+		<text><![CDATA[Recomendación de seguridad emitida]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Revisión de Microsoft IE]]></text>
+	</component>		
+</textcomponents>

@@ -1,0 +1,48 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Destrucción de una unidad de disco duro</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+             <tr>
+                <td bgcolor='#666263' width='150'><font color='#F2F2F2'><b>Método de desecho permanente de datos</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>Descripción</b></font></td>
+                
+             </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>Formato estándar</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>También se llama formateo de alto nivel.</li>
+<li>Se crea un sector de arranque y se configura un sistema de archivos en el disco. El formato estándar solo se puede realizar después de completar un formato de bajo nivel.</li></ul></textformat></td>
+                
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>Formato de bajo nivel</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>La superficie del disco se marca con marcadores de sector para indicar dónde se almacenarán físicamente los datos en el disco, y se crean pistas.</li><li>Por lo general, el formato de bajo nivel se suele realizar en la fábrica después del armado del disco duro.</li></ul></textformat></td>
+            </tr>
+
+        </table>]]></text>
+    </component>
+    
+
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Destrucción de una unidad de disco duro</b>]]></text> 
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>Página web de navegación InPrivate</b>]]></text> 
+    </component>
+
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Inicio de la navegación InPrivate desde Internet Explorer 11</b>]]></text> 
+    </component>
+</textcomponents>

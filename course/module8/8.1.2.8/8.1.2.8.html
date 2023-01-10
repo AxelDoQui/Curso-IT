@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.8 Prueba de conectividad con la CLI de Windows</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Prueba de conectividad con la CLI de Windows</h1>
+        <div>
+          <p>Pueden utilizarse varios comandos de CLI para probar la conectividad de la red. Los comandos de CLI pueden ejecutarse de la ventana del símbolo del sistema. </p>
+          <p></p>
+          <p>Para abrir la ventana del símbolo de sistema en Windows 8.x, abra la pantalla Inicio, escriba <b>comando</b> y seleccione <b>Símbolo del sistema</b>.</p>
+          <p></p>
+          <p>Para abrir la ventana del símbolo del sistema en Windows 7 y Windows Vista, seleccione <b>Inicio</b> y escriba <b>comando</b>. </p>
+          <p></p>
+          <p>Como técnico, es esencial que se familiarice con los siguientes comandos:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>ipconfig</b>: El comando muestra información de configuración básica de todos los adaptadores de red. En la tabla de la figura muestra las opciones de comandos disponibles. Para utilizar una opción de comando, introduzca la <b>opción </b><i>ipconfig /</i> (p. ej., ipconfig /all).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>ping</b>: El comando prueba la conectividad básica entre los dispositivos. Al intentar resolver un problema de conectividad, emita un ping a su computadora, al gateway predeterminado y a la dirección IP de Internet. También puede probar la conexión a Internet y el DNS haciendo ping a un sitio web conocido. En el símbolo del sistema, introduzca <b>ping </b><i>nombre_de_destino</i> (p. ej., ping www.cisco.com). Para realizar otras tareas específicas, puede agregar opciones al comando ping.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>net</b>: Este comando se utiliza para administrar computadoras de red, servidores y recursos como unidades e impresoras. Los comandos net utilizan el protocolo NetBIOS de Windows. Estos comandos inician, detienen y configuran servicios de redes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>netdom</b>: Este comando se utiliza para administrar las cuentas de la computadora, unir computadoras a un dominio y realizar otras tareas específicas de dominios.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nbtstat</b>: Utilice el comando para mostrar estadísticas, conexiones actuales y los servicios que se ejecutan en computadoras locales y remotas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>tracert</b>: Este comando rastrea la ruta que siguen los paquetes desde su computadora hasta el host de destino. En el símbolo del sistema, introduzca <b>tracert</b><i>nombredehost</i>. El primer elemento de los resultados corresponde a su gateway predeterminado. Cada uno de los elementos posteriores corresponde al router a través del cual se desplazan los paquetes para llegar al destino. El comando tracert muestra dónde se detienen los paquetes, lo que indica dónde se produce el problema. Si en los listados se muestran problemas después del gateway predeterminado, es posible que los problemas radiquen en el ISP, en Internet o en el servidor de destino.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nslookup</b>: El comando prueba y resuelve problemas de servidores DNS. Le solicita al servidor DNS que detecte direcciones IP o nombres de host. En el símbolo del sistema, introduzca <b>nslookup</b><i>nombredehost</i>. Nslookup responde con la dirección IP del nombre de host introducido. El comando nslookup inverso, <b>nslookup</b><i>dirección_IP</i> responde con el nombre del host correspondiente a la dirección IP introducida. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: Cada uno de estos comandos tiene una gran variedad de opciones de comandos. Recuerde usar la opción de ayuda ( /?) para mostrar las opciones de comandos.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

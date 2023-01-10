@@ -1,0 +1,36 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 1: Identificar el problema</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Preguntas abiertas</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>¿Qué problemas tiene?</li>
+			<li>¿Cuál es el sistema operativo instalado en la PC?</li>
+			<li>¿Qué actualizaciones realizó últimamente?</li>
+			<li>¿Qué programas instaló recientemente?</li>
+			<li>¿Qué hacía cuando se descubrió el problema?</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Preguntas cerradas</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>¿Puede iniciar el sistema operativo?</li>
+			<li>¿Puede iniciar el sistema operativo en modo seguro?</li>
+			<li>¿Cambió la contraseña recientemente?</li>
+			<li>¿Vio algún mensaje de error en la PC?</li>
+			<li>¿Alguien más utilizó la PC recientemente?</li>
+			<li>¿Se agregó algún hardware últimamente?</li></ul></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

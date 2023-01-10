@@ -1,0 +1,102 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar el ataque TCP/IP</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada tipo de ataque TCP/IP con su descripción. No se utilizarán todos los tipos de ataque.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Reproducción]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Syn Flood]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[DDoS]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Envenenamiento de DNS]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Suplantación de identidad (spoofing)]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Ataque man-in-the-middle]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[DoS]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada tipo de ataque TCP/IP con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada tipo de ataque TCP/IP con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Tipo de ataque TCP/IP</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción de los ataques TCP/IP</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Un atacante intercepta las comunicaciones entre computadoras para robar información que transita por la red.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Este tipo de ataque crea una cantidad anormalmente grande de solicitudes a servidores de red que abruma a los servidores.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Una computadora utiliza una dirección IP o MAC falsificada para fingir ser una computadora de confianza y obtener acceso a los recursos.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Un atacante intercepta y registra las transmisiones de datos. Luego, esas transmisiones se envían a la computadora de destino. La computadora destino administra estas transmisiones como si fueran auténticas.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Este ataque abre puertos TCP al azar en el origen del ataque con una gran cantidad de solicitudes SYN falsas. Esto hace que se nieguen sesiones para otros.]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

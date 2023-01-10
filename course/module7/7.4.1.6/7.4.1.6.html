@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.6 Formatos de direcciones IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Formatos de direcciones IPv6</h1>
+        <div>
+          <p>Las direcciones IPv6 tienen una longitud de 128 bits y se escriben como una cadena de valores hexadecimales. Cuatro bits se representan mediante un único dígito hexadecimal, con un total de 32 valores hexadecimales. Los ejemplos que se muestran en la Figura 1 son direcciones IPv6 completamente extendidas. Dos reglas ayudan a reducir el número de dígitos necesarios para representar una dirección IPv6.</p>
+          <p>
+            <b>Regla 1: Omitir los ceros iniciales</b>
+          </p>
+          <p>La primera regla para ayudar a reducir la notación de las direcciones IPv6 consiste en omitir los 0 (ceros) iniciales en cualquier sección de 16 bits. Por ejemplo:</p>
+          <p>
+            <ul>
+              <li>01AB puede representarse como 1AB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>09F0 puede representarse como 9F0.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>0A00 puede representarse como A00.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>00AB puede representarse como AB.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Regla 2: omitir los segmentos de 0</b>
+          </p>
+          <p>La segunda regla que permite reducir la notación de direcciones IPv6 es que los dos puntos dobles (::) pueden reemplazar cualquier grupo de ceros consecutivos. Los dos puntos dobles (::) se pueden utilizar solamente una vez dentro de una dirección; de lo contrario, habría más de una dirección resultante posible.</p>
+          <p>Las Figuras 2 a la 4 muestran ejemplos de cómo usar las dos reglas para comprimir las direcciones IPv6 que se muestran en la Figura 1. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

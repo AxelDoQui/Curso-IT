@@ -1,0 +1,82 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Cómo poner en espera la llamada de un cliente</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>Hacer</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>No hacer</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Dejar que el cliente termine de explicar el problema.</td>
+			<td bgcolor='#E9E7E8'>Interrumpir al cliente.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Decir que debe poner su llamada en espera y explicar por qué. Pedir permiso al cliente para poner la llamada en espera.</td>
+			<td bgcolor='#E9E7E8'>Poner a un cliente en espera sin una explicación.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cuando el cliente acepte, agradézcale y explíquele que espera regresar en solo unos minutos. Explicar lo que hará durante ese tiempo.</td>
+			<td bgcolor='#E9E7E8'>Poner a un cliente en espera sin el consentimiento de este.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Si, luego de poner la llamada en espera, demora más tiempo en volver al cliente que lo esperado, retome rápidamente la llamada para explicar la situación al cliente.</td>
+			<td bgcolor='#E9E7E8'>Suponer que su tiempo es más valioso que el tiempo del cliente.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Agradecer siempre al cliente por su paciencia mientras trabaja para solucionar el problema.</td>
+			<td bgcolor='#E9E7E8'>Suponer que su tiempo es más valioso que el tiempo del cliente.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+	
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Cómo transferir una llamada</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>Hacer</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>No hacer</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Dejar que el cliente termine de explicar el problema.</td>
+			<td bgcolor='#E9E7E8'>Interrumpir al cliente.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Decir que debe transferir la llamada y explicar la razón para ello. Decirle al cliente el nombre y el número de la persona con la que se comunicarán. Pedir permiso al cliente para transferir la llamada.</td>
+			<td bgcolor='#E9E7E8'>Transferir la llamada sin una explicación.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cuando el cliente acepta, agradecerle y comenzar la transferencia.</td>
+			<td bgcolor='#E9E7E8'>Transferir la llamada sin el consentimiento del cliente.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Decir al nuevo técnico que recibirá la transferencia su nombre, el número de informe y el nombre del cliente.</td>
+			<td bgcolor='#E9E7E8'>Suponer que su tiempo es más valioso que el tiempo del cliente.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Unir protocolos de correo electrónico</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada término con su definición.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[SMTP]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[MIME]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Exchange]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[SSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[POP3]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[IMAP]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada término con su definición.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada término con su definición. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Término</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Se desarrolló para transmitir archivos de forma segura. Todos los datos intercambiados entre el cliente de correo electrónico y el servidor de correo electrónico están cifrados.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Permite que el usuario organice el correo electrónico en el servidor de correo electrónico de la red y descargue copias de los correos. El correo original permanece en el servidor de correo electrónico de la red. El puerto predeterminado es 143.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Un servidor de correo electrónico, un administrador de contactos y un software de calendarios creado por Microsoft.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Recupera los correos electrónicos de un servidor remoto por medio de TCP/IP. Normalmente, no deja una copia del correo electrónico en el servidor. El puerto predeterminado es 110.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Un protocolo basado en texto que transmite correos electrónicos a través de una red TCP/IP. El puerto predeterminado es 25.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Extiende el formato de correo electrónico para incluir texto en el estándar ASCII, así como otros formatos, como imágenes y documentos de procesador de textos.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

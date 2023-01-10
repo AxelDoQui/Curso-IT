@@ -1,0 +1,116 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Tipos de caballos de Troya</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Variedades de malware</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+        <text><![CDATA[Los virus pueden…]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+        <text><![CDATA[<ul><li>Modificar, corromper, desechar archivos e incluso desechar todo un disco duro completo en una computadora.</li><li>Evitar que la computadora arranque o hacer que las aplicaciones no se carguen o funcionan correctamente.</li><li>Usar las cuentas de correo electrónico de los usuarios para propagar el virus a otras computadoras.</li><li>Permanecer inactivo hasta que el atacante lo requiera.</li><li>Registrar teclas para obtener información confidencial, como contraseñas y números de tarjetas de crédito, y para enviar los datos al atacante.</li></ul>]]></text>
+	</component>
+ 
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="200" valign="top"><font color='#FFFFFF' ><b>Tipo de caballo de Troya</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Descripción</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Acceso remoto</td>
+			<td bgcolor='#E9E7E8'>El troyano permite el acceso remoto no autorizado.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Envío de datos</td>
+			<td bgcolor='#F2F2F2'>El troyano proporciona datos confidenciales al atacante, como contraseñas.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Destructivo</td>
+			<td bgcolor='#E9E7E8'>El troyano daña o elimina archivos.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Proxy</td>
+			<td bgcolor='#F2F2F2'>El troyano utilizará la computadora de la víctima como dispositivo de origen para lanzar ataques y realizar otras actividades ilegales.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FTP</td>
+			<td bgcolor='#E9E7E8'>El troyano habilita servicios no autorizados de transferencia de archivos en terminales.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Desactivador de software de seguridad</td>
+			<td bgcolor='#F2F2F2'>El troyano detiene el funcionamiento de los programas antivirus o firewalls.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Denegación de servicio (DoS)</td>
+			<td bgcolor='#E9E7E8'>El troyano reduce o detiene la actividad de red.</td>
+			
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s3_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="150" valign="top"><font color='#FFFFFF' ><b>Modos de seguridad</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Descripción</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Gusanos</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Un gusano es un programa que se autorreplica y que daña las redes con la intención reducir o interrumpir las operaciones de red.</li><li>Los gusanos se propagan automáticamente mediante la explotación de las vulnerabilidades conocidas del software legítimo.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Adware</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Se suelen distribuir cuando se descarga software en línea.</li><li>Muestra publicidades en la computadora, mayormente como una ventana emergente.</li><li>En ocasiones, las ventanas emergentes de adware son difíciles de controlar y abren ventanas nuevas a tal velocidad que los usuarios no llegan a cerrarlas todas.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Spyware</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Semejante al adware, pero se usa para recolectar información sobre un usuario y enviar información a otra entidad, sin el consentimiento del usuario.</li><li>El spyware puede ser una amenaza baja que recopila datos de navegación, o puede ser una amenaza elevada que recopila la información personal o financiera.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Ransomware</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Semejante al adware, pero niega el acceso al sistema informático infectado.</li><li>Luego, el ransomware exige el pago de un rescate para desechar la restricción.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Rootkits</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Programa utilizado por los hackers para obtener acceso a una computadora a nivel de la cuenta de administrador.</li><li>Es muy difícil de detectar porque puede controlar los programas de seguridad para encubrirse.</li><li>Se puede utilizar un software especial para desechar algunos rootkits, pero a veces es necesario volver a instalar el sistema operativo para asegurar que se eliminó el rootkit por completo.</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

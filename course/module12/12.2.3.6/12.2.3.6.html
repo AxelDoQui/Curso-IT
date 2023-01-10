@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.6 Windows BitLocker</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows BitLocker</h1>
+        <div>
+          <p>También puede elegir cifrar una unidad de disco duro completa con una función denominada BitLocker. Para utilizar BitLocker, debe haber, como mínimo, dos volúmenes en un disco duro. Un volumen del sistema se mantiene sin cifrar y debe tener, como mínimo, 100 MB. Este volumen contiene los archivos que requiere Windows para arrancar. </p>
+          <p></p>
+          <p>Antes de utilizar BitLocker, Módulo de plataforma segura (TPM) se debe habilitar en el BIOS. El TPM es un chip especializado que se instala en la placa madre. El TPM almacena información específica del sistema host, como claves de cifrado, certificados digitales y contraseñas. Las aplicaciones, como BitLocker, que utilizan cifrado pueden aprovechar el chip TPM. Para habilitar el TPM, siga estos pasos:</p>
+          <p></p>
+          <p>
+            <b>Paso 1</b>: Inicie la computadora y configure el BIOS.</p>
+          <p></p>
+          <p>
+            <b>Paso 2</b>: Busque la opción <b>TPM</b> en las pantallas de configuración del BIOS. Consulte el manual de la placa madre para ubicar la pantalla correcta. La utilidad de configuración de Lenovo ThinkPad se muestra en la Figura 1.</p>
+          <p></p>
+          <p>
+            <b>Paso 3</b>: Seleccione <b>Habilitar</b> o <b>Activar</b> el chip de seguridad.</p>
+          <p></p>
+          <p>
+            <b>Paso 4</b>: Guarde los cambios en la configuración del BIOS.</p>
+          <p></p>
+          <p>
+            <b>Paso 5</b>: Reiniciar la computadora.</p>
+          <p></p>
+          <p>Para activar BitLocker en todas las versiones de Windows, siga estos pasos:</p>
+          <p></p>
+          <p>
+            <b>Paso 1</b>: Haga clic en <b>Panel de control > Cifrado de unidad BitLocker</b>.</p>
+          <p></p>
+          <p>
+            <b>Paso 2</b>: En la página <b>Cifrado de unidad BitLocker</b>, haga clic en <b>Activar BitLocker</b> en el volumen del sistema operativo.</p>
+          <p></p>
+          <p>
+            <b>Paso 3</b>: Si el TPM no se inicializa, aparece el Asistente para <b>Inicializar el hardware de seguridad del TPM</b>. Siga las instrucciones que proporciona el Asistente para inicializar TPM. Reinicie la PC. </p>
+          <p></p>
+          <p>
+            <b>Paso 4</b>: La página <b>Guardar la contraseña de recuperación</b> posee las siguientes opciones:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Guardar contraseña en una unidad USB</b>: Esta opción permite guardar la contraseña en una unidad USB.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Guardar contraseña en una carpeta</b>: Esta opción permite guardar la contraseña en una unidad de red o en otra ubicación.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Imprimir contraseña</b>: Esta opción permite imprimir la contraseña.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Paso 5</b>: Una vez que guardó la contraseña de recuperación, haga clic en <b>Siguiente</b>.</p>
+          <p></p>
+          <p>
+            <b>Paso 6</b>: En la página <b>Cifrar el volumen de disco seleccionado</b>, seleccione la casilla de verificación <b>Ejecutar la comprobación del sistema de BitLocker</b>.</p>
+          <p></p>
+          <p>
+            <b>Paso 7</b>: Haga clic en <b>Continuar</b>. </p>
+          <p></p>
+          <p>
+            <b>Paso 8</b>: Haga clic en <b>Reiniciar ahora</b>.</p>
+          <p></p>
+          <p>
+            <b>Paso 9</b>: Se muestra la barra de estado <b>Cifrado en curso</b>. Una vez que se reinicia la computadora, puede verificar que BitLocker esté activo como se muestra en la Figura 2. Puede hacer clic en <b>Administración de TPM</b> para ver los detalles de TPM, como se muestra en la Figura 3.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: El cifrado de unidad BitLocker también se puede usar con unidades extraíbles mediante BitLocker To Go. BitLocker To Go no utiliza un chip TPM, pero aún proporciona cifrado para datos y requiere una contraseña.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

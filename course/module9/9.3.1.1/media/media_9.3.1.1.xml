@@ -1,0 +1,47 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Especificaciones de ExpressCard</b>]]></text>
+	</component>
+
+<component id="ID_s1_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263'class="msubtitle" width='110'><font color='#FFFFFF'><b>Bus Express</b></font></td>
+			<td bgcolor='#666263'class="msubtitle" width='85'><font color='#FFFFFF'><b>Tamaño</b></font></td>
+			<td bgcolor='#666263'class="msubtitle" width='85'><font color='#FFFFFF'><b>Grosor</b></font></td>
+			<td bgcolor='#666263'class="msubtitle" width='150'><font color='#FFFFFF'><b>Interfaz</b></font></td>
+			<td bgcolor='#666263'class="msubtitle"><font color='#FFFFFF'><b>Ejemplos</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>ExpressCard/34</td>
+			<td bgcolor='#E9E7E8'>75 mm x 34 mm</td>	
+			<td bgcolor='#E9E7E8'>5 mm</td>
+			<td bgcolor='#E9E7E8'>PCI Express, USB 2.0 o USB 3.0</td>
+			<td bgcolor='#E9E7E8'>FireWire, sintonizador de TV, NIC inalámbrica</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#F2F2F2'>ExpressCard/54</td>
+			<td bgcolor='#F2F2F2'>75 mm x 54 mm</td>	
+			<td bgcolor='#F2F2F2'>5 mm</td>
+			<td bgcolor='#F2F2F2'>PCI Express, USB 2.0 o USB 3.0</td>
+			<td bgcolor='#F2F2F2'>Lector de tarjetas inteligentes, lector de Compact Flash, unidad de disco de 1,8 in</td>
+		</tr>
+
+		</table>]]></text> 
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>ExpressCard</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[ExpressCard/54]]></text>
+	</component>
+		
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[ExpressCard/34]]></text>
+	</component><!-- end slide 2 --></textcomponents>

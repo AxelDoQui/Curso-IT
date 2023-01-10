@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.3.2 Comandos administrativos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Comandos administrativos</h1>
+        <div>
+          <p>Con el objetivo de organizar el sistema y reforzar los límites dentro del sistema, Unix utiliza los permisos de archivos. Los permisos de archivos se integran en la estructura del sistema de archivos y proporcionan un mecanismo para definir los permisos a cada archivo. Cada archivo en los sistemas UNIX trae sus permisos de archivo que definen las acciones que el propietario, o el grupo y otros pueden hacer con el archivo. Los derechos posibles de permisos son Leer, Escribir y Ejecutar. Utilizar el comando <b>Is</b> y el parámetro <b>–l</b> para enumerar información adicional sobre el archivo, considere el resultado del comando <b>ls –l</b> a continuación:</p>
+          <p></p>
+          <p>
+            <b>rod@machine: $ ls –l my_awesome_file</b>
+          </p>
+          <p></p>
+          <p>
+            <b>-rwxrw-r-- 1 rod staff 1108485 Aug 14 7:34 My_Awesome_File </b>
+          </p>
+          <p></p>
+          <p>
+            <b>rod@machine: $</b>
+          </p>
+          <p></p>
+          <p>El resultado anterior proporciona mucha información sobre<b> My_Awesome_File</b>.</p>
+          <p></p>
+          <p>La primera porción del resultado antes visto muestra los permisos asociados con <b>My_Awesome_File</b>. Los permisos de archivos siempre se muestran en el orden usuario, grupo y otro, que lleva a la conclusión de que <b>My_Awesome_File</b> puede ser:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>El usuario que posee el archivo puede leer, escribir y ejecutar el archivo. Esto se representa por rwx.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>El grupo que posee el archivo puede leer y escribir al archivo. Esto se representa por rw-.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Cualquier otro usuario o grupo del sistema solo pueden leer el archivo. Esto se representa con r--.</li>
+            </ul>
+          </p>
+          <p>La siguiente porción es el número de enlaces directos al archivo, en este caso que es un numeral 1. Esta porción no está dentro del alcance de este curso.</p>
+          <p></p>
+          <p>La tercera porción muestra el nombre de usuario del propietario del archivo. La cuarta parte muestra el nombre del grupo que posee el archivo. En este caso, el usuario <b>rod</b> y el grupo <b>staff</b> tienen un cierto nivel de propiedad sobre el archivo.</p>
+          <p></p>
+          <p>La quinta porción muestra el tamaño del archivo en bytes. <b>My_Awesome_File</b> tiene 1108485 bytes o cerca de 1,1 MB.</p>
+          <p></p>
+          <p>La sexta porción muestra la fecha y la hora de la modificación más reciente. </p>
+          <p></p>
+          <p>La séptima porción muestra el nombre de archivo.</p>
+          <p></p>
+          <p>La Figura 1 muestra un desglose de los permisos de archivos en Unix.</p>
+          <p></p>
+          <p>El único usuario que puede anular los permisos de archivos en Unix es el usuario raíz. Al tener el poder de anular los permisos de archivos, el usuario raíz puede escribir a cualquier archivo. Dado que todo se trata como un archivo, el usuario raíz tiene control total sobre el sistema operativo UNIX. El acceso raíz se requiere a menudo antes de realizar el mantenimiento y las tareas administrativas.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Ya que Linux y OS X se basan en Unix, ambos sistemas operativos están en conformidad con los permisos de archivo Unix.</p>
+          <p></p>
+          <p>Consulte la Figura 2 para algunas herramientas administrativas de la línea de comandos. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

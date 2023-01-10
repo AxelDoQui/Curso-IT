@@ -1,0 +1,20 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Componentes de la impresora de inyección de tinta</b>]]></text> 
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Correa]]></text> 
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Rodillo]]></text> 
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Cabezal de impresión]]></text> 
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Cartucho de tinta]]></text> 
+	</component>
+</textcomponents>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.4 Permisos de archivo y de carpeta</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Permisos de archivo y de carpeta</h1>
+        <div>
+          <p>Los permisos son las reglas que configura para limitar la carpeta o el acceso a los archivos para una persona o para un grupo de usuarios. La figura enumera los permisos que están disponibles para archivos y carpetas. Para configurar permisos de nivel de archivo o carpeta en todas las versiones de Windows, utilice la siguiente ruta de acceso:</p>
+          <p></p>
+          <p>Haga clic con el botón secundario en el archivo o la carpeta y seleccione <b>Propiedades > Seguridad > Editar…</b></p>
+          <p></p>
+          <p>
+            <b>Principio de privilegios mínimos</b>
+          </p>
+          <p></p>
+          <p>Debe limitarse el acceso de los usuarios solo a los recursos que necesitan de un sistema de computación o una red. Por ejemplo, no deberían estar disponibles para acceder a todos los archivos en un servidor si solo necesitan acceso a una sola carpeta. Si bien puede resultar más sencillo permitir el acceso de los usuarios a toda la unidad, es más seguro limitar el acceso solo a la carpeta que necesitan para realizar su trabajo. Esto se conoce como “principio de privilegios mínimos”. Limitar el acceso a los recursos también permite evitar el acceso de programas malintencionados a esos recursos en caso de que se infecte la computadora del usuario.</p>
+          <p></p>
+          <p>
+            <b>Restricción de los permisos de usuario</b>
+          </p>
+          <p></p>
+          <p>Los permisos de uso de recursos compartidos de red y de archivos pueden otorgarse individualmente o mediante la membresía de un grupo. Estos permisos de los recursos de uso compartido son más diferentes que los permisos nivel NTFS de archivos y carpetas. Si se niegan permisos de uso de un recurso compartido de red a una persona o un grupo, esta denegación anula cualquier permiso otorgado. Por ejemplo, si a una persona se le niega el permiso de acceso a un recurso compartido de red, el usuario no puede acceder a este aunque sea el administrador o forme parte del grupo administrador. La política de seguridad local debe describir los recursos a los que puede acceder cada usuario y grupo, y el tipo de acceso para cada uno.</p>
+          <p></p>
+          <p>Al modificar los permisos de una carpeta, se presenta la opción de aplicar los mismos permisos a todas las subcarpetas. Esto se denomina “propagación de permisos”. La propagación de permisos es una forma sencilla de aplicar permisos a muchos archivos y carpetas rápidamente. Una vez que se establecen los permisos de la carpeta principal, las carpetas y los archivos que se crean dentro de ella heredan sus permisos. </p>
+          <p></p>
+          <p>Además, la ubicación de los datos y las acciones realizadas en los datos determinan cómo se propagan los permisos:</p>
+          <p>
+            <ul>
+              <li>
+                <b>Los datos se transmiten al mismo volumen</b>: Mantendrán los permisos originales</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Los datos se copian al mismo volumen</b>: Heredarán nuevos permisos</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Los datos se transfieren a otro volumen</b>: Heredarán los nuevos permisos</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Los datos se copian en otro volumen</b>: Heredarán los nuevos permisos</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Tipos de NIC</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Elección de una NIC</b>]]></text>
+	</component>
+	
+	    
+    <component id="ID_s2_titleTxt">
+        <text><![CDATA[<b>Preguntas acerca de la NIC nueva</b>]]></text>
+    </component>
+
+    <component id="ID_s2_bodyTxt">
+        <text><![CDATA[Tipo de NIC:<br/><ul><li>¿Cableado (Fast o Gigabit Ethernet)?</li><li>¿Inalámbrico 802.11n/802.11ac?</li></ul>Tipo de conexión:<br/><ul><li>¿Ranura de expansión (PCI/PCIe)?</li><li>¿USB?</li></ul>Funciones avanzadas de la NIC:<br/><ul><li>¿Wake on LAN (WOL)?</li><li>¿Calidad de servicio (QoS)?</li></ul>¿Costo?]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,25 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Diagrama de alto nivel de Unix</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Programas de aplicación]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Shell]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Kernel]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Emulador de terminales de Linux: Gnome-terminal</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Emulador de terminales de OS X: Terminal</b>]]></text>
+	</component>
+</textcomponents>

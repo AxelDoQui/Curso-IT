@@ -1,0 +1,41 @@
+<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Firewall de hardware</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+	<text><![CDATA[Router integrado]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Red interna</b>]]></text>
+</component>
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>Red externa</b>]]></text>
+</component>
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>H1</b>]]></text>
+</component>
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>H2</b>]]></text>
+</component>
+<component id="ID_s1_txt06">
+	<text><![CDATA[<b>H3</b>]]></text>
+</component>
+<component id="ID_s1_txt07">
+	<text><![CDATA[Servidor web]]></text>
+</component>
+<component id="ID_s1_txt08">
+	<text><![CDATA[<b>Switch Ethernet</b><br> (conecta todos los hosts conectados por cable)]]></text>
+</component>
+<component id="ID_s1_txt09">
+	<text><![CDATA[<b>Firewall interno</b><br> (protege los hosts H1 y H2)]]></text>
+</component>
+<component id="ID_s1_txt10">
+	<text><![CDATA[<b>Router interno</b><br> (enruta paquetes para todos los hosts)]]></text>
+</component>
+<component id="ID_s1_txt11">
+	<text><![CDATA[Internet]]></text>
+</component>
+<component id="ID_s1_txt12">
+	<text><![CDATA[<b>Componentes internos</b>]]></text>
+</component>
+</textcomponents>

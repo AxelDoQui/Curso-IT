@@ -1,0 +1,30 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 1: Identificar el problema</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>Preguntas abiertas</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>¿Qué problemas tiene con la impresora o el escáner?</li><li>¿Qué software o hardware se cambió recientemente en la computadora?</li><li>¿Qué hacía cuando se identificó el problema?</li><li>¿Qué mensajes de error recibió?</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Preguntas cerradas</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>¿Está en garantía la impresora?</li><li>¿Puede imprimir una página de prueba?</li><li>¿Es una impresora nueva?</li><li>¿La impresora está encendida?</li></ul></textformat></font></td>
+	</tr>
+	
+
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

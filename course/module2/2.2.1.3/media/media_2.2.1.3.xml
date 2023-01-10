@@ -1,0 +1,15 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[Los destornilladores de punta plana se utilizan para aflojar o ajustar tornillos ranurados.]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[Los destornilladores de punta Phillips se utilizan para aflojar o ajustar tornillos de cabeza cruciforme.]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[Los destornilladores torx se utilizan para ajustar o aflojar tornillos que tienen una depresión con forma de estrella en la cabeza, una característica que se encuentra principalmente en las PC portátiles.]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[Las llaves hexagonales, que a veces se denominan “llaves de tuercas”, se utilizan para ajustar tuercas de la misma forma en que los destornilladores se utilizan para ajustar tornillos.]]></text>
+</component><!--Slide 5--><component id='ID_s5_caption'>
+	<text><![CDATA[Los recogedores de partes se utilizan para recoger partes ubicadas en sitios en los que no cabe la mano.]]></text>
+</component><!--Slide 6--><component id='ID_s6_caption'>
+	<text><![CDATA[La linterna se utiliza para iluminar áreas que no se ven bien.]]></text>
+</component>
+
+</textcomponents>

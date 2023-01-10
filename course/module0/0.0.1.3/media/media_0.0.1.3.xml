@@ -1,0 +1,25 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Actividad interactiva de arrastrar y colocar</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Actividad interactiva de la casilla de verificación</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>(de la marca Cisco X S90304) Prácticas de laboratorio</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Packet Tracer</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Aspire</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_title">
+        <text><![CDATA[<b>Evaluaciones</b>]]></text>
+	</component>
+</textcomponents>

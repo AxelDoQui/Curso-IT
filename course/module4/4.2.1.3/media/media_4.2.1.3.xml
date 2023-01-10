@@ -1,0 +1,87 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar el problema</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instrucciones</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[En esta actividad se incluyen preguntas que los técnicos pueden hacerle al cliente para ayudar a identificar el problema. Identifique cuáles son abiertas y cuáles son cerradas arrastrando el tipo a las casillas que se encuentran a la izquierda de las preguntas.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correcto]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente cada tipo de pregunta con la pregunta del técnico.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente cada tipo de pregunta con la pregunta del técnico. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Verificar</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Restablecer</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">Abierta</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">Cerrada</font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">Tipo de pregunta</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">Pregunta del técnico</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[¿Alguien más utilizó la computadora recientemente?]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[¿Recibió algún mensaje de error en la computadora?]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[¿Qué problemas tiene con la computadora o la red?]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[¿Puede reproducir el problema?]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[¿Qué software se instaló en la computadora recientemente?]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[¿Qué hacía cuando se identificó el problema?]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[¿Cambió la contraseña recientemente?]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[¿Qué cambios de hardware se realizaron en la computadora recientemente?]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[¿Está conectado a la red en este momento?]]></text> 
+</component>
+
+</textcomponents>

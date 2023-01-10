@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.3 Descripción general de la CLI de Linux y OS X</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Descripción general de la CLI de Linux y OS X</h1>
+        <div>
+          <p>En Linux y en OS X, el usuario puede comunicarse con el sistema operativo mediante la interfaz de línea de comandos (CLI). Para agregar flexibilidad, los comandos (o las herramientas) que admiten parámetros, opciones y switches, son precedidos generalmente por el carácter de guion (“-”). Las opciones y los switches admitidos por un comando también son ingresados por el usuario junto con el comando.</p>
+          <p></p>
+          <p>Un programa llamado shell interpreta los comandos del teclado y los transmite al sistema operativo. Cuando un usuario se conecta al sistema, el programa de inicio de sesión revisa el nombre de usuario y contraseña; si las credenciales son correctas, el programa de inicio de sesión inicia el shell. Desde aquí, un usuario autorizado puede comenzar a interactuar con el SO a través de los comandos basados en texto.</p>
+          <p></p>
+          <p>Como se muestra en la Figura 1, los usuarios interactúan con el kernel a través de un shell. En otras palabras el shell actúa como capa de la interfaz entre el usuario y el kernel. El kernel es responsable de asignar tiempo y memoria de CPU a los procesos. También administra el sistema de archivos y las comunicaciones en respuesta a las llamadas del sistema.</p>
+          <p></p>
+          <p>La mayoría de los sistemas operativos incluye una interfaz gráfica. Aunque una interfaz de línea de comandos aún está presente, el SO arranca a menudo en la GUI de manera predeterminada, escondiendo la interfaz de línea de comandos del usuario. Una forma de acceder a la interfaz de línea de comandos en un sistema operativo basado en GUI es a través de una aplicación del emulador de terminal. Estas aplicaciones proporcionan acceso del usuario a la interfaz de línea de comandos y se denomina generalmente como algunas variaciones de la palabra terminal. En Linux, los emuladores de terminal comunes son Terminator, eterm, xterm, konsole, terminal de gnome-terminal. El OS X incluye un emulador de terminal llamado Terminal pero varios emuladores de terceros están disponibles.</p>
+          <p></p>
+          <p>La Figura 2 muestra la gnome-terminal, un emulador de terminal popular de Linux.</p>
+          <p></p>
+          <p>La Figura 3 muestra la Terminal, un emulador de terminal popular de OS X.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Los mismos comandos se han publicado en ambas terminales para ilustrar la similitud de las interfaces de línea de comandos en sistemas como Unix.</p>
+          <p>
+            <b>Nota</b>: Para experimentar una interfaz de línea de comandos de Linux en su navegador web, vuelva a la clase y visite el módulo complementario CompTIA A+ de NDG Linux.</p>
+          <p></p>
+          <p>
+            <b>Linux y sistemas de archivos de OS X </b>
+          </p>
+          <p></p>
+          <p>Linux y el OS X tienen sistemas de archivos únicos.</p>
+          <p></p>
+          <p>Los sistemas de archivos de uso general en Linux son ext3 y ext4 (tercer y cuarto sistema de archivos extendido). Son los sistemas de archivos con journal que mantienen diarios, o registros, de todos los cambios que se harán en el sistema de archivos. Estos diarios minimizan el riesgo de daños en el sistema de archivos en caso de pérdida de alimentación repentina ya que se pueden utilizar para aplicar los cambios después de restablecer la alimentación. Ambos sistemas de archivos pueden admitir tamaños de archivos grandes de hasta 32 TiB (tebibytes) para ext4.</p>
+          <p></p>
+          <p>HFS+ (sistema de archivos jerárquico Plus) es el sistema de archivos de inicio que utiliza el OS X. Como ext3 y ext4, HFS+ también admite los volúmenes en diario. Los volúmenes de HFS+ pueden admitir tamaños de archivos grandes de casi 8 EiB (exbibyte) en el OS X 10.4 o posterior.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

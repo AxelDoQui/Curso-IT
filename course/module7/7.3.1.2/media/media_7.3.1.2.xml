@@ -1,0 +1,32 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Los concentradores conectan los dispositivos en una LAN</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[<b>Conexión a través de un concentrador</b>]]></text> 
+</component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[Concentrador]]></text> 
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Los puentes segmentan una LAN</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+  <text><![CDATA[<b>Segmento 1</b>]]></text> 
+</component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>Segmento 2</b>]]></text> 
+</component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[Puente]]></text> 
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Los switches microsegmentan una LAN</b>]]></text>
+</component>
+<component id="ID_s3_txt01">
+  <text><![CDATA[Switch]]></text> 
+</component>
+</textcomponents>

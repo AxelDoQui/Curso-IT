@@ -1,0 +1,11 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Wearables</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Monitor de estado físico]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Reloj inteligente]]></text>
+	</component>
+</textcomponents>

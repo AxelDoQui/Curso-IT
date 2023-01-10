@@ -1,0 +1,82 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Ejemplo de ataques de ingeniería social</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<font color="#FFFFFF">Hola, soy Amy, de soporte técnico. Necesitamos actualizar el software de su computadora después del horario laboral. ¿Cuáles son su nombre de usuario y su contraseña? Puede cambiar la contraseña mañana cuando inicie sesión.</font>]]></text>
+</component>
+
+<component id="ID_s1_bubble02">
+<text><![CDATA[<font color="#FFFFFF">Mi nombre de usuario y mi contraseña son...</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[Ingeniero social]]></text>
+</component>
+    
+<component id="ID_s1_txt02">
+  <text><![CDATA[Empleado desprevenido de la empresa XYZ]]></text> 
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Técnicas de ingeniería social</b>]]></text>
+	</component>
+	
+	    <component id="ID_s2_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Técnicas</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Descripción</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Pretexto</td>
+                <td bgcolor='#E9E7E8'>Un atacante finge necesitar datos personales o financieros para confirmar la identidad del destinatario.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Suplantación de identidad</td>
+                <td bgcolor='#F2F2F2'>Un atacante envía un correo electrónico fraudulento disfrazado como una fuente confiable y legítima. El objetivo de este mensaje es engañar al destinatario para que instale malware en su dispositivo, o compartir información personal o financiera.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Spear phishing</td>
+                <td bgcolor='#E9E7E8'>Un atacante crea un ataque de suplantación de identidad orientado y diseñado para una organización o persona específica.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Correo electrónico no deseado</td>
+                <td bgcolor='#F2F2F2'>El atacante utiliza el correo electrónico no deseado para engañar a un usuario y que haga clic en un enlace infectado o descargue un archivo infectado.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Infiltración (tailgating)</td>
+                <td bgcolor='#E9E7E8'>Un atacante sigue rápidamente a una persona autorizada a una ubicación segura. El hacker tiene acceso a un área segura.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#F2F2F2'>Algo por algo (quid pro quo)</td>
+                <td bgcolor='#F2F2F2'>Esto sucede cuando un hacker solicita información personal de una parte a cambio de algo, como un regalo gratis.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Hostigamiento</td>
+                <td bgcolor='#E9E7E8'>Un atacante deja un dispositivo físico infectado con malware, como una unidad de memoria flash USB en un lugar público como un baño en una empresa. La persona que encuentra el dispositivo, lo carga en su computadora e, involuntariamente, instala el malware.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+</textcomponents>

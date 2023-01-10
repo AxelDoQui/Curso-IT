@@ -1,0 +1,290 @@
+﻿<textcomponents>
+
+<component id="ID_test">
+<text><![CDATA[Caption text]]></text>
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>Vista superior de una computadora portátil</b>]]></text>
+</component><!--Textbox --><component id='ID_s01_titleTxt01'>
+	<text><![CDATA[LED de estado del Bluetooth]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[El LED de estado del Bluetooth indica cuándo está habilitado el transceptor inalámbrico Bluetooth. Bluetooth es una norma del sector inalámbrica que permite la comunicación entre dispositivos portátiles que se encuentran a corta distancia entre sí.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[LED de estado de la batería]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[El LED de estado de la batería indica el estado de la batería. Las computadoras portátiles pueden utilizar una batería o un adaptador de alimentación CA para funcionar. El tipo de batería y el modo de utilización de la computadora portátil repercuten en la duración de la vida útil de la batería.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[LED de modo de espera]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[El LED de modo de espera indica si la computadora portátil se encuentra en modo de espera. El modo de espera reduce la cantidad de electricidad que utiliza la computadora portátil, ya que apaga el monitor, el disco duro y la CPU. Se utiliza una pequeña cantidad de electricidad para mantener activa la memoria RAM y mantener los datos disponibles. Las computadoras portátiles pueden ingresar al modo de espera cuando no se las utiliza durante un tiempo predefinido.]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>Vista posterior de una computadora portátil</b>]]></text>
+</component>
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Compartimiento de la batería]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[El compartimiento de la batería es un conector que se utiliza para fijar la batería de la computadora portátil.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[Conector de fuente CA]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[El conector de fuente CA es un conector que se utiliza para conectar el adaptador de alimentación CA a la computadora portátil y cargar la batería.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[Puerto paralelo]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[El puerto paralelo es un socket que se utiliza para conectar un dispositivo, como una impresora o un escáner.]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s03_title">
+<text><![CDATA[<b>Comparación de baterías de computadoras portátiles</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				
+	<tr class="mtable_title">
+		<td colspan="3" bgcolor='#FFFFFF'><font size="16">Comparación de baterías de computadoras portátiles</font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>				
+	
+	<tr>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Tipo de batería</b></font></td>
+		<td bgcolor='#666263'class="msubtitle"><font color='#FFFFFF'><b>Características</b></font></td>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Uso común</b></font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Níquel-cadmio “Ni-cad” (NiCd)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Pesada para la energía que puede acumular; de vida útil prolongada (muchos ciclos de carga); puede presentar efecto memoria.</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Juguetes, teléfonos inalámbricos, luces de emergencia, herramientas mecánicas, flashes de cámaras.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Níquel hidruro (NiMH)</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Peso moderado para la energía que acumula; vida útil moderada; puede sufrir “inversión de polaridad” inmediata al final del ciclo, al desconectarse o al recargarse. Puede requerir varios ciclos de carga y descarga para alcanzar su máxima capacidad.</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Teléfonos celulares, cámaras digitales, unidades GPS, linternas y otros productos electrónicos de consumo.</font></td>
+		
+	</tr>	
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Iones de litio (Li-Ion)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Liviana para la energía que acumula; no presenta efecto memoria; puede recalentarse fácilmente; mantener fría; cargar con frecuencia; utilizar baterías nuevas (de fabricación más reciente).</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Teléfonos celulares, computadoras portátiles.</font></td>
+	
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Litio-polímero<br/>(Li-Poly o LiPo)</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Costosa; pequeña; liviana para la energía que acumula; capacidad moderada; carga rápida; vida útil moderada; no presenta cortocircuitos y no es inflamable.</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>PDA, computadoras portátiles, reproductores de MP3 portátiles, dispositivos de juegos portátiles, aeroplanos controlados por radio.</font></td>
+		
+	</tr></table>]]></text>
+</component><!-- end slide 3 --><!-- slide 4 --><component id="ID_s04_title">
+<text><![CDATA[<b>Vista del lateral izquierdo de una computadora portátil</b>]]></text>
+</component>
+
+<component id='ID_s04_titleTxt01'>
+	<text><![CDATA[Bocallave de seguridad]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt01">
+<text><![CDATA[La bocallave de seguridad es un punto sólido del armazón de la computadora portátil que se utiliza para conectar un cable de seguridad.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt02'>
+	<text><![CDATA[Bus serie universal (USB)]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt02">
+<text><![CDATA[El puerto de bus serial universal (USB, Universal Serial Bus) es un socket que se utiliza para conectar uno o varios periféricos.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt03'>
+	<text><![CDATA[Puerto de S-video]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt03">
+<text><![CDATA[El puerto de S-video es un conector mini-DIN de cuatro pines que se utiliza para enviar señales de video a un dispositivo compatible. S-video separa las partes de brillo y color de las señales de video.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt04'>
+	<text><![CDATA[Puerto para módem RJ-11]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt04">
+<text><![CDATA[El puerto para módem RJ-11 es un dispositivo que se utiliza para conectar la computadora portátil a una línea telefónica estándar. Puede utilizarse el módem para conectar la computadora a Internet, para enviar documentos por fax y para responder llamadas entrantes.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt05'>
+	<text><![CDATA[Puerto Ethernet]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt05">
+<text><![CDATA[El puerto Ethernet es un socket RJ-45 que se utiliza para conectar la computadora portátil a una red de área local conectada por cable.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt06'>
+	<text><![CDATA[LED de red]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt06">
+<text><![CDATA[Los dos LED de red son indicadores luminosos de estado de la conexión de red. La luz de enlace verde indica conectividad de red. El otro LED es un indicador del tráfico de la computadora portátil, tanto entrante como saliente.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt07'>
+	<text><![CDATA[Toma de auriculares]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt07">
+<text><![CDATA[La toma de auriculares es un socket que se utiliza para enviar señales de audio a auriculares o altavoces estéreo conectados.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt08'>
+	<text><![CDATA[Toma de micrófono]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt08">
+<text><![CDATA[La toma de micrófono es un socket que se utiliza para conectar un micrófono para la entrada de audio.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt09'>
+	<text><![CDATA[Rejilla de ventilación]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt09">
+<text><![CDATA[La rejilla de ventilación consta de una serie de orificios que permiten la emanación del aire caliente del interior de la computadora portátil.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt10'>
+	<text><![CDATA[Ranura de tarjeta de combinación de computadora]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt10">
+<text><![CDATA[La ranura de tarjeta de combinación de computadora es una ranura de expansión que admite tarjetas de expansión ExpressCard en la ranura superior y tarjetas de computadora en la ranura inferior.]]></text>
+</component><!-- end slide 4 --><!-- slide 5 --><component id="ID_s05_title">
+<text><![CDATA[<b>Vista frontal de una computadora portátil</b>]]></text>
+</component>
+
+
+<component id='ID_s05_titleTxt01'>
+	<text><![CDATA[Puerto infrarrojo]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt01">
+<text><![CDATA[El puerto infrarrojo es un transceptor inalámbrico de línea de vista que se utiliza para la transmisión de datos.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt02'>
+	<text><![CDATA[Altavoces]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt02">
+<text><![CDATA[Los altavoces son un dispositivo de salida que convierte las señales de audio que se producen dentro de la computadora portátil en sonido.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt03'>
+	<text><![CDATA[Traba de la computadora portátil]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt03">
+<text><![CDATA[La traba de la computadora portátil es una palanca que se utiliza para abrir la tapa de la computadora portátil.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt04'>
+	<text><![CDATA[Rejilla de ventilación]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt04">
+<text><![CDATA[La rejilla de ventilación consta de una serie de orificios que permiten la emanación del aire caliente del interior de la computadora portátil.]]></text>
+</component><!-- end slide 5 --><!-- slide 6 --><component id="ID_s06_title">
+<text><![CDATA[<b>Vista del lateral derecho de una computadora portátil</b>]]></text>
+</component>
+
+<component id='ID_s06_titleTxt01'>
+	<text><![CDATA[Unidad óptica]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt01">
+<text><![CDATA[La unidad óptica es una unidad de disco que se utiliza para leer y escribir medios ópticos.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt02'>
+	<text><![CDATA[Indicador de actividad de la unidad óptica]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt02">
+<text><![CDATA[El indicador de actividad de la unidad óptica es un LED que se enciende cuando la unidad está en uso.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt03'>
+	<text><![CDATA[Indicador de estado de la bahía de unidad de disco]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt03">
+<text><![CDATA[El indicador de estado de la bahía de unidad de disco es un LED que se enciende cuando se instala una unidad en la bahía de la computadora portátil.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt04'>
+	<text><![CDATA[Puerto VGA]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt04">
+<text><![CDATA[El puerto VGA es un socket de 15 pines que se conecta a pantallas o proyectores externos.]]></text>
+</component><!-- end slide 6 --><!-- slide 7 --><component id="ID_s07_title">
+<text><![CDATA[<b>Vista de la base de una computadora portátil</b>]]></text>
+</component>
+
+
+<component id='ID_s07_titleTxt01'>
+	<text><![CDATA[Panel de acceso al disco duro]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt01">
+<text><![CDATA[El panel de acceso al disco duro es una cubierta que permite acceder a la bahía de unidad de disco.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt02'>
+	<text><![CDATA[Trabas de la batería]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt02">
+<text><![CDATA[Las dos trabas de la batería son palancas que se utilizan al colocar, quitar o fijar la batería de la computadora portátil.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt03'>
+	<text><![CDATA[Conector para acoplamiento]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt03">
+<text><![CDATA[El conector para acoplamiento es un socket que se utiliza para conectar una computadora portátil a una estación de acoplamiento.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt04'>
+	<text><![CDATA[Panel de acceso a la memoria RAM]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt04">
+<text><![CDATA[El panel de acceso a la memoria RAM es una cubierta que permite acceder a la memoria de expansión.]]></text>
+</component><!-- end slide 7 --><component id="ID_inst">
+  <text><![CDATA[Haga clic en el área resaltada para ver contenido importante. Vuelva a hacer clic en el área resaltada para cerrar.]]></text> 
+</component>  
+
+</textcomponents>

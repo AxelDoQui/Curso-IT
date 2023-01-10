@@ -1,0 +1,9 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Historial de archivos de Windows 8</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Copia de respaldo y restauración de Windows 7: Elegir un disco de respaldo</b>]]></text>
+	</component>
+</textcomponents>

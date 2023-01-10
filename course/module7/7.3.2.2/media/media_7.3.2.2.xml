@@ -1,0 +1,43 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Envoltura exterior</b><br>Protege el hilo de cobre contra daño físico.]]></text> 
+	</component>
+		
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>Par trenzado</b><br>Protege la señal contra interferencias.]]></text> 
+	</component>	
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<b>Aislamiento plástico codificado por colores</b><br>Aísla eléctricamente los hilos entre sí e identifica cada par.]]></text> 
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Envoltura]]></text> 
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Trenzado o blindaje de hoja metálica]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Blindajes de hoja metálica]]></text> 
+	</component>
+
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Pares trenzados]]></text> 
+	</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Conectores RJ-45 para UTP]]></text> 
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Socket RJ-45 para UTP]]></text> 
+	</component><!-- end slide 3 --></textcomponents>

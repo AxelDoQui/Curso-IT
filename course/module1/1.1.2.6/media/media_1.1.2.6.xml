@@ -1,0 +1,75 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>Tipos de RAM</b>]]></text>
+  </component>
+  
+ <component id="ID_title01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_title02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_title03">
+  <text><![CDATA[DDR4]]></text> 
+  </component><!--<component id="ID_title04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>--><component id="ID_title04">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<component id="ID_title05">
+  <text><![CDATA[DDR]]></text> 
+  </component>  
+<component id="ID_title06">
+  <text><![CDATA[DDR2]]></text>
+  </component>
+<component id="ID_title07">
+  <text><![CDATA[DDR3]]></text> 
+  </component><!--<component id="ID_title09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>   --><component id="ID_btn01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_btn02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[DDR4]]></text> 
+  </component><!--<component id="ID_btn04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>--><component id="ID_btn04">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<component id="ID_btn05">
+  <text><![CDATA[DDR]]></text> 
+  </component>  
+<component id="ID_btn06">
+  <text><![CDATA[DDR2]]></text>
+  </component>
+<component id="ID_btn07">
+  <text><![CDATA[DDR3]]></text> 
+  </component><!--<component id="ID_btn09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>--><component id="ID_txt01">
+  <text><![CDATA[La RAM dinámica es un chip de memoria que se utiliza como memoria principal. La DRAM se debe actualizar constantemente con impulsos de electricidad para mantener los datos almacenados en el chip.]]></text>
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[La RAM estática es un chip de memoria que se utiliza como memoria caché. La SRAM es mucho más rápida que la DRAM y no es necesario actualizarla con tanta frecuencia. La SRAM es mucho más costosa que la DRAM.]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[SDRAM 4 de doble velocidad de transmisión de datos cuadruplica la capacidad máxima de almacenamiento de DDR3, requiere un 40% menos de potencia debido a que utiliza un voltaje inferior y ha avanzado las funciones de corrección de errores.]]></text> 
+  </component><!--<component id="ID_txt04">
+  <text><![CDATA[Extended Data Out RAM is memory that overlaps consecutive data accesses. This speeds up the access time to retrieve data from memory, because the CPU does not have to wait for one data access cycle to end before another data access cycle begins.]]></text>
+  </component>--><component id="ID_txt04">
+  <text><![CDATA[La DRAM síncrona es una DRAM que funciona en sincronización con el bus de memoria. El bus de memoria es la ruta de datos entre la CPU y la memoria principal. Las señales de control se usan para coordinar el intercambio de datos entre la SDRAM y la CPU.]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[La SDRAM de doble velocidad de transmisión de datos es una memoria que transfiere datos al doble de velocidad que la SDRAM. La DDR SDRAM aumenta el rendimiento al transferir los datos dos veces por ciclo de reloj.]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[La SDRAM de doble velocidad de transmisión de datos 2 es más rápida que la memoria DDR-SDRAM. El rendimiento con la DDR2 SDRAM es mejor que con la DDR SDRAM, porque se reduce el ruido y la diafonía entre los cables de señal.]]></text>
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[La SDRAM de doble velocidad de transmisión de datos 3 expande el ancho de banda de memoria al duplicar la frecuencia de reloj de la DDR2 SDRAM. La DDR3 SDRAM consume menos potencia y genera menos calor que la DDR2 SDRAM.]]></text> 
+  </component><!--<component id="ID_txt09">
+  <text><![CDATA[RAMBus DRAM is a memory chip that was developed to communicate at very high rates of speed. RDRAM chips are not commonly used.]]></text> 
+  </component>  --></textcomponents>

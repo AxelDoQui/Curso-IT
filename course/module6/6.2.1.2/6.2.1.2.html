@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.2 Hipervisor: Administrador de máquinas virtuales</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hipervisor: Administrador de máquinas virtuales</h1>
+        <div>
+          <p>El software que crea y administra una máquina virtual en una máquina host se denomina “hipervisor” o Virtual Machine Manager (VMM). Un hipervisor puede ejecutar varias máquinas virtuales en un único equipo host. Cada máquina virtual ejecuta su propio sistema operativo. La cantidad de máquinas virtuales que pueden ejecutarse a la vez depende de los recursos de hardware del equipo host. El hipervisor le asigna a cada máquina virtual recursos físicos del sistema, como CPU, RAM y disco duro, según sea necesario. Esto asegura que el funcionamiento de una máquina virtual no interfiera en el de otra.</p>
+          <p></p>
+          <p>La Figura 1 muestra los dos tipos de hipervisores: tipo 1 (nativo) y tipo 2 (alojado). Los hipervisores de tipo 1 se ejecutan directamente en el hardware de un host y administran la asignación de los recursos del sistema a los sistemas operativos invitados. Los hipervisores de tipo 2 están alojado en un sistema operativo. Windows Hyper-V y Windows Virtual PC son ejemplos de hipervisores de tipo 2.</p>
+          <p></p>
+          <p>
+            <b>Windows Hyper-V</b>
+          </p>
+          <p></p>
+          <p>Windows Hyper-V es una plataforma de virtualización para Windows 8. Brinda una infraestructura de software y herramientas de administración básica para crear y administrar un entorno de computación virtualizado de servidor. Un entorno de servidores virtualizados tiene muchas ventajas:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Puede reducir costos de la operación y el mantenimiento de los servidores físicos mejorando la utilización de hardware.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Puede aumentar la eficiencia de prueba y desarrollo reduciendo el tiempo necesario para configurar el hardware y el software.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Puede mejorar la disponibilidad del servidor sin utilizar tantas computadoras físicas.</li>
+            </ul>
+          </p>
+          <p>Windows Hyper-V debe estar habilitado para que sea posible utilizarlo. Para habilitar Windows Hyper-V, como se muestra en la Figura 2, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>
+            <b>Panel de control > Programas y características ></b> haga clic en <b>Activar o desactivar funciones de Windows > marque la casilla de Hyper-V > </b>haga clic en <b>Aceptar</b>.</p>
+          <p></p>
+          <p>Es posible que deba reiniciar el equipo host para que se apliquen los cambios.</p>
+          <p></p>
+          <p>La Figura 3 muestra la herramienta Hyper-V Manager en Windows 8.</p>
+          <p></p>
+          <p>
+            <b>Windows Virtual PC</b>
+          </p>
+          <p></p>
+          <p>Windows Virtual PC es la plataforma de virtualización para Windows 7. Virtual PC le permite dividir los recursos del sistema para un SO de Windows entre máquinas virtuales que ejecutan una copia autorizada de Windows 7 o Vista. Puede descargar Virtual PC del sitio web de Microsoft Windows. </p>
+          <p></p>
+          <p>
+            <b>Windows XP Mode</b>
+          </p>
+          <p></p>
+          <p>Windows XP Mode es un programa disponible para Windows 7. Windows XP utiliza tecnología de virtualización para permitir a los usuarios ejecutar programas de Windows XP en Windows 7. Abre una máquina virtual en el escritorio de Windows 7 que proporciona una versión completamente funcional de Windows XP, incluido el acceso a todos los recursos del sistema. Después de instalar un programa en Windows XP Mode, puede ejecutar el programa en modo XP y acceder a él desde el menú Inicio de Windows 7.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Antes de utilizar Windows XP Mode, descargue e instale Windows Virtual PC.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Microsoft ha retirado de servicio Windows XP Mode, y este no se incluye en las versiones de Windows posteriores a Windows 7. </p>
+          <p></p>
+          <p>Para acceder al modo XP en Windows 7, siga estas instrucciones:</p>
+          <p>
+            <b>Paso 1</b>. Haga clic en <b>Inicio ></b> <b>Todos los programas</b>.</p>
+          <p></p>
+          <p>
+            <b>Paso 2</b>. Haga clic en<b> Windows Virtual PC</b><b>></b> y en <b>Windows XP Mode</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

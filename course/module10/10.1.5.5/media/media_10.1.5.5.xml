@@ -1,0 +1,29 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Habilitación de llamadas a través de una red wifi en Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Habilitación de llamadas a través de una red wifi en iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Pago NFC</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Configuración de una conexión VPN en Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Configuración de una conexión VPN en iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s6_title">
+        <text><![CDATA[<b>Inicio de VPN en Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s7_title">
+        <text><![CDATA[<b>Inicio de VPN en iOS</b>]]></text>
+	</component>
+</textcomponents>

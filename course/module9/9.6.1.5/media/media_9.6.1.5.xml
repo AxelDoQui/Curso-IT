@@ -1,0 +1,42 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 5: Verificar la funcionalidad total del sistema y, si corresponde, implementar medidas preventivas</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Verificar la solución y la funcionalidad total del sistema para las computadoras portátiles.</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Reiniciar la computadora portátil.</li>
+					<li>Conectar todos los periféricos.</li>
+					<li>Operar la computadora portátil solo con la batería.</li>
+					<li>Imprimir un documento desde una aplicación.</li>
+					<li>Escribir un documento de muestra para probar el teclado.</li>
+					<li>Revisar el Visor de eventos para ver si hay advertencias o errores.</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Verificar la solución y la funcionalidad total del sistema para los dispositivos móviles.</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Reiniciar el dispositivo móvil.</li>
+					<li>Explorar en Internet utilizando wifi.</li>
+					<li>Explorar en Internet a través de 4G, 3G u otro tipo de red de proveedor de servicios de telefonía móvil.</li>
+					<li>Realizar una llamada telefónica.</li><li>Enviar un mensaje de texto.</li>
+					<li>Abrir distintos tipos de aplicaciones.</li>
+					<li>Utilizar el dispositivo móvil solo con la batería.</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

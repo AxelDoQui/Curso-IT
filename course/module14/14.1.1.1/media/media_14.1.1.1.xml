@@ -1,0 +1,125 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados del hardware</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>No se puede encontrar la RAID.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La controladora RAID externa no recibe energía.</li><li>La configuración del BIOS no es correcta.</li><li>La controladora RAID presenta una falla.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Revisar la conexión de suministro de energía a la controladora RAID.</li><li>Volver a configurar el BIOS para la controladora RAID.</li><li>Reemplazar la controladora RAID.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La RAID deja de funcionar.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La controladora RAID externa no recibe energía.</li><li>La controladora RAID presenta una falla.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Revisar la conexión de suministro de energía a la controladora RAID.</li><li>Reemplazar la controladora RAID.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La computadora presenta un rendimiento lento.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La computadora no tiene suficiente RAM.</li><li>La computadora recalienta.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Instalar RAM adicional.</li><li>Limpiar los ventiladores o instalar ventiladores adicionales.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>La computadora no reconoce una unidad externa extraíble.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El sistema operativo no tiene los controladores correctos para la unidad externa extraíble.</li><li>Hay demasiados dispositivos conectados al puerto USB y este no puede suministrar la energía suficiente.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Descargar los controladores correctos para la unidad.</li><li>Conectar una fuente de energía externa al dispositivo o quitar algunos de los dispositivos USB.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Después de actualizar el firmware del CMOS, la computadora no arranca.</td>
+		<td bgcolor='#E9E7E8'>La actualización del firmware del CMOS no se instaló correctamente.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Restaurar la versión original del firmware desde la copia de respaldo integrada, si está disponible.</li><li>Si la placa madre tiene dos chips CMOS, puede utilizarse el segundo chip CMOS.</li><li>Ponerse en contacto con el fabricante de la placa madre para obtener un chip CMOS nuevo.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La computadora se reinicia sin advertencia, se bloquea o muestra mensajes de error o la BSOD.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La RAM presenta errores.</li><li>La configuración del bus en la parte delantera es demasiado alta.</li><li>La configuración del multiplicador de la CPU es demasiado alta.</li><li>La configuración del voltaje de la CPU es demasiado alta.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Probar cada módulo RAM para determinar si están funcionando correctamente.</li><li>Restablecer la configuración de los valores predeterminados de fábrica de la placa madre.</li><li>Establecer una configuración más baja del FSB.</li><li>Establecer una configuración más baja del multiplicador.</li><li>Establecer una configuración más baja del voltaje de la CPU.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Después de realizar la actualización de una CPU de núcleo único a una CPU multinúcleo, la computadora funciona más lentamente y se muestra solo un gráfico de CPU en el Administrador de tareas.</td>
+		<td bgcolor='#E9E7E8'>El BIOS no reconoce la CPU multinúcleo.</td>
+		<td bgcolor='#E9E7E8'>Actualizar el firmware del CMOS para admitir la CPU multinúcleo.</td>
+	</tr>
+		
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de las impresoras</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La impresora imprime caracteres desconocidos.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Se instaló un controlador de impresión incorrecto.</li><li>Los cables de la impresora están flojos.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Desinstalar el controlador de impresión incorrecto e instalar el controlador correcto.</li><li>Ajustar los cables de la impresora.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La impresora no imprime imágenes de gran tamaño o complejas.</td>
+		<td bgcolor='#F2F2F2'>La impresora no tiene suficiente memoria.</td>		
+		<td bgcolor='#F2F2F2'>Agregar más memoria a la impresora.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Una impresora láser imprime líneas verticales o produce vetas en todas las páginas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>El tambor está dañado.</li><li>El tóner no se distribuye equitativamente en el cartucho.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Reemplazar el tambor o el cartucho de tóner si este último contiene el tambor.</li><li>Quitar y sacudir el cartucho de tóner.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Se pueden ver imágenes fantasma en las páginas impresas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>El tambor está rayado o sucio.</li><li>La cuchilla de limpieza del tambor está desgastada.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>Reemplazar el tambor o el cartucho de tóner si este último contiene el tambor.</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>El tóner no se adhiere al papel.</td>
+		<td bgcolor='#E9E7E8'>El fusor presenta una falla.</td>
+		<td bgcolor='#E9E7E8'>Reemplazar el fusor.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>El papel está arrugado luego de la impresión.</td>
+		<td bgcolor='#F2F2F2'>Los rodillos de toma de papel están obstruidos, dañados o sucios.</td>		
+		<td bgcolor='#F2F2F2'>Limpiar o reemplazar los rodillos de toma de papel.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>El papel no alimenta la impresora.</td>
+		<td bgcolor='#E9E7E8'>Los rodillos de toma de papel están obstruidos, dañados o sucios.</td>
+		<td bgcolor='#E9E7E8'>Limpiar o reemplazar los rodillos de toma de papel.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Cada vez que se reinicia una impresora de red, los usuarios reciben el mensaje “No se puede imprimir el documento”.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La configuración IP de la impresora está establecida para DHCP.</li><li>Hay un dispositivo en la red con la misma dirección IP que la impresora de red.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Asignar a la impresora una dirección IP estática.</li><li>Asignar a la impresora una dirección IP estática diferente.</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 2--></textcomponents>

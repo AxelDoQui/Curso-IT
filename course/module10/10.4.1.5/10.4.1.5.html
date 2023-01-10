@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.5 Descripción general del proceso de copia de seguridad y recuperación</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Descripción general del proceso de copia de seguridad y recuperación</h1>
+        <div>
+          <p>El proceso de copias de seguridad de los datos se refiere a crear una copia (o varias copias) de datos para guardarla en un lugar seguro. Cuando se completa el proceso de copia de seguridad, la copia se denomina copia de seguridad. El objetivo principal es la capacidad de restaurar o recuperar los datos en caso de fallos. El acceso a una versión anterior de datos se considera generalmente como un objetivo secundario del proceso de copia de seguridad.</p>
+          <p></p>
+          <p>Si bien las copias de seguridad se pueden lograr con un comando de copia simple, muchas herramientas y técnicas existen para hacer el proceso automático y transparente para el usuario.</p>
+          <p></p>
+          <p>
+            <b>Linux</b>
+          </p>
+          <p></p>
+          <p>Varias herramientas y soluciones de copia de seguridad están disponibles para Linux. Déjà Dup, que se muestra en la Figura 1, es una herramienta fácil y eficaz para realizar una copia de seguridad de los datos. Déjà Dup admite varias funciones incluidas las ubicaciones de copia de seguridad locales, remotas, o la nube (Figura 2), compresión de cifrado de datos, copias de seguridad incremental, copias periódicas programadas (Figura 3), e integración en el escritorio de GNOME. También restaura desde cualquier copia de seguridad determinada (Figura 4).</p>
+          <p>Para activar las copias de seguridad automáticas en Ubuntu Linux, utilice la siguiente ruta de acceso:</p>
+          <p></p>
+          <p>Haga clic en el botón de Ubuntu en la parte superior del <b>iniciador > </b>escriba <b>deja dup ></b> haga clic en el icono <b>Déjà Dup</b> <b>></b> haga clic en el botón ubicado en la esquina superior derecha de la ventana de Déjà Dup para <b>activar</b> las copias de seguridad.</p>
+          <p></p>
+          <p>
+            <b>OS X</b>
+          </p>
+          <p></p>
+          <p>OS X incluye una herramienta de copia de seguridad llamada Time Machine. Con Time Machine, los usuarios elijen una unidad externa que se usará como dispositivo de destino de copia de seguridad y la conectan al Mac mediante USB, FireWire o Thunderbolt. Time Machine prepara el disco para recibir copias de seguridad y, cuando el disco está listo, realiza copias de seguridad incrementales periódicamente. Time Machine crea copias de seguridad cada una hora para las últimas 24 horas, copias de seguridad diarias para el último mes y las copias de seguridad semanales. Las copias de seguridad más antiguas se eliminan cuando la unidad de copia de seguridad se llena o está completa.</p>
+          <p></p>
+          <p>Si el usuario no especifica un disco de destino de Time Machine, Time Machine preguntará si el disco externo recientemente conectado se puede utilizar como disco de copia de seguridad de destino, como se muestra en la Figura 5.</p>
+          <p></p>
+          <p>Para ajustar la configuración de Time Machine, como se muestra en la Figura 6, utilice la siguiente ruta de acceso:</p>
+          <p></p>
+          <p>
+            <b>Configuración > Time Machine</b>
+          </p>
+          <p></p>
+          <p>Si se configura Time Machine y el disco de destino está conectado, Time Machine realizará copias automáticas basadas en su programación de tiempo. O bien, un usuario puede iniciar una copia de seguridad en cualquier momento haciendo clic en <b>Crear copia de seguridad ahora</b> en el menú de la barra de menús de Time Machine, como se muestra en la Figura 7.</p>
+          <p>Para restaurar los datos de Time Machine, asegúrese de que el disco de copia de seguridad de destino esté conectado al Mac y haga clic en <b>Ingresar a Time Machine</b> en el menú de Time Machine. Como se muestra en la Figura 8, mediante el cronograma a la derecha de la ventana, Time Machine permite al usuario restaurar los datos a cualquier versión anterior disponible en el disco de copia de seguridad de destino.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

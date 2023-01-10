@@ -1,0 +1,22 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>CSMA/CA</b>]]></text>
+	</component>
+	
+	
+
+	<component id="ID_bubble01">
+		<text><![CDATA[<font color="#FFFFFF">Veo en la trama inalámbrica que el canal no estará disponible para una cantidad de tiempo específica, por eso no puedo enviar.</font>]]></text>
+	</component>
+	
+	<component id="ID_bubble02">
+		<text><![CDATA[<font color="#FFFFFF">Veo en la trama inalámbrica que el canal no estará disponible para una cantidad de tiempo específica, por eso no puedo enviar.</font>]]></text>
+	</component>
+	
+	<component id="ID_bubble03">
+		<text><![CDATA[<font color="#FFFFFF">Estoy recibiendo esta trama inalámbrica.</font>]]></text>
+	</component>
+	
+	
+
+</textcomponents>

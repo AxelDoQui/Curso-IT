@@ -1,0 +1,173 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[Estructura de un disco duro]]></text>
+	</component>
+
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Eje del actuador]]></text>
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Eje]]></text>
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Brazo del actuador]]></text>
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Platos/discos]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[Eje del actuador]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[El eje del actuador sostiene el brazo del actuador y actúa como punto de rotación.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt02'>
+		<text><![CDATA[Eje]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt02'>
+		<text><![CDATA[El eje sostiene los platos y los hace girar.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt03'>
+		<text><![CDATA[Brazo del actuador]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt03'>
+		<text><![CDATA[El brazo del actuador sostiene el cabezal de lectura/escritura y lo mueve entre las pistas del plato.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt04'>
+		<text><![CDATA[Platos]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt04'>
+		<text><![CDATA[Los platos son discos cubiertos con medios magnéticos.]]></text>
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[Estructura del plato de un disco duro]]></text>
+	</component>
+
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[Pista]]></text>
+	</component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Clúster]]></text>
+	</component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[Sector]]></text>
+	</component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Cilindro]]></text>
+	</component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Espacio entre sectores]]></text>
+	</component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[Código de corrección de errores (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Información de sincronización]]></text>
+	</component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[Espacio entre pistas]]></text>
+	</component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[Encabezado]]></text>
+	</component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[Datos]]></text>
+	</component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[Tráiler]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt01'>
+		<text><![CDATA[Pista]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[Una pista es un círculo completo en un lado del plato donde se escriben y leen los datos. La pista se divide en varios sectores.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt02'>
+		<text><![CDATA[Clúster]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt02'>
+		<text><![CDATA[Un clúster es un grupo de sectores asignados para almacenar datos. El sistema de archivos asigna clústeres para el almacenamiento porque la mayoría de los archivos son más grandes que un sector.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt03'>
+		<text><![CDATA[Sector]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt03'>
+		<text><![CDATA[Un sector es una porción de pista que contiene información de sincronización, datos y el código de corrección de errores (ECC, error correcting code).]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt04'>
+		<text><![CDATA[Cilindro]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt04'>
+		<text><![CDATA[Un cilindro es donde se alinean las pistas entre sí, por encima y debajo, en muchos platos.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt05'>
+		<text><![CDATA[Espacio entre sectores]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt05'>
+		<text><![CDATA[Este es el espacio que define los límites entre los sectores.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt06'>
+		<text><![CDATA[Código de corrección de errores (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt06'>
+		<text><![CDATA[Este código ayuda a verificar que los datos en el sector se escribieron correctamente.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt07'>
+		<text><![CDATA[Información de sincronización]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt07'>
+		<text><![CDATA[Son datos que utilizan la unidad y el controlador para ayudar con el almacenamiento de datos.]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt08'>
+		<text><![CDATA[Espacio entre pistas]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt08'>
+		<text><![CDATA[Es el espacio que define los límites entre las pistas.]]></text>
+	</component><!-- end slide 2 --></textcomponents>

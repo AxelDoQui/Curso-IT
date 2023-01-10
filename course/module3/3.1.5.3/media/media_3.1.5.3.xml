@@ -1,0 +1,85 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Actividad: Identificar los conectores de fuente</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el tipo de conector con su imagen.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correcto]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente cada conector de fuente con su imagen.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente cada conector de fuente con su imagen. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Verificar]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Restablecer]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<b>Tipo de conector</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Placa madre ATX]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Auxiliar ATX]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Molex]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[SATA]]></text>
+</component><!--Questions--><component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Descripción</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Instale los separadores en el gabinete de la computadora en la misma ubicación de los orificios de montaje de la placa madre.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Alinee los orificios de los tornillos de la placa madre con los separadores.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Instale la placa de conectores de E/S en la parte posterior del gabinete de la computadora.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Inserte todos los tornillos de la placa madre y apriete todos los tornillos a mano antes de ajustar con un destornillador.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Elija los separadores correspondientes de la placa madre para el gabinete.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Alinee los conectores de E/S en la parte posterior de la placa madre con las aberturas de la placa de E/S.]]></text> 
+</component>
+
+</textcomponents>

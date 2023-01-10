@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.3 Instalación de redes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Instalación de redes</h1>
+        <div>
+          <p>
+            <b>Instalación de red remota</b>
+          </p>
+          <p></p>
+          <p>Un método popular para la instalación del sistema operativo en entornos con muchas computadoras es una instalación de la red remota. Con este método, los archivos de instalación del sistema operativo se almacenan en un servidor de modo que una computadora cliente tenga acceso a los archivos de forma remota para comenzar la instalación. Un paquete de software como servicios de instalación remota (RIS) se utiliza para comunicarse con el cliente, almacenar archivos de configuración, y para suministrar instrucciones necesarias para que el cliente acceda a los archivos de configuración, los descargue, y comience la instalación del sistema operativo.</p>
+          <p></p>
+          <p>Debido a que la computadora cliente no tiene un sistema operativo instalado, se debe utilizar un entorno especial para arrancar la computadora, conectarla a la red, y comunicarse con el servidor para iniciar el proceso de instalación. Este entorno especial se conoce como el entorno de ejecución de prearranque (PXE). Para que el PXE funcione, el NIC PXE debe estar habilitado. Esta funcionalidad puede provenir del BIOS o del firmware de la NIC. Cuando se inicia la computadora, la NIC escucha instrucciones especiales en la red para iniciar el PXE, como se muestra en la Figura 1.</p>
+          <p></p>
+          <p>
+            <b>Nota:</b> Si la NIC no está habilitada para PXE, el software de terceros puede usarse para cargar el PXE de medios de almacenamiento.</p>
+          <p></p>
+          <p>
+            <b>Instalación desatendida</b>
+          </p>
+          <p></p>
+          <p>La instalación desatendida, otra instalación basada en la red, permite que actualicen o instalen un sistema Windows con poca intervención del usuario. La instalación desatendida de Windows se basa en <i>archivo de respuesta</i>. Este archivo contiene texto simple que le indica a la configuración de Windows cómo configurar e instalar el sistema operativo.</p>
+          <p></p>
+          <p>Para realizar la instalación desatendida de Windows, se debe ejecutar setup.exe con opciones del usuario que se encuentran en el archivo de respuesta. El proceso de instalación comenzará de forma normal pero en lugar de solicitar usuario, la configuración usa las respuestas que aparecen en el archivo de respuesta.</p>
+          <p></p>
+          <p>Para personalizar una instalación estándar de Windows 7 o Windows Vista, se utiliza el Administrador de imágenes de sistema (SIM, System Image Manager) para crear el archivo de respuesta de instalación. También puede agregar paquetes, como aplicaciones y controladores, a los archivos de respuesta.</p>
+          <p></p>
+          <p>La Figura 2 muestra un ejemplo de un archivo de respuesta. Una vez que se contestan todas las preguntas, se copia el archivo a la carpeta compartida de distribución en un servidor. En este momento, tiene dos alternativas:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Ejecutar el archivo unattended.bat en la máquina cliente para preparar el disco duro e instalar el sistema operativo desde el servidor a través de la red.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Cree un disco de arranque para arrancar la computadora y hacer que se conecte a la carpeta compartida de distribución en el servidor. Luego ejecute el archivo por lotes que contiene un conjunto de instrucciones para instalar el sistema operativo sobre la red.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Nota</b>: Windows SIM forma parte del Kit de instalación automatizada de Windows y se puede descargar desde el sitio web de Microsoft.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Windows Phone permite modificar el tamaño de los mosaicos</b>]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Windows Phone permite crear carpetas</b>]]></text>
+	</component>
+
+	<component id="end">
+	<text><![CDATA[Fin]]></text>
+	</component>
+
+	<component id="fforward">
+	<text><![CDATA[Adelantar]]></text>
+	</component>
+
+	<component id="pause">
+	<text><![CDATA[Pausar]]></text>
+	</component>
+
+	<component id="play">
+	<text><![CDATA[Reproducir]]></text>
+	</component>
+
+	<component id="rewind">
+	<text><![CDATA[Regresar]]></text>
+	</component>
+
+	<component id="start">
+	<text><![CDATA[Inicio]]></text>
+	</component>
+
+		<component id="end1">
+	<text><![CDATA[Fin]]></text>
+	</component>
+
+	<component id="fforward1">
+	<text><![CDATA[Adelantar]]></text>
+	</component>
+
+	<component id="pause1">
+	<text><![CDATA[Pausar]]></text>
+	</component>
+
+	<component id="play1">
+	<text><![CDATA[Reproducir]]></text>
+	</component>
+
+	<component id="rewind1">
+	<text><![CDATA[Regresar]]></text>
+	</component>
+
+	<component id="start1">
+	<text><![CDATA[Inicio]]></text>
+	</component>
+
+
+
+</textcomponents>
+

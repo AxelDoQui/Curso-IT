@@ -1,0 +1,95 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar términos</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el término con su descripción.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correcto]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente los números de pasos con sus descripciones.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente los números de pasos con sus descripciones. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Verificar]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Restablecer]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF" size="15">Tipo de red</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">CMOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536">UEFI</font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536">TPM</font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536">BIOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">POST</font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536">LoJack</font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">Término</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">Descripción</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Almacena la configuración BIOS.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Proporciona una interfaz de software habilitada para el mouse en lugar de las pantallas tradicionales del BIOS.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Un pequeño programa que lee las configuraciones establecidas que se almacenan en CMOS para determinar cómo configurar el hardware.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Una función de seguridad que proporciona información sobre el dispositivo y la ubicación.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Una verificación de hardware en los componentes principales de la computadora.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Un chip diseñado para proteger el hardware mediante el almacenamiento de claves de cifrado, certificados digitales, contraseñas y datos.]]></text> 
+</component>
+
+</textcomponents>

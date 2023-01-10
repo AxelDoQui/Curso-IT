@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Actividad: Identificar el orden del proceso de arranque del BIOS</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instrucciones</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada paso con una descripción.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>Correcto</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente cada paso con su descripción.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>Incorrecto</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente cada paso con su descripción. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Verificar</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Restablecer</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Pasos</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[<font color="#393536"><b>7</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[<font color="#393536"><b>8</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[<font color="#393536"><b>9</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[<font color="#393536"><b>10</b></font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font color="#393536"><b>Pasos</b></font>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Descripción</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[El kernel de Windows asume el proceso de arranque.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[WinLoad utiliza la ruta especificada en BOOTMGR para buscar la partición de arranque.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[WINLOGON.EXE muestra la pantalla de bienvenida de Windows.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[El BIOS ubica y lee los parámetros de configuración almacenados en la memoria CMOS.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[NTOSKRNL.EXE inicia el archivo de inicio de sesión llamado WINLOGON.EXE.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[WinLoad carga dos archivos que constituyen el núcleo de Windows: NTOSKRNL.EXE y HAL.DLL.]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[El BIOS arranca la computadora utilizando la primera unidad que contenga un sector de arranque válido.]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[POST.]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[Se ejecuta el código en el sector de arranque y se le concede el control del proceso de arranque al Administrador de arranque de Windows.]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[WinLoad lee los archivos del registro, elige un perfil de hardware y carga los controladores de dispositivos.]]></text> 
+</component>
+</textcomponents>

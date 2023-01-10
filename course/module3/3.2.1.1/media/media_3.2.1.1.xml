@@ -1,0 +1,85 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>POST</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Códigos de sonido comunes</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>			
+				<tr>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Código de sonido</b></font></td>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Significado</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='12' color='#ffffff'><b>Causa</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>1 sonido (sin video)</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Error de actualización de la memoria</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Memoria defectuosa</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>2 sonidos</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Error de paridad de la memoria</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Memoria defectuosa</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>3 sonidos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Falla de memoria de base 64</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Memoria defectuosa</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>4 sonidos</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Temporizador no operativo</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Placa madre defectuosa</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5 sonidos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Error de procesador</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Procesador defectuoso</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6 sonidos</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Error 8042 en puerta A20</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>CPU o placa madre defectuosa</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>7 sonidos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Excepción del procesador</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Procesador defectuoso</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8 sonidos</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Error de memoria de video</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Memoria o tarjeta de video defectuosa</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>9 sonidos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Error de checksum de ROM</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>BIOS defectuoso</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10 sonidos</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Error de checksum de CMOS</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Placa madre defectuosa</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>11 sonidos</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Memoria caché defectuosa</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>CPU o placa madre defectuosa</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+</textcomponents>

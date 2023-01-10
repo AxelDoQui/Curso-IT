@@ -1,0 +1,60 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Actividad: Identificar los conectores externos</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el tipo de conector con su imagen.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correcto]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Unió correctamente cada conector externo con su imagen.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrecto]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[No unió correctamente cada conector externo con su imagen. Haga clic en Restablecer y vuelva a intentarlo.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Verificar]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Restablecer]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<b>Tipo de conector</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Teclado]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Monitor]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Mouse]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[USB]]></text>
+</component>
+
+
+</textcomponents>

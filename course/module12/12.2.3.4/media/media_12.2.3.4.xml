@@ -1,0 +1,51 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Tipos de permisos</b>]]></text>
+	</component>
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+	        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Nivel de permiso</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Descripción</b></font></td>
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8' width="150">Control total</td>
+			<td bgcolor='#E9E7E8'>Los usuarios pueden ver el contenido de un archivo o una carpeta; modificar y desechar archivos existentes y carpetas; crear nuevos archivos y carpetas y ejecutar programas en una carpeta.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>Modificar</td>
+			<td bgcolor='#F2F2F2'>Los usuarios pueden modificar y desechar archivos y carpetas existentes, pero no pueden crear nuevos.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8'>Leer y ejecutar</td>
+			<td bgcolor='#E9E7E8'>Los usuarios pueden ver el contenido de los archivos y carpetas existentes y pueden ejecutar programas en una carpeta.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>Leer</td>
+			<td bgcolor='#F2F2F2'>Los usuarios pueden ver el contenido de una carpeta y abrir archivos y carpetas.</td> 
+		</tr>
+
+        <tr>
+			<td bgcolor='#E9E7E8'>Escritura</td>
+			<td bgcolor='#E9E7E8'>Los usuarios pueden crear nuevos archivos y carpetas y realizar cambios en los archivos y carpetas existentes.</td> 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

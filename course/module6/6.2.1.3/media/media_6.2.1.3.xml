@@ -1,0 +1,66 @@
+<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+    <text><![CDATA[<b>Requisitos de Windows Hyper-V en Windows 8</b>]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Sistema operativo del host</td>
+			<td bgcolor='#E9E7E8'>Sistema operativo de Windows 8 Pro o Enterprise 64 bit</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Procesador</td>
+			<td bgcolor='#E9E7E8'>Procesador de 64 bits con traducción de dirección de segundo nivel</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BIOS</td>
+			<td bgcolor='#F2F2F2'>Soporte de virtualización de hardware del nivel de BIOS</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Memoria</td>
+			<td bgcolor='#E9E7E8'>Por lo menos RAM del sistema 4 GB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Espacio en el disco duro</td>
+			<td bgcolor='#F2F2F2'>Por lo menos 15 GB por SO virtual</td>
+		</tr>
+	</table>]]></text> 
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+    <text><![CDATA[<b>Requisitos de Windows Virtual PC en Windows 7</b>]]></text>
+</component>
+    
+    <component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Procesador</td>
+            <td bgcolor='#E9E7E8'>Procesador de 32 bits o de 64 bits de 1 GHz</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Memoria</td>
+			<td bgcolor='#F2F2F2'>2GB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Espacio en el disco duro</td>
+			<td bgcolor='#E9E7E8'>15 GB por sistema operativo virtual</td>
+		</tr>
+
+	</table>]]></text> 
+</component>
+
+</textcomponents>

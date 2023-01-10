@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Tipos de red</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada tipo de red a una definición.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Entre pares]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[MAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[WLAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[WAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[PAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Cliente-Servidor]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada tipo de red con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Unió incorrectamente cada tipo de red con su descripción. Haga clic en <b>Restablecer</b> para intentarlo nuevamente.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Tipo de red</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Una red que conecta dispositivos dentro de una persona individual. Todos estos dispositivos están dedicados a un solo host.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[ Una red que no tiene ninguna jerarquía entre las computadoras, ni existen servidores dedicados. Cada cliente tiene capacidades y responsabilidades equivalentes.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Una red que abarca un área geográfica pequeña, que pertenece normalmente a una persona o se encuentra completamente administrada por un departamento de TI.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Una red que abarca un campus o una ciudad grande y está compuesta por diversos edificios interconectados mediante backbones inalámbricos o de fibra óptica. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Una red que utiliza ondas de radio para transmitir datos entre dispositivos inalámbricos. Esta red puede funcionar en infraestructura o modo ad hoc.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Una red que conecta múltiples redes que se encuentran geográficamente separadas y son propiedad de un proveedor de servicios.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Una red donde los hosts requieren información o servicios a un servidor. El servidor le proporciona al host la información o el servicio que solicitó.]]></text>
+	</component>
+</textcomponents>

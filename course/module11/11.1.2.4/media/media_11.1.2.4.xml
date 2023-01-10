@@ -1,0 +1,184 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar el proceso de impresión láser (parte 1)</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el nombre de cada paso con su descripción.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Transferencia]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Exposición]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Limpieza]]></text>
+	</component>
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Revelado]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Fusión]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Procesamiento]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Carga]]></text>
+	</component>
+
+	
+	<component id='ID_drag_header'>
+		<text><![CDATA[<b>Pasos</b>]]></text>
+	</component> 
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada paso con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada paso con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Nombre del paso</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[Para escribir la imagen, se expone el tambor fotosensible al haz de láser. A medida que el tambor gira, se crea una imagen latente invisible en el tambor.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[El tóner se aplica a la imagen latente en el tambor.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[La impresora convierte datos de lenguajes comunes, como PS o PCL, a una imagen de mapa de bits almacenada en la memoria de la impresora.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[El tóner se adhiere permanentemente al papel. Mientras el papel se mueve por los rodillos, el tóner suelto se derrite y se adhiere a las fibras del papel. Luego, el papel pasa a la bandeja de salida como una hoja impresa.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[El tóner adherido a la imagen latente se transfiere al papel.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Una vez que la imagen se deposita en el papel y el tambor se separa de este, se debe desechar el resto del tóner del tambor con un blade o un cable.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[La imagen latente anterior en el tambor se elimina y el tambor se acondiciona para la nueva imagen latente por el hilo de corona.]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Ordenar el proceso de impresión láser (parte 2)</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Arrastre cada número a su lugar de orden correcto en el proceso de impresión láser.]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag_header'>
+		<text><![CDATA[<b>Pasos</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_drag01'>
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[2]]></text>
+	</component>
+	<component id='ID_s2_drag03'>
+		<text><![CDATA[3]]></text>
+	</component>
+	<component id='ID_s2_drag04'>
+		<text><![CDATA[4]]></text>
+	</component>
+	<component id='ID_s2_drag05'>
+		<text><![CDATA[5]]></text>
+	</component>
+	<component id='ID_s2_drag06'>
+		<text><![CDATA[6]]></text>
+	</component>
+	<component id='ID_s2_drag07'>
+		<text><![CDATA[7]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[Ordenó correctamente cada paso del proceso de impresión láser.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[No ordenó correctamente cada paso del proceso de impresión láser. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>Nombre del paso</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>Número de paso</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Carga]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+	<text><![CDATA[Exposición]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+	<text><![CDATA[Limpieza]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+	<text><![CDATA[Procesamiento]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+	<text><![CDATA[Transferencia]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+	<text><![CDATA[Fusión]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+	<text><![CDATA[Revelado]]></text>
+	</component>
+
+	
+</textcomponents>

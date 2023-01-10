@@ -1,0 +1,27 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Teclado, mouse y panel táctil</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Pantalla táctil</b>]]></text>
+	</component>
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Joystick y controlador para juegos</b>]]></text>
+	</component>
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Cámara digital</b>]]></text>
+	</component>
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Escáneres</b>]]></text>
+	</component>
+	<component id="ID_s6_title">
+		<text><![CDATA[<b>Digitalizador</b>]]></text>
+	</component>
+	<component id="ID_s7_title">
+		<text><![CDATA[<b>Lector de huellas digitales</b>]]></text>
+	</component>
+	<component id="ID_s8_title">
+		<text><![CDATA[<b>Switch KVM</b>]]></text>
+	</component>
+	
+</textcomponents>

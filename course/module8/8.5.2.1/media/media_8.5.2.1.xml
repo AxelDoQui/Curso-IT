@@ -1,0 +1,121 @@
+<textcomponents>
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problemas y soluciones comunes</b></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263' valign="top" width="160"><font color='#F2F2F2'><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Soluciones posibles</b></font></td>
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Las luces LED de la NIC no están encendidas.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>El cable de red está desconectado o está dañado.</li>
+					<li>La NIC está dañada.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Reemplace la conexión de red o vuelva a conectarla a la computadora.</li>
+					<li>Reemplace la NIC.</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>El usuario no puede utilizar SSH con un dispositivo remoto.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>El dispositivo remoto no está configurado para el acceso mediante SSH.</li>
+					<li>No se permite el acceso mediante SSH desde el usuario o desde una red específica.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Configure el dispositivo remoto para el acceso mediante SSH.</li>
+					<li>Permita el acceso mediante SSH desde el usuario o la red.</li></ul></font>
+			</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Las computadoras portátiles no pueden detectar el router inalámbrico.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>El router o el punto de acceso inalámbrico se configuró con un protocolo 802.11 distinto.</li>
+					<li>No se transmite el SSID.</li>
+					<li>La NIC inalámbrica de la computadora portátil está deshabilitada.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configure el router inalámbrico con un protocolo compatible para la computadora portátil.</li>
+					<li>Configure el router inalámbrico para que transmita el SSID.</li>
+					<li>Habilite la NIC inalámbrica en la computadora portátil.</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' valign="top">La computadora tiene una dirección IP 169.254.x.x.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>El cable de red está desconectado.</li>
+					<li>El router está apagado o la conexión es defectuosa.</li>
+					<li>La NIC está dañada.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Vuelva a conectar el cable de red.</li>
+					<li>Asegúrese de que el router esté encendido y correctamente conectado a la red.</li>
+					<li>Libere y renueve la dirección IP de la computadora.</li>
+					<li>Reemplace la NIC.</li></ul></font>
+			</td>
+		</tr>	
+	
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Un dispositivo remoto no responde a una solicitud de ping.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>El firewall de Windows deshabilita el ping de manera predeterminada.</li>
+					<li>El dispositivo remoto está configurado para no responder a las solicitudes de ping.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configure el firewall para que habilite el protocolo ping.</li>
+					<li>Configure el dispositivo remoto para que responda a la solicitud de ping.</li></ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Un usuario puede acceder a la red local, pero no puede acceder a Internet.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>La dirección de gateway es incorrecta o no está configurada.</li>
+					<li>El ISP no está prestando servicio.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Asegúrese de que se asigne la dirección de gateway correcta a la NIC.</li>
+					<li>Llame al ISP para informar la interrupción.</li></ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>La red está completamente funcional, pero el dispositivo inalámbrico no puede conectarse a la red.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>La funcionalidad inalámbrica del dispositivo está desactivada.</li>
+					<li>El dispositivo está fuera del alcance inalámbrico.</li>
+					<li>Hay interferencia de otros dispositivos inalámbricos que utilizan el mismo rango de frecuencia.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Habilite la funcionalidad inalámbrica desde el dispositivo.</li>
+					<li>Acérquese al router o al punto de acceso inalámbrico.</li>
+					<li>Cambie el router inalámbrico a otro canal.</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Una computadora con Windows, conectada a una red que solo tiene computadoras con Windows, no puede ver los recursos compartidos.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>El nombre del grupo de trabajo es incorrecto.</li>
+					<li>La ubicación de la red es incorrecta.</li>
+					<li>La detección de redes y el uso compartido de archivos están desactivados.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Corrija el nombre del grupo de trabajo.</li>
+					<li>Cambie la ubicación de la red por la correcta.</li>
+					<li>Active la detección de redes y el uso compartido de archivos.</li></ul></font>
+			</td>
+		</tr>
+			
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Un usuario no puede asignar una unidad de red.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>El usuario no tiene los permisos adecuados.</li>
+					<li>Grupo de trabajo incorrecto.</li>
+					<li>La detección de redes y el uso compartido de archivos están desactivados.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configure los permisos adecuados para este usuario.</li>
+					<li>Cambie el nombre del grupo de trabajo.</li>
+					<li>Active la detección de redes y el uso compartido de archivos.</li></ul></font>
+			</td>
+		</tr>	
+</table>]]>
+</text>
+</component>
+</textcomponents>

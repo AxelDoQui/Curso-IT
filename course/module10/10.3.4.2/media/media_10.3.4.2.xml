@@ -1,0 +1,8 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Sincronización de wifi en iOS</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+        <text><![CDATA[Alternancia de sincronización de wifi]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,53 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>Conectores de fibra óptica</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[Conectores ST]]></text> 
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Conectores SC]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt03">
+  <text><![CDATA[Conector WSA]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt04">
+  <text><![CDATA[Conectores LC multimodo dúplex]]></text> 
+  </component>
+  
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Conectores de punta directa (ST)]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[Uno de los primeros tipos de conectores utilizados. El conector se bloquea de manera segura con un mecanismo tipo bayoneta de giro.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Conectores suscriptor (SC)]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[En ocasiones, se lo denomina conector cuadrado o conector estándar. Es un conector LAN y WAN ampliamente adoptado que utiliza un mecanismo de inserción/extracción para asegurar la inserción correcta. Este tipo de conector se utiliza con la fibra óptica multimodo y monomodo.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Conectores Lucent (LC) simplex]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Una versión pequeña del conector SC de fibra óptica. En ocasiones, denominado conector “pequeño” o “local”, cada vez adquiere mayor popularidad debido a su tamaño reducido.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[Conectores LC multimodo dúplex]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Similar a un conector LC simplex, pero que utiliza un conector dúplex.]]></text>
+	</component>
+  
+  	<component id="ID_s1_inst">
+		<text><![CDATA[Haga clic en el botón de cada tipo de conector para obtener más información.]]></text>
+	</component>
+  
+ 
+</textcomponents>

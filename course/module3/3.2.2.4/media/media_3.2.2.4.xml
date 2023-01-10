@@ -1,0 +1,90 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Perfiles de velocidad del ventilador</b>]]></text>
+	</component>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Perfil del ventilador</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Estándar</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El ventilador se ajusta de forma automática según la temperatura de la CPU, el gabinete, la fuente de alimentación u otro hardware.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Turbo</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Velocidad máxima del ventilador en todo momento.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Silencioso</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Minimiza la velocidad del ventilador para disminuir el ruido.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Manual</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>El usuario puede asignar la configuración de control de la velocidad del ventilador.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Voltajes</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Velocidad del reloj y de buses</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Diagnóstico incorporado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Prueba de diagnóstico</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Start Test (Prueba de arranque)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Verifica que los componentes principales funcionen correctamente.</li><li>Utilice esta prueba cuando la computadora no arranque correctamente.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Hard Drive Test (Prueba de disco duro)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Revisa el disco duro para detectar áreas dañadas.</li><li>Si se encuentran áreas dañadas, esta herramienta intenta recuperar los datos, trasladarlos a un área en buenas condiciones y marcar el área dañada como defectuosa para que no se la vuelva a utilizar.</li><li>Utilice esta prueba si sospecha que el disco duro no funciona correctamente, si la computadora no arranca o si el disco duro emite ruidos inusuales.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Memory Test (Prueba de memoria)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Verifica que los módulos de memoria funcionen correctamente.</li><li>Utilice esta prueba si la computadora se comporta de manera irregular o no arranca.</li><li>Si esta prueba registra errores, reemplace la memoria de inmediato.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Battery Test (Prueba de batería)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Verifica que la batería funcione correctamente.</li><li>Utilice esta prueba si la batería no funciona correctamente, si no conserva la carga o si informa un nivel de carga incorrecto.</li><li>Si la batería no supera esta prueba, reemplácela.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

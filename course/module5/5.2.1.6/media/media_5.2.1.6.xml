@@ -1,0 +1,23 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Ventana de instalación de Windows 8.1</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Tipos de instalación de Windows 8.1</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Instalación de Windows 8.1</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Personalización de Windows 8.1</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Contraseña inalámbrica de Windows 8.1</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Configuración de Windows 8.1</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Inicio de sesión de Windows 8.1 en la computadora</b>]]></text>
+</component><!-- Slide 8 --><component id='ID_s8_title'>
+	<text><![CDATA[<b>Creación de una cuenta local en Windows 8.1</b>]]></text>
+</component><!-- Slide 9 --><component id='ID_s9_title'>
+	<text><![CDATA[<b>Creación de una cuenta local en Windows 8.1</b>]]></text>
+</component><!-- Slide 10 --><component id='ID_s10_title'>
+	<text><![CDATA[<b>Pantalla Iniciar de Windows 8.1</b>]]></text>
+</component>
+
+</textcomponents>

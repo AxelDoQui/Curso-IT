@@ -1,0 +1,78 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+	<text><![CDATA[<b>Contraseñas del BIOS</b>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Nivel de acceso</b>]]></text>
+</component>
+
+	<component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="145"><font color='#FFFFFF' ><b>Nivel de acceso</b></font></td>
+			<td bgcolor='#666263'  valign="top"  ><font color='#FFFFFF' ><b>Descripción del nivel</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Acceso total</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Están disponibles todas las pantallas y configuraciones, excepto la configuración de la contraseña de supervisor.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Acceso limitado</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Solo se pueden modificar ciertas configuraciones, por ejemplo, la hora y la fecha.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Acceso de solo lectura</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Están disponibles todas las pantallas, pero no se puede cambiar ninguna configuración.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Sin acceso</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>No se proporciona acceso a la utilidad de configuración del BIOS.</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Funciones LoJack</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[<b>Ubicar</b>]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[<b>Bloquear</b>]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[<b>desechar</b>]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Ubica el dispositivo utilizando wifi o geoubicación de IP para ver la última ubicación.</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt05'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Bloquea el dispositivo de forma remota para impedir el acceso a su información personal.</li><li>Puede también mostrar un mensaje personalizado en la pantalla.</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt06'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Elimina todos los archivos en el dispositivo para proteger la información personal y evitar el robo de identidad.</li></ul></textformat>]]></text>
+</component>
+</textcomponents>

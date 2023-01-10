@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Herramienta de migración de estado de usuario</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Windows Easy Transfer en Windows 8.1</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Windows Easy Transfer en Windows 7 y Vista</b>]]></text>
+	</component>
+	
+</textcomponents>

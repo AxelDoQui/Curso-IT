@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Proceso de arranque de Windows</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Proceso de arranque de Windows</h1>
+        <div>
+          <p>Comprender el proceso de arranque de Windows puede ayudar al técnico a resolver problemas de arranque.</p>
+          <p></p>
+          <p>
+            <b>Proceso de arranque de Windows</b>
+          </p>
+          <p></p>
+          <p>Para iniciar el proceso de arranque, encienda la PC. Esto se denomina “arranque en frío”. Cuando la PC está encendida, realiza un autodiagnóstico al encender (POST, Power On Self Test). Debido a que el adaptador de video aún no se inicializó, los errores que se producen en esta instancia del proceso de arranque se informan por medio de una serie de tonos audibles, conocidos como “códigos de sonido”.</p>
+          <p></p>
+          <p>Una vez que finaliza el POST, el BIOS ubica y lee la configuración almacenada en la memoria CMOS. La prioridad del dispositivo de arranque, como se muestra en la figura, es el orden en el que se comprueban los dispositivos para ubicar la partición de arranque. La prioridad del dispositivo de arranque se establece en el BIOS y se puede disponer en cualquier orden. El BIOS arranca la computadora utilizando la primera unidad que contenga un sector de arranque válido.</p>
+          <p></p>
+          <p>Los discos duros, las unidades de red, las unidades USB e incluso los medios extraíbles pueden usarse en el orden de arranque, dependiendo en las funcionalidades de la placa madre. Algunos BIOS también tienen un menú de prioridad del dispositivo de arranque al que se accede con una tecla especial durante el inicio de la computadora. Puede utilizar este menú para seleccionar el dispositivo para arrancar.</p>
+          <p></p>
+          <p>
+            <b>Cargador de arranque de Windows y administrador de arranque de Windows</b>
+          </p>
+          <p></p>
+          <p>En este punto, el código del sector de arranque se ejecuta, y el control del proceso de inicio se le otorga al administrador de arranque de Windows (BOOTMGR). BOOTMGR controla varios pasos del inicio: </p>
+          <p></p>
+          <p>1. WinLoad (WINLOAD.EXE) utiliza la ruta especificada en BOOTMGR para buscar la partición de arranque.</p>
+          <p>2. WinLoad carga dos archivos que constituyen el núcleo de Windows: NTOSKRNL.EXE y HAL.DLL.</p>
+          <p>3. WinLoad lee los archivos del registro, elige un perfil de hardware y carga los controladores de dispositivos.</p>
+          <p></p>
+          <p>
+            <b>Kernel de Windows</b>
+          </p>
+          <p></p>
+          <p>En este momento, el kernel de Windows toma control del proceso. El nombre de este archivo es NTOSKRNL.EXE. Inicia el archivo de registro llamado WINLOGON.EXE y muestra la pantalla de bienvenida de Windows.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

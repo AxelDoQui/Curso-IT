@@ -1,0 +1,35 @@
+<textcomponents>
+
+<component id='ID_title'>
+  <text><![CDATA[<b>Comparación de PostScript y PCL</b>]]></text>
+</component>
+
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='0'>
+  <tr>
+    <td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#666263' valign="top"><font color='#ffffff'><b>PostScript</b></font></td>
+    <td bgcolor='#666263' valign="top"><font color='#ffffff'><b>PCL</b></font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>La impresora procesa la página.</font></td>
+    <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>La página se procesa en una estación de trabajo local.</font></td>
+  </tr>
+    <tr>
+    <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Mejor calidad de impresión.</font></td>
+    <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Trabajos de impresión más rápidos.</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Se ocupa de trabajos de impresión más complejos.</font></td>
+    <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Requiere menos memoria de impresora.</font></td>
+  </tr>
+    <tr>
+    <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>La impresión es idéntica en distintas impresoras.</font></td>
+    <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>La impresión varía levemente en distintas impresoras.</font></td>
+  </tr> 
+</table>]]></text>
+</component>
+
+</textcomponents>

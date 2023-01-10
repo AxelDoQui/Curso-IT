@@ -1,0 +1,16 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Notas de la versión del BIOS</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Información de la versión del BIOS</b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Pantalla principal en el Modo avanzado</b>]]></text>
+	</component>
+	
+</textcomponents>

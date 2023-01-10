@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Página web de descarga de controladores del fabricante de la impresora</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[<b>Adquirir productos y servicios</b>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[<b>Explorar y crear</b>]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[<b>Soporte y controladores</b>]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[<b>Soporte y controladores</b>]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[<b>Descarga de software y controladores</b>]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>Soporte y solución de problemas del producto</b>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<b>Comunidades de soporte</b>]]></text>
+</component>
+
+<component id='ID_txt08'>
+	<text><![CDATA[<b>Introduzca el nombre o el número de un producto.</b>]]></text>
+</component>
+
+<component id='ID_txt09'>
+	<text><![CDATA[<b>BUSCAR</b>]]></text>
+</component>
+
+<component id='ID_txt10'>
+	<text><![CDATA[¿Cómo encuentro el nombre o el número de mi producto?]]></text>
+</component>
+
+<component id='ID_txt11'>
+	<text><![CDATA[ ]]></text>
+</component>
+
+</textcomponents>

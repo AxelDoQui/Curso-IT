@@ -1,0 +1,165 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Poner en espera la llamada de un cliente (parte 1)</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instrucciones</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Arrastre los bloques marcados como<b> Hacer </b>y<b> No hacer </b>a las casillas que se encuentran a la izquierda de las afirmaciones.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Hacer]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[No hacer]]></text>
+	</component>
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Verificar</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Restablecer</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correcto</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Correcto. Haga clic en el botón 2 para continuar.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrecto</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Incorrecto. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Identificador</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Resultados</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[Explicar por qué debe poner en espera la llamada del cliente.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Poner en espera la llamada del cliente sin decirle lo que hará a continuación.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Pedirle permiso al cliente antes de ponerlo en espera.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Hablar al mismo tiempo que el cliente.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Comenzar a responder una pregunta antes de que el cliente haya terminado de hablar.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Darle al cliente una idea de cuánto tiempo cree que le tomará volver a la llamada.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Explicar que debe poner en espera la llamada del cliente.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Poner en espera al cliente sin pedirle permiso.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Permitir que el cliente termine de hablar.]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Transferir una llamada (parte 2)</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[<b>Instrucciones</b>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Arrastre los bloques marcados como<b> Hacer </b>y<b> No hacer </b>a las casillas que se encuentran a la izquierda de las afirmaciones.]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag01'>
+		<text><![CDATA[Hacer]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[No hacer]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[<b>Verificar</b>]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[<b>Restablecer</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correcto</b>]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[Correcto.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrecto</b>]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[Incorrecto.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>Identificador</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>Resultados</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Pedirle permiso al cliente para transferir la llamada.]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Explicar que necesita transferir la llamada y la razón para hacerlo.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[Comenzar a responder una pregunta antes de que el cliente haya terminado de hablar.]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Proporcionarle al nuevo técnico que recibirá la llamada transferida el nombre del cliente y el número de informe de problema.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Transferir la llamada del cliente sin pedirle permiso antes.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[Transferir la llamada del cliente sin decirle lo que hará a continuación.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Hablar al mismo tiempo que el cliente.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[Proporcionarle al cliente el número de teléfono o el interno de la persona a la que le transfiere la llamada.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[Decirle al cliente el nombre de la persona a la que le transfiere la llamada.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[Transferir la llamada sin permiso del técnico que la recibirá.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[Permitir que el cliente termine de hablar.]]></text><!--Do--></component>
+	
+	
+</textcomponents>

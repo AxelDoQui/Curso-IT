@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[Diagrama del sistema operativo]]></text>
+	</component>
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[<font size="15">Usuario</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[<font size="15">Aplicación</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[<font size="15">Sistema operativo</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[<font size="15">Hardware</font>]]></text>
+	</component>
+
+</textcomponents>

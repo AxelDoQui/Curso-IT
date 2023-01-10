@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.3.3.1 Introducción al correo electrónico</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.3.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Introducción al correo electrónico</h1>
+        <div>
+          <p>La estructura de correo electrónico depende de servidores y clientes. Los servidores de correo electrónico son responsables de reenviar los mensajes de correo electrónico enviados por sus usuarios. Los usuarios utilizan clientes de correo electrónico para redactar, leer y administrar sus mensajes. Los clientes de correo electrónico pueden ser basados en web o aplicaciones autónomas. Los clientes de correo electrónico independientes son dependientes de la plataforma. Esta sección se centra en los clientes de correo electrónico para dispositivos móviles.</p>
+          <p></p>
+          <p>Se necesita la siguiente información al configurar una cuenta de correo electrónico:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Nombre para mostrar</b>: Puede ser su nombre real, un apodo o cualquier otro nombre que desee que vean los demás.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección de correo electrónico</b>: Esta es la dirección a la cual deben enviarle mensajes de correo electrónico. Las direcciones de correo electrónico están compuestas por un nombre de usuario seguido del símbolo @ y el dominio del servidor de correo electrónico (usuario@ejemplo.net).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Protocolos de correo electrónico utilizados por el servidor de correo entrante</b>: Los distintos protocolos proporcionan distintos servicios de correo electrónico.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nombres de los servidores de correo entrante y saliente</b>: Estos nombres son proporcionados por el administrador de red o el ISP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nombre de usuario</b>: Se utiliza para iniciar sesión en los servidores de correo.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Contraseña de la cuenta</b>: La contraseña debe ser segura, ya que las cuentas de correo suelen estar disponibles desde sitios web.</li>
+            </ul>
+          </p>
+          <p>Entre los protocolos que se utilizan en el correo electrónico, se incluyen los siguientes:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Protocolo de oficina de correos, versión 3 (POP3)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Protocolo de acceso a mensajes de Internet (IMAP, Internet Message Access Protocol)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Protocolo simple de transferencia de correo (SMTP, Simple Mail Transfer Protocol)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Extensiones multipropósito de correo Internet (MIME, Multipurpose Internet Mail Extensions)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Capa de sockets seguros (SSL, Secure Socket Layer)</li>
+            </ul>
+          </p>
+          <p>Debe saber cómo configurar un dispositivo para que acepte el formato correcto de correo entrante. Puede configurar el software de cliente de correo electrónico mediante un asistente.</p>
+          <p></p>
+          <p>
+            <b>POP3</b>
+          </p>
+          <p></p>
+          <p>El Protocolo de oficina de correo 3 (POP3) recupera los correos electrónicos de un servidor remoto por medio de TCP/IP. POP3 no deja copia del correo electrónico en el servidor. Sin embargo, algunas implementaciones permiten que los usuarios especifiquen que se guarde correo durante algún tiempo. POP3 admite usuarios finales con conexiones intermitentes, como dial-up. Los usuarios de POP3 pueden conectarse, descargar correo electrónico del servidor y luego desconectarse. POP3 suele utilizar el puerto 110.</p>
+          <p></p>
+          <p>
+            <b>IMAP</b>
+          </p>
+          <p></p>
+          <p>Internet Mail Access Protocol (IMAP) permite a los clientes locales de correos electrónicos recuperar correos electrónicos desde un servidor. Al igual que POP3, IMAP le permite descargar correo desde un servidor de correo electrónico por medio de un cliente de correo electrónico. La diferencia es que IMAP permite que el usuario organice el correo en el servidor de correo electrónico de la red y descargue copias de los correos electrónicos. El correo original permanece en el servidor de correo electrónico de la red. A diferencia de POP3, IMAP suele dejar el correo original en el servidor hasta que el usuario lo mueva a una carpeta personal en la aplicación de correo electrónico. IMAP sincroniza las carpetas de correo electrónico entre el servidor y el cliente. IMAP es más rápido que POP3, pero requiere más espacio en disco en el servidor y más recursos de la CPU. La versión más reciente de IMAP es IMAP4. Por lo general, IMAP4 se utiliza en redes grandes, como las de los campus universitarios. IMAP suele utilizar el puerto 143.</p>
+          <p></p>
+          <p>
+            <b>SMTP</b>
+          </p>
+          <p></p>
+          <p>El Protocolo simple de transferencia de correo (SMTP) es un protocolo basado en texto que transmite correos electrónicos a través de una red TCP/IP. Es un formato de correo electrónico para texto que utiliza solamente codificación ASCII. SMTP debe implementarse para enviar correo electrónico. SMTP envía correos electrónicos de un cliente de correo electrónico a un servidor de correo electrónico, o de un servidor de correo electrónico a otro. Los mensajes se envían una vez que se identifican y se verifican los destinatarios. SMTP suele utilizar el puerto 25.</p>
+          <p></p>
+          <p>
+            <b>MIME</b>
+          </p>
+          <p></p>
+          <p>Extensiones seguras multipropósito al correo de Internet (MIME) extiende el formato de correo electrónico para incluir texto en el estándar ASCII, así como otros formatos, como imágenes y documentos de procesador de textos. Normalmente, MIME se utiliza junto con SMTP.</p>
+          <p></p>
+          <p>
+            <b>SSL</b>
+          </p>
+          <p></p>
+          <p>La capa de sockets seguros (SSL) se desarrolló para transmitir archivos de manera segura. Todos los datos intercambiados entre el cliente de correo electrónico y el servidor de correo electrónico están cifrados. Al configurar un cliente de correo electrónico para que utilice SSL, asegúrese de utilizar el número de puerto correcto para el servidor de correo electrónico.</p>
+          <p></p>
+          <p>
+            <b>Exchange </b>
+          </p>
+          <p></p>
+          <p>Exchange es un servidor de correo, un administrador de contactos y un software de calendarios creado por Microsoft. Utiliza una arquitectura de mensajería exclusiva llamada Interfaz de programación de aplicaciones de mensajería (MAPI, Messaging Application Programming Interface). MAPI es utilizado por Microsoft Office Outlook para conectarse a los servidores Exchange y administrar el correo electrónico, los calendarios y los contactos.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

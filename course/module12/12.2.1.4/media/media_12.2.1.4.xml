@@ -1,0 +1,53 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Pautas para obtener contraseñas seguras</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Configuración de los requisitos de contraseñas</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Configuración de la política de bloqueo de cuenta</b>]]></text>
+	</component>
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Característica de las contraseñas</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Pautas</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Longitud mínima</td>
+                <td bgcolor='#E9E7E8'>Utilizar ocho caracteres como mínimo.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Complejidad</td>
+                <td bgcolor='#F2F2F2'>Incluir letras, números, símbolos y signos de puntuación. Utilizar diversas teclas, no solo letras y caracteres comunes.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>Diversidad</td>
+                <td bgcolor='#F2F2F2'>Utilizar una contraseña diferente para cada sitio o computadora que utilice.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>Vencimiento</td>
+				<td bgcolor='#E9E7E8'>Las contraseñas deben configurarse para que caduquen dentro de un período aceptable. Cuanto menor sea el período, más segura estará la computadora. Asimismo, establezca un recordatorio para cambiar las contraseñas de correo electrónico y sitios web bancarios y de tarjetas de crédito cada tres o cuatro meses.</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

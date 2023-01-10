@@ -1,0 +1,48 @@
+﻿<textcomponents><!-- slide 2 --><component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' width='175'>Gabinete de PC y parte externa del monitor</td>
+			<td bgcolor='#E9E7E8'>Solución de limpieza suave y paño que no deje pelusa</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Pantalla de LCD</td>
+			<td bgcolor='#F2F2F2'>Solución de limpieza para pantallas de LCD o agua destilada y paño que no deje pelusa</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Pantalla de CRT</td>
+			<td bgcolor='#E9E7E8'>Agua destilada y paño que no deje pelusa</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Disipador térmico</td>
+			<td bgcolor='#F2F2F2'>Aire comprimido</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>RAM</td>
+			<td bgcolor='#E9E7E8'>Alcohol isopropílico e hisopo que no deje pelusa</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Teclado</td>
+			<td bgcolor='#F2F2F2'>Aspiradora portátil con accesorio de cepillo</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Mouse</td>
+			<td bgcolor='#E9E7E8'>Solución de limpieza suave y paño que no deje pelusa</td>
+		</tr>
+	
+	</table>]]></text> 
+</component><!-- end slide 2 --></textcomponents>

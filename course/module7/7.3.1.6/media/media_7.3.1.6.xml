@@ -1,0 +1,119 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar dispositivos de red</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una cada dispositivo a una descripción.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Router]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Módem]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Firewall]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Un panel de conexión]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Switch]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Punto de acceso inalámbrico]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Repetidor]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[Concentrador]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[Switch con PoE]]></text>
+	</component>
+
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada dispositivo con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada dispositivo con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Dispositivo</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Regenera señales débiles para extender eficazmente la distancia en que una señal viaja.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Reside entre dos o más redes y protege los datos y los equipos de una red del acceso no autorizado. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Utiliza direcciones IP para reenviar tráfico a otras redes.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Convierte los datos digitales de una computadora a un formato que se puede transmitir en la red del ISP.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Transfiere pequeñas cantidades de CC a través del cable de Ethernet, junto con datos, para alimentar los dispositivos especiales.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Sin embargo, los switches filtran y segmentan el tráfico de red enviando datos solo al dispositivo al que se envían.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Recibe los datos en un puerto y los envía a todos los demás puertos.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Brinda acceso a la red a los dispositivos que usan ondas de radio para comunicarse con otros dispositivos.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Un lugar para recopilar los tendidos de cables entrantes de varios dispositivos de red en un recurso.]]></text>
+	</component> 
+
+
+
+</textcomponents>

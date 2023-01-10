@@ -1,0 +1,68 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Hora y fecha del sistema en el BIOS</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Configuración de dispositivos en el BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Orden de arranque en el BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Velocidad del reloj de la CPU en el BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>Configuración de virtualización en el BIOS</b>]]></text>
+	</component>	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>Configuración del BIOS</b>]]></text>
+	</component>
+
+	<component id="ID_s6_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Configuración BIOS</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Especificaciones de configuración</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Hora y fecha</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Establezca siempre estos campos en la hora y fecha correctas porque el sistema operativo y otros programas refieren a ellas. </li><li>La fecha y hora incorrectas pueden causar problemas inesperados.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Deshabilitación de dispositivos</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Deshabilite las características integradas de la placa madre si instala una tarjeta de video exclusiva, una tarjeta de sonido o una tarjeta de red.</li><li>Si un dispositivo no funciona, revise la configuración avanzada del BIOS para ver si el dispositivo está deshabilitado de manera predeterminada o si se deshabilitó por accidente. </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Orden de arranque</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Cree el orden de arranque a partir de las necesidades del usuario. </li><li>Deshabilite o elimine los dispositivos que no se utilizan de la lista del orden de arranque.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Velocidad del reloj </td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Hacer overclocking de la CPU anula su garantía, puede reducir su duración o provocarle daños. </li><li>Instale siempre un sistema de refrigeración capaz de disipar el exceso de calor producto del overclocking y evitar daños a la CPU. </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Virtualización</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Deshabilite esta configuración si la virtualización no se realiza correctamente o no se utiliza.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,22 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Fuente de alimentación de la computadora</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Conectores de la fuente de alimentación de la computadora</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Conectores comunes de la fuente de alimentación</b>]]></text>
+	</component>
+
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Voltajes de la fuente de alimentación</b>]]></text>
+	</component>	
+	
+	
+</textcomponents>

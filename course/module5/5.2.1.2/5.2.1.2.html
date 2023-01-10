@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.2 Creación de particiones del disco duro</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Creación de particiones del disco duro</h1>
+        <div>
+          <p>Los discos duros se dividen en áreas denominadas particiones. Cada partición es una unidad lógica de almacenamiento que se puede formatear para almacenar información, como archivos de datos o aplicaciones. Si imagina un disco duro como un armario de madera, las particiones serían los estantes. Durante el proceso de instalación, la mayoría de los sistemas operativos crean particiones del espacio disponible en el disco duro y lo formatean de forma automática.</p>
+          <p></p>
+          <p>La división de una unidad es un proceso sencillo, pero para garantizar un arranque exitoso, el firmware debe conocer qué disco y qué partición del disco poseen un sistema operativo instalado.</p>
+          <p></p>
+          <p>El BIOS (sistema básico de entrada y salida) y UEFI (Unified Extensible Firmware Interface) son dos tipos de firmware utilizados en las computadoras personales; el BIOS es una tecnología antigua mientras UEFI es el reemplazo moderno. UEFI aborda muchas de las deficiencias del BIOS. El firmware de UEFI realiza las mismas funciones que el BIOS y más. A partir de 2015, las placas madre de las computadoras personales modernas se suministran únicamente con UEFI.</p>
+          <p></p>
+          <p>Cuando una computadora está encendida, ejecuta el programa de firmware. El firmware primero ejecuta varias pruebas para garantizar los componentes importantes de la computadora, como que la tarjeta de video y la memoria RAM, estén presentes y funcionales. Una vez que se completen las pruebas y todos los componentes fundamentales estén presentes y funcionen correctamente, el firmware procede a localizar y a cargar el sistema operativo del disco en la RAM para su ejecución.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Las diferencias entre el BIOS y UEFI durante la fase de encendido se encuentran fuera del alcance de este curso.</p>
+          <p></p>
+          <p>Para encontrar un sistema operativo en un firmware basado en BIOS, el BIOS revisa el comienzo del primer disco instalado. Esta área se denomina el sector de arranque y está diseñada especialmente para que el BIOS busque información sobre las particiones y la ubicación de un sistema operativo. Lo que el BIOS busca en el sector de arranque es un pequeño programa denominado cargador de arranque. El cargador de arranque es un programa que sabe dónde se encuentra el sistema operativo en el disco y cómo activarlo. Observe que el firmware basado en BIOS no tiene ninguna información sobre las particiones o el sistema operativo en sí; el BIOS simplemente intenta encontrar un cargador de arranque válido al comienzo del primer disco y ejecutarlo.</p>
+          <p></p>
+          <p>El firmware de UEFI es mucho más inteligente que el BIOS. UEFI sabe acerca de todos los discos y sistemas operativos instalados. Diseñado como estándar por Intel y mantenida por varias empresas como Intel, Microsoft, Apple y AMD, UEFI puede comprender las particiones simples y ejecutar el código del cargador de arranque de ellos. Esto puede parecer una función insignificante al principio, pero hace que el proceso de inicio sea mucho más confiable que en el BIOS. Otra mejora clave de UEFI sobre el BIOS es el hecho de que el UEFI sabe qué sistemas operativos están instalados y su ubicación en el disco. Con UEFI, los sistemas operativos pueden agregarse a la lista de arranque de UEFI. </p>
+          <p></p>
+          <p>Como se mencionó antes, un sistema operativo se almacena en una partición de disco y un disco con particiones múltiples puede almacenar sistemas operativos múltiples. El esquema de la partición tiene influencia directa en la ubicación de los sistemas operativos en un disco. Encontrar e iniciar el sistema operativo es una de las responsabilidades del firmware de la computadora. El esquema de la partición es muy importante para el firmware. Dos de los estándares de esquemas de partición más populares son MBR y GPT.</p>
+          <p></p>
+          <p>
+            <b>Registro de arranque maestro</b>
+          </p>
+          <p>Presentado públicamente en 1983, el registro de arranque maestro (MBR) contiene información sobre cómo se organizan las particiones del disco duro. El MBR tiene 512 bytes de longitud y contiene el cargador de arranque, un programa ejecutable que permite al usuario elegir entre varios sistemas operativos. MBR se ha convertido en el estándar de hecho pero tiene limitaciones que debieron abordarse. MBR se suele utilizar en las computadoras con firmware basado en BIOS.</p>
+          <p></p>
+          <p>
+            <b>Tabla de partición de GUID</b>
+          </p>
+          <p>También diseñado como un estándar del esquema de la tabla de control para las unidades de disco duro, el identificador único global (GUID) tabla de partición global (GPT) hace uso de varias técnicas modernas para expandir el esquema de partición MBR más antiguo. El GPT se suele utilizar en las computadoras con el firmware de UEFI. La mayoría de los sistemas operativos modernos ahora admiten el GPT. </p>
+          <p></p>
+          <p>La figura muestra una comparación entre MBR y el GPT.</p>
+          <p></p>
+          <p>El técnico debe entender el proceso y los términos relacionados con la configuración del disco duro:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Partición primaria</b>: La partición primaria contiene los archivos del sistema operativo y, por lo general, es la primera partición. Las particiones primarias no se pueden subdividir en secciones más pequeñas. En un disco particionado GPT, todas las particiones son particiones primarias. En un disco particionado MBR, puede haber un máximo de cuatro particiones.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Partición activa</b>: En discos de MBR, la partición activa es la partición que se utiliza para almacenar y para iniciar un sistema operativo. Observe que solo las particiones primarias se pueden marcar como activas en discos de MBR. Otra de las limitaciones es que solo una de las particiones primarias por disco se puede marcar como activa al mismo tiempo. En la mayoría de los casos, el disco C: es la partición activa y contiene los archivos de arranque y de sistema. Algunos usuarios crean particiones adicionales para organizar archivos o para poder arrancar la PC en forma dual. Las particiones activas solo se encuentran en las unidades con tablas de partición de MBR.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Partición extendida</b>: Si más de 4 particiones se requieren en un disco particionado MBR, una de las particiones primarias se puede designar como una partición extendida. Una vez creada la partición extendida, hasta 23 unidades lógicas (o particiones lógicas) se pueden crear en esta partición extendida. Una configuración común es crear una partición primaria para el sistema operativo (unidad C:) y permitir que una partición extendida ocupe el espacio libre restante en una unidad de disco duro, justo después de una partición primaria. Cualquier partición adicional se puede crear dentro de la partición extendida (duros D:, E: etc.). Mientras que las unidades lógicas no se pueden utilizar para arrancar un sistema operativo, son ideales para almacenar datos del usuario. Observe que puede haber solo una partición extendida por disco duro de MBR y que las particiones extendidas están presentes solo en las unidades con tablas de partición de MBR.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Unidad lógica</b>: Una unidad lógica es una sección de una partición extendida. Se puede utilizar para separar información con fines administrativos. Debido a que las unidades particionadas GPT no pueden tener particiones extendidas, no tienen unidades lógicas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disco básico</b>: Un disco básico (predeterminado) contiene particiones como primarias y extendidas así como unidades lógicas que se formatean para el almacenamiento de datos. Se puede agregar más espacio a una partición extendiéndola a un espacio adyacente, sin asignar, siempre que sea contiguo. MBR o el GPT se pueden utilizar como el esquema subyacente de la partición de los discos básicos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disco dinámico</b>: Los discos dinámicos brindan las funciones no admitidas por discos básicos. El disco dinámico tiene la capacidad de crear volúmenes que se extienden por más de un disco. El tamaño de las particiones se puede modificar después de haber sido configuradas, incluso si el espacio no asignado es no contiguo. Se puede agregar espacio libre desde el mismo disco o desde uno diferente, lo que le permite al usuario almacenar archivos de gran tamaño en forma eficaz. Una vez que se extiende una partición, no se puede reducir sin eliminar la partición por completo. MBR o el GPT se pueden utilizar como esquema de partición de los discos dinámicos.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Formateo</b>: Este proceso crea un sistema de archivos en una partición para que almacene archivos.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

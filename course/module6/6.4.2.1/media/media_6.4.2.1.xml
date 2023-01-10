@@ -1,0 +1,100 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' ><font color='#FFFFFF'><b>Identificación del problema</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Causas probables</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Soluciones posibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>El sistema operativo se bloquea.</td>
+  <td bgcolor='#E9E7E8'><ul><li>La computadora recalienta.</li><li>Algunos de los archivos del sistema operativo pueden estar dañados.</li><li>Es posible que la fuente de alimentación, la RAM, el disco duro o la placa madre presenten fallas.</li><li>Es posible que la configuración del BIOS sea incorrecta.</li><li>Ocurrió un evento desconocido que generó que se bloquee el sistema operativo.</li><li>Se instaló un controlador incorrecto.</li></ul></td>
+  <td bgcolor='#E9E7E8'><ul><li>Limpie los componentes internos.</li><li>Revise las conexiones de los ventiladores para garantizar que estos funcionen correctamente.</li><li>Ejecute el Comprobador de archivos de sistema (SFC) para reemplazar los archivos del sistema operativo dañados.</li><li>Pruebe la fuente de alimentación, la RAM, el disco duro o la placa madre con software de diagnóstico de terceros y sustituya las partes según sea necesario.</li><li>Analice y ajuste la configuración del BIOS.</li><li>Revise todos los eventos del registro de eventos.</li><li>Instale controladores actualizados o reviértalos a una versión anterior.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>El teclado o el mouse no responden.</td>
+  <td bgcolor='#F2F2F2'><ul><li>La computadora tiene un controlador incompatible o desactualizado.</li><li>Se dañó o se desconectó el cable.</li><li>El dispositivo presenta fallas.</li><li>Se utiliza un switch KVM y no se muestra la computadora activa.</li><li>El teclado inalámbrico o el mouse presentan errores.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Reinicie la computadora.</li><li>Instale los controladores o reviértalos a una versión anterior.</li><li>Reemplace o vuelva a conectar el cable.</li><li>Reemplace el dispositivo.</li><li>Cambie la entrada del switch KVM.</li><li>Reemplace la batería.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>No se inicia el sistema operativo.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Un dispositivo de hardware no se inicializa.</li><li>Algunos de los archivos del sistema operativo pueden estar dañados.</li><li>Está dañado el sector de arranque.</li><li>Es posible que la fuente de alimentación, la RAM, el disco duro o la placa madre presenten fallas.</li><li>Los nuevos controladores de hardware no se instalaron correctamente.</li><li>Las actualizaciones de Windows dañaron el sistema operativo.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Reinicie la computadora.</li><li>Restaure Windows utilizando la herramienta de restauración del sistema.</li><li>Recupere el disco del sistema mediante la herramienta de recuperación de imagen del sistema.</li><li>Realice la instalación de reparación del sistema operativo.</li><li>Utilice el entorno de recuperación para reparar el sector de arranque.</li><li>Reemplace la fuente de alimentación, la RAM, el disco duro o la placa madre por un repuesto que funcione.</li><li>Desconecte todo dispositivo recientemente conectado y utilice la opción Habilitar última configuración válida conocida para iniciar el sistema operativo.</li><li>Inicie la computadora en Modo seguro y revise todos los eventos en el registro de eventos.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Después del POST, la computadora muestra el mensaje de error “Disco de arranque no válido”.</td>
+		<td bgcolor='#F2F2F2'><ul><li>El orden de arranque no se estableció correctamente en el BIOS.</li><li>No se detecta el disco duro.</li><li>No se instaló un sistema operativo en el disco duro.</li><li>El MBR está dañado.</li><li>El GPT está dañado.</li><li>La computadora tiene un virus en el sector de arranque.</li><li>El disco duro presenta fallas.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Modifique el orden de arranque del BIOS para iniciar con la unidad de arranque.</li><li>Vuelva a conectar el disco duro.</li><li>Instale un sistema operativo.</li><li>Con un disco de reparación del sistema, ejecute bootrec /FixMbr para reparar el MBR.</li><li>Con un disco de reparación del sistema, ejecute DISKPART para reparar el GPT (o el MBR).</li><li>Ejecute el software antivirus.</li><li>Reemplace el disco duro.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Después del POST, la computadora muestra el mensaje de error “Falta BOOTMGR”.</td>
+		<td bgcolor='#E9E7E8'><ul><li>El archivo BOOTMGR falta o está dañado.</li><li>Los datos de la configuración de arranque faltan o están dañados.</li><li>El orden de arranque no se estableció correctamente en el BIOS.</li><li>El MBR está dañado.</li><li>El disco duro presenta fallas.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Restaure el archivo BOOTMGR desde los programas de instalación.</li><li>Restaure los datos de la configuración de arranque desde los programas de instalación.</li><li>Modifique el orden de arranque del BIOS para iniciar con la unidad de arranque.</li><li>Ejecute el comando bootrec /FixMbr del entorno de recuperación.</li><li>Ejecute el comando chkdsk /F /R del entorno de recuperación.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>No se pudo iniciar un servicio cuando se inició la computadora.</td>
+		<td bgcolor='#F2F2F2'><ul><li>El servicio no está habilitado.</li><li>El servicio se estableció en modo Manual.</li><li>El servicio que presentó la falla requiere otro servicio para habilitarse.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Habilite el servicio.</li><li>Establezca el servicio en modo Automático.</li><li>Vuelva a habilitar el servicio solicitado.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>No se inició un dispositivo cuando se inició la computadora.</td>
+		<td bgcolor='#E9E7E8'><ul><li>El dispositivo externo no está encendido.</li><li>El cable de datos o el cable de alimentación no están conectados al dispositivo.</li><li>Se deshabilitó el dispositivo en el BIOS.</li><li>El dispositivo presenta errores.</li><li>El dispositivo tiene un conflicto con un dispositivo instalado recientemente.</li><li>El controlador está dañado.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Encienda el dispositivo externo.</li><li>Fije la conexión del cable de datos y del cable de alimentación al dispositivo.</li><li>Habilite el audio del BIOS.</li><li>Reemplace el dispositivo.</li><li>Quite el dispositivo instalado recientemente.</li><li>Vuelva a instalar el controlador o revertirlo.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>La computadora se reinicia continuamente sin mostrar el escritorio.</td>
+		<td bgcolor='#F2F2F2'><ul><li>La computadora está configurada para que se reinicie cuando haya una falla.</li><li>Se dañó un archivo de inicio.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Presione F8 para abrir el menú Opciones avanzadas y elija Deshabilitar el reinicio automático en caso de error del sistema.</li><li>Ejecute el comando chkdsk /F /R del entorno de recuperación.</li><li>Utilice el entorno de recuperación para realizar una reparación automática o para restaurar sistema.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>En la computadora, se muestra una pantalla negra o azul de la muerte (BSOD, black/blue screen of death).</td>
+		<td bgcolor='#E9E7E8'><ul><li>Un controlador no es compatible con el hardware.</li><li>La RAM presenta fallas.</li><li>La fuente de alimentación presenta fallas.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Investigue el error que detuvo el sistema operativo y el nombre del módulo que produjo el error.</li><li>Reemplace los dispositivos defectuosos con dispositivos que se sepa que funcionan correctamente.</li><li>Realice un control de memoria.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>La computadora se bloquea sin mostrar mensajes de error.</td>
+		<td bgcolor='#F2F2F2'><ul><li>La configuración de la CPU o del FSB es incorrecta en la placa madre o en el BIOS.</li><li>La computadora recalienta.</li><li>Una actualización dañó el sistema operativo.</li><li>La RAM presenta fallas.</li><li>La fuente de alimentación presenta fallas.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Restablezca la configuración de la CPU y del FSB.</li><li>Revise y reemplace los dispositivos de refrigeración según sea necesario.</li><li>Desinstale la actualización de software o ejecute Restaurar sistema.</li><li>Ejecute el comando chkdsk /F /R del entorno de recuperación.</li><li>Reemplace los dispositivos defectuosos con dispositivos que se sepa que funcionan correctamente.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>No se puede instalar una aplicación.</td>
+		<td bgcolor='#E9E7E8'><ul><li>El programa de instalación de la aplicación que se descargó tiene un virus, y el software antivirus evitó que se instale.</li><li>El disco o el archivo de instalación están dañados.</li><li>El programa de instalación no es compatible con el sistema operativo.</li><li>El hardware no cumple con los requisitos mínimos.</li><li>El software en el que se basa la aplicación no está instalado.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Obtenga un nuevo disco de instalación o elimine el archivo de instalación y vuelva a descargarlo.</li><li>Ejecute el programa de instalación en modo de compatibilidad.</li><li>Instale un hardware que cumpla con los requisitos mínimos de instalación.</li><li>Instale cualquier software en el que se base la aplicación.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Aero no se ejecuta en computadoras con Windows 7 instalado.</td>
+		<td bgcolor='#F2F2F2'>La computadora no cumple con los requisitos mínimos de hardware para ejecutar Aero.</td>		
+		<td bgcolor='#F2F2F2'>Actualice el procesador, la RAM y la tarjeta de video para cumplir con los requisitos mínimos de Microsoft para Aero.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>El UAC dejó de solicitar permiso al usuario.</td>
+		<td bgcolor='#E9E7E8'>El UAC se desconectó.</td>
+		<td bgcolor='#E9E7E8'>Habilite el UAC en la aplicación Cuenta de usuario en el Panel de control.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>No aparecen gadgets en el escritorio.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Los gadgets se desinstalaron o nunca se instalaron.</li><li>El XML necesario para procesar el gadget está dañado o no se instaló.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Haga clic con el botón secundario en Escritorio > Gadgets; luego haga clic con el botón secundario en un gadget > Agregar.</li><li>Registre el archivo msxml3.dll. Para ello, introduzca regsvr32 msxml3.dll y presione Intro en el símbolo del sistema.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La computadora funciona con lentitud y presenta un retraso en la respuesta.</td>
+		<td bgcolor='#E9E7E8'>Un proceso está utilizando la mayor parte de los recursos de la CPU.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Reinicie el proceso con la consola de servicios (services.msc).</li><li>Si el proceso no es necesario, finalícelo con el Administrador de tareas.</li><li>Reinicie la computadora.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Después de actualizar a Windows 7 o Vista, la computadora funciona muy despacio.</td>
+		<td bgcolor='#F2F2F2'>Aero hace que la computadora funcione despacio.</td>		
+		<td bgcolor='#F2F2F2'>Desactive Aero.</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

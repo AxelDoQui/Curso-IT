@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Configuración de las copias de respaldo de datos y la recuperación en Windows]]></text>
+	</component>
+	
+</textcomponents>

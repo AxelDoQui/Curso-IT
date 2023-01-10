@@ -1,0 +1,51 @@
+﻿<textcomponents><!--Buttons--><component id='ID_s1_btn01'>
+	<text><![CDATA[Cliente locuaz]]></text>
+</component>
+
+<component id='ID_s1_btn02'>
+	<text><![CDATA[Cliente descortés]]></text>
+</component>
+
+<component id='ID_s1_btn03'>
+	<text><![CDATA[Cliente enfadado]]></text>
+</component>
+
+<component id='ID_s1_btn04'>
+	<text><![CDATA[Cliente entendido en la materia]]></text>
+</component>
+
+<component id='ID_s1_btn05'>
+	<text><![CDATA[Cliente inexperto]]></text>
+</component><!--Textbox 1--><component id='ID_s1_title_txt01'>
+	<text><![CDATA[<b>Cliente locuaz</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Hacer: </b><br /><textformat blockindent='-18'><ul><li>Permitir que el cliente hable por un minuto.</li><li>Recopilar la mayor cantidad de información posible sobre el problema.</li><li>Intervenir con educación para guiar al cliente. Esta es la excepción a la regla de nunca interrumpir a un cliente.</li><li>Hacer cuantas preguntas cerradas sea necesario una vez que se recupera el control de la llamada.</li></ul></textformat><br /><b>No hacer:</b><br />Fomentar la conversación sobre temas no relacionados con el problema mediante preguntas sociales como “¿Cómo se encuentra?”.]]></text>
+</component><!--Textbox 2--><component id='ID_s1_title_txt02'>
+	<text><![CDATA[<b>Cliente descortés</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Hacer:</b><br /><textformat blockindent='-18'><ul><li>Escuchar con mucha atención, ya que no desea solicitar al cliente que repita ninguna información.</li><li>Utilizar un enfoque paso a paso para determinar y resolver el problema.</li><li>Si el cliente tiene un técnico preferido, intente comunicarse con ese técnico para ver si puede tomar la llamada. Por ejemplo, decirle al cliente: “Puedo ayudarlo ahora mismo; de otra forma, puedo consultar si (el técnico solicitado) está disponible. El técnico estará disponible en dos horas. ¿Está dispuesto a esperar?”. Si el cliente desea esperar al otro técnico, registre esto en el informe.</li><li>Disculparse por el tiempo de espera y los inconvenientes, incluso si no hubo tiempo de espera.</li><li>Reiterar que desea resolver el problema lo más pronto posible.</li></ul></textformat><br /><b>No hacer:</b><br /><textformat blockindent='-18'><ul><li>Pedirle al cliente que realice cualquier paso evidente si hay alguna manera en que se pueda determinar el problema sin ella.</li><li>Ser descortés con el cliente, incluso si es descortés con usted.</li></ul></textformat>]]></text>
+</component><!--Textbox 3--><component id='ID_s1_title_txt03'>
+	<text><![CDATA[<b>Cliente enfadado</b>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<b>Hacer:</b><br /><textformat blockindent='-18'><ul><li>Dejar que el cliente le cuente el problema sin interrumpirlo, incluso si está enfadado, Esto permite que el cliente libere parte de su enfado soporte antes de que usted continúe.</li><li>Solidarizarse con el problema del cliente.</li><li>Disculparse por el tiempo de espera o los inconvenientes.</li></ul></textformat><br /><b>No hacer:</b><br /><textformat blockindent='-18'><ul><li>Si es posible, intentar no poner a este cliente en espera ni transferir la llamada.</li><li>Dedicar el tiempo de la llamada a hablar sobre qué causó el problema (en cambio, reorientar la conversación a resolver el problema).</li></ul></textformat>]]></text>
+</component><!--Textbox 4--><component id='ID_s1_title_txt04'>
+	<text><![CDATA[<b>Cliente entendido en la materia</b>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<b>Hacer:</b><br /><textformat blockindent='-18'><ul><li>Si es técnico de nivel uno, puede intentar establecer una llamada en conferencia con un técnico de nivel dos.</li><li>Proporcionarle al cliente el enfoque total a lo que intenta comprobar.</li></ul></textformat><br /><b>No hacer:</b><br /><textformat blockindent='-18'><ul><li>Seguir un proceso paso a paso con este cliente.</li><li>Solicitar la comprobación de lo evidente, como el cable de alimentación o el switch de alimentación. Por ejemplo, puede sugerirle que reinicie el equipo.</li></ul></textformat>]]></text>
+</component><!--Textbox 5--><component id='ID_s1_title_txt05'>
+	<text><![CDATA[<b>Cliente inexperto</b>]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font><b>Hacer:</b></font><br /><textformat blockindent='-18'><ul><li>Utilizar un proceso paso a paso simple de las instrucciones.</li><li>Hablar con términos sencillos.</li></ul></textformat><br /><font><b>No hacer:</b></font><br /><textformat blockindent='-18'><ul><li>Usar jerga industrial.</li><li>Ser condescendiente con su cliente o menospreciarlo.</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

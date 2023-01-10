@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Administración de disco de Windows 8.x</b>]]></text>
+</component> 
+<component id="ID_s2_title">
+<text><![CDATA[<b>Administración de disco de Windows 7 y Vista</b>]]></text>
+</component> 
+ 
+</textcomponents>

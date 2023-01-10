@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.7 Redirección y activación de puertos</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Redirección y activación de puertos</h1>
+        <div>
+          <p>Los firewalls de hardware se pueden utilizar para bloquear puertos, a fin de impedir el acceso no autorizado entrante y saliente de una LAN. No obstante, existen situaciones en las que deben abrirse puertos específicos para que determinados programas y aplicaciones puedan comunicarse con dispositivos de otras redes. La redirección de puertos es un método basado en reglas que permite dirigir el tráfico entre dispositivos de redes independientes. </p>
+          <p></p>
+          <p>Una vez que el tráfico llega al router, este determina si debe redireccionarse el tráfico a determinado dispositivo según el número de puerto que se encuentra con el tráfico. Los números de puerto se relacionan con servicios específicos, como FTP, HTTP, HTTPS y POP3. Las reglas determinan qué tráfico se envía a la LAN. Por ejemplo, se puede configurar un router para que redireccione el puerto 80, que se relaciona con HTTP. Cuando el router recibe un paquete con el puerto de destino 80, redirecciona el tráfico al servidor interno de la red que sirve a las páginas web. En la ilustración, la redirección de puertos se activa para el puerto 80 y se asigna al servidor web en la dirección IP 192.168.1.254.</p>
+          <p></p>
+          <p>La activación de puertos permite que el router redireccione datos temporalmente mediante puertos de entrada a un dispositivo determinado. Se puede utilizar la activación de puertos para redireccionar datos a una PC solo si se utiliza un rango de puertos designados para realizar una solicitud de salida. Por ejemplo, un videojuego puede utilizar los puertos 27000 a 27100 para establecer una conexión con otros jugadores. Estos son los puertos de activación. Un cliente de chat puede utilizar el puerto 56 para conectar a los mismos jugadores, a fin de que interactúen En este caso, si existe tráfico de juegos en un puerto de salida dentro del rango de puertos activados, el tráfico entrante del chat correspondiente al puerto 56 se redirecciona a la PC que se utiliza para jugar el videojuego y para chatear con amigos. Una vez que finaliza el juego y dejan de utilizarse los puertos activados, el puerto 56 ya no puede enviar tráfico de ningún tipo a esta PC. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

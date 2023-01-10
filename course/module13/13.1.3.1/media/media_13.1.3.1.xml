@@ -1,0 +1,132 @@
+<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+		<text><![CDATA[<b>Marcador de llamadas</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Cerrar sesión]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Imprimir]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<font color='#386B33'><b>Supervisión en tiempo real del centro de llamadas</b></font>]]></text>
+	</component>
+
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<u>Gerentes de CC</u>]]></text>
+	</component>
+
+	<component id="ID_s1_txt05">
+		<text><![CDATA[<b>J. Smith</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>11:01:17</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Recargar ahora]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Cola(s):]]></text>
+	</component>
+
+	<component id="ID_s1_txt09">
+		<text><![CDATA[cola-dps, cola-prueba]]></text>
+	</component>
+
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<p align='center'>Para mantener la información de sesión, esta página se recargará automáticamente.</p>]]></text>
+	</component><!-- table 1 --><component id='ID_s1_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Cola</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agentes</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agentes listos</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>En pausa</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Llamadas en espera</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agentes hablando</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Todo seleccionado</td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>cola-dps</td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'>0</td>
+			<td bgcolor='#F2F2F2'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>cola-prueba</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 1 --><!-- table 2 --><component id='ID_s1_table02'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='6' bgcolor='#FFFFFF'><font size="12"><b>Llamadas en proceso</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Cola</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Autor de la llamada</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Ingreso</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>En espera</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Duración</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agente</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>cola-dps</td>
+			<td bgcolor='#E9E7E8'>34</td>
+			<td bgcolor='#E9E7E8'>12/03 - 11:00:46</td>
+			<td bgcolor='#E9E7E8'>0:02</td>
+			<td bgcolor='#E9E7E8'><font color='#FF0000'>0:29</font></td>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>cola-prueba</td>
+			<td bgcolor='#F2F2F2'>22</td>
+			<td bgcolor='#F2F2F2'>12/03 - 11:01:13</td>
+			<td bgcolor='#F2F2F2'><font color='#FF0000'>0:04</font></td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 2 --><!-- table 3 --><component id='ID_s1_table03'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='4' bgcolor='#FFFFFF'><font size="12"><b>Agentes con sesión iniciada</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Agente</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Último inicio de sesión</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>Extensión</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>En pausa</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+			<td bgcolor='#E9E7E8'>12/03 - 11:00:22</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>No</td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 3 --><!-- end slide 1 --><!-- slide 2 --><component id='ID_s2_titleTxt01'>
+		<text><![CDATA[<b>Formas de relajarse</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Practicar una respiración relajada: inhalar, contener, exhalar, repetir.</li><li>Escuchar sonidos relajantes.</li><li>Darse masajes en la sien.</li><li>Tomarse un descanso; dar un paseo rápido o subir un tramo de la escalera.</li><li>Comer algo pequeño, un bocadillo con proteínas es la mejor opción.</li><li>Planificar su fin de semana.</li><li>Evitar los estimulantes, como el café, los refrescos o el chocolate. Todos estos contienen cafeína y pueden aumentar el nivel de estrés.</li></textformat></ul>]]></text>
+	</component><!-- end slide 2 --></textcomponents>

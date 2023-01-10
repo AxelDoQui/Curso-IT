@@ -1,0 +1,127 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de los sistemas operativos</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Después del POST, en la computadora se muestra el mensaje de error “Disco de arranque no válido”.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Hay medios que no tienen un sistema operativo en una unidad.</li><li>El orden de arranque no se estableció correctamente en la configuración del BIOS/UEFI.</li><li>No se detecta el disco duro.</li><li>No se instaló un sistema operativo en el disco duro.</li><li>El MBR/GPT está dañado.</li><li>La computadora tiene un virus en el sector de arranque.</li><li>El disco duro presenta una falla.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Quitar todos los medios de las unidades.</li><li>Modificar el orden de arranque en la configuración del BIOS/UEFI para iniciar con la unidad de arranque.</li><li>Volver a conectar los cables del disco duro.</li><li>Instalar un sistema operativo.</li><li>Utilizar el comando <font face="_typewriter"><b><i>bootrec /fixmbr </i></b></font> desde Sistema.</li><li>Opciones de recuperación de Windows 7 o Vista.</li><li>Ejecutar software de desecho de virus.</li><li>Reemplazar el disco duro.</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Después del POST, en la computadora se muestra el mensaje de error “Dispositivo de arranque inaccesible”.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Un controlador de dispositivo instalado recientemente no es compatible con el controlador de arranque.</li><li>BOOTMGR está dañado.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Utilizar la última configuración válida conocida para arrancar la computadora.</li><li>Arrancar la computadora en Modo seguro y cargar un punto de restauración previo a la instalación del nuevo hardware.</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Después del POST, la computadora muestra el mensaje de error “Falta BOOTMGR”.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El archivo BOOTMGR falta o está dañado.</li><li>El orden de arranque no se estableció correctamente en la configuración del BIOS/UEFI.</li><li>El MBR/GPT está dañado.</li><li>El disco duro presenta una falla.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Restaurar BOOTMGR mediante el entorno de recuperación de Windows.</li><li>Modificar el orden de arranque en la configuración del BIOS para iniciar con la unidad de arranque.</li><li>Ejecutar <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> en la consola de recuperación.</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>No se pudo iniciar un servicio cuando se inició la computadora.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>No se pudo iniciar un servicio cuando se inició la computadora.</li><li>El servicio no está habilitado.</li><li>El servicio se estableció en modo Manual y el servicio que presentó la falla requiere otro servicio para estar habilitado.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Habilitar el servicio.</li><li>Establecer el servicio en modo Automático y volver a habilitar el servicio solicitado.</li></ul></textformat></td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>No se inició un dispositivo cuando se inició la computadora.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Se deshabilitó el dispositivo en la configuración del BIOS.</li><li>El dispositivo tiene un conflicto con un dispositivo instalado recientemente.</li><li>El controlador está dañado.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Habilitar el dispositivo en la configuración del BIOS.</li><li>Quitar el dispositivo instalado recientemente.</li><li>Volver a instalar el controlador o revertirlo.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>No se encuentra un programa que aparece en el registro.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>El programa de desinstalación no funcionó correctamente.</li><li>El disco duro está dañado.</li><li>La computadora tiene un virus.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Volver a instalar el programa y ejecutar el programa de desinstalación nuevamente.</li><li>Ejecutar <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> para reparar las entradas de archivo del disco duro.</li><li>Examinar para detectar virus y desecharlos.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>La computadora se reinicia continuamente sin mostrar el escritorio.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La computadora está configurada para que se reinicie cuando haya una falla.</li><li>Se dañó un archivo de inicio.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Presionar F8 para abrir el menú Opciones avanzadas y elegir Deshabilitar el reinicio automático en caso de error del sistema.</li><li>Ejecutar el comando <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> del entorno de recuperación.</li><li>Ejecutar Reparación automática del entorno de recuperación en Windows 8.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>En la computadora, se muestra una pantalla negra o azul de la muerte (BSOD, black/blue screen of death).</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Un controlador no es compatible con el hardware.</li><li>Hay una falla de hardware.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Investigue el error que detuvo el sistema operativo y el nombre del módulo que produjo el error.</li><li>Reemplazar los dispositivos defectuosos con dispositivos que se sepa que funcionan correctamente.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>La computadora se bloquea sin mostrar mensajes de error.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La configuración de la CPU o del FSB es incorrecta en la placa madre o en la configuración del BIOS.</li><li>La computadora recalienta.</li><li>Una actualización dañó el sistema operativo.</li><li>Hay una falla de hardware.</li><li>La computadora tiene un virus.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Revisar y restablecer la configuración de la CPU y el FSB.</li><li>Revisar y reemplazar los dispositivos de refrigeración según sea necesario.</li><li>Desinstalar la actualización de software o ejecutar Restaurar sistema.</li><li>Ejecutar el comando <font face="_typewriter"><b><i>chkdsk /F /R </i></b></font> del entorno de recuperación.</li><li>Reemplazar los dispositivos defectuosos con dispositivos que se sepa que funcionan correctamente.</li><li>Examinar para detectar virus y desecharlos.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>No se puede instalar una aplicación.</td>
+                <td bgcolor='#F2F2F2'>La aplicación de instalación no es compatible con el sistema operativo.</td>
+                <td bgcolor='#F2F2F2'>Ejecutar la aplicación de instalación en el Modo de compatibilidad.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>La función de búsqueda tarda mucho tiempo en encontrar resultados.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El servicio de índice no se ejecuta.</li><li>El servicio de índice no indexa en las ubicaciones correctas.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Iniciar los servicios de índice utilizando <b>services.msc</b>.</li><li>Modificar la configuración del servicio de índice en el panel Opciones avanzadas.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>La computadora funciona con lentitud y presenta un retraso en la respuesta.</td>
+                <td bgcolor='#F2F2F2'>Un proceso está utilizando la mayor parte de los recursos de la CPU.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Reiniciar el proceso con <b>services.msc</b>.</li><li>Si el proceso no es necesario, finalizarlo con el Administrador de tareas.</li><li>Reiniciar la computadora.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Al ejecutar un programa, se muestra un mensaje que indica que falta o que se dañó un archivo DDL.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Se desinstalaron uno o más programas que utilizan el archivo DDL y se eliminó el archivo DDL que otro programa necesitaba.</li><li>Se dañó el archivo DDL durante una instalación incorrecta.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Volver a instalar el programa que tiene un archivo DDL que falta o que está dañado.</li><li>Volver a instalar la aplicación que desinstaló el archivo DDL.</li><li>Ejecutar <font face="_typewriter"><b><i>sfc /scannow </i></b></font> en Modo seguro.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>No se detecta la RAID durante la instalación.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Windows no incluye los controladores adecuados para reconocer la RAID.</li><li>La configuración de RAID en el BIOS/UEFI no es correcta.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Instalar los controladores adecuados.</li><li>Cambiar la configuración en el BIOS/UEFI para habilitar la RAID.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Un archivo de sistema está dañado.</td>
+                <td bgcolor='#E9E7E8'>La computadora se apagó de manera incorrecta.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Reparar la computadora desde el menú Opciones de inicio avanzadas.</li><li>Arrancar la computadora en Modo seguro y ejecutar <font face="_typewriter"><b><i>sfc /scannow</i></b></font>.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>La computadora arranca en Modo seguro.</td>
+                <td bgcolor='#F2F2F2'>La computadora está configurada para arrancar en Modo seguro.</td>
+                <td bgcolor='#F2F2F2'>Utilizar msconfig para ajustar la configuración de arranque del programa.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>Un archivo no puede iniciar.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La computadora tiene un virus.</li><li>El archivo está dañado.</li><li>El tipo de archivo no está asociado con ningún programa.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Examinar para detectar virus y desecharlos.</li><li>Restaurar el archivo desde una copia de respaldo.</li><li>Elegir un programa para abrir el tipo de archivo.</li></ul></textformat></td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

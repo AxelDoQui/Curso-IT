@@ -1,0 +1,133 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+
+
+  <component id="ID_s2_btn01">
+<text><![CDATA[Registro y seguimiento de incidentes]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[Registro de información de contacto]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[Investigación de información del producto]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[Ejecución de utilidades de diagnóstico]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[Investigación de una base de conocimientos]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[Recopilación de comentarios de clientes]]></text>
+</component>
+
+
+
+  <component id='ID_s2_titleTxt01'>
+    <text><![CDATA[Registro y seguimiento de incidentes]]></text>
+  </component>
+   <component id='ID_s2_titleTxt02'>
+    <text><![CDATA[Registro de información de contacto]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt03'>
+    <text><![CDATA[Investigación de información del producto]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt04'>
+    <text><![CDATA[Ejecución de utilidades de diagnóstico]]></text>
+   </component>
+
+    <component id='ID_s2_titleTxt05'>
+    <text><![CDATA[Investigación de una base de conocimientos]]></text>
+  </component>
+
+   <component id='ID_s2_titleTxt06'>
+    <text><![CDATA[Recopilación de comentarios de clientes]]></text>
+  </component>
+
+
+  
+
+
+
+  <component id="ID_s2_bodyTxt01">
+<text><![CDATA[El software puede administrar colas de llamadas, establecer la prioridad de las llamadas, asignar llamadas y elevar llamadas.]]></text>
+</component>
+<component id="ID_s2_bodyTxt02">
+<text><![CDATA[El software puede almacenar, editar y recordar nombres de clientes, direcciones de correo electrónico, números de teléfono, ubicaciones, sitios web, números de fax, entre otros, en una base de datos.]]></text>
+</component>
+<component id="ID_s2_bodyTxt03">
+<text><![CDATA[El software puede proporcionar a los técnicos información relacionada con los productos a los que se brinda soporte, incluso características, limitaciones, nuevas versiones, restricciones de configuración, errores conocidos, disponibilidad de productos, enlaces a archivos de ayuda en línea, entre otros.]]></text>
+</component>
+<component id="ID_s2_bodyTxt04">
+<text><![CDATA[Es posible que el software cuente con varias utilidades de diagnóstico, incluso software de diagnóstico remoto, con el que el técnico puede acceder a la computadora del cliente desde su escritorio en el centro de atención telefónica.]]></text>
+</component>
+<component id="ID_s2_bodyTxt05">
+<text><![CDATA[Es posible que el software contenga una base de datos de conocimientos previamente programada con problemas comunes y soluciones para estos. Esta base de datos puede volverse más extensa a medida que los técnicos agregan sus propios registros de problemas y soluciones.]]></text>
+</component>
+<component id="ID_s2_bodyTxt06">
+<text><![CDATA[El software puede recopilar comentarios de clientes con respecto a su satisfacción relacionada con los productos y servicios del centro de llamadas.]]></text>
+</component>
+
+    
+<component id="ID_s3_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Ordenamiento de las llamadas según el nivel de prioridad</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+           <tr>
+              <td bgcolor='#666263' width="125"><font color='#ffffff'><b>Nombre</b></font></td>
+              <td bgcolor='#666263'><font color='#ffffff'><b>Definición</b></font></td>
+              <td bgcolor='#666263' width="175"><font color='#ffffff'><b>Prioridad</b></font></td>
+
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Inactivo</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>No funciona ninguno de los equipos de computación de una empresa.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>1 (Más urgente)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>avanzado</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Una computadora (o más) de la empresa no funciona correctamente.</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2 (Urgente)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Software</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Una computadora (o más) de la empresa presenta errores de software o del sistema operativo.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>2 (Urgente)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Red</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Una computadora (o más) de la empresa no puede acceder a la red.</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2 (Urgente)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Mejora</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>La empresa solicitó que se brinde funcionalidad adicional de las computadoras.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>(3) Importante</font></td>
+            </tr>
+               
+           
+        </table>]]></text>
+    </component>	
+	
+	
+	
+</textcomponents>

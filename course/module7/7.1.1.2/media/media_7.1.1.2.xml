@@ -1,0 +1,47 @@
+<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+	<text><![CDATA[<b>Iconos de dispositivo host</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Computadora de escritorio]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[Computadora portátil]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[Servidor]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Tablet]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+	<text><![CDATA[Smartphone]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+	<text><![CDATA[Impresora]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+	<text><![CDATA[Cámara]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[Teléfono IP]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+	<text><![CDATA[Escáneres]]></text>
+</component><!--SLIDE 2--><component id="ID_s2_title">
+	<text><![CDATA[<b>Ejemplos de recursos compartidos en una red de computadoras</b>]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+	<text><![CDATA[<ul><li>Servicios, como imprimir y escanear</li><li>Espacio de almacenamiento en dispositivos extraíbles, como discos duros y unidades ópticas</li><li>Aplicaciones, como bases de datos</li><li>Información almacenada en otras computadoras, como documentos y fotos</li><li>Calendarios, sincronización entre una PC y un smartphone</li></ul>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ranuras de expansión PCI</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Ranuras de expansión PCIe x1</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Ranuras de expansión PCIe x16</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Tarjetas de adaptador</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+		<text><![CDATA[PCI NIC inalámbrica]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[Tarjeta de adaptador de video PCIe x16]]></text>
+	</component>
+	
+</textcomponents>

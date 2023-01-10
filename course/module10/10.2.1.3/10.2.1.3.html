@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.3 Restricciones tras intentos fallidos de inicio de sesión</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Restricciones tras intentos fallidos de inicio de sesión</h1>
+        <div>
+          <p>Para desbloquear un dispositivo móvil cuando se implementó una contraseña de manera correcta, es necesario introducir el PIN, la contraseña, el patrón u otro tipo de código de acceso correcto. Teóricamente, una contraseña, como un PIN, podría llegar a adivinarse si se cuenta con el tiempo y la perseverancia suficientes. Para evitar que alguien intente adivinar una contraseña, los dispositivos móviles pueden configurarse para llevar a cabo determinadas acciones tras cierta cantidad de intentos fallidos.</p>
+          <p></p>
+          <p>En el caso de los dispositivos Android, la cantidad de intentos fallidos antes del bloqueo depende del dispositivo y la versión del SO Android. Es común que los dispositivos Android se bloqueen cuando se introduce una contraseña incorrecta entre 4 y 12 veces. Una vez bloqueado el dispositivo, es posible desbloquearlo introduciendo la información de la cuenta de Gmail que se utilizó para configurar el dispositivo.</p>
+          <p></p>
+          <p>Para los dispositivos iOS, el dispositivo se deshabilita tras cinco intentos fallidos, como se muestra en la Figura 1. En el sexto intento fallido, el dispositivo permanece deshabilitado por 1 minuto. Cada intento fallido después del sexto provoca el aumento del tiempo de espera. En la tabla de la Figura 2, se muestran los resultados de introducir una contraseña incorrecta.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Las contraseñas incorrectas deben ser diferentes entre sí para que se active el tiempo de espera.</p>
+          <p></p>
+          <p>Active la opción de eliminación de datos, que se muestra en la Figura 3. Si la contraseña falla 10 veces, la pantalla se va a negro y se eliminan todos los datos del dispositivo. Para restaurar el dispositivo iOS y los datos, debe conectarlo a la PC con la que se hizo la última sincronización y utilizar la opción Restaurar en iTunes.</p>
+          <p></p>
+          <p>En iOS, para mejorar la seguridad, la contraseña se utiliza como parte de la clave de cifrado para todo el sistema. Debido a que la contraseña no se almacena en ningún lugar, nadie puede acceder a los datos del usuario en los dispositivos iOS, incluidos los dispositivos de Apple. El sistema depende del usuario para proporcionar la contraseña antes de que el sistema se pueda desbloquear y descifrar para su uso. Una contraseña olvidada hará que los datos de usuario se vuelvan inalcanzables, obligando al usuario a realizar una restauración completa con iTunes en la computadora, donde el dispositivo fue sincronizado por última vez.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>GUI de Ubuntu Unity</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Sistema y Menú de notificación]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+ 		 <text><![CDATA[Barra de menú superior]]></text> 
+  	</component>
+	<component id="ID_s1_txt03">
+ 		 <text><![CDATA[Cuadro de búsqueda del tablero]]></text> 
+  </component>
+  <component id="ID_s1_txt04">
+ 		 <text><![CDATA[Selector]]></text> 
+  </component>
+   <component id="ID_s1_txt05">
+  		<text><![CDATA[Lenses]]></text> 
+  </component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>GUI de OS X</b>]]></text>
+	</component>
+
+	 <component id="ID_s2_txt01">
+  		<text><![CDATA[Icono del centro de notificación]]></text> 
+  </component>
+
+   <component id="ID_s2_txt02">
+  		<text><![CDATA[Icono de Spotlight]]></text> 
+  </component>
+
+  <component id="ID_s2_txt03">
+  		<text><![CDATA[Menú de estado]]></text> 
+  </component>
+
+   <component id="ID_s2_txt04">
+  		<text><![CDATA[Barra de menú]]></text> 
+  </component>
+
+  <component id="ID_s2_txt05">
+  		<text><![CDATA[Menú de aplicaciones]]></text> 
+  </component>
+
+  <component id="ID_s2_txt06">
+  		<text><![CDATA[Menú de Apple]]></text> 
+  </component>
+
+   <component id="ID_s2_txt07">
+  		<text><![CDATA[Base]]></text> 
+  </component>
+
+  <component id="ID_s2_txt08">
+  		<text><![CDATA[Área de escritorio]]></text> 
+  </component>
+
+	 <component id="ID_s1_titleTxt01">
+    <text><![CDATA[Sistema y Menú de notificación]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt01">
+    <text><![CDATA[Muchas funciones importantes están ubicadas en los menús de indicador en la esquina superior derecha de la pantalla. Use el menú de indicador para cambiar a los usuarios, apagar la computadora, controlar el nivel de volumen o cambiar la configuración de red.]]></text>
+  </component>
+  
+  <component id="ID_s1_titleTxt02">
+    <text><![CDATA[Barra de menú superior]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt02">
+    <text><![CDATA[Una barra de menú multipropósito que contiene la aplicación en ejecución, botones para controlar la ventana activa y controles de sistema y notificaciones.]]></text>
+  </component>
+
+   <component id="ID_s1_titleTxt03">
+    <text><![CDATA[Cuadro de búsqueda del tablero]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt03">
+    <text><![CDATA[Contiene la herramienta de búsqueda y una lista de aplicaciones utilizadas recientemente. El tablero (o Dash) incluye lentes en la parte inferior del área del tablero que permiten a los usuarios ajustar los resultados de búsqueda. Para acceder al tablero, simplemente haga clic en el botón de Ubuntu en la parte superior del Selector.]]></text>
+  </component>
+
+
+   <component id="ID_s1_titleTxt04">
+    <text><![CDATA[Selector]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt04">
+    <text><![CDATA[Una base que se ubica en el lado izquierdo de la pantalla y sirve como selector y modificador de aplicaciones. Haga clic con el botón secundario del mouse en cualquier aplicación que se encuentre en el Selector para acceder a una breve lista de las tareas que puede realizar la aplicación.]]></text>
+  </component>
+   <component id="ID_s1_titleTxt05">
+    <text><![CDATA[Lenses]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt05">
+    <text><![CDATA[Permite que los usuarios ajusten los resultados.]]></text>
+  </component>
+
+
+   <component id="ID_s2_titleTxt01">
+    <text><![CDATA[Icono del centro de notificación ]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt01">
+    <text><![CDATA[Permite que los usuarios vean todas las notificaciones.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt02">
+    <text><![CDATA[Icono de Spotlight]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt02">
+    <text><![CDATA[Se utiliza para buscar aplicaciones, documentos, imágenes y otros archivos.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt03">
+    <text><![CDATA[Menú de estado]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt03">
+    <text><![CDATA[Muestra la fecha y hora, el estado de su computadora y algunas funciones, como Bluetooth e inalámbrico.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt04">
+    <text><![CDATA[Barra de menú]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt04">
+    <text><![CDATA[Contiene el menú de Apple, los menús de aplicaciones actualmente activos, los menús de estado e indicadores, Spotlight y el centro de notificaciones.]]></text>
+  </component>
+
+
+  <component id="ID_s2_titleTxt05">
+    <text><![CDATA[Menú de aplicaciones]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt05">
+   <text><![CDATA[Muestra el nombre de la aplicación activa en negrita y el menú de la aplicación activa.]]></text>
+  </component>
+
+   <component id="ID_s2_titleTxt06">
+    <text><![CDATA[Menú de Apple]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt06">
+   <text><![CDATA[Preferencias del sistema de acceso, actualizaciones de software, controles de alimentación y más.]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt07">
+    <text><![CDATA[Base]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt07">
+   <text><![CDATA[Muestra las miniaturas de las aplicaciones más frecuentes y se minimizan las aplicaciones que están en ejecución. Una de las funciones importantes incluidas en la Base es “Foce Quit” (Forzar salida). Al hacer clic con el botón secundario del mouse en una aplicación que se está ejecutando en la Base, el usuario puede optar por cerrar una aplicación que no responde.]]></text>
+  </component>
+
+</textcomponents>

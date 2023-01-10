@@ -1,0 +1,13 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Formateo del dispositivo de almacenamiento</b>]]></text>
+</component>
+
+<component id='ID_titleTxt01'>
+	<text><![CDATA[<b>Particiones múltiples durante la instalación de Windows 8.1</b>]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[En la imagen anterior, se crearon dos particiones al seleccionar “Espacio sin asignar en el disco 0” y hacer clic en “Nuevo”. El instalador también permite que el usuario especifique el tamaño de la nueva partición.]]></text>
+</component>
+
+</textcomponents>

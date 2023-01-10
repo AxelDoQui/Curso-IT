@@ -1,0 +1,179 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Problemas y soluciones avanzados de los sistemas operativos</b>]]></text>
+	</component>
+
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados del malware</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Durante el arranque, aparece el mensaje “Se cambió o modificó el MBR”.</td>
+			<td bgcolor='#E9E7E8'>Un virus en el sector de arranque modificó el registro principal de arranque.</td>
+			<td bgcolor='#E9E7E8'>Arrancar la computadora con un medio de arranque y ejecutar un software antivirus para desechar el virus del sector de arranque.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Al iniciar una computadora con Windows 7 o Windows Vista, aparece el siguiente mensaje de error: “Error al cargar el sistema operativo”.</td>
+			<td bgcolor='#F2F2F2'>Un virus dañó el registro principal de arranque.</td>
+			<td bgcolor='#F2F2F2'>Arrancar la computadora desde los medios de instalación. En la pantalla Instalar Windows, seleccionar <b>Reparar el equipo</b>. En el símbolo del sistema, escribir: <font face="_typewriter"><b><i>bootrec.exe /fixmbr</i></b></font>.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Al iniciar una computadora con Windows 7 o Windows Vista, aparece el siguiente mensaje de error: “Precaución: este disco duro puede estar infectado con un virus”.</td>
+			<td bgcolor='#E9E7E8'>Un virus dañó el sector de arranque.</td>
+			<td bgcolor='#E9E7E8'>Arrancar la computadora desde los medios de instalación. En la pantalla Instalar Windows, seleccionar <b>Reparar el equipo</b>. En el símbolo del sistema, escribir: <font face="_typewriter"><b><i>bootrec.exe /fixboot</i></b></font>.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Una computadora con Windows 7 no arranca.</td>
+			<td bgcolor='#F2F2F2'>Un virus dañó los archivos de sistema de Windows.</td>
+			<td bgcolor='#F2F2F2'>Arrancar la computadora desde los medios de instalación de Windows PE. Acceder a la herramienta Reparación de inicio de Windows para recuperar los archivos de sistema dañados.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Sus contactos de correo electrónico reciben correo no deseado desde su cuenta.</td>
+			<td bgcolor='#E9E7E8'>Su cuenta de correo electrónico fue asaltada por un virus o spyware.</td>
+			<td bgcolor='#E9E7E8'>Ejecutar un software antivirus y reparar, desechar o poner en cuarentena los archivos infectados. Ejecutar un software antispyware y desechar cualquier infección por spyware. Después de desinfectar la computadora, cambiar la contraseña de la cuenta de correo electrónico.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Problemas y soluciones avanzados de los sistemas operativos</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de los permisos de usuario</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un usuario puede iniciar sesión, pero recibe el mensaje “acceso denegado” cuando intenta acceder a algunos archivos y carpetas.</td>
+			<td bgcolor='#E9E7E8'>El usuario no es miembro del grupo que tiene acceso a esos archivos y carpetas.</td>
+			<td bgcolor='#E9E7E8'>Agregar al usuario al grupo que corresponde. Agregar los permisos del usuario correctos a los archivos y carpetas.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Un usuario puede ubicar un archivo en el servidor, pero no puede descargarlo.</td>
+			<td bgcolor='#F2F2F2'>Los permisos de usuario son incorrectos.</td>
+			<td bgcolor='#F2F2F2'>Cambiar los permisos de archivos de usuario a Leer y ejecutar.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Un usuario obtiene acceso a una subcarpeta a la que no se debería poder acceder.</td>
+			<td bgcolor='#E9E7E8'>La subcarpeta heredó permisos de la carpeta de nivel superior.</td>
+			<td bgcolor='#E9E7E8'>Cambiar la configuración de permisos de la subcarpeta para que no herede los permisos de la carpeta principal. Establecer los permisos adecuados para la subcarpeta.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Los usuarios de un grupo no pueden ver una carpeta a la que deberían tener acceso.</td>
+			<td bgcolor='#F2F2F2'>Los permisos de carpeta se establecieron en Denegar.</td>
+			<td bgcolor='#F2F2F2'>Cambiar los permisos de carpeta a Permitir.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Los archivos cifrados que se mueven por la red hacia una computadora nueva ya no están cifrados.</td>
+			<td bgcolor='#E9E7E8'>La computadora nueva no tiene una partición NTFS.</td>
+			<td bgcolor='#E9E7E8'>Convertir la partición de la computadora nueva a NTFS y volver a cifrar los archivos.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Problemas y soluciones avanzados de los sistemas operativos</b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de la configuración de seguridad de computación</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora funciona despacio todos los días a la misma hora.</td>
+			<td bgcolor='#E9E7E8'>El software antivirus está configurado para examinar la computadora todos los días a la misma hora.</td>
+			<td bgcolor='#E9E7E8'>Configurar el software antivirus para que examine la computadora cuando esta no esté en uso.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Un usuario se queja de que la configuración del BIOS de la computadora se cambia constantemente.</td>
+			<td bgcolor='#F2F2F2'>No se estableció la contraseña del BIOS, por lo que otros usuarios pueden cambiar la configuración del BIOS.</td>
+			<td bgcolor='#F2F2F2'>Establecer una contraseña para proteger el acceso a la configuración del BIOS.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>El TPM no aparece en el Administrador de dispositivos.</td>
+			<td bgcolor='#E9E7E8'>El TPM está deshabilitado.</td>
+			<td bgcolor='#E9E7E8'>Habilitar el TPM en el BIOS.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Problemas y soluciones avanzados de los sistemas operativos</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de la configuración de firewall o proxy</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora no puede hacer ping a otra computadora en la red.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El firewall de Windows bloquea las solicitudes de ping.</li><li>El router bloquea las solicitudes de ping.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Configurar el firewall de Windows para permitir las solicitudes de ping.</li><li>Configurar el router para permitir solicitudes de ping.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Las excepciones de firewall de computadora portátil permiten conexiones no autorizadas de computadoras falsas.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La configuración del firewall de Windows es incorrecta.</li><li>El firewall de Windows está deshabilitado.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Establecer el firewall de Windows en “No permitir excepciones cuando se utiliza una red pública”.</li><li>Habilitar el firewall de Windows.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>El programa de correo electrónico está configurado correctamente, pero no se conecta al servidor de correo electrónico.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El servidor de correo electrónico no funciona.</li><li>El firewall de Windows bloquea el software de correo electrónico.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Verificar que el servidor de correo electrónico funcione.</li><li>Crear una excepción de firewall de Windows para el software de correo electrónico.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>La computadora puede hacer ping al servidor proxy, pero no tiene conectividad a Internet.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La configuración del servidor proxy del navegador es incorrecta.</li><li>El servidor proxy está desconectado.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Volver a introducir la configuración del servidor proxy, incluso la dirección IP y el puerto del servidor proxy, así como cualquier excepción que se deba definir.</li><li>Reiniciar el servidor proxy.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

@@ -1,0 +1,125 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+  <text><![CDATA[<b>Haga clic en el área resaltada para ver contenido importante. Vuelva a hacer clic en el área resaltada para cerrar. </b>]]></text> 
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>Computadora portátil abierta</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Teclado]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[El teclado es un dispositivo de entrada compacto que posee teclas multifuncionales.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Dispositivos de entrada]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[Los dispositivos de entrada son el panel táctil, que consta de un botón derecho y otro izquierdo, y un controlador señalador. En las computadoras portátiles, el panel táctil y el controlador señalador pueden utilizarse en lugar del mouse.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Lector de huellas digitales]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[El lector de huellas digitales es un dispositivo de entrada que se utiliza para autenticación de seguridad.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt04'>
+	<text><![CDATA[Controles de volumen]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt04">
+<text><![CDATA[Los controles de volumen son botones que permiten controlar la salida de audio.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt05'>
+	<text><![CDATA[Botón de encendido]]></text>
+
+</component>
+<component id="ID_s01_bodyTxt05">
+<text><![CDATA[El botón de encendido es un control que permite encender y apagar la computadora portátil.]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>Iconos de las computadoras portátiles</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[LED de conexión inalámbrica]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[El LED de conexión inalámbrica indica la actividad de la conexión de red inalámbrica.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[LED de estado del Bluetooth]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[El LED de estado del Bluetooth indica cuándo está habilitado el transceptor inalámbrico Bluetooth.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[LED de bloqueo numérico]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[El LED de bloqueo numérico indica si el teclado numérico de 10 teclas está activado o desactivado.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[LED de bloqueo de mayúsculas]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[El LED de bloqueo de mayúsculas indica si la función Bloqueo mayúsculas estás activada o desactivada.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[LED de actividad del disco duro]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[El LED de actividad del disco duro indica la actividad del disco duro.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[LED de encendido]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[El LED de encendido indica si la computadora portátil está encendida o apagada.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[LED de estado de la batería]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[El LED de estado de la batería indica el estado de la batería de la computadora portátil.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[LED de hibernación o modo de espera]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[El LED de hibernación o modo de espera indica si la computadora está en modo de espera o si se está activando o desactivando el modo de hibernación.]]></text>
+</component><!-- end slide 2 --></textcomponents>

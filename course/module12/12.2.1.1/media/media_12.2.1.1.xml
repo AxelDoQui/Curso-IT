@@ -1,0 +1,101 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+	<text><![CDATA[<b>Creación de una política de seguridad de la red</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01"> 
+	<text><![CDATA[<font color="#FFFFFF">El siguiente elemento en la política de seguridad que tenemos que analizar son las reglas de acceso a la red.</font>]]></text> 
+</component>
+
+<component id="ID_s1_bubble02"> 
+	<text><![CDATA[<font color="#FFFFFF">Debemos tener en cuenta que tenemos trabajadores remotos. Tienen diferentes reglas de acceso que nuestros empleados internos.</font>]]></text> 
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<b>Preguntas sobre la política de seguridad</b>]]></text>
+</component>
+
+<component id='ID_s2_txtTitle01'>
+	<text><![CDATA[La política de seguridad identifica...]]></text>
+</component>
+
+<component id='ID_s2_txtBody01'>
+	<text><![CDATA[<ul><li>¿Qué activos requieren protección?</li><li>¿Cuáles son las posibles amenazas?</li><li>¿Cómo se debe proceder en caso de una infracción a la seguridad?</li><li>¿Qué tipo de capacitación se ofrecerá para instruir a los usuarios finales?</li></ul>]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>Política de seguridad</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Política de seguridad</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<font size="+2"><b>Política de seguridad</b></font>]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[1. <textformat blockindent='-18'>Políticas de identificación y autenticación</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt04">
+		<text><![CDATA[2. <textformat blockindent='-18'>Políticas de contraseña</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt05">
+		<text><![CDATA[3. <textformat blockindent='-18'>Políticas de usos aceptables</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt06">
+		<text><![CDATA[4. <textformat blockindent='-18'>Políticas de acceso remoto</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt07">
+		<text><![CDATA[5. <textformat blockindent='-18'>Políticas de mantenimiento de la red</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt08">
+		<text><![CDATA[6. <textformat blockindent='-18'>Políticas de manejo de incidentes</textformat>]]></text>
+	</component><!-- slide 3 textboxes --><component id="ID_s3_txtTitle01">
+		<text><![CDATA[Políticas de identificación y autenticación]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody01">
+		<text><![CDATA[Determinan cuáles son las personas autorizadas que pueden acceder a los recursos de red y describen los procedimientos de verificación.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle02">
+		<text><![CDATA[Políticas de contraseña]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody02">
+		<text><![CDATA[Garantizan que las contraseñas cumplan con requisitos mínimos y se cambien periódicamente.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle03">
+		<text><![CDATA[Políticas de usos aceptables]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody03">
+		<text><![CDATA[Identifican los recursos de red y los usos que son aceptables por la organización. También pueden identificar las ramificaciones si se infringe esta política.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle04">
+		<text><![CDATA[Políticas de acceso remoto]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody04">
+		<text><![CDATA[Identifican cómo los usuarios remotos pueden obtener acceso a la red y qué elementos están disponibles a través de la conectividad remota.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle05">
+		<text><![CDATA[Políticas de mantenimiento de la red]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody05">
+		<text><![CDATA[Especifican los sistemas operativos de los dispositivos de la red y los procedimientos de actualización de las aplicaciones de los usuarios finales.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle06">
+		<text><![CDATA[Políticas de manejo de incidentes]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody06">
+		<text><![CDATA[Describen cómo se tratan los incidentes de seguridad.]]></text>
+	</component><!-- end slide 3 textboxes --><!-- end slide 3 --></textcomponents>

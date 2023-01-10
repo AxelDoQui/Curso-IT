@@ -1,0 +1,68 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>iPhone se desactiva temporalmente después de ingresar contraseñas incorrectas</b>]]></text>
+	</component>	
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>iPhone se desactiva temporalmente después de ingresar contraseñas incorrectas</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table01'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16">Intentos fallidos de introducir la contraseña en iOS</font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Intentos fallidos</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Tiempo adicional que se deshabilita el dispositivo</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Tiempo total que se deshabilita el dispositivo</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8' width='110'>Entre 1 y 5</td>
+				<td bgcolor='#E9E7E8'>0</td>
+				<td bgcolor='#E9E7E8'>0</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>6</td>
+				<td bgcolor='#F2F2F2'>1 minuto</td>	
+				<td bgcolor='#F2F2F2'>1 minuto</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>7</td>
+				<td bgcolor='#E9E7E8'>5 minutos</td>
+				<td bgcolor='#E9E7E8'>6 minutos</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>8</td>
+				<td bgcolor='#F2F2F2'>15 minutos</td>	
+				<td bgcolor='#F2F2F2'>21 minutos</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>9</td>
+				<td bgcolor='#E9E7E8'>60 minutos</td>
+				<td bgcolor='#E9E7E8'>81 minutos</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>10</td>
+				<td bgcolor='#F2F2F2'>60 minutos</td>	
+				<td bgcolor='#F2F2F2'>141 minutos</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>11</td>
+				<td colspan='2' bgcolor='#E9E7E8'><i>Datos del dispositivo eliminados</i></td>
+			</tr>
+	</table>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Borrado de datos después de 10 contraseñas incorrectas en iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_txt01">
+        <text><![CDATA[Borrar todos los datos]]></text>
+	</component>
+   
+</textcomponents>

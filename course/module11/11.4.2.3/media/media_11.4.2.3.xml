@@ -1,0 +1,35 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 3: Poner a prueba la teoría para determinar la causa</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8' width="150">Pasos comunes para determinar la causa</td>
+				
+                <td bgcolor='#E9E7E8'><ul><li>Reiniciar la impresora o el escáner.</li>
+					<li>Desconectar y volver a conectar los cables.</li>
+					<li>Reiniciar la computadora.</li>
+					<li>Revisar que no haya atascos de papel en la impresora.</li>
+					<li>Volver a colocar papel en las bandejas.</li>
+					<li>Abrir y cerrar las bandejas de la impresora.</li>
+					<li>Asegurarse de que las puertas de la impresora estén cerradas.</li>
+					<li>Instalar un nuevo cartucho de tinta o tóner.</li></ul></td>
+            </tr>
+ 
+            
+        </table>]]></text>
+    </component>
+	
+</textcomponents>

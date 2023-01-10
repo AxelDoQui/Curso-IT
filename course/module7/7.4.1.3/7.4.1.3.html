@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.3 Formato de direcciones IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Formato de direcciones IPv4</h1>
+        <div>
+          <p>Cuando un host se configura con una dirección IPv4, se introduce en formato decimal punteado, como se muestra en la Figura 1. Imagine si tuviera que introducir el equivalente binario de 32 bits. La dirección 192.168.200.8 se ingresaría como 11000000101010001100100000001000. Si se cometiera un error al escribir un solo bit, la dirección sería diferente. Entonces, el dispositivo no podría comunicarse con la red.</p>
+          <p></p>
+          <p>A cada número separado por un punto se le llama octeto debido a que representa 8 bits. Por lo tanto, la dirección 192.168.200.8 tiene cuatro octetos. Cada bit de un octeto puede ser un 1 (activado) o un 0 (desactivado). Además, cada bit de un octeto representa un valor. El bit del extremo derecho representa un 1. Cada bit a su izquierda se duplica, de modo que el bit representa 128. Para convertir la dirección binaria, agregue los valores de cada bit que sean un 1 en cada octeto, como se muestra en la Figura 2.</p>
+          <p></p>
+          <p>Además, una dirección IPv4 consta de dos partes. La primera parte identifica la red. La segunda parte identifica al host en esa red. Se requieren ambas partes.</p>
+          <p></p>
+          <p>Cuando una computadora prepara datos para enviarlos a la red, debe determinar si enviará los datos directamente al receptor previsto o a un router. Los enviará directamente al receptor si el receptor está en la misma red. De lo contrario, enviará los datos a un router. Un router utiliza la porción de red de la dirección IP para enrutar el tráfico entre redes diferentes.</p>
+          <p></p>
+          <p>Las computadoras y los routers utilizan la máscara de subred para calcular la porción de red de la dirección IPv4 de destino. Al igual que una dirección IPv4, la máscara de subred se representa mediante decimales punteados. Por ejemplo, la máscara de subred para la dirección IPv4 192.168.200.8 podría ser 255.255.255.0, como se muestra en la Figura 1. Una computadora utiliza la dirección y la máscara de subred para determinar la porción de red de la dirección. Lo hace en el nivel binario. En la Figura 3, se convierten la dirección de 192.168.200.8 y la máscara de subred 255.255.255.0 a sus equivalentes binarios. Un octeto con el valor decimal 255 es 8 unos en binario. Un bit en la máscara de subred significa que el bit es parte de la porción de red. Por lo tanto, los primeros 24 bits de la dirección de 192.168.200.8 son bits de red. Los últimos 8 bits son bits de host. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar el Servicio de host conectado</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el término con su descripción.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Servicios web]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Servicios de autenticación]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[DHCP]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Servicios de correo electrónico]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Servicios de impresión]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[DNS]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Prevención y detección de intrusiones.]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[Servicios de archivos]]></text>
+	</component>
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada término con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada término con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Término</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Los hosts utilizan HTTP o HTTPS para acceder a este servicio.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Los dispositivos de red se controlan con AAA.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Este servicio asigna automáticamente la información de direccionamiento IP a los hosts.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[El cliente envía y recupera los mensajes que utilizan estos protocolos: SMTP, POP, o IMAP.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Este servicio permite que varios usuarios accedan a una impresora.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Este servicio traduce los nombres de dominio a direcciones IP.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Este servicio supervisa y procesa el tráfico de red.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Este servicio utiliza el protocolo FTP para transferir datos entre un servidor y un cliente.]]></text>
+	</component> 
+
+	
+</textcomponents>

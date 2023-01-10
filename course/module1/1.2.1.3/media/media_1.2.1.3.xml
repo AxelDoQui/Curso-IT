@@ -1,0 +1,119 @@
+<textcomponents>	
+	
+<component id="ID_s2_title">
+<text><![CDATA[<b>Elección de un gabinete de computadora</b>]]></text>
+</component>
+
+<component id="ID_s2_header01">
+<text><![CDATA[<b>Factor</b>]]></text>
+</component>
+<component id="ID_s2_header02">
+<text><![CDATA[<b>Justificación lógica</b>]]></text>
+</component>
+
+<component id="ID_s2_btn01">
+<text><![CDATA[Tipo de modelo]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[Tamaño]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[Fuente de alimentación]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[Aspecto]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[Indicador de estado]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[Ventilación]]></text>
+</component>
+
+<component id="ID_s2_title_txt01">
+<text><![CDATA[Tipo de modelo]]></text>
+</component>
+<component id="ID_s2_title_txt02">
+<text><![CDATA[Tamaño]]></text>
+</component>
+<component id="ID_s2_title_txt03">
+<text><![CDATA[Fuente de alimentación]]></text>
+</component>
+<component id="ID_s2_title_txt04">
+<text><![CDATA[Aspecto]]></text>
+</component>
+<component id="ID_s2_title_txt05">
+<text><![CDATA[Indicador de estado]]></text>
+</component>
+<component id="ID_s2_title_txt06">
+<text><![CDATA[Ventilación]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[El tipo de gabinete que se puede usar depende de la placa madre que se elija. El tamaño y la forma deben coincidir perfectamente.]]></text>
+</component>
+<component id="ID_s2_txt02">
+<text><![CDATA[Si una computadora tiene muchos componentes, necesitará más espacio para que la circulación de aire mantenga el sistema refrigerado.]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[La clasificación de potencia y el tipo de conexión de la fuente de alimentación deben coincidir con el tipo de placa madre que eligió.]]></text>
+</component>
+<component id="ID_s2_txt04">
+<text><![CDATA[Para algunas personas, el aspecto del gabinete no tiene ninguna importancia. Para otras, es fundamental. Existe una gran variedad de diseños de gabinete para elegir si es necesario tener un gabinete atractivo.]]></text>
+</component>
+<component id="ID_s2_txt05">
+<text><![CDATA[Lo que sucede dentro del gabinete puede ser muy importante. Los indicadores LED ubicados en el exterior del gabinete pueden indicar si el sistema recibe energía, si el disco duro se encuentra en uso y si la computadora está en el modo de suspensión o de hibernación.]]></text>
+</component>
+<component id="ID_s2_txt06">
+<text><![CDATA[Todos los gabinetes tienen una ranura de ventilación en la fuente de alimentación y algunos tienen otra en la parte trasera para permitir que el aire entre o salga del sistema. Algunos gabinetes se diseñan con más ranuras de ventilación en caso de que el sistema necesite una vía para disipar una cantidad inusual de calor. Esta situación puede ocurrir cuando se instalan muchos dispositivos y muy cercanos entre sí dentro del gabinete.]]></text>
+</component>
+
+
+    
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Elección de los ventiladores del gabinete</b>]]></text>
+	</component>
+    
+    <component id="ID_s1_table"><text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Factores</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Tener en cuenta…</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Tamaño del gabinete</td>
+			<td bgcolor='#E9E7E8'>Los gabinetes de mayor tamaño suelen requerir ventiladores más grandes debido a que los pequeños no generan el flujo de aire necesario.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Velocidad del ventilador</td>
+			<td bgcolor='#F2F2F2'>Los ventiladores más grandes pueden girar a menor velocidad que los más pequeños, lo que disminuye el ruido del ventilador.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cantidad de componentes</td>
+			<td bgcolor='#E9E7E8'>Los componentes de una computadora que producen calor adicional son varios, por lo que se requieren más ventiladores, que sean más grandes o más rápidos.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Entorno físico</td>
+			<td bgcolor='#F2F2F2'>Los ventiladores de gabinete deben dispersar el calor suficiente para mantener refrigerado el interior del gabinete.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cantidad de lugares disponibles para montaje</td>
+			<td bgcolor='#E9E7E8'>Los distintos gabinetes tienen diferentes cantidades de lugares para el montaje de los ventiladores.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Ubicación de los lugares disponibles para montaje</td>
+			<td bgcolor='#F2F2F2'>Los distintos gabinetes tienen ubicaciones diferentes donde se pueden instalar ventiladores.</td>
+		</tr>	
+		<tr>
+			<td bgcolor='#E9E7E8'>Conexiones eléctricas</td>
+			<td bgcolor='#E9E7E8'>Algunos ventiladores de gabinete se conectan directamente a la placa madre, mientras que otros se conectan en forma directa a la fuente de alimentación.</td>
+		</tr>
+	
+	</table>]]></text> 
+</component>
+</textcomponents>

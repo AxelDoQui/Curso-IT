@@ -1,0 +1,29 @@
+<textcomponents>
+
+ <component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 2. Establecer una teoría de causas probables</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td width="200" bgcolor='#F2F2F2'>Causas comunes de los problemas de red</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Conexiones de cables flojas.</li>
+				<li>La NIC no se instaló correctamente.</li>
+				<li>El ISP no funciona.</li>
+				<li>Baja intensidad de señal inalámbrica.</li>
+				<li>La dirección IP no es válida.</li>
+				<li>Problema del servidor DNS </li>
+				<li>Problema del servidor DHCP</li>
+				<li>Problema del equipo de red (switch, router, etc.)</li></ul></textformat>
+			</td> 
+		</tr>	
+	</table>]]></text>
+</component>
+
+</textcomponents>

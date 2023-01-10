@@ -1,0 +1,45 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Cables de red</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Cables de par trenzados]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Cable coaxial]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Cable de fibra óptica]]></text> 
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_txt01">
+		<text><![CDATA[Envoltura exterior]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Blindaje de cobre trenzado]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Aislamiento plástico]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Conductor de cobre]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<b>Conectores coaxiales</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[BNC]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Tipo N]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+		<text><![CDATA[Tipo F]]></text>
+	</component><!-- end slide 2 --></textcomponents>

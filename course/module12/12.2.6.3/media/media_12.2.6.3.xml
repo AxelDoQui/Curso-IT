@@ -1,0 +1,84 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar los dispositivos de seguridad física</b></font>]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_title'>
+		<text><![CDATA[Instrucciones]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[Una cada dispositivo de seguridad física con su descripción]]></text>
+	</component><!--Drag and Drop--><component id='ID_s1_drag_header'>
+		<text><![CDATA[<font color="#FFFFFF"><b>Dispositivo de seguridad física</b></font>]]></text>
+	</component>
+
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Llavero transmisor]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Tarjeta inteligente]]></text>
+	</component>
+	
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Dispositivo biométrico]]></text>
+	</component>
+	
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada dispositivo de seguridad física con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada dispositivo de seguridad física con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Dispositivo de seguridad física</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción del dispositivo</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Utiliza características físicas del usuario para ayudar en la identificación positiva.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Utiliza un chip de circuitos integrados incorporado para almacenar datos de forma segura.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Utiliza un pequeño sistema de radio para comunicarse con la computadora.]]></text>
+	</component> 
+	
+	
+	
+	
+
+	
+	
+</textcomponents>

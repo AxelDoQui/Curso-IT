@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.1 Procedimientos de arranque múltiple</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Procedimientos de arranque múltiple</h1>
+        <div>
+          <p>Pueden existir varios sistemas operativos en una única PC. Es posible que algunas aplicaciones de software requieran la versión más reciente de un sistema operativo, mientras que otras aplicaciones pueden requerir una versión anterior. Existe un proceso de arranque dual para varios sistemas operativos en una PC. Durante el proceso de arranque, si el administrador de arranque de Windows (BOOTMGR) determina que hay más de un sistema operativo, se le solicitará que elija el sistema operativo que desea cargar. En la Figura 1 se muestra el BOOTMGR para Windows 8.x. En la Figura 2 se muestra el BOOTMGR para Windows 7 y Vista.</p>
+          <p></p>
+          <p>Para crear un sistema de arranque dual en Microsoft Windows, el disco duro debe tener más de una partición.</p>
+          <p></p>
+          <p>Primero, se debe instalar el sistema operativo más antiguo en la partición primaria o en el disco duro seleccionado como partición activa. Instale el segundo sistema operativo en la segunda partición o en el disco duro. Los archivos de arranque se instalan automáticamente en la partición activa.</p>
+          <p></p>
+          <p>
+            <b>Archivo BOOTMGR</b>
+          </p>
+          <p>Durante la instalación, el archivo BOOTMGR se crea en la partición activa para poder seleccionar un sistema operativo para arrancar en el inicio. Puede editar el archivo BOOTMGR para cambiar el orden de los sistemas operativos. Además, puede cambiar el tiempo permitido para seleccionar el sistema operativo durante la etapa de arranque. En general, el tiempo predeterminado es de 30 segundos. Este período retrasa el tiempo de arranque de la PC al tiempo especificado, a menos que el usuario intervenga y seleccione un sistema operativo específico. Si el disco solo tiene un sistema operativo, cambie el tiempo a 5 o 10 segundos para arrancar la PC más rápidamente.</p>
+          <p></p>
+          <p>Para cambiar el tiempo en que desea que se muestren la lista de los sistemas operativos, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>Seleccione <b>Inicio > Panel de control > Sistema y seguridad > Sistema > Configuración avanzada del sistema</b> haga clic en la ficha <b>avanzado</b> <b>> </b>En el área <b>Inicio y recuperación</b>, seleccione <b>configuración</b></p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

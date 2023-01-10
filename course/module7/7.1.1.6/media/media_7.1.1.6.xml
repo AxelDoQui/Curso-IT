@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[El ancho de banda es como la cantidad de carriles.]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Los dispositivos de red son como las rampas de acceso, los semáforos, las señales y los mapas.]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Los datos que viajan son como vehículos de transporte.]]></text>
+	</component>
+
+</textcomponents>

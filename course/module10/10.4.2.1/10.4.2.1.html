@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.2.1 Tareas programadas</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Tareas programadas</h1>
+        <div>
+          <p>Los sistemas de computación requieren un mantenimiento preventivo periódico para garantizar un mejor rendimiento. Las tareas de mantenimiento se deben programar y realizar con frecuencia para evitar problemas o para detectar los problemas rápidamente. Para evitar perder las tareas de mantenimiento debido a errores humanos, los sistemas de computación pueden programarse para realizar tareas automáticamente. Dos tareas que se deben programar y ser realizadas automáticamente son los controles de copias de seguridad y de disco.</p>
+          <p></p>
+          <p>Es importante programar copias de seguridad para asegurar que los datos importantes no se pierdan debido a una falla de hardware. Cuanto más frecuentes las copias de seguridad, menor es el riesgo de pérdida de datos.</p>
+          <p></p>
+          <p>La capacidad de medios de base magnética de mantener los cargos electromagnéticos para almacenar datos se utiliza con el tiempo. Al controlar periódicamente el disco para detectar sectores defectuosos, un administrador puede llegar a ser consciente de la posibilidad de un fracaso, lo que permite la planificación y migración de datos.</p>
+          <p></p>
+          <p>Las copias de seguridad y controles de disco generalmente son tareas que consumen tiempo. Un beneficio adicional de las tareas de mantenimiento programadas es que permiten que la computadora realice estas tareas cuando ningún usuario utiliza el sistema. La utilidad de la CLI, cron, puede programar estas tareas durante las horas pico.</p>
+          <p></p>
+          <p>
+            <b>Cómo programar una tarea: el servicio de cron</b>
+          </p>
+          <p></p>
+          <p>En Linux y en OS X, el servicio <b>cron</b> es responsable de las tareas programadas. Como servicio,<b> cron</b> se ejecuta en segundo plano y ejecuta las tareas en las fechas y horas específicas. <b>Cron</b> utiliza una tabla de planificación denominada tabla de cron que puede editarse con el comando <b>crontab</b>.</p>
+          <p></p>
+          <p>La tabla cron es un archivo de texto simple que tiene 6 columnas, con el formato que se muestra en la Figura 1.  Una tarea se representa generalmente por un comando, un programa o un script. Para programar una tarea, el usuario agrega una fila a la tabla de cron. La fila nueva especifica el minuto, la hora, el día del mes y el día de la semana en que la tarea se debe ejecutar por el servicio <b>cron</b>. Cuando llega a la hora y la fecha determinadas, se ejecuta la tarea. </p>
+          <p></p>
+          <p>La Figura 2 incluye una explicación de los campos de la tabla de cron. La columna del centro muestra el tipo de datos aceptable para los campos. </p>
+          <p></p>
+          <p>La tabla de cron que se muestra en la Figura 3 tiene dos entradas. La primera entrada le indica al servicio <b>cron</b> ejecutar el script <b>myFirstTask</b>, ubicado en <b>/myDirectory/</b>, en el primer y el decimoquinto día de cada mes y el lunes, siempre a la medianoche (0h0m). La segunda entrada muestra que el servicio <b>cron</b> ejecutará el script<b> mySecondTask</b>, también ubicado en <b>/myDirectory/</b>, cada miércoles a las 2 h 37 m de la mañana.</p>
+          <p></p>
+          <p>Para crear o editar la tabla de cron, utilice el comando <b>crontab – e</b> desde una terminal.</p>
+          <p></p>
+          <p>Para mostrar la tabla actual de cron, utilice el comando <b>crontab –l</b>.</p>
+          <p></p>
+          <p>Para eliminar la tabla actual de cron, utilice el comando <b>crontab –r</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

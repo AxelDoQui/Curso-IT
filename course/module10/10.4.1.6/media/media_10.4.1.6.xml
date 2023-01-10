@@ -1,0 +1,11 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Discos en Ubuntu</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Utilidad de discos en OS X</b>]]></text>
+</component> 
+
+
+</textcomponents>

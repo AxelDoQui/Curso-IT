@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.3 Opciones de configuración de seguridad en el BIOS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Opciones de configuración de seguridad en el BIOS</h1>
+        <div>
+          <p>El BIOS a menudo admite muchas funciones de seguridad para proteger su configuración, los datos en el disco duro y las opciones de recuperación en caso de que la computadora sea robada. </p>
+          <p></p>
+          <p>Estas son algunas funciones de seguridad comunes en el BIOS:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Contraseñas del BIOS</b>: Las contraseñas permiten distintos niveles de acceso a la configuración del BIOS, como se muestra en la Figura 1. Observe que hay dos opciones de configuración de contraseña que pueden alterarse. La contraseña de supervisor puede acceder a todas las contraseñas de acceso de usuarios y a todas las pantallas y opciones de configuración del BIOS. La contraseña del usuario otorga acceso a BIOS basado en un nivel definido. La tabla de la Figura 2 muestra niveles comunes de acceso del usuario al BIOS. La contraseña de supervisor debe configurarse antes de que la contraseña de usuario pueda configurarse.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Encriptación de unidades</b>: Es posible encriptar un disco duro para evitar el robo de datos. La encriptación convierte a los datos en la unidad en código. Sin la contraseña correcta, la computadora no arranca y la lectura de datos del disco duro no se puede comprender. Incluso si se coloca el disco duro en otra computadora, los datos encriptados permanecen de esa manera. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>LoJack</b>: Esta es una función de seguridad que consta de dos programas: el módulo de persistencia, integrado en el BIOS y el Agente de aplicación, instalado por el usuario. Cuando está instalado, el Módulo de persistencia en el BIOS está activado y no puede desactivarse. El agente de aplicación diariamente contacta al centro de supervisión en Internet para informar acerca de la información del dispositivo y la ubicación. El propietario puede realizar las funciones que se describen en la Figura 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Módulo de plataforma segura (TPM)</b>: Es un chip diseñado para asegurar el hardware almacenando las claves de encriptación, certificados digitales, las contraseñas y los datos. El TPM es utilizado por Windows para admitir la encriptación total de disco de BitLocker.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Arranque seguro</b>: El arranque seguro es un estándar de seguridad de UEFI que garantiza que una computadora arranque solo un sistema operativo que haya sido confiado por el fabricante de la placa madre. El arranque seguro evita que un sistema operativo “no autorizado” cargue durante el inicio.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

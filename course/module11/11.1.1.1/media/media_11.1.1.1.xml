@@ -1,0 +1,13 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_txt01">
+		<text><![CDATA[Matriz de puntos]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Láser]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[De inyección de tinta]]></text>
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Rueda de colores</b>]]></text>
+	</component><!-- end slide 2 --></textcomponents>

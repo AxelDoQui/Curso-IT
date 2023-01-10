@@ -1,0 +1,42 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>Estados de energía ACPI</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='100'><font color='#F2F2F2'><b>Estado</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Descripción</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S0</td>
+        <td bgcolor='#E9E7E8'>La computadora está encendida, y la CPU está en funcionamiento.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S1</td>
+        <td bgcolor='#F2F2F2'>La CPU y la RAM continúan recibiendo energía, pero los dispositivos que no se usan están desactivados.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S2</td>
+		<td bgcolor='#E9E7E8'>La CPU está apagada, pero se actualiza la memoria RAM. El sistema está en un modo inferior a S1.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S3</td>
+		<td bgcolor='#F2F2F2'>La CPU está apagada, y la frecuencia de actualización definida para la RAM es lenta. Este modo suele denominarse “guardar en RAM”. Este estado se conoce como modo de suspensión.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S4</td>
+		<td bgcolor='#E9E7E8'>La CPU y la RAM están desactivadas. El contenido de la RAM se guardó en un archivo temporal en el disco duro. Este modo también se denomina “guardar en disco”. Este estado se conoce como modo de hibernación.</td>
+	</tr>	
+    <tr>
+		<td bgcolor='#F2F2F2'>S5</td>
+		<td bgcolor='#F2F2F2'>La computadora está apagada.</td>		
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

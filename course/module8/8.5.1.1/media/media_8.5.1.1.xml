@@ -1,0 +1,34 @@
+﻿<textcomponents>
+	<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 1: Identificar el problema</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	  
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Preguntas abiertas</td>
+			
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'><li>¿Qué problemas tiene con la PC o el dispositivo de red?</li>
+					<li>¿Qué software se instaló en la PC recientemente?</li>
+					<li>¿Qué hacía cuando se identificó el problema?</li>
+					<li>¿Qué mensaje de error recibió?</li>
+					<li>¿Qué tipo de conexión de red utiliza la PC?</li>
+			</textformat></ul></td> 
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Preguntas cerradas</td>
+			<td bgcolor='#F2F2F2'><ul><textformat blockindent='-18'><li>¿Alguien más utilizó la PC recientemente?</li>
+			<li>¿Puede ver las impresoras o los archivos compartidos?</li>
+			<li>¿Cambió la contraseña recientemente?</li>
+			<li>¿Puede acceder a Internet?</li>
+			<li> ¿Está conectado a la red en este momento?</li>
+			<li>¿Alguien más tiene este problema?</li></textformat></ul></td> 
+		</tr>	
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s1_trans01'>
+		<text><![CDATA[Convertirse en un profesional de TI con certificación CompTIA es fácil]]></text>
+	</component>
+
+	<component id='ID_s1_trans02'>
+		<text><![CDATA[También es la mejor manera de lograr mejores oportunidades y recompensas profesionales.]]></text>
+	</component>
+
+	<component id='ID_s1_trans03'>
+		<text><![CDATA[¿Por qué obtener una certificación CompTIA?]]></text>
+	</component>
+
+	<component id='ID_s1_trans04'>
+		<text><![CDATA[Demanda creciente]]></text>
+	</component>
+
+	<component id='ID_s1_trans05'>
+		<text><![CDATA[Las estimaciones laborales predicen que algunos campos de la tecnología experimentarán un crecimiento superior al 20% para el año 2020.* La certificación CompTIA califica las habilidades requeridas para unirse a esta fuerza laboral.]]></text>
+	</component>
+
+	<component id='ID_s1_trans06'>
+		<text><![CDATA[Salarios más altos]]></text>
+	</component>
+
+	<component id='ID_s1_trans07'>
+		<text><![CDATA[Los profesionales de TI que cuentan con certificaciones en sus currículums vítae consiguen mejores empleos, ganan salarios más altos y tienen más puertas abiertas a nuevas oportunidades para múltiples industrias. ]]></text>
+	</component>
+
+	<component id='ID_s1_trans08'>
+		<text><![CDATA[Ventajas comprobadas]]></text>
+	</component>
+
+	<component id='ID_s1_trans09'>
+		<text><![CDATA[El 91% de los gerentes de contrataciones indican que las certificaciones CompTIA son muy valiosas para validar la experiencia de TI, lo que hace que la certificación sea la mejor manera de demostrar su competencia y conocimientos a los empleadores.**]]></text>
+	</component>
+
+	<component id='ID_s1_trans10'>
+		<text><![CDATA[Habilidades universales]]></text>
+	</component>
+
+	<component id='ID_s1_trans11'>
+		<text><![CDATA[Las certificaciones CompTIA son neutrales a los proveedores, es decir, los profesionales certificados pueden dominar una amplia variedad de software y hardware que se encuentra en la mayoría de las organizaciones.]]></text>
+	</component>
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s2_trans01'>
+		<text><![CDATA[Aprendemos]]></text>
+	</component>
+
+	<component id='ID_s2_trans02'>
+		<text><![CDATA[Obtenga más información acerca de los temas que abarca el examen revisando lo siguiente:<ul><li>Objetivos del examen para los puntos claves de estudio.<li>Preguntas de muestra para una descripción general de lo que puede esperarse en el examen y ejemplos del formato de preguntas.</li><li>Visite foros en línea, como LinkedIn, para saber lo que dicen otros profesionales de TI sobre los exámenes CompTIA.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans03'>
+		<text><![CDATA[Certificar]]></text>
+	</component>
+
+	<component id='ID_s2_trans04'>
+		<text><![CDATA[Adquiera un cupón en un centro de prueba Pearson VUE o en CompTIAstore.com. <ul><li>Regístrese para su examen en un centro de prueba Pearson VUE.</li><li>Visite pearsonvue.com/CompTIA para encontrar el centro de prueba más cercano a usted.</li><li>Planifique el examen en línea. Deberá ingresar el número de cupón o proporcionar información de pago al momento de registrarse.</li><li>Realice el examen de certificación.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans05'>
+		<text><![CDATA[Trabajamos]]></text>
+	</component>
+
+	<component id='ID_s2_trans06'>
+		<text><![CDATA[¡Felicitaciones por su certificación CompTIA! <ul><li>Asegúrese de agregar la certificación en su currículum vítae.</li><li>Consulte el plan de la certificación CompTIA para planificar su próximo movimiento profesional.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans07'>
+		<text><![CDATA[Más información: Certification.CompTIA.org/aplus]]></text>
+	</component>
+
+</textcomponents>

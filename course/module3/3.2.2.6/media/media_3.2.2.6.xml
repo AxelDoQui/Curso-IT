@@ -1,0 +1,52 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Modo avanzado de ASUS UEFI</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Pantalla Mis favoritos en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Pantalla Mapa de árbol de la configuración de favoritos</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Pantalla principal en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>Pantalla “Ai Tweaker” en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>Pantalla Avanzado en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s7_title">
+	<text><![CDATA[<b>Pantalla Supervisión en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s8_title">
+	<text><![CDATA[<b>Pantalla Arranque en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s9_title">
+	<text><![CDATA[<b>Pantalla Herramientas en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s10_title">
+	<text><![CDATA[<b>Pantalla Salir en el Modo avanzado</b>]]></text>
+	</component>	
+	
+	
+</textcomponents>

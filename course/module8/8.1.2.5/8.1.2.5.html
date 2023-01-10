@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.5 Configuración básica de red</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración básica de red</h1>
+        <div>
+          <p>Después de iniciar sesión, se abre una ventana de configuración de Windows, como se muestra en la Figura 1. La pantalla de configuración tendrá las fichas o menús para ayudarlo a navegar en las distintas tareas de configuración del router. A menudo es necesario guardar las opciones de configuración modificadas en una ventana antes de pasar a otra ventana. </p>
+          <p></p>
+          <p>En este punto, se recomienda realizar cambios en la configuración predeterminada.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Permisos de acceso de un dispositivo de red</b>: Cambie el nombre de usuario y la contraseña predeterminados. En algunos dispositivos, puede restablecer solamente la contraseña, como se muestra en la Figura 2. Después de que cambie la contraseña, el router inalámbrico solicitará permiso nuevamente, como se muestra en la Figura 3. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Dirección IP del router</b>: Cambie la dirección IP del router predeterminado. Una práctica recomendada es utilizar direcciones IP privadas dentro de su red. La dirección IP 10.10.10.1 se utiliza como ejemplo en la Figura 4, pero puede ser cualquier dirección IP privada que elija. Al hacer clic en guardar, perderá temporalmente el acceso al router inalámbrico. Para recuperar el acceso, renueve sus valores de IP, como se muestra en la Figura 5. Luego ingrese la nueva dirección IP del router en el navegador web y autentíquelo con la nueva contraseña, como se muestra en la Figura 6.  </li>
+            </ul>
+          </p>
+          <p>Si bien es conveniente modificar algunas opciones de configuración predeterminadas, es preferible dejar otras tal como están. La mayoría de las redes domésticas o de oficinas pequeñas comparten una única conexión a Internet proporcionada por el ISP. Los routers de este tipo de redes reciben direcciones públicas del ISP, que le permiten al router enviar paquetes a Internet y recibirlos de esta. El router proporciona direcciones privadas a los hosts de la red local. Como las direcciones privadas no pueden utilizarse en Internet, se utiliza un proceso para convertir las direcciones privadas en direcciones públicas exclusivas. Esto permite a los hosts locales comunicarse a través de Internet.</p>
+          <p></p>
+          <p>El proceso que se utiliza para convertir las direcciones privadas en direcciones enrutables de Internet se denomina traducción de direcciones de red (NAT, Network Address Translation). Con NAT, una dirección IP de origen privado (local) se traduce a una dirección pública (global). En el caso de los paquetes entrantes, el proceso es inverso. Por medio de NAT, el router puede traducir muchas direcciones IP internas a direcciones públicas. </p>
+          <p></p>
+          <p>Solo es necesario traducir los paquetes destinados a otras redes. Estos paquetes deben atravesar el gateway, donde el router reemplaza las direcciones IP privadas de los hosts de origen por las direcciones IP públicas del router. </p>
+          <p></p>
+          <p>Si bien cada host de la red interna posee una dirección IP privada exclusiva, los hosts comparten direcciones enrutables de Internet que el ISP le asignó al router.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

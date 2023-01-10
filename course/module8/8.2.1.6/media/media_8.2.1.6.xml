@@ -1,0 +1,61 @@
+﻿<textcomponents>
+
+<component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="4" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Detalles de conexiones ISP</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Tipo</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Ventajas</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Desventajas</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Velocidad</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>POTS</td>
+			<td bgcolor='#E9E7E8'>Ampliamente disponible</td>
+			<td bgcolor='#E9E7E8'>Velocidades muy bajas.<br/> No pueden recibirse llamadas telefónicas durante la conexión.</td>
+			<td bgcolor='#E9E7E8'>MAX 56 kbps</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>ISDN</td>
+			<td bgcolor='#F2F2F2'>Mayores velocidades que POTS</td>
+			<td bgcolor='#F2F2F2'>No obstante, mucho más lenta que otras tecnologías de banda ancha.</td>
+			<td bgcolor='#F2F2F2'>BRI: hasta 128 kbps <br/>PRI: hasta 2048 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DSL</td>
+			<td bgcolor='#E9E7E8'>Bajo costo</td>
+			<td bgcolor='#E9E7E8'>La distancia de la CO repercute en la velocidad.</td>
+			<td bgcolor='#E9E7E8'>24 kbps a 100 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Cable</td>
+			<td bgcolor='#F2F2F2'>Muy alta velocidad</td>
+			<td bgcolor='#F2F2F2'>Bajas velocidades de subida.</td>
+			<td bgcolor='#F2F2F2'>27 kbps a 160 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Satélite</td>
+			<td bgcolor='#E9E7E8'>Disponible donde no hay disponibilidad de DSL ni cable</td>
+			<td bgcolor='#E9E7E8'>Es más costosa que otras tecnologías de banda ancha y es vulnerable a las condiciones climáticas.</td>
+			<td bgcolor='#E9E7E8'>Hasta 10 Mb/s o más</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Red celular</td>
+			<td bgcolor='#F2F2F2'>Disponible para usuarios móviles</td>
+			<td bgcolor='#F2F2F2'>No se puede acceder en cualquier lugar.</td>
+			<td bgcolor='#F2F2F2'>20 kbps y velocidades superiores, según la tecnología utilizada</td>
+		</tr>
+				
+	</table>]]></text> 
+</component>
+
+</textcomponents>

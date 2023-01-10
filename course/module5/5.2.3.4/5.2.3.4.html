@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.4 Registro de Windows</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Registro de Windows</h1>
+        <div>
+          <p>Las claves del registro de Windows son una parte importante del proceso de inicio de Windows. Estas claves son reconocidas por sus nombres distintivos, que comienzan con HKEY_, como se muestra en la figura. Las palabras y las letras que se encuentran a continuación de HKEY_ representan la porción del sistema operativo controlado por la clave. Cada configuración de Windows, desde el fondo del escritorio y el color de los botones de pantalla hasta las licencias de las aplicaciones, se almacena en el registro. Cuando el usuario realiza modificaciones en la configuración del Panel de control, las asociaciones de archivo, las políticas del sistema o el software instalado, las modificaciones se almacenan en el registro.</p>
+          <p></p>
+          <p>Cada cuenta de usuario tiene una sección única del registro. El proceso de inicio de sesión de Windows carga la configuración del sistema del registro para reconfigurar el sistema para cada cuenta de usuario.</p>
+          <p></p>
+          <p>El registro también se encarga de grabar la ubicación de los archivos de biblioteca de vínculos dinámicos (DLL, Dynamic Link Library). Un archivo DLL consta de un código de programa que pueden utilizar diferentes programas para llevar a cabo funciones comunes. Los archivos DLL son muy importantes para la funcionalidad de un sistema operativo y para cualquier aplicación que el usuario pueda instalar.</p>
+          <p></p>
+          <p>Para asegurar que el sistema operativo o un programa puedan ubicar un DLL, este debe estar registrado. En general, se registra automáticamente durante el proceso de instalación. Es posible que el usuario deba registrar manualmente un archivo DLL si detecta un problema. El registro de un DLL asigna la ruta al archivo, lo cual permite que los programas ubiquen los archivos necesarios más fácilmente.</p>
+          <p></p>
+          <p>Para registrar un archivo DLL en Windows 8.0 y 8.1 utilizando la herramienta de línea de comandos, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>Desplace el mouse por la esquina superior derecha de la pantalla > Se muestra la barra de accesos > Búsqueda y escriba <b>comando</b> > haga clic en <b>Símbolo del sistema</b> > escriba <b>regsvr32</b><i> nombre de archivo.dll</i> </p>
+          <p></p>
+          <p>Para registrar un archivo DLL en Windows 7 y Vista utilizando la herramienta de línea de comandos, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>
+            <b>Inicio</b> > Escriba el comando en la <b>barra de búsqueda de programas y archivos</b> > escriba <b>regsvr32</b><i> nombre de archivo.dll</i></p>
+          <p></p>
+          <p>
+            <b>Nota</b>: El nombre del archivo dll debe contener la ruta completa de nombres, por ejemplo C:\Windows\System32\wuapi.dll.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Práctica de laboratorio]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Instalación de Linux en una máquina virtual y exploración de la GUI]]></text>
+	</component>
+	
+</textcomponents>

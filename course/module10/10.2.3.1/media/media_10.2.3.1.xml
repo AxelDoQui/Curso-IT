@@ -1,0 +1,23 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Desbloqueo en dispositivos iOS: terminal en iPhone</b>]]></text>
+	</component>
+
+	<component id="ID_s1_text">
+        <text><![CDATA[La imagen muestra un iPhone desbloqueado que ejecuta una aplicación terminal para obtener acceso a la interfaz de línea de comandos del dispositivo. Observe cómo el dispositivo móvil del usuario se convirtió en root y pudo enumerar los contenidos del directorio /. Más adelante, el usuario root también inició un analizador de protocolos de paquete de la línea de comandos (tcpdump) en la tarjeta inalámbrica del teléfono. Sin el desbloqueo, ninguna de estas tareas sería posible.]]></text>
+	</component>
+    
+		<component id="ID_s1_header">
+        <text><![CDATA[ ]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Desbloqueo en dispositivos iOS: iPhone como servidor SSH</b>]]></text>
+	</component>
+
+	<component id="ID_s2_text">
+        <text><![CDATA[La imagen muestra una conexión SSH a un iPhone desbloqueado que ejecuta un servidor SSH. Observe cómo el usuario root muestra la información sobre el kernel en uso (Darwin) y muestra la conexión SSH actualmente establecida (TCP puerto 22). Sin el desbloqueo, ninguna de estas tareas sería posible.]]></text>
+	</component>
+   
+
+</textcomponents>

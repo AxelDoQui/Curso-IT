@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>desechar la cubierta metálica</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Insertar la NIC inalámbrica en la ranura PCI</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Asegurar la NIC inalámbrica</b>]]></text>
+	</component>
+	
+</textcomponents>

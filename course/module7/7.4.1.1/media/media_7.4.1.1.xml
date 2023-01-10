@@ -1,0 +1,48 @@
+﻿<textcomponents>
+	 <component id="ID_s1_txt01">
+        <text><![CDATA[Una huella digital es como una dirección MAC.]]></text> 
+    </component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Una dirección de correo es como una dirección IP.]]></text> 
+    </component>
+
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>Formato de dirección MAC</b>]]></text> 
+    </component>
+
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Formato de dirección</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Descripción</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>00-50-56-BE-D7-87</td>
+                <td bgcolor='#E9E7E8'>Dos dígitos hexadecimales separados por guiones</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>00:50:56:BE:D7:87</td>
+                <td bgcolor='#F2F2F2'>Dos dígitos hexadecimales separados por dos puntos</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>0050.56BE.D787</td>
+                <td bgcolor='#E9E7E8'>Cuatro dígitos hexadecimales separados por puntos</td>
+            </tr>  
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

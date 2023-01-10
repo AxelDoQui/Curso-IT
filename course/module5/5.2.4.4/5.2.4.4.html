@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.4 Asignación de unidades o asignación de la letra de unidad</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Asignación de unidades o asignación de la letra de unidad</h1>
+        <div>
+          <p>En Windows, las letras se utilizan para designar unidades físicas o lógicas. Este proceso se denomina asignación de unidades o asignación de la letra de unidad. Un equipo Windows puede tener hasta 26 unidades físicas y lógicas, ya que hay 26 letras en el alfabeto inglés. La unidad C se reserva para la partición activa principal. En Windows Vista y Windows 7, puede asignar las letras A y B a unidades si no tiene unidades de disquete. A medida que los dispositivos de almacenamiento adicionales se agregan al sistema, Windows intentará asociarlos automáticamente a la siguiente letra libre. De esta manera, una unidad óptica, los discos internos adicionales y los dispositivos de almacenamiento externos se etiquetan comúnmente como unidad D, E, F y así sucesivamente. La cantidad máxima de unidades adicionales depende del hardware de una computadora específica.</p>
+          <p></p>
+          <p>Puede modificar, agregar y eliminar letras y rutas de acceso de unidad. De manera predeterminada, Windows asigna una letra a una partición o a una unidad después de que se crea o agrega. Puede cambiar la letra que se le asigna a una unidad por cualquier otra letra, siempre y cuando esa letra no esté en uso.</p>
+          <p></p>
+          <p>Para cambiar una letra de unidad en Windows con la utilidad administración de discos, haga clic con el botón secundario en la unidad y seleccione <b>Cambiar la letra de unidad y rutas de acceso</b>.</p>
+          <p></p>
+          <p>
+            <b>Adición de unidades</b>
+          </p>
+          <p></p>
+          <p>Para aumentar la cantidad de espacio de almacenamiento disponible en una computadora, o para implementar una configuración de matriz redundante de discos independientes (RAID), puede agregar unidades a la computadora. Si el disco duro adicional se instaló correctamente, el BIOS debe reconocerlo automáticamente. Después de que se instala la unidad, puede comprobar si el sistema la reconoce con la utilidad Administración de discos. Si el disco está disponible, probablemente requiera que se formatee antes de poder utilizarlo. Si el disco no aparece, resuelva el problema.</p>
+          <p></p>
+          <p>
+            <b>Adición de matrices</b>
+          </p>
+          <p></p>
+          <p>Para configurar una matriz redundante de discos independientes (RAID), se deben instalar dos o más unidades en la computadora. Puede agregar una matriz con la utilidad Administración de discos. Tiene las siguientes opciones:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Nuevo volumen distribuido</b>: Crea una partición de disco que consta de espacio en disco de más de un disco físico. Los datos en un volumen distribuido no tienen tolerancia a fallas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nuevo volumen seleccionado</b>: Una partición dinámica que almacena datos en bandas en más de un disco físico. También conocido como RAID 0, este tipo volumen alcanza altas velocidades de lectura y escritura. Los datos se dividen en varios discos físicos, lo que permite que se pueda acceder a sus partes de manera simultánea. Dado que los datos en un volumen seleccionado no tienen tolerancia a fallas, este tipo de volumen no se debe utilizar para almacenar datos importantes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nuevo volumen replicado</b>: Requiere dos discos físicos. También conocido como RAID 1, todos los datos escritos en el volumen se escriben en ambos discos a la vez. Esta operación hace que los datos almacenados en un volumen replicado sean tolerantes a fallas.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nuevo volumen RAID-5</b>: RAID 5 es una partición dinámica que almacena datos en bandas en más de un disco físico, además de almacenar información de recuperación para cada banda. Datos de paridad, esta información de recuperación puede usarse para reconstruir los datos en un disco con fallas. La creación de la información de paridad hace que los datos en un volumen RAID-5 sean tolerantes a errores.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Para agregar una matriz con la utilidad Administración de discos, haga clic con el botón secundario en el disco deseado y elija una opción.</p>
+          <p></p>
+          <p>Además de las opciones de utilidad de administración de discos antes descritas, otro tipo más común de RAID es RAID 10, también conocida como RAID 1+0. RAID 10 es un volumen que consiste en una combinación de RAID 0 y RAID 1. RAID 10 almacena datos en bandas en múltiples discos físicos mientras replica esos datos en otro conjunto de discos. RAID 10 es rápida y tolerante a fallas.</p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Las opciones disponibles para agregar una matriz se basan en las limitaciones del sistema. Es posible que no todas las opciones estén disponibles.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

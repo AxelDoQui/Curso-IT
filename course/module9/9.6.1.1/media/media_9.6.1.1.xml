@@ -1,0 +1,40 @@
+<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 1: Identificar el problema</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identificar el problema para las computadoras portátiles</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' width='145'>Preguntas abiertas</td>
+  <td bgcolor='#E9E7E8'><ul><li>¿Qué problemas tiene con la computadora portátil?</li><li>¿Qué software se instaló recientemente?</li><li>¿Qué hacía cuando se identificó el problema?</li><li>¿Qué mensajes de error recibió?</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Preguntas cerradas</td>
+  <td bgcolor='#F2F2F2'><ul><li>¿Está en garantía la computadora portátil?</li><li>¿La computadora portátil utiliza la batería en este momento? ¿La computadora portátil funciona con el adaptador de CA? ¿La computadora portátil arranca y muestra el escritorio del sistema operativo?</li></ul></td>		
+	</tr>	
+
+    <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identificar el problema para los dispositivos móviles</b></font></td>
+		</tr>
+    <tr>
+		<td bgcolor='#E9E7E8' width='145'>Preguntas abiertas</td>
+  <td bgcolor='#E9E7E8'><ul><li>¿Qué problema tiene?</li><li>¿Cuál es la marca y el modelo del dispositivo móvil?</li><li>¿Cuál es su proveedor de servicios?</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Preguntas cerradas</td>
+  <td bgcolor='#F2F2F2'><ul><li>¿Tuvo este problema antes?</li><li>¿Alguien más utilizó el dispositivo móvil?</li><li>¿Está en garantía el dispositivo móvil? </li></ul></td>		
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

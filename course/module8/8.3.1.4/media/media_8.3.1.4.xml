@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Modelo de servicio en la nube</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Software como servicio (SaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Plataforma como servicio (PaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Infraestructura como servicio (IaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[IT como servicio (ITaaS)]]></text>
+	</component>
+	
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Software como servicio (SaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[El proveedor de la nube es responsable del acceso a servicios, como correo electrónico, comunicación, y escritorio virtuales que se acceden a través de Internet.]]></text>
+	</component>
+
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>Plataforma como servicio (PaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[El proveedor de la nube es responsable del acceso a las herramientas de desarrollo y servicios utilizados para distribuir aplicaciones.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>Infraestructura como servicio (IaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[El proveedor de la nube es responsable del acceso al equipo de red, los servicios de red virtualizados, y la infraestructura de red que utiliza.]]></text>
+	</component>	
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<b>IT como servicio (ITaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[El proveedor de la nube es responsable del soporte de TI para los modelos de servicio de IaaS, PaaS, y SaaS. En el modelo de ITaaS, una organización tiene un contrato con el proveedor de la nube para servicios individuales o agrupados.]]></text>
+	</component>
+
+</textcomponents>

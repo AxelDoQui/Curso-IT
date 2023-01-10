@@ -1,0 +1,41 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Funcionamiento de IDS</b>]]></text>
+    </component>
+
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Switch]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Sensor habilitado para IDS]]></text>
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Objetivo]]></text>
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Consola de administración]]></text>
+    </component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Funcionamiento de IPS</b>]]></text>
+    </component>
+
+    <component id="ID_s2_txt01">
+        <text><![CDATA[Limbo electrónico]]></text>
+    </component>
+    
+    <component id="ID_s2_txt02">
+        <text><![CDATA[Sensor habilitado para IPS]]></text>
+    </component>
+    
+    <component id="ID_s2_txt03">
+        <text><![CDATA[Objetivo]]></text>
+    </component>
+    
+    <component id="ID_s2_txt04">
+        <text><![CDATA[Consola de administración]]></text>
+    </component>
+</textcomponents>

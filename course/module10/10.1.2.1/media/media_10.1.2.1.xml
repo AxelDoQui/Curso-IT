@@ -1,0 +1,73 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Pantalla de inicio principal de Android</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Indicadores y procesos de origen]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Barra de búsqueda de Google]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Reloj e iconos de sistema]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Área principal para aplicaciones y widgets]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Indicador de pantalla de inicio]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Base]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Iconos de navegación]]></text>
+	</component>
+
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Iconos de navegación</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Atrás]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Inicio]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Aplicaciones recientes]]></text>
+	</component>
+	
+	
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Acceso rápido a Configuraciones]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Acceso rápido a Usuario]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Alternar Configuraciones más frecuentes]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[Responder a las notificaciones]]></text>
+	</component>
+	<component id="ID_s3_txt05">
+		<text><![CDATA[Ajustar el brillo de la pantalla]]></text>
+	</component>
+
+	
+
+	<component id="ID_s4_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+</textcomponents>

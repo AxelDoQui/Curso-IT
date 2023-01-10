@@ -1,0 +1,52 @@
+﻿<textcomponents>
+	 <component id="ID_title">
+        <text><![CDATA[<b>Claves del registro</b>]]></text> 
+    </component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>HKEY</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Descripción</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>HKEY_CLASSES_ROOT</td>
+                <td bgcolor='#E9E7E8'>Información sobre cuáles son las extensiones de archivo que se asignan a una aplicación específica.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>HKEY_CURRENT_USER</td>
+                <td bgcolor='#F2F2F2'>Información relacionada con el usuario actual de una PC, como la configuración del escritorio y el historial.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>HKEY_USERS</td>
+                <td bgcolor='#E9E7E8'>Información sobre todos los usuarios que iniciaron sesión en un sistema.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>HKEY_LOCAL_MACHINE</td>
+                <td bgcolor='#F2F2F2'>Información sobre el hardware y el software.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>HKEY_CURRENT_CONFIG</td>
+                <td bgcolor='#E9E7E8'>Información sobre todos los dispositivos activos en un sistema.</td>
+            </tr>
+ 
+        
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

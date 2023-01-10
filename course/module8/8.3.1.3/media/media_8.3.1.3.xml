@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_txt00">
+		<text><![CDATA[<b>Modelo de computación en la nube</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Auto servicio a petición]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Amplio acceso a la red]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Agrupación de recursos]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Rápida elasticidad]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Servicio medido]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,49 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Paso 1: Identificar el problema</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'>Información para el cliente</font></td>
+		<td bgcolor='#E9E7E8' width="260" valign="top"><font  color='#393536'><textformat blockindent='-18'><li>Nombre de la empresa</li><li>Nombre del contacto</li><li>Dirección</li><li>Número de teléfono</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Configuración de la computadora</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><li>Fabricante y modelo</li><li>Sistema operativo</li><li>Entorno de red</li><li>Tipo de conexión</li></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'>Descripción del problema</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><li>Preguntas abiertas</li><li>Preguntas cerradas</li></textformat></font></td> 	
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' colspan='2' valign="top"><font color='#393536'>Mensajes de error</font></td>
+	</tr>							
+	<tr>
+		<td bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>Secuencias de sonido</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' colspan='2' valign="top"><font  color='#393536'>Luces LED</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' colspan='2'><font  color='#393536'>POST</font></td>
+	</tr>
+
+	</table>]]></text> 
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[]]></text>
+</component><!-- Slide 4 --><component id='ID_s3_title'>
+	<text><![CDATA[]]></text>
+</component><!-- Slide 6 --><component id='ID_s4_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,134 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Comandos comunes de la CLI de Windows</b>]]></text>
+</component>
+<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="160" valign="top"><font color='#FFFFFF' ><b>Comando</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Función del comando</b></font></td>
+		</tr>
+
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Help [nombre de comando]</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Proporciona información específica sobre cualquier comando de CLI. También puede utilizar [nombre de comando] /?.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Detiene una aplicación que está en ejecución.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Repara el MBR.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shutdown</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Apaga una máquina local o remota.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Muestra las aplicaciones que están en ejecución en ese momento.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>MD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Crea un nuevo directorio.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>RD</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Elimina un directorio.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>CD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Cambia a otro directorio.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DEL</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Elimina un archivo.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Formatea una unidad, un punto de montaje o un volumen con un sistema de archivos.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TEXTO</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copia archivos de una ubicación a otra.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Copia archivos, directorios o unidades enteras de una ubicación a otra.</li>
+          <li>Copia un directorio y su contenido de una ubicación a otra, a menos que el directorio esté vacío.</li>
+          <li>Copia solo los archivos con el atributo de archivo establecido.    </li>
+          <li>Copia cada archivo nuevo y verifica que sea el mismo que el archivo de origen.</li>
+           <li>Copia sin consultar la sobrescritura de archivos existentes.</li></ul> </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copia un archivo.</font></td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SFC</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Revisa todos los archivos de sistema protegidos y, si están dañados o fueron eliminados, los reemplaza por versiones válidas conocidas.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Crea un informe sobre el disco.</li><li> Corrige cualquier entrada de la tabla de asignación de archivos.</li>
+          <li>Intenta recuperar los datos de los sectores defectuosos de la unidad.</li></ul></font></td>
+        </tr>
+		
+		
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RUNAS</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Permite a un usuario ejecutar las herramientas y los programas específicos con permisos diferentes que los que proporciona el inicio de sesión actual del usuario.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>GPUPDATE</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Actualiza la configuración de política de grupo, incluida la configuración de seguridad.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>GPRESULT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Muestra la configuración de la política de grupo y conjunto de política resultante (RSOP) para un usuario o una computadora.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DIR</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Muestra una lista de los archivos y los subdirectorios de un directorio.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SALIDA</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Cierra el símbolo del sistema.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>EXPANDIR</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Descomprime uno o más archivos de archivos de gabinete .CAB.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RSTRUI</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Inicia la utilidad Restaurar sistema.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>BOOTREC</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Corrige los problemas en el sector de arranque que impiden el arranque de Windows. Esta herramienta solo está disponible en el entorno de recuperación. Consulte la ayuda de BOOTREC para obtener más información.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>DEFRAG</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Optimiza los archivos en los discos para mejorar el rendimiento del sistema.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Crea, elimina y modifica el tamaño de las particiones del disco duro. DISKPART también puede asignar o reasignar las letras de unidad. Se debe tener cuidado al trabajar con DISKPART.</font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

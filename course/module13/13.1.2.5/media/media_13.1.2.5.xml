@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>Netiqueta básica</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<textformat blockindent='-18'><li>Ser amable y cortés.</li><li>Comenzar cada correo electrónico, incluso dentro de una cadena, con un saludo correspondiente.</li><li>Nunca enviar cadenas de cartas por correo electrónico.</li><li>No enviar mensajes groseros ni responder a ellos.</li><li>Utilizar mayúsculas y minúsculas. LAS MAYÚSCULAS SE CONSIDERAN GRITOS.</li><li>Revisar la gramática y la ortografía antes de publicar.</li><li>Ser ético.</li><li>Nunca enviar por correo ni publicar aquello que no diría en persona.</li></textformat>]]></text> 
+    </component>
+	
+</textcomponents>

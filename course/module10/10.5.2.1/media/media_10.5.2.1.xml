@@ -1,0 +1,386 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Problemas y soluciones comunes</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes de los sistemas operativos de dispositivos móviles</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identificación del problema</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causas probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Soluciones posibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no se conecta a Internet.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>La conexión wifi está desactivada.</li>
+                            <li>La configuración de wifi es incorrecta.</li>
+                            <li>El modo aeroplano está encendido.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Activar la conexión wifi.</li>
+                            <li>Volver a configurar la conexión wifi.</li>
+                            <li>Apagar el modo aeroplano.</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Una aplicación no responde.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>La aplicación no funciona correctamente.</li>
+                            <li>La aplicación no se cierra correctamente.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Forzar el cierre de la aplicación.</li>
+                                <li>Reiniciar el dispositivo móvil.</li>
+                                <li>Volver a instalar la aplicación.</li>
+                                <li>Retirar y volver a colocar la batería, de ser posible.</li>
+                                <li>Restablecer el dispositivo móvil.</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no responde.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>El sistema operativo encontró un error.</li>
+                            <li>Una aplicación hizo que el sistema operativo no responda.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Reiniciar el dispositivo móvil.</li>
+                                <li>Retirar y volver a colocar la batería, de ser posible.</li>
+                                <li>Restablecer el dispositivo móvil.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>El dispositivo móvil no puede enviar ni recibir correo electrónico.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>El dispositivo móvil no está conectado a Internet.</li>
+                            <li>La configuración de la cuenta de correo electrónico es incorrecta.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Conectar el dispositivo a una red de datos móviles o wifi.</li>
+                                <li>Volver a configurar la cuenta de correo electrónico.</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>No se pueden instalar más aplicaciones ni guardar fotos en el dispositivo móvil.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no tiene más espacio de almacenamiento.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Insertar una tarjeta de memoria o reemplazar la actual por una de mayor capacidad, de ser posible.</li>
+                                <li>desechar los archivos que no sean necesarios.</li>
+                                <li>Desinstalar las aplicaciones que no sean necesarias.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Un dispositivo móvil no se puede conectar con un dispositivo Bluetooth.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Bluetooth no está habilitado en el dispositivo móvil.</li>
+                        <li>El dispositivo Bluetooth está fuera del alcance del dispositivo móvil.</li>
+                        <li>El dispositivo Bluetooth no está encendido.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Habilitar Bluetooth en el dispositivo móvil.</li>
+                            <li>Mover el dispositivo Bluetooth dentro del alcance del dispositivo móvil.</li>
+                            <li>Encender el dispositivo Bluetooth.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Un dispositivo móvil no se puede emparejar con un dispositivo Bluetooth.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Bluetooth no está habilitado en el dispositivo móvil.</li>
+                        <li>El dispositivo Bluetooth no está encendido.</li>
+                        <li>El código PIN es incorrecto.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Habilitar Bluetooth en el dispositivo móvil.</li>
+                            <li>Encender el dispositivo Bluetooth.</li>
+                            <li>Introducir el código PIN correcto.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La pantalla del dispositivo móvil se ve oscura.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>El brillo es demasiado bajo en la configuración de pantalla.</li>
+                            <li>El brillo automático no funciona bien en las áreas bien iluminadas.</li>
+                            <li>El brillo automático no se calibró correctamente.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Aumentar el brillo en la configuración de pantalla.</li>
+                            <li>Desactivar el brillo automático.</li>
+                            <li>Volver a calibrar el sensor ligero.</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no puede transmitir a un monitor externo.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>No hay ningún dispositivo inalámbrico que pueda funcionar como pantalla disponible.</li>
+                            <li>Miracast, WiDi, AirPlay u otras tecnologías de pantalla inalámbrica no están habilitadas.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Instalar un dispositivo inalámbrico que pueda funcionar como pantalla o enciéndalo si está disponible.</li>
+                                <li>Habilitar la funcionalidad de pantalla inalámbrica.</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>El dispositivo móvil tiene rendimiento lento.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Una aplicación de GPS está en ejecución.</li>
+                            <li>Una o más aplicaciones de uso intensivo de la alimentación están en ejecución.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Desactivar el GPS o cierre la aplicación de GPS.</li>
+                                <li>Cerrar todas las aplicaciones innecesarias.</li>
+                                <li>Reiniciar el dispositivo.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no puede descifrar el correo electrónico.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>El cliente de correo electrónico no está configurado para descifrar el correo electrónico.</li>
+                            <li>No tiene la clave de descifrado correcta.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Configurar el cliente de correo electrónico para descifrar el correo electrónico cifrado.</li>
+                                <li>Obtener la clave de descifrado del remitente del correo electrónico cifrado.</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>El sistema operativo del dispositivo móvil se ha estancado.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>La aplicación no es compatible con el dispositivo.</li>
+                            <li>La conectividad de red es pobre.</li>
+                            <li>El dispositivo tiene hardware que falla.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Desinstalar la aplicación incompatible.</li>
+                                <li>Mover a un área con mejor cobertura de red.</li>
+                                <li>Reemplazar cualquier hardware defectuoso.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo móvil no tiene ningún sonido proveniente de los altavoces.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>El volumen de dispositivo es demasiado bajo en la configuración de audio o en una aplicación.</li>
+                        <li>El volumen está silenciado.</li>
+                        <li>El altavoz falló.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Subir el volumen en la configuración de audio o en la aplicación.</li>
+                            <li>Cancelar el silencio del volumen.</li>
+                            <li>Reemplazar el altavoz.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La pantalla táctil del dispositivo móvil tiene respuesta incorrecta.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>La pantalla táctil no se calibró en la configuración de pantalla o en una aplicación.</li>
+                        <li>La pantalla táctil está sucia.</li>
+                        <li>La pantalla táctil tiene cortocircuitos debido a los daños o al agua.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Recalibrar la pantalla táctil en la configuración de pantalla o en la aplicación.</li>
+                            <li>Limpiar la pantalla táctil.</li>
+                            <li>Reemplazar la pantalla táctil.</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Problemas y soluciones comunes</b>]]></text> 
+    </component>
+    
+   <component id="ID_s2_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes de dispositivos móviles para la seguridad del sistema operativo móvil</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identificación del problema</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causas probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Soluciones posibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Un dispositivo móvil tiene una señal débil o la señal cayó. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>No hay suficientes torres celulares en el área.</li>
+                            <li>El área se encuentra entre las áreas de cobertura del proveedor.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Moverse a un área más poblada que tenga más torres celulares.</li>
+                            <li>Moverse a un área dentro del alcance de su proveedor.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La potencia de un dispositivo móvil se agota más rápido que lo normal.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>El dispositivo está en roaming entre las torres celulares o las áreas de cobertura.</li>
+                        <li>La pantalla se configuró en un alto nivel de brillo.</li>
+                        <li>Una aplicación está utilizando demasiados recursos.</li>
+                        <li>Hay demasiadas radios en uso.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Moverse a un área dentro del alcance de su proveedor.</li>
+                            <li>Configurar el brillo de la pantalla en un nivel más bajo.</li>
+                            <li>Cerrar cualquier aplicación innecesaria.</li>
+                            <li>Apagar cualquier radio innecesaria.</li>
+                            <li>Reinicie el dispositivo.</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Un dispositivo móvil tiene una lenta velocidad de datos.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>La celda conectada está demasiado lejos para datos de alta velocidad.</li>
+                        <li>El dispositivo móvil está en roaming.</li>
+                        <li>La transmisión de datos ha pasado el límite de uso para un dispositivo.</li>
+                        <li>El dispositivo está experimentando el alto uso de recursos.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Acercarse a una torre celular. </li>
+                            <li>Moverse a un área dentro del alcance de su proveedor.</li>
+                            <li>Aumentar el límite de datos del dispositivo.</li>
+                            <li>Desactivar el uso de datos para el dispositivo.</li>
+                            <li>Cerrar cualquier aplicación innecesaria.</li>
+                            <li>Reiniciar el dispositivo.</li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Un dispositivo móvil se conecta a una red wifi involuntariamente.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'>El dispositivo se configura para que se conecte automáticamente con las redes wifi desconocidas.</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Configurar el dispositivo de manera tal que solo se conecte a las redes wifi conocidas.</font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Un dispositivo móvil se empareja con un dispositivo Bluetooth involuntariamente.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>El dispositivo se configuró para que se empareje automáticamente con dispositivos desconocidos.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Configurar el dispositivo para que desactive el emparejamiento de Bluetooth de forma predeterminada.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Se han fugado archivos y datos personales de un dispositivo móvil. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>El dispositivo se ha perdido o lo han robado.</li>
+                            <li>Malware ha comprometido el dispositivo.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Realice un bloqueo remoto o limpie el dispositivo.</li>
+                            <li>Analizar el dispositivo y desechar el malware.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Personal no autorizado ha accedido a una cuenta de dispositivo móvil.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Las credenciales se almacenan de manera predeterminada.</li>
+                        <li>No se utiliza ningún VPN.</li>
+                        <li>No se ha configurado ninguna contraseña en el dispositivo.</li>
+                        <li>Se descubrió la contraseña en el dispositivo.</li>
+                        <li>Malware ha comprometido el dispositivo.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Configurar el dispositivo para que no almacene credenciales de forma predeterminada.</li>
+                            <li>Utilizar una conexión VPN.</li>
+                            <li>Configurar una contraseña en el dispositivo.</li>
+                            <li>Cambiar la contraseña por una más segura.</li>
+                            <li>Analizar el dispositivo y desechar el malware.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Una aplicación alcanzó el acceso no autorizado a la raíz.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>Malware ha comprometido el dispositivo.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Analizar el dispositivo y desechar el malware.</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Se está haciendo el seguimiento de un dispositivo móvil sin permiso.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>La aplicación de GPS está activada, pero no está en uso.</li>
+                        <li>Una aplicación permite la conexión con el GPS.</li>
+                        <li>Malware ha comprometido el dispositivo.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Desactivar el GPS cuando no esté en uso.</li>
+                            <li>Apagar o desechar todas las aplicaciones no deseadas que permiten la conexión con el GPS.</li>
+                            <li>Analizar el dispositivo y desechar el malware.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Se accedió a un micrófono o cámara del dispositivo móvil sin permiso.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Una aplicación permite la conexión con la cámara o el micrófono.</li>
+                            <li>Malware ha comprometido el dispositivo.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Apagar o desechar todas las aplicaciones no deseadas que permiten la conexión con la cámara o el micrófono.</li>
+                            <li>Analizar el dispositivo y desechar el malware.</li></ul></textformat></font></td>
+            </tr>
+
+        </table>]]></text>
+        
+    </component>
+
+
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Problemas y soluciones comunes</b>]]></text> 
+    </component>
+    
+    <component id="ID_s3_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones comunes de los sistemas operativos Linux y OS X</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identificación del problema</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causas probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Soluciones posibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>La operación de respaldo automática no se inicia. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Time Machine está desactivado en OS X.</li>
+                            <li> Déjà Dup está desactivado en Linux.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Activar Time Machine en OS X.</li>
+                            <li>Activar Déjà Dup en Linux.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>El directorio aparece vacío.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>El directorio es el punto de montaje para otro disco o partición.</li>
+                        <li>Los archivos se desecharon por accidente.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Vuelva a montar el disco mediante el directorio correcto con Disk Utility (Utilidad de discos) para OS X.</li>
+                            <li>Vuelva a montar el disco mediante el directorio correcto con Disks (Discos) para Linux.</li>
+                            <li>Restaurar los archivos borrados desde la copia de respaldo a través de Time Machine o Déjà Dup.</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Una aplicación deja de responder en OS X.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>La aplicación dejó de funcionar.</li>
+                        <li>La aplicación utilizaba un recurso que no está disponible.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Aplicar un cierre forzoso de la aplicación (con Force Quit). </li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Wifi no es accesible a través de Ubuntu.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>El controlador NIC inalámbrico no se instaló correctamente. </li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Instalar el controlador de Linux desde el sitio web del fabricante, si está disponible.</li>
+                            <li>Instalar el controlador de Linux desde el repositorio de Ubuntu, si está disponible.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>OS X no puede leer el disco óptico remoto mediante Remote Disc (Disco remoto).</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul> <li>La Mac ya tiene una unidad óptica instalada.</li>
+                        <li>Se ha activado la opción para solicitar permiso para usar la unidad óptica.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Colocar los medios en la unidad óptica local.</li>
+                            <li>Aceptar la solicitud de permiso para usar la unidad.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Linux no arranca y recibe un mensaje “Missing GRUB” (GRUB faltante) o “Missing LILO” (LILO faltante). </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>GRUB o LILO están dañados.</li>
+                            <li>GRUB o LILO se desecharon.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Ejecutar Linux desde los medios de instalación, abrir una terminal e instalar el administrador de arranque con el comando: sudo grub-install o sudo lilo-install</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>El sistema operativo Mac o Linux se congela en el inicio y presenta una emergencia de kernel donde hay una pantalla de detención.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Se ha alterado un controlador.</li>
+                        <li>El hardware presenta fallas.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Actualizar todos los controladores del dispositivo desde el sitio web del fabricante.</li>
+                            <li>Reemplazar cualquier hardware defectuoso.</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+        
+    </component>
+</textcomponents>

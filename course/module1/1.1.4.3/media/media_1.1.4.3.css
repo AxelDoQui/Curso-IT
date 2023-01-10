@@ -1,0 +1,19 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+.alignment{
+	margin-left:14px;
+	}
+
+	#ID_s2_title02{
+		white-space: nowrap;
+	}
+
+
+li{
+	list-style: none;
+	list-style-image:none !important;
+
+}

@@ -1,0 +1,49 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Protección de firewall SPI</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Comparación de firewall de hardware y software</b>]]></text>
+</component> 
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Firewall de hardware</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Firewall de software</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">Componente de hardware exclusivo.</td>
+		<td bgcolor='#E9E7E8' valign="top">Disponible como software de terceros; el costo varía.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">El costo inicial de las actualizaciones de hardware y software puede ser elevado.</td>
+		<td bgcolor='#F2F2F2' valign="top">El sistema operativo Windows incluye una versión gratuita.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">Se pueden proteger varias computadoras.</td>
+		<td bgcolor='#E9E7E8' valign="top">Suele proteger solo a la computadora en la que se instaló.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">No tiene ningún impacto en el rendimiento de la computadora.</td>
+		<td bgcolor='#F2F2F2' valign="top">Utiliza los recursos de la computadora, teniendo un posible impacto en el rendimiento.</td>
+		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+</textcomponents>

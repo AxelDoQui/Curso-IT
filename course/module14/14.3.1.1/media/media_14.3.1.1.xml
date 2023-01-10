@@ -1,0 +1,185 @@
+﻿<textcomponents>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de las conexiones de red</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Una computadora se puede conectar a un dispositivo de red mediante la dirección IP, pero no mediante el nombre de host.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El nombre de host es incorrecto.</li><li>La configuración del DNS es incorrecta.</li><li>El servidor DNS no funciona.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Volver a introducir el nombre de host.</li><li>Volver a ingresar la dirección IP del servidor DNS.</li><li>Reiniciar el servidor DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>La computadora no obtiene o renueva la dirección IP en la red.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La computadora utiliza una dirección IP estática de una red diferente.</li><li>El firewall bloquea el DHCP.</li><li>El servidor DHCP no funciona.</li><li>La NIC inalámbrica está deshabilitada.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Habilitar la computadora para que obtenga una dirección IP automáticamente.</li><li>Cambiar la configuración de firewall para permitir el tráfico de DHCP.</li><li>Reiniciar el servidor DHCP.</li><li>Habilitar la NIC inalámbrica.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Se muestra un mensaje de conflicto de dirección IP al conectar una computadora nueva a la red.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Se asignó la misma dirección IP a dos dispositivos diferentes en la red.</li><li>En una computadora se configuró una dirección IP estática que ya estaba asignada por el servidor DHCP.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Configurar cada dispositivo con una dirección IP única.</li><li>Configurar cada dispositivo con los comandos <font face="_typewriter"><b><i>ipconfig /release</i></b></font> e <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Una computadora tiene acceso a la red, pero no a Internet.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La dirección IP de gateway es incorrecta.</li><li>Hay un router mal configurado.</li><li>El servidor DNS no funciona.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Reiniciar el módem.</li><li>Reiniciar el router.</li><li>Volver a configurar el router.</li><li>Reiniciar el servidor DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora obtuvo la dirección IP 169.254.x.x automáticamente, pero no se puede conectar a la red.</td>
+			<td bgcolor='#E9E7E8'>El servidor DHCP no funciona.</td>
+			<td bgcolor='#E9E7E8'>Reiniciar el servidor DHCP.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Los usuarios experimentan velocidades bajas de transferencia, potencia de la señal débil y conectividad intermitente en la red inalámbrica.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>No se implementó seguridad inalámbrica, lo que permite el acceso de usuarios no autorizados.</li><li>Hay demasiados usuarios conectados al punto de acceso.</li><li>El usuario se encuentra muy lejos del punto de acceso.</li><li>Hay interferencia de origen externo en la señal inalámbrica.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Implementar un plan de seguridad inalámbrica.</li><li>Asegurarse de que el punto de acceso esté ubicado en un lugar central.</li><li>Reiniciar el punto de acceso.</li><li>Mover el punto de acceso.</li><li>Desactivar los dispositivos innecesarios que están conectados.</li><li>Agregar otro punto de acceso o un repetidor para fortalecer la señal.</li><li>Actualizar el punto de acceso.</li><li>Cambiar los canales en la red inalámbrica.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de los errores de correo electrónico</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora no envía ni recibe correo electrónico.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La configuración del cliente de correo electrónico en la computadora es incorrecta.</li><li>El servidor de correo electrónico no funciona.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Volver a configurar el cliente de correo electrónico.</li><li>Reiniciar el servidor de correo electrónico o notificar al proveedor de servicio de correo electrónico.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>La computadora envía correo electrónico, pero no puede recibirlo.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La bandeja de entrada está llena.</li><li>La configuración del cliente de correo electrónico en la computadora es incorrecta.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Archivar o desechar mensajes de correo electrónico para liberar espacio.</li><li>Volver a configurar el cliente de correo electrónico.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora no puede recibir un correo electrónico específico con un archivo adjunto.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El archivo adjunto es demasiado grande.</li><li>El archivo adjunto contiene un virus y el software antivirus lo bloqueó.</li><li>No se permite el tipo de archivo adjunto de correo electrónico (p. ej., archivo ejecutable) y se le ha bloqueado.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Solicitarle al remitente que divida el archivo en partes más pequeñas y que las reenvíe en mensajes de correo electrónico individuales.</li><li>Solicitarle al remitente que examine el archivo adjunto antes de enviarlo.</li><li>Solicitarle al remitente que comprima el archivo adjunto y lo reenvíe.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados del FTP y de las conexiones de Internet seguras</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un usuario no puede acceder al servidor FTP.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El firewall en el router bloquea el FTP.</li><li>El firewall de Windows bloquea el FTP.</li><li>Se llegó a la cantidad máxima de usuarios.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Asegurarse de que los puertos 20 y 21 estén permitidos a través del firewall saliente del router.</li><li>Asegurarse de que los puertos 20 y 21 estén permitidos a través del firewall saliente de Windows.</li><li>Aumentar la cantidad máxima de usuarios de FTP que pueden acceder al servidor FTP simultáneamente.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>El software de cliente FTP no encuentra el servidor FTP.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>El cliente FTP tiene un nombre de servidor o dominio incorrecto o una configuración de puerto incorrectas.</li><li>El servidor FTP no funciona o no está sin conexión.</li><li>El servidor DNS no funciona y no resuelve nombres.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Ingresar el nombre de dominio o servidor correcto y la configuración de puerto correctas en el cliente FTP.</li><li>Reiniciar el servidor FTP.</li><li>Reiniciar el servidor DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora no puede acceder a un sitio HTTPS específico.</td>
+			<td bgcolor='#E9E7E8'>El sitio no figura en la lista de sitios confiables del navegador de esta computadora.</td>
+			<td bgcolor='#E9E7E8'>Decidir si se agrega el certificado de seguridad a la lista de sitios confiables del navegador.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problemas y soluciones avanzados de utilizar herramientas de solución de problemas de red</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identificación del problema</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causas probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Soluciones posibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>La computadora puede hacer ping a una dirección IP, pero no a un nombre de host.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El nombre de host es incorrecto.</li><li>La configuración del DNS de la computadora es incorrecta.</li><li>El servidor DNS no funciona.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Introducir el nombre de host correcto.</li><li>Configurar el DNS correctamente.</li><li>Reiniciar el servidor DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Una computadora en una red no puede hacer ping a otra computadora en otra red.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Hay un enlace roto entre las dos redes.</li><li>ICMP se bloquea en el router.</li><li>ICMP se bloquea en el firewall de Windows.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Utilizar tracert para ubicar el enlace que no funciona y repararlo.</li><li>Configurar el router para permitir el ping ICMP.</li><li>Configurar el firewall de Windows para permitir el ping ICMP.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Nslookup informa que “No se puede encontrar el nombre del servidor para la dirección 127.0.0.0. Se agotó el tiempo de espera”.</td>
+			<td bgcolor='#E9E7E8'>El servidor DNS no responde.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Reiniciar el servidor DNS.</li><li>Cambiar la configuración del servidor DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>La computadora no se puede conectar a una carpeta compartida de red mediante el comando<font face="_typewriter"><b><i> net use</i></b></font>.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La carpeta no está compartida.</li><li>La computadora no está en el mismo grupo de trabajo.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Asegurarse de que la carpeta de red esté compartida con el comando net share.</li><li>Establecer que la computadora pertenezca al mismo grupo de trabajo que la computadora que contiene la carpeta compartida de red.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Cuando se intenta usar el comando <font face="_typewriter"><b><i>ipconfig /release</i></b></font> o <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>, recibe el mensaje “No se puede realizar la operación en el adaptador mientras los medios están desconectados”.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>El cable de red está desconectado.</li><li>La computadora se configuró con una dirección IP estática.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Volver a conectar el cable de red.</li><li>Volver a configurar la NIC para obtener la asignación de direcciones IP automáticamente.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>La computadora no se puede conectar a una computadora remota mediante Telnet.</td>
+			<td bgcolor='#F2F2F2'>La computadora remota no se ha configurado para aceptar conexiones Telnet, o no se inició el servicio Telnet.</td>
+			<td bgcolor='#F2F2F2'>Iniciar el servicio Telnet en la computadora remota y configurar la computadora remota para que acepte conexiones Telnet.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>El icono de red en el área de notificaciones muestra un signo de exclamación amarillo. Cuando se intenta usar el comando <font face="_typewriter"><b><i>ipconfig /release</i></b></font> o <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>, se recibe el mensaje: “Error en la operación. No hay ningún adaptador permitido para esta operación”.</td>
+			<td bgcolor='#E9E7E8'>Se asignó una dirección IP estática a la interfaz.</td>
+			<td bgcolor='#E9E7E8'>Volver a configurar la NIC para obtener la asignación de direcciones IP automáticamente.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

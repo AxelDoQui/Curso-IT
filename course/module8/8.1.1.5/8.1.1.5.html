@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.5 Configuración avanzada de la NIC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuración avanzada de la NIC</h1>
+        <div>
+          <p>Algunas NIC proporcionan funciones avanzadas. En la mayoría de los entornos de red, el único parámetro de la NIC que se debe configurar es la información de dirección IP; los valores predeterminados de la configuración avanzada de la NIC se pueden conservar tal como están. No obstante, cuando una PC se conecta a una red que no admite alguna de las configuraciones predeterminadas, o ninguna de estas, debe realizar las modificaciones correspondientes en la configuración avanzada. Estas modificaciones pueden ser necesarias para que la PC pueda conectarse a la red, para habilitar las características requeridas por la red o para obtener una mejor conexión de red. </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Si no se configuran correctamente las funciones avanzadas, es posible que la comunicación falle o que disminuya el rendimiento. </p>
+          <p></p>
+          <p>Las funciones avanzadas se encuentran en la ficha <b>Opciones avanzadas</b> de la ventana de configuración de la NIC. La ficha <b>Opciones avanzadas</b> contiene todos los parámetros disponibles del fabricante de la NIC. </p>
+          <p></p>
+          <p>
+            <b>Nota</b>: Las funciones avanzadas disponibles y la disposición de las características en la ficha dependen del SO y del adaptador y el controlador de NIC específicos que estén instalados.</p>
+          <p></p>
+          <p>Algunas funciones avanzadas de la ficha incluyen:</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Velocidad y dúplex</b>: Estas opciones de configuración deben coincidir con el dispositivo al que está conectado la NIC. De manera predeterminada, las opciones de configuración se negocian automáticamente. Una discrepancia de velocidad o dúplex puede retrasar las velocidades de transferencia de los datos. Si esto ocurre, tendrá que cambiar el dúplex, la velocidad o ambos. En la Figura 1, se muestran las configuraciones de velocidad y dúplex. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wake on LAN</b>: Las configuraciones de WoL se utilizan para reactivar una computadora conectada en red que se encuentra en un estado de modo de muy bajo consumo. En un modo de muy bajo consumo, la PC está apagada pero continúa conectada a una fuente de energía. Para admitir WoL, la PC debe poseer una fuente de alimentación compatible con ATX y una NIC compatible con WoL. Se envía un mensaje de reactivación, denominado “magic packet”, a la NIC de la PC. El magic packet contiene la dirección MAC de la NIC conectada a la PC. Cuando la NIC recibe el magic packet, se reactiva la PC. La configuración de WoL puede establecerse en el BIOS de la placa madre o en el firmware del controlador de la NIC. En la Figura 2, se muestra la configuración del firmware del controlador.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Calidad del servicio</b>: QoS, también denominada 802.1q QoS, consiste en una variedad de técnicas que controlan el flujo del tráfico de red, mejoran las velocidades de transmisión y optimizan el tráfico de las comunicaciones en tiempo real. Para que el servicio funcione, tanto la PC conectada en red como el dispositivo de red deben tener habilitada la opción QoS. Cuando una PC tiene QoS instalada y habilitada, Windows puede limitar el ancho de banda disponible para admitir tráfico de alta prioridad. Cuando QoS está deshabilitada, se procesa todo el tráfico indistintamente. QoS está habilitada de manera predeterminada, como se muestra en la Figura 3.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>

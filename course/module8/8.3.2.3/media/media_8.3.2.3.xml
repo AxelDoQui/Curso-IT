@@ -1,0 +1,66 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Protocolo HTTP</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Servidor HTTP]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Red]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[Cliente]]></text> 
+</component>
+  
+  
+<component id="ID_s2_title">
+<text><![CDATA[<b>Protocolo HTTP: paso 1</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Solicitud]]></text> 
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[<b>Solicitud del cliente</b>]]></text> 
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[El cliente inicia la solicitud de protocolo HTTP a un servidor.]]></text> 
+</component> 
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Protocolo HTTP: paso 2</b>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+<text><![CDATA[Respuesta del protocolo HTTP]]></text> 
+</component>
+
+<component id="ID_s3_txt02">
+<text><![CDATA[<b>Respuesta HTTP</b><br/> código HTML para el sitio web]]></text> 
+</component>
+
+<component id="ID_s3_txt03">
+<text><![CDATA[Código HTML para una página web</br>]]></text> 
+</component>
+
+<component id="ID_s3_txt04">
+<text><![CDATA[En respuesta a la solicitud, el servidor HTTP envía el código para una página web.]]></text> 
+</component>
+
+<component id="ID_s4_title">
+<text><![CDATA[<b>Protocolo HTTP: paso 3</b>]]></text>
+</component>
+<component id="ID_s4_txt01">
+<text><![CDATA[<b>Página web</b>]]></text> 
+</component>
+<component id="ID_s4_txt02">
+<text><![CDATA[El navegador interpreta el código HTML y muestra una página web.]]></text> 
+</component>
+
+
+
+</textcomponents>

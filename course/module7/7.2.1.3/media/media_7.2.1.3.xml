@@ -1,0 +1,55 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Modelo OSI</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='105'><font color='#F2F2F2'><b>Modelo OSI</b></font></td>
+		<td bgcolor='#666263' width='65'><font color='#F2F2F2'><b>Capa</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Descripción</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Aplicación</td>
+		<td bgcolor='#E9E7E8'>7</td>
+		<td bgcolor='#E9E7E8'>Es responsable de los servicios de red para las aplicaciones.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Presentación</td>
+		<td bgcolor='#F2F2F2'>6</td>		
+		<td bgcolor='#F2F2F2'>Transforma los formatos de datos para proporcionar una interfaz estándar para la capa de aplicación.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Sesión</td>
+		<td bgcolor='#E9E7E8'>5</td>
+		<td bgcolor='#E9E7E8'>Establece, administra y finaliza las conexiones entre la aplicación local y la remota.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Transporte</td>
+		<td bgcolor='#F2F2F2'>4</td>
+		<td bgcolor='#F2F2F2'>Ofrece transporte y control del flujo confiable a través de una red.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Red</td>
+		<td bgcolor='#E9E7E8'>3</td>
+		<td bgcolor='#E9E7E8'>Es responsable del direccionamiento lógico y el dominio de enrutamiento.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Enlace de datos</td>
+		<td bgcolor='#F2F2F2'>2</td>
+		<td bgcolor='#F2F2F2'>Proporciona direccionamiento físico y procedimientos de acceso al medio.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Física</td>
+		<td bgcolor='#E9E7E8'>1</td>
+		<td bgcolor='#E9E7E8'>Define todas las especificaciones eléctricas y físicas de los dispositivos.</td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

@@ -1,0 +1,55 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Tipos de bahías de unidad de disco</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Insertar el disco duro en la bahía</b>]]></text>
+	</component>	
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Orificio para tornillos en el gabinete]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[Orificio para tornillos en la HDD]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Asegurar la HDD</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Ancho de la bahía de unidad de disco</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Descripción</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>5,25 in<br/>(13,34 cm).</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>De uso común en unidades ópticas.</li><li>La mayoría de los gabinetes en torre grandes tendrán dos o más conectores.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>3,5 in<br/>(8,9 cm).</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>De uso común en HDD de 3,5 pulgadas.</li><li>Proporciona puertos USB o lectores de tarjetas inteligentes adicionales.</li><li>La mayoría de los gabinetes en torre grandes tendrán dos o más conectores internos.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>2,5 in<br/>(6,35 cm).</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Orientada a HDD de 2,5 pulgadas y SSD más pequeños.</li><li>El conector más angosto.</li><li>Es cada vez más común en los gabinetes nuevos.</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+</textcomponents>

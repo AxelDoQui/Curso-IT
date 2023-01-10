@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title_01">
+<text><![CDATA[<b>Pautas para el entorno operativo</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-18'><ul><li>Mantener el papel seco.</li><li>Mantener la impresora en un ambiente fresco, libre de polvo.</li><li>Guardar la tinta en un ambiente limpio y seco.</li><li>Limpiar el vidrio de los escáneres.</li></ul></textformat>]]></text> 
+  </component>
+
+</textcomponents>

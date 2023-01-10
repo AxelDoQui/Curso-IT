@@ -1,0 +1,146 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Hacia la derecha</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Hacia la izquierda</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 3--><component id='ID_s3_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 4--><component id='ID_s4_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 5--><component id='ID_s5_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s5_inst'>
+	<text><![CDATA[<p>Para explorar las distintas funciones del multímetro, haga clic en los botones, el cuadrante y los conectores.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt'>
+	<text><![CDATA[<b>Multímetro Fluke Networks 110</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt'>
+	<text><![CDATA[<p>El multímetro Fluke Networks 110 constituye un ejemplo del equipo que se utiliza para probar el voltaje. Para explorar las distintas funciones del multímetro, haga clic en los botones y en las posiciones del interruptor.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt01'>
+	<text><![CDATA[<b>Pantalla</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt01'>
+	<text><![CDATA[Para ver la información que se muestra.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt02'>
+	<text><![CDATA[<b>Retención</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt02'>
+	<text><![CDATA[Habilita la función de pantalla fija. La pantalla se mantiene en la lectura actual. En el modo MIN MAX AVG, se pausa el registro MIN MAX AVG.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt03'>
+	<text><![CDATA[<b>MIN MAX AVG</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt03'>
+	<text><![CDATA[Habilita el modo MIN MAX AVG. Se muestra la lectura mínima, máxima o promedio.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt04'>
+	<text><![CDATA[<b>Alcance</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt04'>
+	<text><![CDATA[El medidor selecciona el rango con la mejor resolución. En el modo de rango manual, el usuario selecciona el rango.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt05'>
+	<text><![CDATA[<b>Hz</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt05'>
+	<text><![CDATA[Frecuencia, de 50 Hz a 5 kHz. Notas: El voltaje y corriente de CA acoplado a CA, valor eficaz verdadero, hasta 500 Hz.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt06'>
+	<text><![CDATA[<b>COM</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt06'>
+	<text><![CDATA[Terminal común (de retorno) para todas las mediciones. En la medición de voltajes, esto se suele denominar “conexión a tierra”.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt07'>
+	<text><![CDATA[<b>Terminal de entrada</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt07'>
+	<text><![CDATA[Terminal de entrada para mediciones de voltaje, continuidad, resistencia, prueba de diodos, capacitancia y frecuencia de voltaje.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt08'>
+	<text><![CDATA[<b>Apagar</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt08'>
+	<text><![CDATA[Apagado.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt09'>
+	<text><![CDATA[<b>CA</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt09'>
+	<text><![CDATA[Corriente alterna, de 300 mV a 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt10'>
+	<text><![CDATA[<b>CC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt10'>
+	<text><![CDATA[Corriente continua, de 1 mV a 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt11'>
+	<text><![CDATA[<b>Indicador de sonido</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt11'>
+	<text><![CDATA[El indicador de sonido se enciende a menos de 20 ohmios y se apaga a más de 250 ohmios.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt12'>
+	<text><![CDATA[<b>Ohmios</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt12'>
+	<text><![CDATA[Ohmios de 0,1 ohmios a 40 megaohmios.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt13'>
+	<text><![CDATA[<b>Diodos</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt13'>
+	<text><![CDATA[Para prueba de diodos. Un resultado “OL” indica que hay un diodo abierto.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt14'>
+	<text><![CDATA[<b>Capacitancia</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt14'>
+	<text><![CDATA[Capacitancia, de 1 nF a 9999 µF.]]></text>
+</component>
+
+
+</textcomponents>

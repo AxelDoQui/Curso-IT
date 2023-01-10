@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Actividad: Identificar los tipos de conexión ISP</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instrucciones]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Una el término con su descripción.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Red celular]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Satélite]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[WiMAX]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[DSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Dial-up]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Cable]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Verificar]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Restablecer]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correcto]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Unió correctamente cada término con su descripción.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrecto]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[No unió correctamente cada término con su descripción. Haga clic en Restablecer para intentarlo nuevamente.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Término</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Descripción</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[El cliente es un representante de ventas que viaja la mayor parte del tiempo. Necesita estar conectado con la oficina central casi las 24 horas.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[El cliente trabaja desde su hogar. Necesita la máxima velocidad posible de subida y de descarga para acceder al servidor FTP de la compañía. Vive en una zona remota donde no hay conexiones DSL y por cable disponibles.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[El cliente trabaja en el centro de una gran ciudad y requiere una conexión rápida y confiable que no se vea fácilmente interrumpida por grandes edificios.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[El cliente solo puede recibir señal de televisión por satélite. Sin embargo, vive en un área donde hay acceso a Internet de alta velocidad disponible.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[El cliente vive en una zona remota, en lo profundo de un valle, y no puede pagar un servicio de banda ancha.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[El cliente desea contratar los servicios de televisión, de acceso a Internet y de teléfono a la misma compañía, pero la compañía de telefonía local no ofrece todos esos servicios.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

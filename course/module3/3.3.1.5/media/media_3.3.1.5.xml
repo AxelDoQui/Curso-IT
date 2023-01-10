@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Preguntas acerca de la actualización de RAM</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>Preguntas acerca de la RAM nueva</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>¿Qué tipo de RAM utiliza la placa madre actualmente?</li><li>¿Hay ranuras de RAM disponibles?</li><li>¿La RAM puede instalarse de a un módulo por vez o debe agruparse en bancos compatibles?</li><li>¿Coinciden la velocidad, la latencia, el tipo y el voltaje del de RAM nuevo con los de la RAM existente?</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

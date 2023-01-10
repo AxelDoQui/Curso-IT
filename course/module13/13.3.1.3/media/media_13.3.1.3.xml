@@ -1,0 +1,155 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+	<text><![CDATA[<b>Solicitud de trabajo elevada</b>]]></text>
+	</component><!-- grey text --><component id="ID_s1_txt01">
+	<text><![CDATA[Cisco Systems, Inc.]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+	<text><![CDATA[Gerente de oficina]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+	<text><![CDATA[170 West Tasman Drive, San Jose, CA 95134]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt04">
+	<text><![CDATA[408-526-4000]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+	<text><![CDATA[Hardware]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt06">
+	<text><![CDATA[Abierta]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt07">
+	<text><![CDATA[Computadora portátil]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+	<text><![CDATA[Sí]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt09">
+	<text><![CDATA[Computadora portátil]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt10">
+	<text><![CDATA[No arranca]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+	<text><![CDATA[Cisco001]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt12">
+	<text><![CDATA[Conexión de red inalámbrica]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt13">
+	<text><![CDATA[Media]]></text>
+	</component>
+	
+	<component id="ID_s1_txt14">
+	<text><![CDATA[Móvil]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt15">
+	<text><![CDATA[Windows 7]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt16">
+	<text><![CDATA[<font color='#000000'>Descripción del problema</font><br><textformat blockindent='15'><span class="indentText">El usuario se queja de que la computadora portátil no arranca.</span><br><span class="indentText">No se instaló software recientemente. No se realizaron cambios en el sistema operativo.</span><br><span class="indentText">No se agregaron periféricos.</span></textformat><br><br><font color='#000000'>Solución del problema</font><br/><textformat blockindent='15'><span class="indentText">El técnico de nivel uno no pudo resolver el problema dentro de los 10 minutos estipulados.</span><br/><span class="indentText">Se eleva la solicitud de trabajo a un técnico de nivel dos.</span></textformat>]]></text>
+	</component><!-- end grey text --><!-- black text --><component id="ID_s1_txt18">
+	<text><![CDATA[Solicitud de trabajo]]></text>
+	</component>
+	
+	<component id="ID_s1_txt19">
+	<text><![CDATA[<font color='#FFFFFF' size='11'><b>Generación de un ticket nuevo</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt20">
+	<text><![CDATA[Nombre de la empresa:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt21">
+	<text><![CDATA[Contacto:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt22">
+	<text><![CDATA[Dirección de la empresa:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt23">
+	<text><![CDATA[Teléfono de la empresa:]]></text>
+	</component>
+	
+	<component id="ID_s1_txt24">
+	<text><![CDATA[Categoría]]></text>
+	</component>
+	
+	<component id="ID_s1_txt25">
+	<text><![CDATA[Tipo]]></text>
+	</component>
+	
+	<component id="ID_s1_txt26">
+	<text><![CDATA[Elemento]]></text>
+	</component>
+	
+	<component id="ID_s1_txt27">
+	<text><![CDATA[Código de cierre]]></text>
+	</component>
+	
+	<component id="ID_s1_txt28">
+	<text><![CDATA[¿Elevada?]]></text>
+	</component>
+	
+	<component id="ID_s1_txt29">
+	<text><![CDATA[Estado]]></text>
+	</component>
+	
+	<component id="ID_s1_txt30">
+	<text><![CDATA[Pendiente]]></text>
+	</component>
+	
+	<component id="ID_s1_txt31">
+	<text><![CDATA[Pendiente hasta fecha]]></text>
+	</component>
+	
+	<component id="ID_s1_txt32">
+	<text><![CDATA[¿Tiene impacto comercial?]]></text>
+	</component>
+	
+	<component id="ID_s1_txt33">
+	<text><![CDATA[Sí]]></text>
+	</component>
+	
+	<component id="ID_s1_txt34">
+	<text><![CDATA[No]]></text>
+	</component>
+	
+	<component id="ID_s1_txt35">
+	<text><![CDATA[Resumen]]></text>
+	</component>
+	
+	<component id="ID_s1_txt36">
+	<text><![CDATA[Id. del gabinete]]></text>
+	</component>
+	
+	<component id="ID_s1_txt37">
+	<text><![CDATA[Prioridad]]></text>
+	</component>
+	
+	<component id="ID_s1_txt38">
+	<text><![CDATA[Plataforma del usuario]]></text>
+	</component>
+	
+	<component id="ID_s1_txt39">
+	<text><![CDATA[Tipo de conexión]]></text>
+	</component>
+	
+	<component id="ID_s1_txt40">
+	<text><![CDATA[Entorno]]></text>
+	</component><!-- end black text --><!-- end slide 1 --></textcomponents>

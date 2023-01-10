@@ -1,0 +1,105 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Modos de red típicos</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Modos de seguridad inalámbrica</b>]]></text>
+	</component>
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Modos de red</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Descripción</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Mixto</td>
+			<td bgcolor='#E9E7E8'><ul><li>Modo predeterminado.</li><li>Seleccione si tiene dispositivos 802.11n (2,4 GHz), 802.11g y 802.11b.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Solo B/G-inalámbrica</td>
+			<td bgcolor='#F2F2F2'>Seleccione si tiene dispositivos 802.11b y 802.11g (2,4 GHz).</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Solo B-inalámbrica</td>
+			<td bgcolor='#E9E7E8'>Seleccione si sólo tiene dispositivos de 802.11b.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Solo G-inalámbrica</td>
+			<td bgcolor='#F2F2F2'>Seleccione si sólo tiene dispositivos 802.11g.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>N-inalámbrica</td>
+			<td bgcolor='#E9E7E8'>Seleccione si sólo tiene dispositivos 802.11n.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Deshabilitado</td>
+			<td bgcolor='#F2F2F2'>Seleccione para deshabilitar el radio inalámbrico.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s4_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Modos de seguridad</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Descripción</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Privacidad equivalente por cable <br/>(WEP)</td>
+			<td bgcolor='#E9E7E8'>Cifrar datos entre el punto de acceso inalámbrico y el cliente mediante una clave de encriptación de 64 bits o de 128 bits.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Protocolo de integridad de clave temporal.<br/>(TKIP)</td>
+			<td bgcolor='#F2F2F2'><ul><li>Este parche WEP negocia automáticamente una nueva clave cada ciertos minutos.</li><li>El TKIP ayuda a impedir que los atacantes obtengan datos suficientes para descifrar la clave de encriptación.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Estándar de cifrado avanzado <br/>(AES)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Un sistema de cifrado más seguro que TKIP.</li><li>El AES también requiere una mayor capacidad de cómputo para ejecutar la encriptación más segura.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Acceso protegido wifi <br/>(WPA)</td>
+			<td bgcolor='#F2F2F2'><ul><li>Una versión mejorada de WEP creada como una solución temporal hasta la ratificación de 802.11i.</li><li>Ahora que 802.11i está ratificado, se presentó WPA2, que abarca todo el estándar 802.11i.</li><li>WPA utiliza una encriptación mucho más segura que la encriptación WEP.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Acceso protegido wifi 2<br/>(WPA2)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Una versión mejorada de WPA que admite cifrado sólido, que proporciona seguridad de nivel gubernamental.</li><li>WPA2 puede habilitarse con autenticación de contraseña (personal) o autenticación de servidor (empresa).</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

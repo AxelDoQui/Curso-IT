@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Monitor de rendimiento</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Observe el enlace al Monitor de recursos justo debajo del texto explicativo.]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+		<text><![CDATA[<b>Diagnóstico de memoria de Windows en Windows 8.x</b>]]></text>
+</component>
+
+</textcomponents>

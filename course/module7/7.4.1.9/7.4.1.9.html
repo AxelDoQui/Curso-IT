@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.9 Direccionamiento dinámico</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Direccionamiento dinámico</h1>
+        <div>
+          <p>Si hay varias PC que componen una LAN, la configuración manual de las direcciones IP para cada host en la red puede llevar mucho tiempo, y es muy probable que se produzcan errores. Un servidor DHCP asigna de manera automática las direcciones IP, lo cual simplifica el proceso de asignación de direcciones. La configuración automática de algunos parámetros de TCP/IP también disminuye la posibilidad de asignar direcciones IP duplicadas o no válidas.</p>
+          <p></p>
+          <p>Para que una PC en una red pueda aprovechar los servicios del DHCP, la PC debe poder identificar al servidor en la red local. Una computadora se puede configurar para validar una dirección IP de un servidor DHCP seleccionando la opción <b>Obtener una dirección IP automáticamente</b> en la ventana de configuración de la NIC, como se muestra en la Figura 1. Cuando una computadora está configurada para obtener una dirección IP automáticamente, el resto de los cuadros de la configuración de direcciones IP no están disponibles. La configuración de DHCP es la misma tanto para una NIC conectada por cable como para una NIC inalámbrica.</p>
+          <p></p>
+          <p>Después de arrancar, una computadora solicita continuamente una dirección IP de un servidor de DHCP hasta recibir una. Si la computadora no se puede comunicar con el servidor de DHCP para obtener una dirección IP, el SO de Windows asigna automáticamente una dirección IP privada automática (APIPA). Esta dirección de enlace local se encuentra en el rango de 169.254.0.0 a 169.254.255.255. Enlace local significa que la computadora solo puede comunicarse con otras computadoras conectadas a la misma red dentro de ese rango de direcciones IP.</p>
+          <p></p>
+          <p>El servidor de DHCP puede asignar automáticamente la siguiente información de configuración de dirección IP a un host: </p>
+          <p>
+            <ul>
+              <li>Dirección IP </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Máscara de subred </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Gateway predeterminado </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Valores opcionales, como una dirección de servidor DNS</li>
+            </ul>
+          </p>
+          <p>En Windows 7, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>
+            <b>Inicio > Panel de control > Centro de redes y recursos compartidos > Cambiar configuración del adaptador ></b> haga clic con el botón secundario en <b>Conexión de área local > Propiedades > TCP/IPv4</b> o <b>TCP/IPv6 > Propiedades</b> seleccione el botón de radio <b>Obtener una dirección IP automáticamente > Aceptar > Aceptar</b>.</p>
+          <p></p>
+          <p>En Windows 8.0 y 8.1, utilice la siguiente ruta:</p>
+          <p></p>
+          <p>
+            <b>Configuración de PC > Panel de control > Red e Internet > Centro de redes y recursos compartidos > Cambiar configuración de adaptador</b>, haga clic con el botón secundario en <b>Ethernet > Propiedades > TCP/IPv4</b> o <b>TCP/IPv6 > Propiedades > </b>seleccione el botón de radio <b>Obtener una dirección IP automáticamente > Aceptar > Aceptar</b>.</p>
+          <p></p>
+          <p>
+            <b>DNS</b>
+          </p>
+          <p></p>
+          <p>Para acceder a un servidor DNS, la PC utiliza una dirección IP establecida en la configuración del DNS de la NIC en la PC. El DNS resuelve o asigna nombres de host y direcciones URL a las direcciones IP.</p>
+          <p></p>
+          <p>Todos los equipos Windows tienen una caché DNS que almacena nombres de host que se resolvieron recientemente. La caché es el primer lugar donde el cliente DNS busca resoluciones de nombres de host. Debido a que se ubica en la memoria, la caché recupera las direcciones IP resueltas más rápidamente que si se utiliza un servidor DNS. Además, no genera tráfico en la red.</p>
+          <p></p>
+          <p>
+            <b>Configuración de parámetros de IP alternativos</b>
+          </p>
+          <p></p>
+          <p>Establecer una configuración IP alternativa en Windows simplifica el traspaso entre una red que exige el uso de DHCP y una red que utiliza una configuración IP estática. Si una PC no puede comunicarse con el servidor de DHCP en la red, Windows utiliza la configuración IP alternativa asignada a la NIC. La configuración IP alternativa también reemplaza la dirección (APIPA) que Windows asigna cuando no es posible conectarse al servidor de DHCP.</p>
+          <p></p>
+          <p>Para crear una configuración IP alternativa, como se muestra en la Figura 2, haga clic en la ficha Configuración alternativa de la ventana Propiedades de la NIC. La ficha de configuración alternativa se muestra solo cuando<b> Obtener una dirección IP</b> se selecciona automáticamente. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Cambiar el tamaño" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Inicie sesión en <a href="http://netacad.com">netacad.com</a> antes de acceder a este curso.</div>
+  </body>
+</html>
